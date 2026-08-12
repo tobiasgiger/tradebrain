@@ -16,6 +16,7 @@ on:
 # Schreibrechte, damit der Workflow die aktualisierte status.json zurückcommitten kann.
 permissions:
   contents: write
+  pages: write
 
 # Verhindert, dass sich überlappende Läufe gegenseitig ins Gehege kommen.
 concurrency:
@@ -25,9 +26,13 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Immer den bei Jobstart aktuellen Produktionszweig verwenden.
+          ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -51,13 +56,57 @@ jobs:
         run: node scripts/fetch-assessment.mjs
 
       - name: Committen & pushen, falls geändert
+        id: commit
         run: |
+          echo "changed=false" >> "$GITHUB_OUTPUT"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain data/)" ]]; then
+            base_sha="$(git rev-parse HEAD)"
+            remote_sha="$(git ls-remote origin refs/heads/main | awk '{print $1}')"
+            if [[ "$remote_sha" != "$base_sha" ]]; then
+              echo "FEHLER: origin/main wurde seit dem Checkout geändert ($base_sha -> $remote_sha). Kein Push; niemals Force-Push." >&2
+              exit 1
+            fi
             git add data/
             git commit -m "chore: update assessment $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            pushed_sha="$(git rev-parse HEAD)"
+            if ! git push origin HEAD:main; then
+              echo "FEHLER: Push nach main fehlgeschlagen (möglicher paralleler Commit). Kein Force-Push." >&2
+              exit 1
+            fi
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "pushed_sha=$pushed_sha" >> "$GITHUB_OUTPUT"
           else
             echo "Keine Änderung in data/ — nichts zu committen."
           fi
+
+      - name: GitHub Pages Build anfordern & Revision verifizieren
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_SHA: ${{ steps.commit.outputs.pushed_sha }}
+        run: |
+          echo "Fordere expliziten Pages-Build für $EXPECTED_SHA an."
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null
+
+          for attempt in $(seq 1 24); do
+            build="$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest")"
+            build_sha="$(jq -r '.commit // empty' <<<"$build")"
+            build_status="$(jq -r '.status // empty' <<<"$build")"
+            error_message="$(jq -r '.error.message // empty' <<<"$build")"
+            echo "Pages-Prüfung $attempt/24: status=$build_status revision=${build_sha:-unbekannt}"
+
+            if [[ "$build_sha" == "$EXPECTED_SHA" && "$build_status" == "built" ]]; then
+              echo "Pages-Publikation für $EXPECTED_SHA bestätigt."
+              exit 0
+            fi
+            if [[ "$build_sha" == "$EXPECTED_SHA" && -n "$error_message" ]]; then
+              echo "FEHLER: Pages-Build für $EXPECTED_SHA: $error_message" >&2
+              exit 1
+            fi
+            sleep 10
+          done
+
+          echo "FEHLER: Pages-Publikation für $EXPECTED_SHA konnte nicht bestätigt werden." >&2
+          exit 1

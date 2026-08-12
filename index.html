@@ -57,11 +57,12 @@
     .tages { display: flex; gap: 16px; align-items: flex-start; margin-top: 12px; }
     .lamp { flex: 0 0 auto; width: 54px; height: 54px; border-radius: 50%; position: relative; margin-top: 2px; }
     .lamp::after { content: ""; position: absolute; inset: -6px; border-radius: 50%; opacity: 0.35; filter: blur(8px); background: inherit; z-index: -1; }
-    .lamp.gruen { background: var(--gruen); } .lamp.gelb { background: var(--gelb); } .lamp.rot { background: var(--rot); }
+    .lamp.gruen { background: var(--gruen); } .lamp.gelb, .lamp.unbekannt { background: var(--gelb); } .lamp.rot { background: var(--rot); }
     .tages-body { flex: 1 1 auto; min-width: 0; }
     .tages-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
     .tages-title { font-family: var(--head); font-weight: 700; font-size: 19px; margin: 0; }
-    .tages-title.gruen { color: var(--gruen); } .tages-title.gelb { color: var(--gelb); } .tages-title.rot { color: var(--rot); }
+    .tages-title.gruen { color: var(--gruen); } .tages-title.gelb, .tages-title.unbekannt { color: var(--gelb); } .tages-title.rot { color: var(--rot); }
+    .day-context { color: var(--text-dim); font-size: 12px; margin: -2px 0 8px; }
     .conf { font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); border: 1px solid var(--border); border-radius: 20px; padding: 2px 9px; white-space: nowrap; }
     .conf b { color: var(--amber-soft); font-weight: 600; }
     .tages-text { color: var(--text); margin: 0 0 12px; }
@@ -77,7 +78,7 @@
     .timeline { display: inline-flex; align-items: flex-end; gap: 3px; padding: 0 10px; height: 92px; }
     .tcell { flex: 0 0 auto; width: 20px; display: flex; flex-direction: column; align-items: center; gap: 6px; position: relative; }
     .tbar { width: 12px; border-radius: 3px; }
-    .tbar.gruen { background: var(--gruen); height: 24px; } .tbar.gelb { background: var(--gelb); height: 42px; } .tbar.rot { background: var(--rot); height: 66px; }
+    .tbar.gruen { background: var(--gruen); height: 24px; } .tbar.gelb, .tbar.unbekannt { background: var(--gelb); height: 42px; } .tbar.rot { background: var(--rot); height: 66px; }
     .tlabel { font-size: 9px; color: var(--text-dim); transform: rotate(-90deg) translateX(-2px); transform-origin: center; white-space: nowrap; height: 14px; }
     .tcell.hour-mark .tlabel { color: var(--amber-soft); }
     .now-marker { flex: 0 0 auto; align-self: stretch; width: 2px; background: var(--amber); position: relative; margin: 0 5px; border-radius: 2px; }
@@ -85,7 +86,7 @@
     .timeline-legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 10px; font-size: 12px; color: var(--text-dim); }
     .timeline-legend span { display: inline-flex; align-items: center; gap: 6px; }
     .dot { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
-    .dot.gruen { background: var(--gruen); } .dot.gelb { background: var(--gelb); } .dot.rot { background: var(--rot); }
+    .dot.gruen { background: var(--gruen); } .dot.gelb, .dot.unbekannt { background: var(--gelb); } .dot.rot { background: var(--rot); }
 
     .summary-grid { display: grid; gap: 12px; grid-template-columns: 1fr; }
     @media (min-width: 620px) { .summary-grid { grid-template-columns: 1fr 1fr; } }
@@ -100,7 +101,7 @@
     .since-red { font-size: 13px; } .since-red b { color: var(--amber-soft); }
     .hist-strip { display: flex; flex-wrap: wrap; gap: 3px; }
     .hist-dot { width: 11px; height: 16px; border-radius: 2px; opacity: 0.9; }
-    .hist-dot.gruen { background: var(--gruen); } .hist-dot.gelb { background: var(--gelb); } .hist-dot.rot { background: var(--rot); }
+    .hist-dot.gruen { background: var(--gruen); } .hist-dot.gelb, .hist-dot.unbekannt { background: var(--gelb); } .hist-dot.rot { background: var(--rot); }
 
     .termine { display: grid; gap: 10px; }
     .termin-card { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 12px; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
@@ -125,11 +126,11 @@
     .copy-btn:hover { border-color: var(--amber); color: var(--amber); }
     .flagbox { border-radius: 10px; padding: 14px 16px; border: 1px solid; display: flex; align-items: baseline; gap: 12px; }
     .flagbox.gruen { background: #0c1a12; border-color: #1c5b34; }
-    .flagbox.gelb { background: #191507; border-color: #6b5417; }
+    .flagbox.gelb, .flagbox.unbekannt { background: #191507; border-color: #6b5417; }
     .flagbox.rot { background: #1a0f0f; border-color: #6b2320; }
     .flagbox .flag-lbl { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
     .flagbox .flag-val { font-family: var(--head); font-weight: 700; font-size: 22px; }
-    .flagbox.gruen .flag-val { color: var(--gruen); } .flagbox.gelb .flag-val { color: var(--gelb); } .flagbox.rot .flag-val { color: var(--rot); }
+    .flagbox.gruen .flag-val { color: var(--gruen); } .flagbox.gelb .flag-val, .flagbox.unbekannt .flag-val { color: var(--gelb); } .flagbox.rot .flag-val { color: var(--rot); }
     .kv { width: 100%; border-collapse: collapse; font-size: 13px; }
     .kv td { padding: 7px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
     .kv td:first-child { color: var(--amber-soft); white-space: nowrap; width: 34%; }
@@ -182,10 +183,14 @@
     </footer>
   </div>
 
+  <script src="./scripts/dashboard-helpers.js"></script>
   <script>
-  const APP_VERSION = '1.7.0';  // KEEP IN SYNC mit APP_VERSION in scripts/fetch-assessment.mjs
+  const APP_VERSION = '1.8.0';  // KEEP IN SYNC mit APP_VERSION in scripts/fetch-assessment.mjs
   const EPOCH = '1970-01-01T00:00:00.000Z';
-  const HOUR = 3600000;
+  const {
+    HOUR, cacheBustedUrl, filterFutureEvents, loadCoherentSnapshot,
+    normStatus, selectCurrentHourlySlot,
+  } = window.TradebrainHelpers;
 
   //--------------------------------------------------------------------------
   // Zeit-Helfer
@@ -260,13 +265,13 @@
   function buildRecurring(now) {
     const ev = [];
     const nfp = nextMonthly(now, (y, m) => zurichInstant(y, m, nthWeekday(y, m, 5, 1), 14, 30));
-    if (nfp) ev.push({ name: 'NFP', full: 'US-Arbeitsmarktbericht', date: nfp, impact: 'hoch' });
+    if (nfp) ev.push({ name: 'NFP', full: '≈ erster Freitag, exaktes Datum prüfen', date: nfp, impact: 'Hinweis', approximate: true });
     const cpi = nextMonthly(now, (y, m) => zurichInstant(y, m, nthWeekday(y, m, 3, 2), 14, 30));
-    if (cpi) ev.push({ name: 'US-CPI', full: 'Verbraucherpreise (≈ 2. Woche, Datum prüfen)', date: cpi, impact: 'hoch' });
+    if (cpi) ev.push({ name: 'US-CPI', full: '≈ zweiter Mittwoch, exaktes Datum prüfen', date: cpi, impact: 'Hinweis', approximate: true });
     const pce = nextMonthly(now, (y, m) => zurichInstant(y, m, lastWeekday(y, m, 5), 14, 30));
-    if (pce) ev.push({ name: 'PCE', full: 'PCE-Inflation (≈ letzte Woche, Datum prüfen)', date: pce, impact: 'mittel' });
+    if (pce) ev.push({ name: 'PCE', full: '≈ letzter Freitag, exaktes Datum prüfen', date: pce, impact: 'Hinweis', approximate: true });
     const fomc = nextFOMC(now);
-    if (fomc) ev.push({ name: 'FOMC', full: 'Fed-Zinsentscheid', date: fomc, impact: 'hoch' });
+    if (fomc) ev.push({ name: 'FOMC', full: 'Fed-Zinsentscheid · gepflegte exakte Liste', date: fomc, impact: 'hoch', approximate: false });
     return ev;
   }
 
@@ -296,30 +301,34 @@
   //--------------------------------------------------------------------------
   function el(html) { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; }
   function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
-  function normStatus(s) { return ['gruen', 'gelb', 'rot'].includes(s) ? s : 'gruen'; }
+  const statusLabel = (status) => ({ gruen: 'GRÜN', gelb: 'GELB', rot: 'ROT', unbekannt: 'UNBEKANNT' })[normStatus(status)];
 
   function renderRecurring(now) {
     const box = document.getElementById('recurring');
     const events = buildRecurring(now);
+    document.getElementById('next5Head').textContent = 'Nächste 5 Termine';
+    const note = document.getElementById('termineNote');
+    note.hidden = false;
+    note.textContent = '≈ = unverbindliche Kalenderannahme; löst keinen automatischen Bot-Halt aus.';
     box.innerHTML = '';
     events.forEach((ev) => {
       const cd = countdown(now, ev.date);
       box.appendChild(el(`
         <div class="termin-card${cd.soon ? ' soon' : ''}">
           <div><div class="termin-name">${esc(ev.name)}</div><div class="termin-meta">${esc(ev.full)} · ${esc(fmtDate(ev.date))}</div></div>
-          <div class="termin-count"><div class="big">${esc(cd.text)}</div><div class="lbl">Impact: ${esc(ev.impact)}</div></div>
+          <div class="termin-count"><div class="big">${esc(cd.text)}</div><div class="lbl">${ev.approximate ? 'Nur Näherung' : `Impact: ${esc(ev.impact)}`}</div></div>
         </div>`));
     });
     const sorted = events.slice().sort((a, b) => a.date - b.date).slice(0, 5);
     const n5 = document.getElementById('next5');
     n5.innerHTML = '';
     if (!sorted.length) n5.appendChild(el('<div class="empty-note">Keine Termine gefunden.</div>'));
-    sorted.forEach((ev, i) => n5.appendChild(el(`<div class="n5row"><span class="n5idx">${i + 1}</span><span><strong>${esc(ev.name)}</strong></span><span class="n5date">${esc(fmtDate(ev.date))}</span></div>`)));
+    sorted.forEach((ev, i) => n5.appendChild(el(`<div class="n5row"><span class="n5idx">${i + 1}</span><span><strong>${esc(ev.name)}</strong>${ev.approximate ? ' · ≈ Datum prüfen' : ''}</span><span class="n5date">${esc(fmtDate(ev.date))}</span></div>`)));
   }
 
   // Live-Terminkalender aus status.json (überschreibt die Anker-Liste, wenn vorhanden).
   function renderTermineLive(termine, now) {
-    const list = Array.isArray(termine) ? termine.filter((t) => t && t.ts) : [];
+    const list = filterFutureEvents(termine, now);
     if (!list.length) return; // Fallback: Anker-Liste aus renderRecurring bleibt stehen
     document.getElementById('next5Head').textContent = 'Anstehende Termine · Live-Kalender';
     const note = document.getElementById('termineNote');
@@ -341,14 +350,21 @@
   function cell(h) {
     const st = normStatus(h.status); const label = hourLabel(h);
     const isMark = /:00$/.test(label) && ['00', '06', '12', '18'].includes(label.slice(0, 2));
-    return el(`<div class="tcell${isMark ? ' hour-mark' : ''}"><div class="tbar ${st}" title="${esc(label)} — ${esc(st)}"></div><div class="tlabel">${esc(label)}</div></div>`);
+    const node = el(`<div class="tcell${isMark ? ' hour-mark' : ''}"><div class="tbar ${st}"></div><div class="tlabel"></div></div>`);
+    node.querySelector('.tbar').title = `${label} — ${st}`;
+    node.querySelector('.tlabel').textContent = label;
+    return node;
   }
 
   function renderStatus(data, now) {
     const app = document.getElementById('app');
     app.innerHTML = '';
-    const status = normStatus(data.status);
-    const gen = (data.generatedAt && data.generatedAt !== EPOCH) ? new Date(data.generatedAt) : null;
+    const currentSlot = selectCurrentHourlySlot(data.forecast, now);
+    const status = normStatus(currentSlot && currentSlot.status);
+    const rawDayStatus = Object.prototype.hasOwnProperty.call(data, 'dayStatus') ? data.dayStatus : data.status;
+    const dayStatus = normStatus(rawDayStatus);
+    const parsedGen = (data.generatedAt && data.generatedAt !== EPOCH) ? new Date(data.generatedAt) : null;
+    const gen = parsedGen && Number.isFinite(parsedGen.getTime()) ? parsedGen : null;
     document.getElementById('ticker').textContent = (data.headline || 'NQ Pause-Board') + '   ·   ' + (data.statusText || '');
     document.getElementById('updated').textContent = gen ? 'Stand: ' + fmtDate(gen) : 'Noch keine echte Einschätzung';
     document.getElementById('verFooter').textContent =
@@ -364,22 +380,35 @@
     if (banner) app.appendChild(el(`<div class="banner ${banner.cls}">${esc(banner.text)}</div>`));
 
     const conf = ['niedrig', 'mittel', 'hoch'].includes(data.confidence) ? data.confidence : null;
-    let sourcesHtml = '';
-    if (Array.isArray(data.quellen) && data.quellen.length) {
-      const links = data.quellen.filter((q) => q && /^https?:\/\//i.test(q.url || ''))
-        .map((q) => `<a href="${esc(q.url)}" target="_blank" rel="noopener noreferrer">${esc(q.titel || q.url)}</a>`).join('');
-      if (links) sourcesHtml = `<div class="sources"><div class="label">Quellen</div>${links}</div>`;
-    }
-    app.appendChild(el(`
+    const statusPanel = el(`
       <div class="panel tages">
         <div class="lamp ${status}"></div>
         <div class="tages-body">
-          <div class="tages-head"><p class="tages-title ${status}">${esc(data.statusText || '')}</p>${conf ? `<span class="conf">Confidence <b>${esc(conf)}</b></span>` : ''}</div>
+          <div class="tages-head"><p class="tages-title ${status}">Aktuelle Stunde: ${esc(statusLabel(status))}</p>${conf ? `<span class="conf">Confidence <b>${esc(conf)}</b></span>` : ''}</div>
+          <p class="day-context">Tagesbild: ${esc(statusLabel(dayStatus))} · ${esc(data.statusText || '')}</p>
           <p class="tages-text">${esc(data.body || '')}</p>
           <div class="empfehlung"><span class="label">Handlungsempfehlung</span>${esc(data.empfehlung || '')}</div>
-          ${sourcesHtml}
         </div>
-      </div>`));
+      </div>`);
+    const validSources = Array.isArray(data.quellen) ? data.quellen.filter((source) => {
+      try {
+        const url = new URL(source && source.url);
+        return source && ['http:', 'https:'].includes(url.protocol);
+      } catch { return false; }
+    }) : [];
+    if (validSources.length) {
+      const sources = el('<div class="sources"><div class="label">Quellen</div></div>');
+      validSources.forEach((source) => {
+        const link = document.createElement('a');
+        link.href = source.url;
+        link.textContent = source.titel || source.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        sources.appendChild(link);
+      });
+      statusPanel.querySelector('.tages-body').appendChild(sources);
+    }
+    app.appendChild(statusPanel);
 
     app.appendChild(el('<h2>Stunden-Ampel · 24h zurück &amp; 24h voraus</h2>'));
     const rueck = Array.isArray(data.rueckblick) ? data.rueckblick : [];
@@ -436,7 +465,11 @@
     const wrap = el('<div class="panel"></div>');
     wrap.appendChild(el(`<div class="history-head"><span class="since-red">${since}</span><span class="empty-note" style="padding:0">${entries.length} Läufe</span></div>`));
     const strip = el('<div class="hist-strip"></div>');
-    entries.slice(-72).forEach((h) => strip.appendChild(el(`<span class="hist-dot ${normStatus(h.status)}" title="${esc(fmtDate(new Date(h.generatedAt)))} — ${esc(normStatus(h.status))}"></span>`)));
+    entries.slice(-72).forEach((h) => {
+      const dot = el(`<span class="hist-dot ${normStatus(h.status)}"></span>`);
+      dot.title = `${fmtDate(new Date(h.generatedAt))} — ${normStatus(h.status)}`;
+      strip.appendChild(dot);
+    });
     wrap.appendChild(strip);
     app.appendChild(wrap);
   }
@@ -444,16 +477,18 @@
   //--------------------------------------------------------------------------
   // API-Tab
   //--------------------------------------------------------------------------
-  function renderApi(signal) {
+  function renderApi(signal, coherent = false) {
     const box = document.getElementById('tab-api');
     const signalUrl = new URL('./data/signal.json', location.href).href;
     const statusUrl = new URL('./data/status.json', location.href).href;
-    const pauseVal = signal ? (signal.pause ? 'JA — anhalten' : 'NEIN') : '–';
-    const flagCls = signal ? (signal.pause ? 'rot' : (signal.caution ? 'gelb' : 'gruen')) : 'gelb';
-    const gen = signal && signal.generatedAt && signal.generatedAt !== EPOCH ? fmtDate(new Date(signal.generatedAt)) : '–';
+    const verifiedSignal = coherent ? signal : null;
+    const pauseVal = verifiedSignal ? (verifiedSignal.pause ? 'JA — anhalten' : 'NEIN') : 'UNBESTÄTIGT';
+    const flagCls = verifiedSignal ? normStatus(verifiedSignal.effectiveStatus) : 'unbekannt';
+    const gen = verifiedSignal && verifiedSignal.generatedAt && verifiedSignal.generatedAt !== EPOCH ? fmtDate(new Date(verifiedSignal.generatedAt)) : '–';
 
     box.innerHTML = '';
     box.appendChild(el(`<p class="api-lead">Maschinenlesbares Pause-Flag für deine Trading-Bots. Kein Auth nötig (öffentlich, same-origin auf GitHub Pages).</p>`));
+    if (!coherent) box.appendChild(el('<div class="error-box" style="margin-top:12px">⚠️ Status- und Bot-Snapshot sind inkonsistent oder unvollständig. Das Pause-Flag wird nicht als verlässlich angezeigt.</div>'));
     box.appendChild(el('<h2>Endpoint</h2>'));
     box.appendChild(el(`<div class="endpoint"><code id="epUrl">${esc(signalUrl)}</code><button class="copy-btn" id="copyBtn">Kopieren</button></div>`));
     box.appendChild(el('<h2>Aktuelles Flag</h2>'));
@@ -461,14 +496,15 @@
     box.appendChild(el(`
       <div class="panel" style="margin-top:12px">
         <table class="kv">
-          <tr><td>effectiveStatus</td><td>${esc(signal ? signal.effectiveStatus : '–')} (grün / gelb / rot)</td></tr>
+          <tr><td>effectiveStatus</td><td>${esc(verifiedSignal ? verifiedSignal.effectiveStatus : '–')} (grün / gelb / rot)</td></tr>
+          <tr><td>currentHourStatus</td><td>${esc(verifiedSignal ? verifiedSignal.currentHourStatus : '–')}</td></tr>
           <tr><td>pause</td><td><b>true</b> = ROT → Bots anhalten</td></tr>
           <tr><td>caution</td><td><b>true</b> = gelb → erhöhte Vorsicht (eigene Policy)</td></tr>
-          <tr><td>dayStatus</td><td>Tages-Ampel: ${esc(signal ? signal.dayStatus : '–')}</td></tr>
-          <tr><td>statusText</td><td>${esc(signal ? signal.statusText : '–')}</td></tr>
-          <tr><td>empfehlung</td><td>${esc(signal ? signal.empfehlung : '–')}</td></tr>
+          <tr><td>dayStatus</td><td>Tages-Ampel: ${esc(verifiedSignal ? verifiedSignal.dayStatus : '–')}</td></tr>
+          <tr><td>statusText</td><td>${esc(verifiedSignal ? verifiedSignal.statusText : '–')}</td></tr>
+          <tr><td>empfehlung</td><td>${esc(verifiedSignal ? verifiedSignal.empfehlung : '–')}</td></tr>
           <tr><td>generatedAt</td><td>${esc(gen)}</td></tr>
-          <tr><td>appVersion</td><td>${esc(signal && signal.appVersion ? signal.appVersion : '–')}</td></tr>
+          <tr><td>appVersion</td><td>${esc(verifiedSignal && verifiedSignal.appVersion ? verifiedSignal.appVersion : '–')}</td></tr>
         </table>
       </div>`));
     box.appendChild(el('<h2>Abfragen</h2>'));
@@ -476,7 +512,7 @@
       <pre class="code"><span class="c">// JavaScript — alle paar Minuten pollen</span>
 const url = ${JSON.stringify(signalUrl)};
 async function checkPause() {
-  const s = await (await fetch(url, { cache: "no-store" })).json();
+  const s = await (await fetch(url + "?tb=" + Date.now(), { cache: "no-store" })).json();
   if (s.pause) stopBots();          <span class="c">// true = ROT</span>
   else if (s.caution) beCareful();  <span class="c">// gelb</span>
 }
@@ -486,7 +522,7 @@ setInterval(checkPause, 5 * 60 * 1000);</pre>`));
 import requests, time
 URL = ${JSON.stringify(signalUrl)}
 while True:
-    s = requests.get(URL, timeout=10).json()
+    s = requests.get(URL, params={"tb": time.time_ns()}, headers={"Cache-Control": "no-cache"}, timeout=10).json()
     if s["pause"]:
         stop_bots()      <span class="c"># True = ROT</span>
     time.sleep(300)</pre>`));
@@ -512,23 +548,53 @@ curl -s ${JSON.stringify(signalUrl)} | jq .pause</pre>`));
   });
 
   //--------------------------------------------------------------------------
-  // Countdown + Auto-Reload
+  // Countdown + unabhängige Frischeprüfung
   //--------------------------------------------------------------------------
-  let loadedGen = null, target = null, lastPoll = 0;
+  let loadedGen = null, target = null, lastFreshnessPoll = Date.now();
+  let loadedStatus = null, loadedSignal = null, loadedHistory = [], snapshotIsCoherent = false;
+  let lastRenderedMinute = null;
+  let requestSequence = 0;
+
+  function getJson(name) {
+    const token = `${Date.now()}-${requestSequence++ % 1000}`;
+    const url = cacheBustedUrl(`./data/${name}.json`, token);
+    return fetch(url, { cache: 'no-store' }).then((response) => {
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      return response.json();
+    });
+  }
+
   async function pollForUpdate() {
     try {
-      const r = await fetch('./data/status.json?t=' + Date.now(), { cache: 'no-store' });
-      if (!r.ok) return;
-      const d = await r.json();
+      const d = await getJson('status');
       if (d.generatedAt && d.generatedAt !== loadedGen && d.generatedAt !== EPOCH) location.reload();
     } catch {}
   }
+
+  function renderCurrentTime(now) {
+    renderRecurring(now);
+    if (loadedStatus) {
+      renderStatus(loadedStatus, now);
+      renderHistory(loadedHistory, now);
+      renderApi(loadedSignal, snapshotIsCoherent);
+    }
+  }
+
   function tick() {
     const now = new Date();
     const box = document.getElementById('nextrun');
-    if (!target || now.getTime() > target.getTime() + 30 * 60000) target = nextRun(now);
-    if (target && now.getTime() < target.getTime()) box.innerHTML = `Nächste Aktualisierung in <b>${fmtRemain(target - now)}</b> · ${esc(fmtHM(target))}`;
-    else { box.innerHTML = `<span class="pulse">Aktualisiere … warte auf neue Daten</span>`; if (now.getTime() - lastPoll > 20000) { lastPoll = now.getTime(); pollForUpdate(); } }
+    if (!target || now.getTime() >= target.getTime()) target = nextRun(now);
+    if (target) box.innerHTML = `Nächste geplante Aktualisierung in <b>${fmtRemain(target - now)}</b> · ${esc(fmtHM(target))}`;
+
+    if (now.getTime() - lastFreshnessPoll >= 60000) {
+      lastFreshnessPoll = now.getTime();
+      pollForUpdate();
+    }
+    const minute = Math.floor(now.getTime() / 60000);
+    if (minute !== lastRenderedMinute) {
+      lastRenderedMinute = minute;
+      renderCurrentTime(now);
+    }
     setTimeout(tick, 1000);
   }
 
@@ -539,21 +605,22 @@ curl -s ${JSON.stringify(signalUrl)} | jq .pause</pre>`));
   const tz = deviceTz();
   document.getElementById('tzhint').innerHTML = 'Zeiten in Gerätezeit' + (tz ? ` · <b>${esc(tz)}</b>` : '');
 
-  const now = new Date();
-  renderRecurring(now);
-  const getJson = (url) => fetch(url, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+  renderRecurring(new Date());
 
-  getJson('./data/status.json')
-    .then((data) => {
-      loadedGen = data.generatedAt || null;
-      renderStatus(data, now);
-      getJson('./data/history.json').then((h) => renderHistory(h, now)).catch(() => {});
-      getJson('./data/signal.json').then((s) => renderApi(s)).catch(() => renderApi(null));
+  loadCoherentSnapshot(getJson, { retries: 2 })
+    .then(async (snapshot) => {
+      loadedStatus = snapshot.status;
+      loadedSignal = snapshot.signal;
+      snapshotIsCoherent = snapshot.coherent;
+      loadedGen = loadedStatus.generatedAt || null;
+      try { loadedHistory = await getJson('history'); } catch { loadedHistory = []; }
+      lastRenderedMinute = Math.floor(Date.now() / 60000);
+      renderCurrentTime(new Date());
     })
     .catch((err) => {
       document.getElementById('ticker').textContent = 'Fehler beim Laden der Daten';
       document.getElementById('app').innerHTML = '<div class="error-box">Konnte <code>data/status.json</code> nicht laden (' + esc(err.message) + ').</div>';
-      renderApi(null);
+      renderApi(null, false);
     });
 
   tick();

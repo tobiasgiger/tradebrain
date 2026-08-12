@@ -12,14 +12,21 @@
 //  - Das Modell liefert KOMPAKTE Codes (24-Zeichen G/Y/R) + 6 Kommentare +
 //    Quellen + Confidence. Die Uhrzeiten berechnet das Skript deterministisch
 //    (Europe/Zurich) und mappt sie per Index auf die Codes.
-//  - Termin-Cross-Check: bekannte High-Impact-Events (NFP/CPI/PCE/FOMC) erzwingen
-//    ROT in der betroffenen Stunde — unabhängig davon, was das Modell sagt.
-//  - Bei API-Fehlern crasht nichts: 3 Versuche mit Backoff, alte Dateien bleiben
-//    unangetastet, klarer Log, Exit 0.
+//  - Termin-Cross-Check: nur verifizierte exakte High-Impact-Termine und die
+//    gepflegte FOMC-Liste dürfen ROT deterministisch erzwingen.
+//  - Bei API-/Validierungsfehlern: 3 Versuche mit Backoff, alte Dateien bleiben
+//    unangetastet und der Prozess endet mit einem Fehlerstatus.
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { dirname, join } from 'node:path';
+import { existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync } from 'node:fs';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  CODE_TO_STATUS,
+  parseEventPreHours,
+  validateModelResponse,
+  validateRiskCodes,
+  zurichInstantFromModelTerm,
+} from './assessment-helpers.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '..', 'data');
@@ -34,14 +41,10 @@ const BOARD_URL = process.env.BOARD_URL || 'https://tobiasgiger.github.io/tradeb
 const TIMEZONE = 'Europe/Zurich';
 const MAX_ATTEMPTS = 3;
 const HISTORY_MAX = 200;
-// Wie viele Stunden VOR einem High-Impact-Event bereits ROT gezeigt wird
-// (die Event-Stunde selbst zählt zusätzlich). Über EVENT_PRE_HOURS überschreibbar.
-const EVENT_PRE_HOURS = Number(process.env.EVENT_PRE_HOURS) || 2;
 
 // App-/Generator-Version. KEEP IN SYNC mit APP_VERSION in index.html.
-const APP_VERSION = '1.7.0';
+const APP_VERSION = '1.8.0';
 
-const CODE_TO_STATUS = { G: 'gruen', Y: 'gelb', R: 'rot' };
 const RANK = { gruen: 0, gelb: 1, rot: 2 };
 const worst = (a, b) => (RANK[a] >= RANK[b] ? a : b);
 
@@ -92,48 +95,22 @@ function zurichParts(date) {
   return { y: +p.year, mo: +p.month, d: +p.day, h: +p.hour };
 }
 
-// Offset (Minuten östlich UTC) einer Zeitzone zu einem Zeitpunkt.
-function tzOffsetMin(date, tz) {
-  const dtf = new Intl.DateTimeFormat('en-US', { timeZone: tz, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
-  const p = dtf.formatToParts(date).reduce((a, x) => (a[x.type] = x.value, a), {});
-  const asUTC = Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second);
-  return (asUTC - date.getTime()) / 60000;
-}
-// Absoluter Zeitpunkt für "h:mi am (y,mo0,d) in Europe/Zurich" (mo0 0-basiert).
-function zurichInstantFromParts(y, mo0, d, h, mi) {
-  const naive = Date.UTC(y, mo0, d, h, mi);
-  const off = tzOffsetMin(new Date(naive), TIMEZONE);
-  return new Date(naive - off * 60000);
-}
-
-// Datum-basierter Wochentag (0=So..6=Sa), DST-sicher über UTC-Mittag.
-function weekdayOf(y, mo, d) {
-  return new Date(Date.UTC(y, mo - 1, d, 12)).getUTCDay();
-}
-function daysInMonth(y, mo) {
-  return new Date(Date.UTC(y, mo, 0)).getUTCDate();
-}
-
-// Liefert das High-Impact-Event, das exakt in die Stunde von `date` fällt, oder null.
-function eventAtSlot(date) {
+// Nur die gepflegte, exakte FOMC-Tabelle ist ein autoritativer fester Anker.
+// Ungefähre NFP/CPI/PCE-Wiederholungsmuster bleiben reine Frontend-Hinweise.
+function exactEventAtSlot(date) {
   const { y, mo, d, h } = zurichParts(date);
-  const wd = weekdayOf(y, mo, d);
-  const occ = Math.floor((d - 1) / 7) + 1; // 1. / 2. / ... Vorkommen des Wochentags
-  if (h === 14 && wd === 5 && occ === 1) return 'NFP';        // 1. Freitag 14:30
-  if (h === 14 && wd === 3 && occ === 2) return 'US-CPI';     // 2. Mittwoch 14:30
-  if (h === 14 && wd === 5 && d + 7 > daysInMonth(y, mo)) return 'PCE'; // letzter Fr
   const iso = `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
   if (h === 20 && FOMC_DATES.has(iso)) return 'FOMC';         // 20:00
   return null;
 }
 
-// Event, das in DIESER Stunde oder in den nächsten EVENT_PRE_HOURS Stunden liegt.
-// Berücksichtigt feste Anker (eventAtSlot) UND vom Modell gelieferte High-Impact-
+// Event, das in DIESER Stunde oder in den nächsten eventPreHours Stunden liegt.
+// Berücksichtigt exakte Anker UND validierte, recherchierte High-Impact-
 // Termine (extraHours: Map<hourMs, name>). Gibt { ev, hoursAhead } zurück.
-function eventWindowForSlot(date, extraHours) {
-  for (let k = 0; k <= EVENT_PRE_HOURS; k++) {
+function eventWindowForSlot(date, extraHours, eventPreHours) {
+  for (let k = 0; k <= eventPreHours; k++) {
     const probe = new Date(date.getTime() + k * 3600_000);
-    const name = eventAtSlot(probe) || (extraHours && extraHours.get(probe.getTime()));
+    const name = exactEventAtSlot(probe) || (extraHours && extraHours.get(probe.getTime()));
     if (name) return { ev: name, hoursAhead: k };
   }
   return null;
@@ -141,24 +118,19 @@ function eventWindowForSlot(date, extraHours) {
 
 // Validiert die vom Modell gelieferte Terminliste und wandelt sie in absolute
 // Zeitpunkte. Liefert { termine, extraHours }:
-//  - termine: sortierte Liste [{ name, ts, impact }] für die Anzeige (nächste ~8 Tage)
+//  - termine: sortierte Liste [{ name, ts, impact }] für die Anzeige (nächste 7 Tage)
 //  - extraHours: Map<hourMs, name> der High-Impact-Termine (impact "hoch") für den
 //    Cross-Check (erzwingen ROT + Vorlauf).
 function parseTermine(model, now) {
   const termine = [];
   const extraHours = new Map();
-  const list = Array.isArray(model.termine) ? model.termine : [];
-  const minTs = now.getTime() - 3600_000;
-  const maxTs = now.getTime() + 8 * 86400_000;
+  const list = model.termine;
+  const maxTs = now.getTime() + 7 * 86400_000;
   for (const t of list) {
-    if (!t) continue;
-    const dm = String(t.datum || '').match(/^(\d{4})-(\d{2})-(\d{2})$/);
-    const tm = String(t.zeitZurich || '').match(/^(\d{1,2}):(\d{2})$/);
-    if (!dm || !tm) continue;
-    const inst = zurichInstantFromParts(+dm[1], +dm[2] - 1, +dm[3], +tm[1], +tm[2]);
-    if (isNaN(inst.getTime()) || inst.getTime() < minTs || inst.getTime() > maxTs) continue;
-    const impact = ['hoch', 'mittel'].includes(t.impact) ? t.impact : 'mittel';
-    const name = String(t.name || 'Termin').slice(0, 60);
+    const inst = zurichInstantFromModelTerm(t);
+    if (inst.getTime() <= now.getTime() || inst.getTime() > maxTs) continue;
+    const impact = t.impact;
+    const name = t.name.slice(0, 60);
     termine.push({ name, ts: inst.toISOString(), impact });
     if (impact === 'hoch') {
       const hourMs = Math.floor(inst.getTime() / 3600_000) * 3600_000;
@@ -173,30 +145,28 @@ function parseTermine(model, now) {
 // Code-Expansion & Cross-Check
 // ---------------------------------------------------------------------------
 
-function normalizeCodes(raw) {
-  const cleaned = String(raw || '').toUpperCase().replace(/[^GYR]/g, '');
-  return (cleaned + 'G'.repeat(24)).slice(0, 24);
-}
-
 function expandCodes(codes, startHour, comments = []) {
+  validateRiskCodes(codes);
   const out = [];
   for (let i = 0; i < 24; i++) {
     const time = new Date(startHour.getTime() + i * 3600_000);
     // ts = absoluter Zeitstempel der Stunde. Das Frontend beschriftet daraus in
     // Gerätezeit und positioniert den "Jetzt"-Marker nach echter aktueller Zeit.
-    const entry = { stunde: zurichHourLabel(time), ts: time.toISOString(), status: CODE_TO_STATUS[codes[i]] || 'gruen' };
+    const status = CODE_TO_STATUS[codes[i]];
+    if (!status) throw new Error(`Unbekannter Risiko-Code an Position ${i}`);
+    const entry = { stunde: zurichHourLabel(time), ts: time.toISOString(), status };
     if (comments[i] != null) entry.kommentar = String(comments[i]);
     out.push(entry);
   }
   return out;
 }
 
-// Erzwingt ROT in der Event-Stunde UND den EVENT_PRE_HOURS Stunden davor.
+// Erzwingt ROT in der Event-Stunde UND den konfigurierten Stunden davor.
 // Gibt { index: { ev, hoursAhead } } zurück.
-function applyCrossCheck(entries, startHour, extraHours) {
+function applyCrossCheck(entries, startHour, extraHours, eventPreHours) {
   const labels = {};
   entries.forEach((e, i) => {
-    const hit = eventWindowForSlot(new Date(startHour.getTime() + i * 3600_000), extraHours);
+    const hit = eventWindowForSlot(new Date(startHour.getTime() + i * 3600_000), extraHours, eventPreHours);
     if (hit) { e.status = 'rot'; labels[i] = hit; }
   });
   return labels;
@@ -218,21 +188,29 @@ function extractJson(text) {
 // Anthropic API
 // ---------------------------------------------------------------------------
 
-function buildPrompt(nowLocal) {
+function buildPrompt(now) {
+  const nowUtc = now.toISOString();
+  const nowLocal = zurichDateTime(now);
   return `Du bist ein Risiko-Analyst für NQ-Futures (Nasdaq-100) im Mean-Reversion-Trading.
 Aufgabe: Beurteile, wann automatisierte Trading-Bots wegen Marktrisiko (News, Geopolitik, Wirtschaftsdaten) besser pausiert werden sollten.
 
-Aktuelle Zeit (${TIMEZONE}): ${nowLocal}
+NOW exakt in UTC: ${nowUtc}
+NOW formatiert in ${TIMEZONE}: ${nowLocal}
 
 Recherchiere mit dem web_search-Tool die aktuelle Lage:
 - Geopolitik: Naher Osten / Iran / Israel, Ukraine / Russland (aktive Eskalation?)
 - US-Wirtschaftsdaten: NFP, CPI, FOMC, PCE — was steht heute / in den nächsten 24h an?
 - Marktbewegung & Volatilität (z.B. VIX), relevante Schlagzeilen der letzten Stunden
 
+Bevorzuge für US-Makrotermine Primärquellen: BLS, Federal Reserve, BEA,
+US Census Bureau oder die jeweils verantwortliche US-Behörde. Sekundäre Kalender
+dürfen ergänzen, aber ein nicht verlässlich verifizierbares Datum ist wegzulassen.
+
 Antworte AUSSCHLIESSLICH mit EINEM JSON-Objekt — kein Markdown, kein Text davor/danach — mit exakt diesen Feldern:
 
 {
-  "status": "gruen | gelb | rot",
+  "status": "gruen | gelb | rot — Risiko exakt NOW; muss forecastCodes[0] entsprechen",
+  "dayStatus": "gruen | gelb | rot — breiteres Tages-/Gesamtbild",
   "statusText": "kurzer Titel, max. 40 Zeichen",
   "empfehlung": "konkrete Handlungsempfehlung, 1 Satz",
   "headline": "Ticker-Zeile, max. 80 Zeichen",
@@ -251,6 +229,16 @@ Ampel-Kriterien je Stunde:
 - R (rot): aktive geopolitische Eskalation, starke Marktbewegung, ODER High-Impact-Release (NFP / CPI / FOMC) in dem Stundenfenster.
 - Y (gelb): erhöhte Unsicherheit, US-Cash-Open (~15:30 ${TIMEZONE}), Power-Hour-Close (~22:00 ${TIMEZONE}), kleinere Termine.
 - G (grün): sonst.
+
+Zeitliche Pflichtregeln:
+- status, statusText, empfehlung, headline und body beschreiben das Risiko exakt NOW.
+- Jeder Termin-Zeitstempel vor NOW ist VERGANGEN. Ein Ereignis von früher am selben Tag ist ebenfalls VERGANGEN.
+- Beschreibe niemals ein vergangenes Ereignis als bevorstehend und berechne nie einen Countdown vom falschen Datum oder Ereignis.
+- Nach einem Ereignis darf es nur dann relevant bleiben, wenn tatsächlich beobachtetes Marktverhalten nach der Veröffentlichung noch gefährlich ist. Benenne das ausdrücklich als Post-Event-/Nachwirkungsrisiko.
+- Andernfalls richte den Vorwärtsblick auf den nächsten echten zukünftigen Termin.
+- forecastCodes[0] repräsentiert die aktuelle Stunde und status muss vor den deterministischen Skript-Overrides semantisch exakt dazu passen.
+- dayStatus ist ausschließlich das separat ausgewiesene breitere Tagesbild und darf von status abweichen.
+- Erfinde keine Daten. Wenn ein Termin nicht verlässlich verifiziert werden kann, lasse ihn weg.
 
 Zum Feld "termine": Recherchiere den US-Wirtschaftskalender der nächsten 7 Tage und liste ALLE relevanten Termine einzeln auf — CPI, Core CPI, PPI, Core PPI, Retail Sales, NFP, FOMC, PCE, ISM, Jobless Claims, GDP usw. Jeder Eintrag mit exaktem "datum" (YYYY-MM-DD), "zeitZurich" (HH:MM in Europe/Zurich) und "impact" ("hoch" oder "mittel"). "hoch" = markttreibende Releases (CPI/Core CPI, PPI/Core PPI, NFP, FOMC, PCE, Retail Sales) → sie erzwingen automatisch ein rotes Vorlauf-Fenster. Nenne echte, recherchierte Daten; wenn ein Datum unsicher ist, lass den Eintrag weg statt zu raten.
 
@@ -287,16 +275,17 @@ async function callModel(prompt) {
   throw new Error('Zu viele pause_turn-Fortsetzungen');
 }
 
-async function fetchWithRetry(prompt) {
+async function fetchWithRetry(prompt, now, { callModelFn = callModel, sleepFn = (ms) => new Promise((resolveSleep) => setTimeout(resolveSleep, ms)), maxAttempts = MAX_ATTEMPTS } = {}) {
   let lastErr;
-  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
-      log(`API-Aufruf Versuch ${attempt}/${MAX_ATTEMPTS} (Modell: ${MODEL})`);
-      return extractJson(await callModel(prompt));
+      log(`API-Aufruf Versuch ${attempt}/${maxAttempts} (Modell: ${MODEL})`);
+      const parsed = extractJson(await callModelFn(prompt));
+      return validateModelResponse(parsed, now);
     } catch (err) {
       lastErr = err;
       log(`Versuch ${attempt} fehlgeschlagen: ${err.message}`);
-      if (attempt < MAX_ATTEMPTS) await new Promise((r) => setTimeout(r, 2000 * 2 ** (attempt - 1)));
+      if (attempt < maxAttempts) await sleepFn(2000 * 2 ** (attempt - 1));
     }
   }
   throw lastErr;
@@ -306,23 +295,22 @@ async function fetchWithRetry(prompt) {
 // Aufbau von status.json (inkl. Cross-Check)
 // ---------------------------------------------------------------------------
 
-function buildStatusJson(model, now) {
+function buildStatusJson(model, now, eventPreHours = 2) {
   const topOfHour = new Date(Math.floor(now.getTime() / 3600_000) * 3600_000);
   const rueckblickStart = new Date(topOfHour.getTime() - 24 * 3600_000);
   const forecastStart = topOfHour;
 
-  const rueckblick = expandCodes(normalizeCodes(model.rueckblickCodes), rueckblickStart);
-  const forecast = expandCodes(normalizeCodes(model.forecastCodes), forecastStart);
+  const rueckblick = expandCodes(model.rueckblickCodes, rueckblickStart);
+  const forecast = expandCodes(model.forecastCodes, forecastStart);
 
   // Live-Terminkalender aus der Modell-Recherche (CPI, PPI, Retail Sales …).
   const { termine, extraHours } = parseTermine(model, now);
 
-  // Termin-Cross-Check: erzwingt ROT bei festen Ankern UND Live-High-Impact-Terminen.
-  applyCrossCheck(rueckblick, rueckblickStart, extraHours);
-  const forecastLabels = applyCrossCheck(forecast, forecastStart, extraHours);
+  // Termin-Cross-Check: nur exakte Anker und validierte Live-High-Impact-Termine.
+  applyCrossCheck(rueckblick, rueckblickStart, extraHours, eventPreHours);
+  const forecastLabels = applyCrossCheck(forecast, forecastStart, extraHours, eventPreHours);
 
-  const kommentare = Array.isArray(model.forecastKommentare)
-    ? model.forecastKommentare.slice(0, 6).map(String) : [];
+  const kommentare = model.forecastKommentare;
   const forecastDetail = forecast.slice(0, 6).map((h, i) => {
     const entry = { stunde: h.stunde, ts: h.ts, status: h.status, kommentar: kommentare[i] || '' };
     const lab = forecastLabels[i];
@@ -333,45 +321,51 @@ function buildStatusJson(model, now) {
     return entry;
   });
 
-  const allowed = new Set(['gruen', 'gelb', 'rot']);
-  const modelDay = allowed.has(model.status) ? model.status : 'gelb';
-
-  // Tages-Ampel nie ruhiger als die aktuelle Stunde.
-  let status = worst(modelDay, forecast[0].status);
-  let empfehlung = String(model.empfehlung || '') || 'Keine Empfehlung verfügbar.';
+  const currentHourStatus = forecast[0].status;
+  // Das breitere Tagesbild bleibt separat und nie ruhiger als die aktuelle Stunde.
+  const dayStatus = worst(model.dayStatus, currentHourStatus);
+  let empfehlung = model.empfehlung;
   const nowLab = forecastLabels[0];
   if (nowLab) {
-    status = 'rot';
     empfehlung = nowLab.hoursAhead > 0
       ? `⚠️ ${nowLab.ev} in ~${nowLab.hoursAhead}h — Bots rechtzeitig pausieren. ${empfehlung}`
       : `⚠️ ${nowLab.ev} jetzt im aktuellen Stundenfenster — Bots pausieren. ${empfehlung}`;
   }
 
-  const conf = new Set(['niedrig', 'mittel', 'hoch']);
-  const confidence = conf.has(model.confidence) ? model.confidence : 'mittel';
-  const quellen = Array.isArray(model.quellen)
-    ? model.quellen
-        .filter((q) => q && typeof q.url === 'string' && /^https?:\/\//i.test(q.url))
-        .slice(0, 4)
-        .map((q) => ({ titel: String(q.titel || q.url).slice(0, 120), url: q.url }))
-    : [];
-
   return {
     generatedAt: now.toISOString(),
     appVersion: APP_VERSION,
-    status,
-    statusText: String(model.statusText || '').slice(0, 60) || 'Keine Angabe',
+    status: dayStatus,
+    dayStatus,
+    currentHourStatus,
+    statusText: model.statusText.slice(0, 60),
     empfehlung,
-    headline: String(model.headline || '').slice(0, 120) || 'NQ Pause-Board',
-    body: String(model.body || ''),
-    confidence,
-    quellen,
-    rueckblickSummary: String(model.rueckblickSummary || ''),
+    headline: model.headline.slice(0, 120),
+    body: model.body,
+    confidence: model.confidence,
+    quellen: model.quellen.map((q) => ({ titel: q.titel.slice(0, 120), url: q.url })),
+    rueckblickSummary: model.rueckblickSummary,
     rueckblick,
-    ausblickSummary: String(model.ausblickSummary || ''),
+    ausblickSummary: model.ausblickSummary,
     forecast,
     forecastDetail,
     termine,
+  };
+}
+
+function buildSignal(statusJson) {
+  const effective = statusJson.currentHourStatus;
+  return {
+    generatedAt: statusJson.generatedAt,
+    appVersion: APP_VERSION,
+    effectiveStatus: effective,
+    pause: effective === 'rot',
+    caution: effective === 'gelb',
+    dayStatus: statusJson.dayStatus,
+    currentHourStatus: effective,
+    statusText: statusJson.statusText,
+    empfehlung: statusJson.empfehlung,
+    source: 'nq-pause-board',
   };
 }
 
@@ -420,52 +414,98 @@ async function sendPush(title, message, tag) {
 // Main
 // ---------------------------------------------------------------------------
 
+function writeSnapshotAtomically(files) {
+  mkdirSync(DATA_DIR, { recursive: true });
+  const token = `${process.pid}-${Date.now()}`;
+  const prepared = files.map(({ path, value }) => ({
+    path,
+    value,
+    temp: `${path}.${token}.tmp`,
+    backup: `${path}.${token}.bak`,
+    hadOriginal: existsSync(path),
+  }));
+  const movedOriginals = [];
+  const installed = [];
+
+  try {
+    for (const file of prepared) {
+      writeFileSync(file.temp, JSON.stringify(file.value, null, 2) + '\n', { encoding: 'utf8', flag: 'wx' });
+    }
+    for (const file of prepared) {
+      if (file.hadOriginal) {
+        renameSync(file.path, file.backup);
+        movedOriginals.push(file);
+      }
+    }
+    for (const file of prepared) {
+      renameSync(file.temp, file.path);
+      installed.push(file);
+    }
+  } catch (err) {
+    for (const file of installed.reverse()) {
+      if (existsSync(file.path)) rmSync(file.path, { force: true });
+    }
+    for (const file of movedOriginals.reverse()) {
+      if (existsSync(file.backup)) renameSync(file.backup, file.path);
+    }
+    throw err;
+  } finally {
+    for (const file of prepared) {
+      if (existsSync(file.temp)) rmSync(file.temp, { force: true });
+    }
+  }
+
+  for (const file of movedOriginals) {
+    if (existsSync(file.backup)) rmSync(file.backup, { force: true });
+  }
+}
+
 async function main() {
+  let eventPreHours;
+  try {
+    eventPreHours = parseEventPreHours(process.env.EVENT_PRE_HOURS);
+  } catch (err) {
+    log(`FEHLER: ${err.message}. Dateien bleiben unverändert.`);
+    throw err;
+  }
   if (!API_KEY) {
     log('FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt. Dateien bleiben unverändert.');
-    process.exit(0);
+    throw new Error('ANTHROPIC_API_KEY fehlt');
   }
 
   const now = new Date();
   let model;
   try {
-    model = await fetchWithRetry(buildPrompt(zurichDateTime(now)));
+    model = await fetchWithRetry(buildPrompt(now), now);
   } catch (err) {
     log(`FEHLER: Alle ${MAX_ATTEMPTS} Versuche fehlgeschlagen (${err.message}).`);
-    log('Bestehende Dateien bleiben unverändert. Exit 0, Workflow bleibt grün.');
-    process.exit(0);
+    log('Bestehende Dateien bleiben unverändert. Der Workflow wird als fehlgeschlagen markiert.');
+    throw err;
   }
 
   try {
-    const statusJson = buildStatusJson(model, now);
-    const effective = statusJson.status; // berücksichtigt Cross-Check + aktuelle Stunde
+    const statusJson = buildStatusJson(model, now, eventPreHours);
+    const signal = buildSignal(statusJson);
+    const effective = signal.effectiveStatus;
 
     // Vorherigen Zustand für Transition-Erkennung lesen.
     const prevEffective = readJsonSafe(SIGNAL_PATH)?.effectiveStatus || null;
 
-    mkdirSync(DATA_DIR, { recursive: true });
-    writeFileSync(STATUS_PATH, JSON.stringify(statusJson, null, 2) + '\n', 'utf8');
+    // Verlauf behält seine bisherige Tages-/Gesamtstatus-Semantik; alte Einträge
+    // werden weder umgeschrieben noch nachträglich neu interpretiert.
+    const previousHistory = readJsonSafe(HISTORY_PATH);
+    const history = Array.isArray(previousHistory) ? previousHistory : [];
+    history.push({ generatedAt: now.toISOString(), status: statusJson.dayStatus });
 
-    // Bot-Signal.
-    const signal = {
-      generatedAt: now.toISOString(),
-      appVersion: APP_VERSION,
-      effectiveStatus: effective,
-      pause: effective === 'rot',
-      caution: effective === 'gelb',
-      dayStatus: statusJson.status,
-      statusText: statusJson.statusText,
-      empfehlung: statusJson.empfehlung,
-      source: 'nq-pause-board',
-    };
-    writeFileSync(SIGNAL_PATH, JSON.stringify(signal, null, 2) + '\n', 'utf8');
+    // Alle drei zusammengehörigen Dateien werden erst nach vollständigem Aufbau
+    // als ein Snapshot installiert. Bei einem Fehler werden die Originale restauriert.
+    writeSnapshotAtomically([
+      { path: STATUS_PATH, value: statusJson },
+      { path: SIGNAL_PATH, value: signal },
+      { path: HISTORY_PATH, value: history.slice(-HISTORY_MAX) },
+    ]);
 
-    // Verlauf fortschreiben (auf HISTORY_MAX begrenzt).
-    const history = Array.isArray(readJsonSafe(HISTORY_PATH)) ? readJsonSafe(HISTORY_PATH) : [];
-    history.push({ generatedAt: now.toISOString(), status: effective });
-    writeFileSync(HISTORY_PATH, JSON.stringify(history.slice(-HISTORY_MAX), null, 2) + '\n', 'utf8');
-
-    log(`OK: geschrieben (effektiv=${effective}, vorher=${prevEffective ?? 'n/a'}).`);
+    log(`OK: geschrieben (Tag=${statusJson.dayStatus}, aktuelle Stunde=${effective}, vorher=${prevEffective ?? 'n/a'}).`);
 
     // Push nur bei Zustandswechsel.
     if (effective === 'rot' && prevEffective !== 'rot') {
@@ -483,9 +523,21 @@ async function main() {
     }
   } catch (err) {
     log(`FEHLER beim Aufbau/Schreiben: ${err.message}`);
-    log('Bestehende Dateien bleiben unverändert.');
-    process.exit(0);
+    log('Bestehende Dateien bleiben unverändert; der Workflow wird als fehlgeschlagen markiert.');
+    throw err;
   }
 }
 
-main();
+export {
+  applyCrossCheck,
+  buildPrompt,
+  buildSignal,
+  buildStatusJson,
+  exactEventAtSlot,
+  fetchWithRetry,
+  parseTermine,
+};
+
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch(() => { process.exitCode = 1; });
+}

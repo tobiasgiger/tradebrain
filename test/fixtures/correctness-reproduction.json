@@ -1,0 +1,54 @@
+{
+  "now": "2026-08-12T20:31:43.000Z",
+  "model": {
+    "status": "gruen",
+    "dayStatus": "rot",
+    "statusText": "Aktuelle Stunde ruhig",
+    "empfehlung": "Bots können aktuell normal laufen; den PPI morgen weiter beobachten.",
+    "headline": "CPI verarbeitet; PPI ist der nächste Makrotermin",
+    "body": "Der CPI wurde heute um 14:30 veröffentlicht und die beobachtete Nachreaktion ist aktuell ruhig. Das breitere geopolitische Tagesbild bleibt dennoch rot.",
+    "confidence": "hoch",
+    "quellen": [
+      {
+        "titel": "BLS Release Calendar",
+        "url": "https://www.bls.gov/schedule/"
+      },
+      {
+        "titel": "Federal Reserve Calendar",
+        "url": "https://www.federalreserve.gov/newsevents/calendar.htm"
+      }
+    ],
+    "termine": [
+      {
+        "name": "US PPI",
+        "datum": "2026-08-13",
+        "zeitZurich": "14:30",
+        "impact": "hoch"
+      }
+    ],
+    "rueckblickSummary": "Der CPI wurde veröffentlicht; die unmittelbare Reaktion blieb kontrolliert.",
+    "rueckblickCodes": "GGGGGGGGGGGGRRRGGGGGGGGG",
+    "ausblickSummary": "PPI am Folgetag ist der nächste verifizierte High-Impact-Termin.",
+    "forecastCodes": "GGGGGGGGGGGGRRRGGGGGGGGG",
+    "forecastKommentare": [
+      "Aktuelle Stunde ohne aktives Ereignisfenster.",
+      "Ruhiger Nachthandel erwartet.",
+      "Keine verifizierte Veröffentlichung in dieser Stunde.",
+      "Keine verifizierte Veröffentlichung in dieser Stunde.",
+      "Keine verifizierte Veröffentlichung in dieser Stunde.",
+      "Keine verifizierte Veröffentlichung in dieser Stunde."
+    ]
+  },
+  "events": [
+    {
+      "name": "US CPI",
+      "ts": "2026-08-12T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US PPI",
+      "ts": "2026-08-13T12:30:00.000Z",
+      "impact": "hoch"
+    }
+  ]
+}

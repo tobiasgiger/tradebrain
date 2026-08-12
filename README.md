@@ -20,12 +20,14 @@ Bewusst **kein Live-API-Call im Browser** (wäre langsam/unzuverlässig). Stattd
 GitHub Action (Zeitplan-Cron + manuell)
    → scripts/fetch-assessment.mjs
         → Anthropic Messages API (Tool: web_search)
-        → Termin-Cross-Check (NFP/CPI/PCE/FOMC erzwingen ROT)
-        → schreibt data/status.json, data/signal.json, data/history.json
+        → strikte Schema-/Zeitkonsistenz-Prüfung (Fehler werden erneut versucht)
+        → Termin-Cross-Check (nur exakte, validierte Termine erzwingen ROT)
+        → schreibt data/status.json, data/signal.json, data/history.json atomar
         → Push bei Eskalation nach ROT (ntfy / Telegram)
         → committet die Dateien zurück ins Repo
+        → fordert Pages-Build explizit an und verifiziert dessen Commit-SHA
 GitHub Pages (statisch)
-   → index.html liest data/status.json + data/history.json (same-origin)
+   → index.html liest kohärent status.json + signal.json + history.json (same-origin)
 Trading-Bots
    → pollen data/signal.json direkt (maschinenlesbares Pause-Flag)
 ```
@@ -34,6 +36,10 @@ Der Anthropic API-Key liegt als **GitHub Actions Secret** (`ANTHROPIC_API_KEY`),
 nie im Code. Das Modell liefert kompakte Codes (24-Zeichen `G`/`Y`/`R` + 6
 Kommentare + Quellen + Confidence); die **Uhrzeiten** berechnet das Skript
 deterministisch (Europe/Zurich) und mappt sie per Index auf die Codes.
+Codes werden nach optionalem äußeren Whitespace strikt gegen `^[GYR]{24}$`
+validiert; fehlende oder korrupte Werte werden weder bereinigt noch mit GRÜN
+aufgefüllt. Auch Status, Texte, Quellen, Termine und Kommentaranzahl werden vor
+jedem Schreibvorgang validiert.
 
 ### Zeitplan
 
@@ -55,8 +61,11 @@ Manuelles Auslösen (**Actions → Run workflow**) geht jederzeit zusätzlich.
 ## Funktionen
 
 ### Tages-Ampel & Stunden-Ampel
-Gesamteinschätzung (grün/gelb/rot) + horizontal scrollbarer 48-Punkte-Zeitstrahl
-(24 h zurück · „Jetzt" · 24 h voraus), automatisch zur Jetzt-Position gescrollt.
+`dayStatus`/`status` bleibt das breitere Tagesbild. `currentHourStatus` ist dagegen
+der tatsächlich aktuelle Forecast-Slot nach den deterministischen, validierten
+Event-Overrides und steuert die primäre Jetzt-Anzeige sowie das Bot-Signal.
+Der horizontal scrollbare 48-Punkte-Zeitstrahl (24 h zurück · „Jetzt" · 24 h
+voraus) wird während einer offenen Browser-Sitzung mit der echten Zeit nachgeführt.
 
 ### Termin-Cross-Check (mit Vorlauf) + Live-Kalender
 High-Impact-Events **erzwingen ROT** — nicht erst zur Event-Uhrzeit, sondern
@@ -66,14 +75,16 @@ oder einer der nächsten `EVENT_PRE_HOURS` Stunden, wird auch die Tages-Ampel au
 ROT gezogen; die Empfehlung nennt den Vorlauf (z. B. „US Core PPI in ~2h").
 
 Zwei Quellen speisen den Cross-Check:
-- **Feste Anker** (im Code, zuverlässig): NFP (1. Freitag), FOMC (gepflegte
-  Liste), plus CPI/PCE-Heuristik.
+- **Fester exakter Anker**: die gepflegte FOMC-Terminliste.
 - **Live-Kalender aus der Recherche** (auto-aktualisierend): Das Modell liefert
   bei jedem Lauf den US-Wirtschaftskalender der nächsten 7 Tage als `termine`
   (CPI, **Core PPI**, Retail Sales, Jobless Claims, ISM …) mit Datum/Uhrzeit und
   Impact. Alle mit `impact: "hoch"` erzeugen automatisch ein rotes Vorlauf-Fenster
   — ohne dass du etwas pflegen musst. Das Frontend zeigt die Liste als
   „Anstehende Termine" mit „Pause-Fenster"-Markierung.
+
+Die NFP-/CPI-/PCE-Wiederholungsmuster sind nur sichtbar als **ungefähre
+UI-Hinweise**. Sie erzwingen niemals ROT und pausieren keine Bots.
 
 ### Push-Benachrichtigung
 Beim **Wechsel nach ROT** (und bei Entwarnung) schickt das Skript einen Push —
@@ -86,16 +97,19 @@ Kompaktes, maschinenlesbares Flag, das deine Bots direkt pollen können:
 ```json
 {
   "generatedAt": "2026-08-10T14:00:00.000Z",
-  "effectiveStatus": "rot",
-  "pause": true,
+  "effectiveStatus": "gruen",
+  "pause": false,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "FOMC-Entscheid",
+  "currentHourStatus": "gruen",
+  "statusText": "Aktuelle Stunde ruhig",
   "empfehlung": "…",
   "source": "nq-pause-board"
 }
 ```
 
+`effectiveStatus` ist immer identisch mit dem bei der Generierung geltenden
+`currentHourStatus`; `pause` ist nur bei ROT wahr, `caution` nur bei GELB.
 Bot-Logik z. B.: `if (signal.pause) botsAnhalten()`. Wird bei jedem Lauf
 aktualisiert (alle ~4 h); für stündliche Details siehe `status.json`.
 
@@ -107,7 +121,11 @@ das Modell 2–4 **Quell-Links** und ein **Confidence-Level** zur Nachprüfung.
 ### Stale-/Wochenend-Warnung
 Ist die letzte Einschätzung im Handelsfenster älter als ~6 h, warnt das Frontend
 („Daten veraltet"). Am Wochenende zeigt es stattdessen einen ruhigen Hinweis
-(„Markt geschlossen").
+(„Markt geschlossen"). Unabhängig vom angezeigten Cron-Ziel prüft eine offene
+Seite etwa minütlich mit Cache-Buster und `cache: "no-store"` auf eine neue
+Generation. Status- und Bot-Datei werden beim Start auf identisches
+`generatedAt` und die Bot-Invarianten geprüft; bei dauerhafter Inkonsistenz wird
+kein vermeintlich verlässliches Pause-Flag angezeigt.
 
 ### Gerätezeit & Versionierung
 Jede Stunde im Ampel-System trägt einen absoluten Zeitstempel (`ts`). Das
@@ -124,8 +142,10 @@ live ist.
 ```json
 {
   "generatedAt": "2026-08-10T21:00:00.000Z",
-  "appVersion": "1.6.0",
+  "appVersion": "1.8.0",
   "status": "gruen",
+  "dayStatus": "gruen",
+  "currentHourStatus": "gruen",
   "statusText": "Ruhige Lage",
   "empfehlung": "Bots normal laufen lassen",
   "headline": "Kurze Ticker-Zeile",
@@ -185,6 +205,7 @@ automatisch nach obigem Zeitplan.
 cp .env.example .env      # ANTHROPIC_API_KEY (+ optional Push) eintragen
 node --env-file=.env scripts/fetch-assessment.mjs
 python3 -m http.server 8080   # Frontend unter http://localhost:8080
+node --test                    # Regressionstests (keine Zusatzpakete)
 ```
 
 Voraussetzung: **Node 20+** (natives `fetch` und `--env-file`).
@@ -193,9 +214,13 @@ Voraussetzung: **Node 20+** (natives `fetch` und `--env-file`).
 
 ## Fehler-Verhalten
 
-Der Workflow crasht bei API-Fehlern **nicht**: 3 Versuche mit Backoff (2 s, 4 s);
-bleibt es dabei, werden **alle Dateien unangetastet** gelassen, ein klarer Log
-geschrieben und mit Exit 0 beendet. Commit passiert nur bei tatsächlicher Änderung.
+API-, Modell- und Validierungsfehler erhalten 3 Versuche mit Backoff (2 s, 4 s).
+Bleibt es dabei, werden **alle Dateien unangetastet** gelassen, ein klarer Log
+geschrieben und der Prozess endet ungleich null. Die drei JSON-Dateien werden
+erst nach vollständigem Aufbau als zusammengehöriger Snapshot installiert. Ein
+Commit passiert nur bei tatsächlicher Änderung; danach fordert der Workflow den
+Pages-Build explizit an und schlägt fehl, wenn die publizierte Revision nicht der
+gepushten SHA entspricht.
 
 ---
 
@@ -208,8 +233,8 @@ Claims usw. Da musst du nichts pflegen. Nur die festen Anker sind statisch:
 | Termin | Berechnung | Pflege |
 |--------|-----------|--------|
 | **Live-Kalender** | Modell-Recherche, nächste 7 Tage | **automatisch** |
-| **NFP** | Anker: 1. Freitag, 14:30 Zurich | automatisch |
-| **US-CPI / PCE** | Anker-Heuristik (2. Mittwoch / letzter Freitag) | grobe Absicherung |
+| **NFP** | UI-Näherung: 1. Freitag, 14:30 Zurich | Datum prüfen; kein ROT-Override |
+| **US-CPI / PCE** | UI-Näherung (2. Mittwoch / letzter Freitag) | Datum prüfen; kein ROT-Override |
 | **FOMC** | Anker: feste Terminliste, 20:00 | **manuell nachpflegen** |
 
 > ⚠️ Die **FOMC-Terminliste** steht an **zwei** Stellen und muss synchron gehalten
