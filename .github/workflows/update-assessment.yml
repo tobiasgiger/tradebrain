@@ -16,6 +16,7 @@ on:
 # Schreibrechte, damit der Workflow die aktualisierte status.json zurückcommitten kann.
 permissions:
   contents: write
+  deployments: read
   pages: write
 
 # Verhindert, dass sich überlappende Läufe gegenseitig ins Gehege kommen.
@@ -91,18 +92,21 @@ jobs:
           gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null
 
           for attempt in $(seq 1 24); do
-            build="$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest")"
-            build_sha="$(jq -r '.commit // empty' <<<"$build")"
-            build_status="$(jq -r '.status // empty' <<<"$build")"
-            error_message="$(jq -r '.error.message // empty' <<<"$build")"
-            echo "Pages-Prüfung $attempt/24: status=$build_status revision=${build_sha:-unbekannt}"
+            deployments="$(gh api "repos/$GITHUB_REPOSITORY/deployments?environment=github-pages&sha=$EXPECTED_SHA&per_page=10")"
+            deployment_id="$(jq -r '.[0].id // empty' <<<"$deployments")"
+            deployment_state="unbekannt"
+            if [[ -n "$deployment_id" ]]; then
+              statuses="$(gh api "repos/$GITHUB_REPOSITORY/deployments/$deployment_id/statuses")"
+              deployment_state="$(jq -r '.[0].state // "unbekannt"' <<<"$statuses")"
+            fi
+            echo "Pages-Prüfung $attempt/24: deployment=${deployment_id:-ausstehend} status=$deployment_state revision=$EXPECTED_SHA"
 
-            if [[ "$build_sha" == "$EXPECTED_SHA" && "$build_status" == "built" ]]; then
+            if [[ "$deployment_state" == "success" ]]; then
               echo "Pages-Publikation für $EXPECTED_SHA bestätigt."
               exit 0
             fi
-            if [[ "$build_sha" == "$EXPECTED_SHA" && -n "$error_message" ]]; then
-              echo "FEHLER: Pages-Build für $EXPECTED_SHA: $error_message" >&2
+            if [[ "$deployment_state" == "failure" || "$deployment_state" == "error" ]]; then
+              echo "FEHLER: Pages-Deployment für $EXPECTED_SHA hat Status $deployment_state." >&2
               exit 1
             fi
             sleep 10

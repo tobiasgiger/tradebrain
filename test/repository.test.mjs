@@ -25,13 +25,15 @@ test('frontend and generator versions stay synchronized', () => {
 test('workflow explicitly requests and verifies Pages without force-pushing or changing Pages settings', () => {
   const workflow = readFileSync(join(root, '.github', 'workflows', 'update-assessment.yml'), 'utf8');
   assert.match(workflow, /contents:\s*write/);
+  assert.match(workflow, /deployments:\s*read/);
   assert.match(workflow, /pages:\s*write/);
   assert.match(workflow, /id:\s*commit/);
   assert.match(workflow, /changed=true/);
   assert.match(workflow, /pushed_sha=/);
   assert.match(workflow, /gh api --method POST "repos\/\$GITHUB_REPOSITORY\/pages\/builds"/);
-  assert.match(workflow, /pages\/builds\/latest/);
-  assert.match(workflow, /build_sha" == "\$EXPECTED_SHA/);
+  assert.match(workflow, /deployments\?environment=github-pages&sha=\$EXPECTED_SHA/);
+  assert.match(workflow, /deployments\/\$deployment_id\/statuses/);
+  assert.match(workflow, /deployment_state" == "success/);
   assert.doesNotMatch(workflow, /push[^\n]*(?:--force|-f\b)/);
   assert.doesNotMatch(workflow, /gh api --method (?:PUT|DELETE) "repos\/\$GITHUB_REPOSITORY\/pages/);
 });
