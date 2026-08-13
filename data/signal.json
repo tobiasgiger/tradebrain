@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-13T16:43:35.039Z",
+  "generatedAt": "2026-08-13T20:29:32.955Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "PPI heute 14:30 – Iran-Krieg andauernd",
-  "empfehlung": "Vorsicht 13:30–16:00 Uhr wegen Core PPI; Bot-Pause bei unerwartetem Ausschlag erwägen.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Aktiver Iran-Krieg – Trading aussetzen",
+  "empfehlung": "Alle automatisierten Mean-Reversion-Bots SOFORT stoppen bis Waffenstillstand bestätigt ist.",
   "source": "nq-pause-board"
 }
