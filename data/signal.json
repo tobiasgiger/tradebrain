@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-13T12:42:36.270Z",
+  "generatedAt": "2026-08-13T16:43:35.039Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "PPI-Release 14:30 heute — Bot pausieren",
-  "empfehlung": "⚠️ US PPI July (Headline & Core) jetzt im aktuellen Stundenfenster — Bots pausieren. Trading-Bots ab sofort bis 16:00 Uhr pausieren wegen US PPI Juli-Daten um 14:30 Uhr.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "PPI heute 14:30 – Iran-Krieg andauernd",
+  "empfehlung": "Vorsicht 13:30–16:00 Uhr wegen Core PPI; Bot-Pause bei unerwartetem Ausschlag erwägen.",
   "source": "nq-pause-board"
 }
