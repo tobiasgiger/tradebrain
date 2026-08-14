@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T05:42:07.054Z",
+  "generatedAt": "2026-08-14T09:12:47.563Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Iran-Krieg fragil, Märkte ruhig, heute OK",
-  "empfehlung": "Trading erlaubt, aber Positionsgrößen reduzieren und Stops eng setzen wegen geopolitischer Unsicherheit.",
+  "statusText": "Retail Sales heute + Iran-Spannungen",
+  "empfehlung": "Mean-Reversion-Bots während US-Session mit reduziertem Exposure fahren, gestern war CPI-Release.",
   "source": "nq-pause-board"
 }
