@@ -1,52 +1,32 @@
 {
-  "generatedAt": "2026-08-14T09:12:47.563Z",
+  "generatedAt": "2026-08-14T13:20:30.201Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Retail Sales heute + Iran-Spannungen",
-  "empfehlung": "Mean-Reversion-Bots während US-Session mit reduziertem Exposure fahren, gestern war CPI-Release.",
-  "headline": "CPI gestern veröffentlicht, Retail Sales heute 14:30 Zürich, Geopolitik angespannt",
-  "body": "Der Juli-CPI wurde gestern (Mi., 12.08.) veröffentlicht, PPI kam gestern (Do., 13.08.). Heute folgen Retail Sales um 14:30 Zürich-Zeit. Geopolitisch bleibt die Lage ernst: Iran hält den Strait of Hormuz geschlossen, US-Israel-Konflikt mit Iran weiterhin aktiv. VIX bei niedrigen 14,68 deutet auf ruhige Oberflächenstimmung hin, aber strukturelle Risiken bleiben erhöht.",
-  "confidence": "hoch",
+  "statusText": "Geopolitik hoch, Märkte ruhig, Retail Sales",
+  "empfehlung": "Vorsicht bis 15:00 Zurich wegen Retail Sales 14:30; Iran-Krieg bleibt Hintergrundrisiko.",
+  "headline": "Iran-Krieg Tag 168, VIX 14.6, Retail Sales heute 14:30 – Märkte auf Allzeithoch",
+  "body": "Trotz aktivem Iran-Krieg (Hormuz geschlossen seit Feb) bleiben US-Märkte auf Rekordniveau – VIX bei 14.6 signalisiert Complacency. CPI/PPI zeigten Abkühlung, heute Retail Sales 14:30 Zurich. Ukraine-Konflikt eskaliert aerial, aber Frontlinie stabil. Geopolitisches Risiko und Markt-Realität klaffen auseinander.",
+  "confidence": "mittel",
   "quellen": [
     {
-      "titel": "Kraken Blog: CPI/PPI/Retail Aug 2026",
-      "url": "https://blog.kraken.com/economic-brief/august-12-2026"
+      "titel": "Iran War Day 168 | Iran SITREP",
+      "url": "https://www.iransitrep.com/"
     },
     {
-      "titel": "MacroOdds Economic Calendar 2026",
-      "url": "https://macroodds.com/calendar"
+      "titel": "2026 Iran war | Britannica",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "Al Jazeera: Iran Strait of Hormuz",
-      "url": "https://www.aljazeera.com/tag/israel-iran-conflict/"
+      "titel": "Stock Market Today Aug 14 | TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-14-2026"
     },
     {
       "titel": "Yahoo Finance VIX",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden waren geprägt vom gestrigen PPI-Release (Do., 13.08., 14:30 Zürich). CPI war bereits am Mi., 12.08. erschienen. Beide Releases verursachten erhöhte Volatilität rund um die US-Session-Open. Der VIX blieb mit ~14,6 relativ niedrig, was auf oberflächlich ruhige Märkte hindeutet, trotz der strukturellen geopolitischen Risiken aus dem Nahen Osten.",
+  "rueckblickSummary": "Letzte 24h: US-Märkte weiter auf Rekordkurs, S&P 500 über 7800. Gestern PPI flach/benign veröffentlicht, VIX bleibt unter 15. Iran-Krieg Tag 168 läuft weiter, Hormuz-Blockade andauernd. Ukraine/Russland mit erhöhten Drohnenangriffen, aber keine neue Eskalationsstufe.",
   "rueckblick": [
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-13T09:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-13T10:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-13T11:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-13T12:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "15:00",
       "ts": "2026-08-13T13:00:00.000Z",
@@ -90,27 +70,27 @@
     {
       "stunde": "23:00",
       "ts": "2026-08-13T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-13T22:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-13T23:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-14T00:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-14T01:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
@@ -125,7 +105,7 @@
     {
       "stunde": "06:00",
       "ts": "2026-08-14T04:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "07:00",
@@ -146,10 +126,7 @@
       "stunde": "10:00",
       "ts": "2026-08-14T08:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Heute (Fr., 14.08.) steht um 14:30 Zürich der US Retail Sales Release an (High-Impact). Am 19.08. folgen die FOMC Minutes, am 26.08. GDP Q2 (2. Schätzung) und PCE. Anfang September kommen ISM Manufacturing und NFP. Geopolitische Unsicherheit bleibt durch den Iran-Israel-US-Konflikt und die geschlossene Straße von Hormuz erhöht.",
-  "forecast": [
+    },
     {
       "stunde": "11:00",
       "ts": "2026-08-14T09:00:00.000Z",
@@ -169,26 +146,29 @@
       "stunde": "14:00",
       "ts": "2026-08-14T12:00:00.000Z",
       "status": "rot"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Heute 14:30 Retail Sales (hoch-relevant), dann 16:00 Michigan Sentiment. US Cash Open 15:30 bringt übliche Volatilität. Wochenende naht, Positionen könnten reduziert werden. Geopolitik bleibt Wildcard – Iran-Vergeltung jederzeit möglich, aber Märkte ignorieren bisher.",
+  "forecast": [
     {
       "stunde": "15:00",
       "ts": "2026-08-14T13:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-14T14:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-14T15:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-14T16:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
@@ -198,7 +178,7 @@
     {
       "stunde": "20:00",
       "ts": "2026-08-14T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
@@ -238,75 +218,95 @@
     {
       "stunde": "04:00",
       "ts": "2026-08-15T02:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-15T03:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-15T04:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-15T05:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-15T06:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-15T07:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-15T08:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-15T09:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-15T10:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-08-15T11:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-08-15T12:00:00.000Z",
       "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "11:00",
-      "ts": "2026-08-14T09:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "11:00-12:00 Zürich: Ruhige Vormittagsphase in Europa, noch vor US-Retail-Sales, geringe Volatilität erwartet."
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-14T10:00:00.000Z",
-      "status": "rot",
-      "kommentar": "⚠ US Retail Sales (July) in 2h: 12:00-13:00 Zürich: Weiterhin ruhig, Märkte warten auf US-Daten um 14:30, Pre-Release-Ruhe typisch."
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-14T11:00:00.000Z",
-      "status": "rot",
-      "kommentar": "⚠ US Retail Sales (July) in 1h: 13:00-14:00 Zürich: Letzte Stunde vor Retail Sales, Positionierung läuft, leicht erhöhte Spreads möglich."
-    },
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-14T12:00:00.000Z",
-      "status": "rot",
-      "kommentar": "⚠ US Retail Sales (July): 14:00-15:00 Zürich: Retail Sales Release um 14:30, hohe Volatilität während und nach Veröffentlichung — ROT."
-    },
-    {
       "stunde": "15:00",
       "ts": "2026-08-14T13:00:00.000Z",
-      "status": "rot",
-      "kommentar": "15:00-16:00 Zürich: Nachbeben des Retail-Sales-Release, US-Session voll aktiv, weitere Schwankungen wahrscheinlich — ROT."
+      "status": "gelb",
+      "kommentar": "15:00-16:00: Gelb wegen Retail Sales Release 14:30 – kurze Nachlaufvolatilität möglich."
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-14T14:00:00.000Z",
-      "status": "rot",
-      "kommentar": "16:00-17:00 Zürich: UMich Consumer Sentiment (Prelim) um 16:00, weiterer Impuls, dann Stabilisierung — ROT bis GELB."
+      "status": "gelb",
+      "kommentar": "16:00-17:00: Gelb wegen Michigan Sentiment 16:00 und US Cash Open 15:30 – erhöhtes Volumen."
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-14T15:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "17:00-18:00: Grün, Markt sollte sich nach Opens beruhigen, normale Handelsaktivität."
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-14T16:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "18:00-19:00: Grün, ruhige Nachmittagsphase, keine Termine, Geopolitik-Risiko latent."
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-14T17:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "19:00-20:00: Grün, weiterhin stabiler Handel erwartet, VIX niedrig."
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-14T18:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "20:00-21:00: Grün, Vorbereitung auf späten US-Handel, keine besonderen Katalysatoren."
     }
   ],
   "termine": [
@@ -316,14 +316,24 @@
       "impact": "hoch"
     },
     {
-      "name": "US Consumer Sentiment UMich (Prelim Aug)",
+      "name": "US Michigan Sentiment (Aug prelim)",
       "ts": "2026-08-14T14:00:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "FOMC Minutes (July 28-29)",
-      "ts": "2026-08-19T18:00:00.000Z",
-      "impact": "hoch"
+      "name": "US Housing Starts (July)",
+      "ts": "2026-08-18T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US Building Permits (July)",
+      "ts": "2026-08-18T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US Industrial Production (July)",
+      "ts": "2026-08-18T13:15:00.000Z",
+      "impact": "mittel"
     }
   ]
 }

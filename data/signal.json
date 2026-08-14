@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T09:12:47.563Z",
+  "generatedAt": "2026-08-14T13:20:30.201Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Retail Sales heute + Iran-Spannungen",
-  "empfehlung": "Mean-Reversion-Bots während US-Session mit reduziertem Exposure fahren, gestern war CPI-Release.",
+  "statusText": "Geopolitik hoch, Märkte ruhig, Retail Sales",
+  "empfehlung": "Vorsicht bis 15:00 Zurich wegen Retail Sales 14:30; Iran-Krieg bleibt Hintergrundrisiko.",
   "source": "nq-pause-board"
 }
