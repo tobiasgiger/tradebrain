@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-13T20:29:32.955Z",
+  "generatedAt": "2026-08-14T02:28:12.140Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "Aktiver Iran-Krieg – Trading aussetzen",
-  "empfehlung": "Alle automatisierten Mean-Reversion-Bots SOFORT stoppen bis Waffenstillstand bestätigt ist.",
+  "statusText": "Aktiver Iran-Konflikt, hohes Systemrisiko",
+  "empfehlung": "Trading-Bots sofort pausieren — aktiver Krieg im Nahen Osten mit globalen Auswirkungen.",
   "source": "nq-pause-board"
 }
