@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T02:28:12.140Z",
+  "generatedAt": "2026-08-14T05:42:07.054Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "Aktiver Iran-Konflikt, hohes Systemrisiko",
-  "empfehlung": "Trading-Bots sofort pausieren — aktiver Krieg im Nahen Osten mit globalen Auswirkungen.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Iran-Krieg fragil, Märkte ruhig, heute OK",
+  "empfehlung": "Trading erlaubt, aber Positionsgrößen reduzieren und Stops eng setzen wegen geopolitischer Unsicherheit.",
   "source": "nq-pause-board"
 }

@@ -1,76 +1,61 @@
 {
-  "generatedAt": "2026-08-14T02:28:12.140Z",
+  "generatedAt": "2026-08-14T05:42:07.054Z",
   "appVersion": "1.7.1",
-  "status": "rot",
-  "statusText": "Aktiver Iran-Konflikt, hohes Systemrisiko",
-  "empfehlung": "Trading-Bots sofort pausieren — aktiver Krieg im Nahen Osten mit globalen Auswirkungen.",
-  "headline": "Iran-Krieg dauert an, Strait of Hormuz geschlossen, Ukraine stabil, VIX 14.6",
-  "body": "Der US-Israel-Krieg gegen Iran seit Februar 2026 belastet weiterhin Märkte trotz Waffenstillstand — Strait of Hormuz faktisch geschlossen, Ölversorgung gestört. Ukraine-Konflikt verläuft statisch ohne neue Eskalation. VIX bei 14.6 signalisiert momentan niedrige Volatilität, doch geopolitisches Risiko bleibt extrem hoch.",
+  "status": "gelb",
+  "statusText": "Iran-Krieg fragil, Märkte ruhig, heute OK",
+  "empfehlung": "Trading erlaubt, aber Positionsgrößen reduzieren und Stops eng setzen wegen geopolitischer Unsicherheit.",
+  "headline": "VIX 14.6 - Märkte gelassen trotz Iran-Konflikt; heute keine High-Impact-Daten",
+  "body": "Seit Februar 2026 läuft ein US-Israel-Krieg gegen Iran, aktuell unter fragiler Waffenruhe mit laufenden Verhandlungen – jederzeit kann es eskalieren. Ukraine-Konflikt stabil ohne akute Eskalation. VIX bei 14.6 zeigt extrem niedrige Volatilität, S&P 500 auf Allzeithoch bei 7799. Heute Freitag ohne High-Impact-Releases, aber geopolitisches Risiko bleibt hoch.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Britannica - 2026 Iran War",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "titel": "CFR - Iran War Tracker",
+      "titel": "CFR: Iran War Status August 2026",
       "url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
     },
     {
-      "titel": "CNN - Iran War Live Updates",
+      "titel": "CNN: Iran War Updates Aug 11",
       "url": "https://www.cnn.com/2026/08/11/world/live-news/iran-war-trump"
     },
     {
-      "titel": "Investing.com - VIX Data",
-      "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data"
+      "titel": "VIX Index Data Aug 14",
+      "url": "https://www.investing.com/indices/volatility-s-p-500"
+    },
+    {
+      "titel": "CNBC: Stock Market Aug 13",
+      "url": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden verliefen ohne neue dramatische Eskalation im Iran-Konflikt, jedoch bestehen weiterhin ungelöste Kernfragen (Hormuz-Straße, Sanktionen, Atomabkommen). VIX bleibt niedrig bei 14.6, was kurzfristige Marktruhe signalisiert. Ukraine-Front statisch mit graduellem russischen Vorrücken.",
+  "rueckblickSummary": "Gestern CPI-ähnliche PPI-Daten kamen flach rein (0.0% statt erw. 0.2%), Märkte reagierten positiv. S&P 500 schloss auf Rekordhoch 7799, Nasdaq +0.81%. VIX fiel von 14.9 auf 14.6. Iran-Verhandlungen laufen, aber Strait of Hormuz bleibt fast geschlossen – nur 7 statt 120 Schiffe täglich.",
   "rueckblick": [
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-13T02:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-13T03:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "06:00",
-      "ts": "2026-08-13T04:00:00.000Z",
-      "status": "rot"
-    },
     {
       "stunde": "07:00",
       "ts": "2026-08-13T05:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-13T06:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-13T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-13T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-13T09:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-13T10:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
@@ -80,42 +65,42 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-13T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-13T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-13T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-13T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-13T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-13T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-13T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-13T19:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
@@ -146,49 +131,49 @@
       "stunde": "03:00",
       "ts": "2026-08-14T01:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: kein US-High-Impact-Release heute (14. Aug), nächste wichtige Daten erst 20. August (LEI). Geopolitisches Risiko bleibt erhöht wegen Iran-Verhandlungen und potentieller Zwischenfälle. US-Marktöffnung 15:30 Zürich bringt übliche erhöhte Volatilität.",
-  "forecast": [
+    },
     {
       "stunde": "04:00",
       "ts": "2026-08-14T02:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-14T03:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-14T04:00:00.000Z",
-      "status": "rot"
-    },
+      "status": "gruen"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Heute Freitag 14.8. ruhig, morgen Samstag 15.8. um 14:30 Zurich-Zeit kommen US Retail Sales (hoch-Impact). Wochenende birgt geopolitisches Risiko bei Iran-Verhandlungen. Montag vermutlich normale Handelsaktivität, sofern keine Eskalation am Wochenende.",
+  "forecast": [
     {
       "stunde": "07:00",
       "ts": "2026-08-14T05:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-14T06:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-14T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-14T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-14T09:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
@@ -198,32 +183,32 @@
     {
       "stunde": "13:00",
       "ts": "2026-08-14T11:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-14T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-14T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-14T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-14T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-14T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
@@ -243,22 +228,22 @@
     {
       "stunde": "22:00",
       "ts": "2026-08-14T20:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-14T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-14T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-14T23:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
@@ -269,50 +254,75 @@
       "stunde": "03:00",
       "ts": "2026-08-15T01:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-08-15T02:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-15T03:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-08-15T04:00:00.000Z",
+      "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "04:00",
-      "ts": "2026-08-14T02:00:00.000Z",
-      "status": "rot",
-      "kommentar": "04:00–05:00 Zürich: Asien-Session, Iran-Risiko präsent, keine US-Daten — rot wegen anhaltender geopolitischer Unsicherheit."
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-14T03:00:00.000Z",
-      "status": "rot",
-      "kommentar": "05:00–06:00 Zürich: Übergangsphase Asien/Europa, weiterhin erhöhtes Systemrisiko durch Iran-Konflikt — rot."
-    },
-    {
-      "stunde": "06:00",
-      "ts": "2026-08-14T04:00:00.000Z",
-      "status": "rot",
-      "kommentar": "06:00–07:00 Zürich: Frühe EU-Session beginnt, Iran-Lage unverändert kritisch — rot."
-    },
-    {
       "stunde": "07:00",
       "ts": "2026-08-14T05:00:00.000Z",
-      "status": "rot",
-      "kommentar": "07:00–08:00 Zürich: EU-Börsen öffnen, keine neuen Katalysatoren aber Hormuz-Krise schwelt — rot."
+      "status": "gruen",
+      "kommentar": "07:42-08:42 Zurich: Europäische Märkte im Frühhandel, NQ Pre-Market ruhig, kein Event-Risiko."
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-14T06:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "08:00–09:00 Zürich: EU-Handel etabliert, Volatilität steigt leicht, geopolitisches Risiko dominant — gelb."
+      "status": "gruen",
+      "kommentar": "08:42-09:42 Zurich: EU-Börsen stabilisieren sich, NQ-Futures folgen S&P-Trend vom Vortag seitwärts."
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-14T07:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "09:00–10:00 Zürich: Vormittagshandel EU, keine US-Daten heute, Übergang zu ruhigerer Phase — gelb."
+      "status": "gruen",
+      "kommentar": "09:42-10:42 Zurich: Weiter ruhiger Vormittag in EU, US-Futures pre-open ohne Impulse erwartet."
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-14T08:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "10:42-11:42 Zurich: Letzte Stunde vor EU-Mittag, NQ driftet in enger Range, Volumina niedrig."
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-14T09:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "11:42-12:42 Zurich: EU-Mittagspause, US-Futures warten auf 15:30 Cash-Open, noch grün bewertbar."
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-14T10:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "12:42-13:42 Zurich: Vorlauf US-Open beginnt, leicht erhöhte Vola möglich, aber heute kein Major-Release."
     }
   ],
   "termine": [
     {
-      "name": "Conference Board LEI",
-      "ts": "2026-08-20T14:00:00.000Z",
+      "name": "US Retail Sales",
+      "ts": "2026-08-15T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US Core Retail Sales",
+      "ts": "2026-08-15T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US Initial Jobless Claims",
+      "ts": "2026-08-20T12:30:00.000Z",
       "impact": "mittel"
     }
   ]
