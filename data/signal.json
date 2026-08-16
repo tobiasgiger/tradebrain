@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T16:59:55.595Z",
+  "generatedAt": "2026-08-16T20:27:53.419Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Ruhige Volatilität, schwache Konsumentenstimmung",
-  "empfehlung": "Trading vorsichtig fortsetzen; vor Wochenende Position reduzieren.",
+  "statusText": "Wochenende - Geopolitische Risiken aktiv",
+  "empfehlung": "Bot-Pause bis Montag-Cash-Open wegen Israel-Iran-Spannungen und niedriger Wochenend-Liquidität empfohlen.",
   "source": "nq-pause-board"
 }

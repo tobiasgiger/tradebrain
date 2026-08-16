@@ -1,344 +1,339 @@
 {
-  "generatedAt": "2026-08-14T16:59:55.595Z",
+  "generatedAt": "2026-08-16T20:27:53.419Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Ruhige Volatilität, schwache Konsumentenstimmung",
-  "empfehlung": "Trading vorsichtig fortsetzen; vor Wochenende Position reduzieren.",
-  "headline": "VIX 14.6 | S&P Rekordhoch | Iran/Ukraine stabil | schwache Retail Sales",
-  "body": "Der VIX notiert bei niedrigen 14.63, die Märkte haben neue Rekordhochs erreicht. Die geopolitische Lage ist derzeit relativ stabil, obwohl der Iran-Konflikt latent schwelt und in der Ukraine geringe russische Geländegewinne verzeichnet werden. Die schwachen Retail Sales und fallende Konsumentenstimmung (51 vs. 55.2) signalisieren nachlassende Wirtschaftsdynamik. Heute ist US-Handelsschluss (22:00 Zurich), danach Wochenend-Gap-Risiko.",
+  "statusText": "Wochenende - Geopolitische Risiken aktiv",
+  "empfehlung": "Bot-Pause bis Montag-Cash-Open wegen Israel-Iran-Spannungen und niedriger Wochenend-Liquidität empfohlen.",
+  "headline": "VIX 14.25 niedrig | Iran-Konflikt schwelt | Nächste 24h ereignisarm",
+  "body": "Märkte am Freitag auf Allzeithochs (S&P 7786), VIX extrem niedrig bei 14.25. Israel-Iran-Konflikt bleibt größtes Tail-Risk: US-Strikes am 9. Aug, fragiler Waffenstillstand mehrfach gebrochen, weitere Eskalation möglich. Wochenend-Liquidität dünn, keine High-Impact-Termine bis Dienstag.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Yahoo Finance - VIX & Market News Aug 14",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-14-103100309.html"
+      "titel": "Polymarket Israel-Iran Ceasefire",
+      "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
     },
     {
-      "titel": "CNN - Middle East Conflict Latest Aug 11",
-      "url": "https://www.cnn.com/2026/08/11/world/live-news/iran-war-trump"
+      "titel": "CSIS Iran Escalation Analysis",
+      "url": "https://www.csis.org/analysis/can-iran-negotiations-survive-israel-iran-escalation"
     },
     {
-      "titel": "Russia Matters - Ukraine War Report Aug 12",
-      "url": "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-aug-12-2026"
+      "titel": "CNBC Market Update Aug 13",
+      "url": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
     },
     {
-      "titel": "Yahoo Finance - Market Midday Aug 14",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-midday-aug-14-163537995.html"
+      "titel": "Yahoo Finance VIX Data",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/history/"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden verliefen ruhig mit moderater Volatilität. Der Nasdaq stieg um 0.8% auf neue Höchststände, der VIX blieb unter 15. Die PPI-Daten fielen neutral aus, der US-Markt zeigte solide Gewinne. Geopolitisch keine neuen Eskalationen, der Iran-Konflikt bleibt in der Verhandlungsphase.",
+  "rueckblickSummary": "Letzte 24h (Sa 22:27 - So 22:27): Wochenende, US-Märkte geschlossen. Freitag schloss S&P bei 7786 (-0.17%), VIX fiel auf 14.25. Keine geopolitischen Schocks, aber Israel-Iran-Spannungen unverändert hoch nach US-Strikes am 9. Aug und iranischen Vergeltungsaktionen.",
   "rueckblick": [
     {
-      "stunde": "18:00",
-      "ts": "2026-08-13T16:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-13T17:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-13T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-13T19:00:00.000Z",
-      "status": "gruen"
-    },
-    {
       "stunde": "22:00",
-      "ts": "2026-08-13T20:00:00.000Z",
+      "ts": "2026-08-15T20:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "23:00",
-      "ts": "2026-08-13T21:00:00.000Z",
+      "ts": "2026-08-15T21:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "00:00",
-      "ts": "2026-08-13T22:00:00.000Z",
+      "ts": "2026-08-15T22:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "01:00",
-      "ts": "2026-08-13T23:00:00.000Z",
+      "ts": "2026-08-15T23:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "02:00",
-      "ts": "2026-08-14T00:00:00.000Z",
+      "ts": "2026-08-16T00:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "03:00",
-      "ts": "2026-08-14T01:00:00.000Z",
+      "ts": "2026-08-16T01:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "04:00",
-      "ts": "2026-08-14T02:00:00.000Z",
+      "ts": "2026-08-16T02:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "05:00",
-      "ts": "2026-08-14T03:00:00.000Z",
+      "ts": "2026-08-16T03:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "06:00",
-      "ts": "2026-08-14T04:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-08-16T04:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
-      "ts": "2026-08-14T05:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-08-16T05:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
-      "ts": "2026-08-14T06:00:00.000Z",
+      "ts": "2026-08-16T06:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "09:00",
-      "ts": "2026-08-14T07:00:00.000Z",
+      "ts": "2026-08-16T07:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "10:00",
-      "ts": "2026-08-14T08:00:00.000Z",
+      "ts": "2026-08-16T08:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "11:00",
-      "ts": "2026-08-14T09:00:00.000Z",
+      "ts": "2026-08-16T09:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "12:00",
-      "ts": "2026-08-14T10:00:00.000Z",
+      "ts": "2026-08-16T10:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "13:00",
-      "ts": "2026-08-14T11:00:00.000Z",
+      "ts": "2026-08-16T11:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "14:00",
-      "ts": "2026-08-14T12:00:00.000Z",
+      "ts": "2026-08-16T12:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "15:00",
-      "ts": "2026-08-14T13:00:00.000Z",
+      "ts": "2026-08-16T13:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "16:00",
-      "ts": "2026-08-14T14:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-08-16T14:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
-      "ts": "2026-08-14T15:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-08-16T15:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-16T16:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-16T17:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-16T18:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-08-16T19:00:00.000Z",
+      "status": "gruen"
     }
   ],
-  "ausblickSummary": "Die nächsten 24 Stunden beinhalten das Wochenende mit erhöhtem Gap-Risiko. Am Freitag 15.08. stehen um 14:30 Zurich Retail Sales (hoch-impact) an, die Volatilität auslösen könnten. Der US-Marktschluss heute um 22:00 Zurich markiert das Ende der Handelswoche. Wochenend-Risiko durch mögliche geopolitische Entwicklungen.",
+  "ausblickSummary": "Nächste 24h (So 22:27 - Mo 22:27): Sonntagabend bis Montagabend. Asien-Open ab 02:00, Europa-Open 09:00, US-Cash-Open 15:30. Keine High-Impact-Releases geplant. Hauptrisiko: geopolitische Flash-News (Iran/Israel). Montag üblicherweise moderat volatil, US-Open und Power-Hour erfordern Vorsicht.",
   "forecast": [
     {
-      "stunde": "18:00",
-      "ts": "2026-08-14T16:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-14T17:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-14T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-14T19:00:00.000Z",
-      "status": "gruen"
-    },
-    {
       "stunde": "22:00",
-      "ts": "2026-08-14T20:00:00.000Z",
+      "ts": "2026-08-16T20:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "23:00",
-      "ts": "2026-08-14T21:00:00.000Z",
+      "ts": "2026-08-16T21:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "00:00",
-      "ts": "2026-08-14T22:00:00.000Z",
+      "ts": "2026-08-16T22:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "01:00",
-      "ts": "2026-08-14T23:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-08-16T23:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
-      "ts": "2026-08-15T00:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-08-17T00:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
-      "ts": "2026-08-15T01:00:00.000Z",
+      "ts": "2026-08-17T01:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "04:00",
-      "ts": "2026-08-15T02:00:00.000Z",
+      "ts": "2026-08-17T02:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "05:00",
-      "ts": "2026-08-15T03:00:00.000Z",
+      "ts": "2026-08-17T03:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "06:00",
-      "ts": "2026-08-15T04:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-17T04:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "07:00",
-      "ts": "2026-08-15T05:00:00.000Z",
+      "ts": "2026-08-17T05:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "08:00",
-      "ts": "2026-08-15T06:00:00.000Z",
+      "ts": "2026-08-17T06:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "09:00",
-      "ts": "2026-08-15T07:00:00.000Z",
+      "ts": "2026-08-17T07:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "10:00",
-      "ts": "2026-08-15T08:00:00.000Z",
+      "ts": "2026-08-17T08:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "11:00",
-      "ts": "2026-08-15T09:00:00.000Z",
+      "ts": "2026-08-17T09:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "12:00",
-      "ts": "2026-08-15T10:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-08-17T10:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
-      "ts": "2026-08-15T11:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-08-17T11:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "14:00",
-      "ts": "2026-08-15T12:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-08-17T12:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
-      "ts": "2026-08-15T13:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-08-17T13:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
-      "ts": "2026-08-15T14:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-08-17T14:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
-      "ts": "2026-08-15T15:00:00.000Z",
+      "ts": "2026-08-17T15:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-17T16:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-17T17:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-17T18:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-08-17T19:00:00.000Z",
       "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "18:00",
-      "ts": "2026-08-14T16:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "19:00-20:00 Zurich: US Power Hour läuft, erhöhtes Volumen und Schlusskurs-Positionierung vor dem Wochenende."
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-14T17:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "20:00-21:00 Zurich: Nach-Markt beginnt, reduzierte Liquidität, Gap-Risiko über Wochenende steigt."
-    },
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-14T18:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "21:00-22:00 Zurich: Wochenende beginnt, keine US-Handelsmöglichkeit bis Montag, geopolitisches Risiko unkontrollierbar."
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-14T19:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "22:00-23:00 Zurich: Wochenende, Märkte geschlossen, potenzielle News-Entwicklungen im Nahen Osten oder Ukraine möglich."
-    },
-    {
       "stunde": "22:00",
-      "ts": "2026-08-14T20:00:00.000Z",
+      "ts": "2026-08-16T20:00:00.000Z",
       "status": "gruen",
-      "kommentar": "00:00-01:00 Zurich (Sa): Asiatische Märkte noch geschlossen, ruhige Phase, aber Nachrichtenrisiko bleibt."
+      "kommentar": "So 22:27-23:27: Wochenende, nur Crypto-Märkte aktiv, sehr niedrige Liquidität, kein systematisches Risiko."
     },
     {
       "stunde": "23:00",
-      "ts": "2026-08-14T21:00:00.000Z",
+      "ts": "2026-08-16T21:00:00.000Z",
       "status": "gruen",
-      "kommentar": "01:00-02:00 Zurich (Sa): Weiterhin Wochenende, keine Handelsmöglichkeit, Bots sollten pausiert bleiben."
+      "kommentar": "So 23:27-Mo 00:27: Weiterhin Wochenende, extrem dünne Liquidität, potenzielle geopolitische News-Lücke beachten."
+    },
+    {
+      "stunde": "00:00",
+      "ts": "2026-08-16T22:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "Mo 00:27-01:27: Späte Nacht, minimale Aktivität vor Asien-Open, geringe Volatilität erwartet."
+    },
+    {
+      "stunde": "01:00",
+      "ts": "2026-08-16T23:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "Mo 01:27-02:27: Asien-Märkte beginnen (Tokyo 09:30 Ortszeit), erste Reaktionen auf Wochenend-News möglich."
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-08-17T00:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "Mo 02:27-03:27: Asien-Handel läuft, moderate Aktivität, China-Märkte offen, keine Major-Releases."
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-08-17T01:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "Mo 03:27-04:27: Asien-Mid-Session, weiterhin grün aber erhöhte Aufmerksamkeit auf geopolitische Entwicklungen nötig."
     }
   ],
   "termine": [
     {
-      "name": "US Retail Sales (Jul)",
-      "ts": "2026-08-15T12:30:00.000Z",
+      "name": "FOMC Meeting Minutes",
+      "ts": "2026-08-19T18:00:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US CPI (Aug)",
+      "ts": "2026-08-20T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US Core CPI (Aug)",
+      "ts": "2026-08-20T12:30:00.000Z",
       "impact": "hoch"
     },
     {
       "name": "US Initial Jobless Claims",
-      "ts": "2026-08-15T12:30:00.000Z",
+      "ts": "2026-08-20T12:30:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "US Industrial Production (Jul)",
-      "ts": "2026-08-15T13:15:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US Building Permits",
-      "ts": "2026-08-16T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US Housing Starts",
-      "ts": "2026-08-16T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US Michigan Consumer Sentiment (prelim Aug)",
-      "ts": "2026-08-16T14:00:00.000Z",
-      "impact": "mittel"
+      "name": "US Retail Sales (Jul)",
+      "ts": "2026-08-21T12:30:00.000Z",
+      "impact": "hoch"
     }
   ]
 }
