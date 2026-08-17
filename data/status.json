@@ -1,52 +1,32 @@
 {
-  "generatedAt": "2026-08-17T00:35:10.865Z",
+  "generatedAt": "2026-08-17T04:30:51.728Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Geopolitik angespannt, VIX ruhig",
-  "empfehlung": "Bot-Betrieb möglich, aber Positionsgröße reduzieren und US-Open um 15:30 beachten.",
-  "headline": "Iran-Konflikt schwelt weiter • VIX 14.3 • Heute keine High-Impact-Releases",
-  "body": "Der 2026 Iran-Krieg läuft weiter mit sporadischen Angriffen (Houthi-Raketen, Israel-Luftschläge Libanon am 15.8., Strait-of-Hormuz-Störungen), aber keine akute Eskalation in den letzten Stunden. VIX bei 14.3 signalisiert ruhige Optionsmärkte. Heute nur mittelwichtige US-Daten (Empire State 14:30 Zurich), aber US-Cash-Open 15:30 bringt übliche Volatilität.",
+  "statusText": "Erhöhte Vorsicht - geopolitische Basis-Risiken",
+  "empfehlung": "Trading möglich, aber Position-Sizing reduzieren und bei US-Open (15:30) sowie FOMC Minutes (Mi 20:00 Zurich) vorsichtig agieren.",
+  "headline": "Iran-Waffenstillstand fragil, VIX niedrig 14.3, heute keine High-Impact-Daten",
+  "body": "Geopolitische Lage bleibt angespannt: Iran-Krieg in Waffenruhe seit April 2026, aber Verhandlungen laufen und Eskalationsrisiko besteht. Ukraine-Konflikt stabil im Abnützungsmodus. VIX bei 14.25 signalisiert niedrige Volatilität, Märkte zeigen Resilienz. Heute nur mittelwichtige Daten (Empire State 14:30 Zurich), größeres Event-Risiko erst Mittwoch mit FOMC Minutes.",
   "confidence": "mittel",
   "quellen": [
     {
-      "titel": "CNN Iran War Live Updates Aug 15",
-      "url": "https://www.cnn.com/2026/08/15/world/live-news/iran-war-trump"
+      "titel": "Jerusalem Post - Israel/Iran Live Updates",
+      "url": "https://www.jpost.com/middle-east/iran-news/2026-08-16/live-updates-905605"
     },
     {
-      "titel": "StrongBuy Market Outlook Aug 17",
+      "titel": "CSIS - Iran Negotiations Analysis",
+      "url": "https://www.csis.org/analysis/can-iran-negotiations-survive-israel-iran-escalation"
+    },
+    {
+      "titel": "Yahoo Finance - VIX & Market Data",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/"
+    },
+    {
+      "titel": "StrongBuy Analytics - Market Outlook Aug 17",
       "url": "https://strongbuyanalytics.com/stock-market-outlook"
-    },
-    {
-      "titel": "US Economic Calendar Week Aug 17-21",
-      "url": "https://x.com/marketsday/status/2088487062005797252"
-    },
-    {
-      "titel": "Wikipedia 2026 Iran War",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
     }
   ],
-  "rueckblickSummary": "Letzte 24h verliefen ruhig mit gedämpfter Volatilität (VIX fiel um 2.6%). Geopolitische Lage im Nahen Osten bleibt angespannt (Iran-Krieg, Houthi-Angriffe), aber keine neue Eskalation. Märkte schlossen Freitag leicht im Minus, Nasdaq -0.28%.",
+  "rueckblickSummary": "Vergangene 24h (So 06:30 - Mo 06:30): Wochenend-Ruhe ohne Handelsaktivität, keine geopolitischen Eskalationen. Märkte schlossen Freitag positiv (Nasdaq +1.19%), VIX fiel auf 14.25. Iran-Verhandlungen laufen weiter ohne neue Spannungen, Ukraine-Front stabil.",
   "rueckblick": [
-    {
-      "stunde": "02:00",
-      "ts": "2026-08-16T00:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-16T01:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-16T02:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-16T03:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "06:00",
       "ts": "2026-08-16T04:00:00.000Z",
@@ -100,22 +80,22 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-16T14:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-16T15:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-16T16:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-16T17:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "20:00",
@@ -146,10 +126,7 @@
       "stunde": "01:00",
       "ts": "2026-08-16T23:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Asien-Session ruhig, Europa-Open neutral, US-Cash-Open 15:30 bringt übliche Volatilität (gelb). NY Empire State 14:30 könnte kurzzeitig Bewegung bringen. Geopolitisches Risiko (Iran/Israel/Houthi) bleibt latent. Keine High-Impact-Releases heute oder morgen.",
-  "forecast": [
+    },
     {
       "stunde": "02:00",
       "ts": "2026-08-17T00:00:00.000Z",
@@ -169,7 +146,10 @@
       "stunde": "05:00",
       "ts": "2026-08-17T03:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h (Mo 06:30 - Di 06:30): Heute zwei mittelwichtige US-Daten (Empire State 14:30, NAHB 16:00 Zurich), US-Cash-Open 15:30 bringt übliche Volatilität. VIX niedrig, keine High-Impact-Events heute. Morgen früh (Di 14:30) Housing Starts/Building Permits. Geopolitik bleibt Hintergrundrisiko ohne akute Eskalation.",
+  "forecast": [
     {
       "stunde": "06:00",
       "ts": "2026-08-17T04:00:00.000Z",
@@ -213,22 +193,22 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-17T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-17T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-17T14:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-17T15:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
@@ -238,12 +218,12 @@
     {
       "stunde": "19:00",
       "ts": "2026-08-17T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-17T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
@@ -258,55 +238,75 @@
     {
       "stunde": "23:00",
       "ts": "2026-08-17T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-17T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-17T23:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-08-18T00:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-08-18T01:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-08-18T02:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-18T03:00:00.000Z",
       "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "02:00",
-      "ts": "2026-08-17T00:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "02:00-03:00: Asien-Nacht-Session, sehr ruhig, minimales Volumen, keine Katalysatoren."
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-17T01:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "03:00-04:00: Weiterhin ruhige Asien-Hours, kein Event-Risiko, niedriges Volumen."
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-17T02:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "04:00-05:00: Tokio/Sydney geschlossen, extrem dünner Markt, nur Mean-Reversion-Chancen."
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-17T03:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "05:00-06:00: Späte Asien-Session, vor Europa-Open, weiterhin ruhig."
-    },
-    {
       "stunde": "06:00",
       "ts": "2026-08-17T04:00:00.000Z",
       "status": "gruen",
-      "kommentar": "06:00-07:00: Europa-Session beginnt, Volumen steigt moderat, neutrale Stimmung erwartet."
+      "kommentar": "06:30-07:30: Vorbörsliche Ruhe, Europa-Handel läuft, keine US-Katalysatoren, grünes Umfeld."
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-17T05:00:00.000Z",
       "status": "gruen",
-      "kommentar": "07:00-08:00: Europa-Handel läuft, noch vor US-Daten, moderate Aktivität ohne Katalysator."
+      "kommentar": "07:30-08:30: Europäische Börsen aktiv, weiterhin ruhig vor US-Daten um 14:30, stabiles Trading möglich."
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-08-17T06:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "08:30-09:30: Weiterhin Pre-US-Phase, niedrige Volatilität erwartet, Mean-Reversion-Setups funktionieren normal."
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-08-17T07:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "09:30-10:30: Annäherung an US-Daten (Empire State 14:30), leicht erhöhte Vorsicht, aber noch kein rotes Risiko."
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-17T08:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "10:30-11:30: Kurz vor US-Daten, Spreads können sich ausweiten, Position-Sizing reduzieren empfohlen."
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-17T09:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "11:30-12:30: Nach Empire State (14:30) & vor NAHB (16:00), US-Markt reagiert, erhöhte Volatilität möglich."
     }
   ],
   "termine": [
@@ -321,18 +321,33 @@
       "impact": "mittel"
     },
     {
-      "name": "Building Permits",
+      "name": "Housing Starts",
       "ts": "2026-08-18T12:30:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "Housing Starts",
+      "name": "Building Permits",
       "ts": "2026-08-18T12:30:00.000Z",
       "impact": "mittel"
     },
     {
       "name": "Industrial Production",
       "ts": "2026-08-18T13:15:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "FOMC Minutes",
+      "ts": "2026-08-19T18:00:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "Philadelphia Fed Index",
+      "ts": "2026-08-20T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "Leading Indicators",
+      "ts": "2026-08-20T14:00:00.000Z",
       "impact": "mittel"
     }
   ]
