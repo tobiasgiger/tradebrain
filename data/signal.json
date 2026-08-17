@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-17T12:19:46.297Z",
+  "generatedAt": "2026-08-17T16:14:11.186Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "US-Iran Krieg; mehrere aktive Konflikte",
-  "empfehlung": "Bots PAUSIEREN — laufender US-Iran-Krieg mit Houthi/Hezbollah-Eskalation und Ukraine-Konflikt schaffen hohes geopolitisches Risiko.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Iran-Konflikt läuft, VIX niedrig, Retail-Woche",
+  "empfehlung": "Trading mit erhöhter Vorsicht; Positionen vor US-Open/Close reduzieren, Iran-News-Flow beobachten.",
   "source": "nq-pause-board"
 }
