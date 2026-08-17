@@ -1,52 +1,32 @@
 {
-  "generatedAt": "2026-08-17T16:14:11.186Z",
+  "generatedAt": "2026-08-17T20:14:02.220Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Iran-Konflikt läuft, VIX niedrig, Retail-Woche",
-  "empfehlung": "Trading mit erhöhter Vorsicht; Positionen vor US-Open/Close reduzieren, Iran-News-Flow beobachten.",
-  "headline": "Geopolitik schwelt, Märkte auf ATH, VIX 14.2 — Mean-Reversion mit Vorsicht handelbar",
-  "body": "Der US-Israel-Krieg gegen Iran läuft seit Feb. 2026 weiter, aktuell keine akute Eskalation aber Hormuz-Spannungen. VIX fiel Freitag auf 14.2 (Jahrestief), S&P 500 auf Rekordhoch (~7785). Diese Woche stehen Retail-Earnings (Home Depot Di., Target/Lowe's Mi., Walmart Do.) an, aber keine Tier-1-Makrodaten bis Sept. FOMC.",
-  "confidence": "hoch",
+  "statusText": "Nahost-Spannungen + niedrige VIX",
+  "empfehlung": "Trading mit reduziertem Positionssize erlaubt, enge Stopps wegen geopolitischer Unsicherheit setzen.",
+  "headline": "Iran/Israel weiter volatil, VIX bei 14.25 (Jahrestief), Märkte -0.5%, Öl steigt",
+  "body": "Die geopolitische Lage bleibt angespannt: Berichte über erneute Gewalt zwischen Israel/Iran und aktive Houthi-Angriffe im Roten Meer lassen Ölpreise steigen (WTI ~$83, Brent ~$89). Trotzdem liegt der VIX bei 2026-Tiefs (14.25), Märkte heute -0.5%. Kein High-Impact US-Wirtschaftstermin in den nächsten 24h – morgen nur NAHB Housing Index (niedriger Impact).",
+  "confidence": "mittel",
   "quellen": [
     {
-      "titel": "CNBC: VIX hits 2026 low",
-      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
+      "titel": "Jerusalem Post - Iran/Israel Updates",
+      "url": "https://www.jpost.com/middle-east/iran-news/2026-08-16/live-updates-905605"
     },
     {
-      "titel": "Wikipedia: 2026 Iran war",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "titel": "CNN - Kushner Nahost-Diplomatie",
+      "url": "https://www.cnn.com/2026/08/16/world/live-news/iran-war-trump"
     },
     {
-      "titel": "Al Jazeera: Iran war updates Aug 16",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon"
+      "titel": "Schaeffer's - VIX 2026 Lows",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/08/17/dow-nasdaq-futures-going-their-separate-ways-today"
     },
     {
-      "titel": "CNBC: Stock market outlook Aug 17-21",
-      "url": "https://www.cnbc.com/2026/08/14/stock-market-next-week-outlook-for-aug-17-21-2026.html"
+      "titel": "Bloomberg - Märkte heute",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates"
     }
   ],
-  "rueckblickSummary": "Letzte 24h (So. 18:14 → Mo. 18:14): Ruhiges Wochenende, US-Märkte geschlossen bis Mo. 15:30 MEZ. VIX schloss Fr. bei 14.25, S&P 500 bei 7785 (ATH). Iran-Krieg schwelt weiter ohne neue Eskalation. Montag-Open zeigte leichte Schwäche (Dow -0.3%, S&P -0.1%, Nasdaq +0.2%), Housing Market Index kam leicht über Erwartung.",
+  "rueckblickSummary": "Die letzten 24h (So. 22h bis Mo. 22h) zeigten überwiegend grüne Bedingungen mit Gelb-Phasen während EU/US-Cash-Öffnungen. Keine High-Impact-Releases, Märkte ruhig, VIX fiel auf Jahrestief. Geopolitik blieb Hintergrundrisiko ohne akute Eskalation in diesem Fenster.",
   "rueckblick": [
-    {
-      "stunde": "18:00",
-      "ts": "2026-08-16T16:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-16T17:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-16T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-16T19:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "22:00",
       "ts": "2026-08-16T20:00:00.000Z",
@@ -90,12 +70,12 @@
     {
       "stunde": "06:00",
       "ts": "2026-08-17T04:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-17T05:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
@@ -105,12 +85,12 @@
     {
       "stunde": "09:00",
       "ts": "2026-08-17T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-17T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
@@ -130,12 +110,12 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-17T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-17T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
@@ -146,10 +126,7 @@
       "stunde": "17:00",
       "ts": "2026-08-17T15:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h (Mo. 18:14 → Di. 18:14): Heute 18:14 MEZ bereits nach US-Close (22:00). Di. früh (14:30) Housing Starts & Industrial Production (mittel-Impact). Retail-Earnings (Home Deposit Di. früh) könnten Nasdaq bewegen. Iran-Lage bleibt Risikofaktor, aktuell aber keine akute Eskalation erwartet. VIX-Niveau historisch niedrig, Complacency-Warnung von Analysten.",
-  "forecast": [
+    },
     {
       "stunde": "18:00",
       "ts": "2026-08-17T16:00:00.000Z",
@@ -163,22 +140,25 @@
     {
       "stunde": "20:00",
       "ts": "2026-08-17T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-17T19:00:00.000Z",
-      "status": "gruen"
-    },
+      "status": "gelb"
+    }
+  ],
+  "ausblickSummary": "Die nächsten 24h (Mo. 22h bis Di. 22h) erwarten wir gelbe Phasen während US-/EU-Handelszeiten wegen Nahost-Unsicherheit und erhöhter Ölpreise. Keine High-Impact US-Daten morgen (18.8.), nur NAHB Housing Index. VIX niedrig, aber geopolitisches Tail-Risk präsent – vorsichtiger Modus empfohlen.",
+  "forecast": [
     {
       "stunde": "22:00",
       "ts": "2026-08-17T20:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-17T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
@@ -213,12 +193,12 @@
     {
       "stunde": "06:00",
       "ts": "2026-08-18T04:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-18T05:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
@@ -228,12 +208,12 @@
     {
       "stunde": "09:00",
       "ts": "2026-08-18T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-18T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
@@ -253,87 +233,81 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-18T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-18T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-18T14:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-18T15:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-18T16:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-18T17:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-18T18:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-08-18T19:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "18:00",
-      "ts": "2026-08-17T16:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "Mo. 18:00-19:00 MEZ: US-Nachhandel läuft aus, sehr dünne Liquidität, geringes Risiko."
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-17T17:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "Mo. 19:00-20:00 MEZ: Letzte US-Handelsstunde (Power Hour) bereits vorbei, nur noch AH-Noise."
-    },
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-17T18:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "Mo. 20:00-21:00 MEZ: US-Märkte geschlossen, Asia-Vorbörse noch inaktiv, ruhigste Phase."
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-17T19:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "Mo. 21:00-22:00 MEZ: Asien-Märkte beginnen (Tokyo 02:00 Ortszeit Di.), erste Impulse möglich."
-    },
-    {
       "stunde": "22:00",
       "ts": "2026-08-17T20:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "Di. 02:00-03:00 MEZ: Asiatische Session voll aktiv, aber meist geringe NQ-Relevanz außer bei Schocks."
+      "status": "gruen",
+      "kommentar": "Mo. 22-23h (NY-Close): Gelb wegen Power-Hour, US-Cash-Schluss kann volatil sein, besonders bei Nahost-News."
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-17T21:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "Di. 08:00-09:00 MEZ: Europa-Open, oft erhöhte Vola durch Overnight-Gaps, Vorsicht geboten."
+      "status": "gruen",
+      "kommentar": "Mo. 23-00h (After-Hours): Grün, außerbörslich geringe Liquidität, keine Events."
+    },
+    {
+      "stunde": "00:00",
+      "ts": "2026-08-17T22:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "Di. 00-01h (Asien-Open): Grün, Asien-Start ruhig, Japan/China ohne große Termine."
+    },
+    {
+      "stunde": "01:00",
+      "ts": "2026-08-17T23:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "Di. 01-02h: Grün, Asien-Handel läuft stabil, keine Breaking-News erwartet."
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-08-18T00:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "Di. 02-03h: Grün, tiefe Nacht-Europa/US, geringe Aktivität."
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-08-18T01:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "Di. 03-04h: Grün, vor EU-Open, kein Katalysator geplant."
     }
   ],
-  "termine": [
-    {
-      "name": "Housing Starts",
-      "ts": "2026-08-18T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "Industrial Production",
-      "ts": "2026-08-18T13:15:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "FOMC Minutes",
-      "ts": "2026-08-19T18:00:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Initial Jobless Claims",
-      "ts": "2026-08-20T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "Philadelphia Fed Index",
-      "ts": "2026-08-20T12:30:00.000Z",
-      "impact": "mittel"
-    }
-  ]
+  "termine": []
 }
