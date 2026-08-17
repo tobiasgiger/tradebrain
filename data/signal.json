@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-16T20:27:53.419Z",
+  "generatedAt": "2026-08-17T00:35:10.865Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Wochenende - Geopolitische Risiken aktiv",
-  "empfehlung": "Bot-Pause bis Montag-Cash-Open wegen Israel-Iran-Spannungen und niedriger Wochenend-Liquidität empfohlen.",
+  "statusText": "Geopolitik angespannt, VIX ruhig",
+  "empfehlung": "Bot-Betrieb möglich, aber Positionsgröße reduzieren und US-Open um 15:30 beachten.",
   "source": "nq-pause-board"
 }
