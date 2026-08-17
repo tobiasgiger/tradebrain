@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-17T04:30:51.728Z",
+  "generatedAt": "2026-08-17T08:30:04.601Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Erhöhte Vorsicht - geopolitische Basis-Risiken",
-  "empfehlung": "Trading möglich, aber Position-Sizing reduzieren und bei US-Open (15:30) sowie FOMC Minutes (Mi 20:00 Zurich) vorsichtig agieren.",
+  "statusText": "Nahost-Spannungen + Empire CPI Mo.",
+  "empfehlung": "Mean-Reversion-Bots auf Basis heutiger Empire State / CPI-Daten auf halbe Größe reduzieren oder pausieren; VIX niedrig, aber geopolitische Konflikte aktiv.",
   "source": "nq-pause-board"
 }
