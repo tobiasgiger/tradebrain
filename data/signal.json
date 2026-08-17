@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-17T08:30:04.601Z",
+  "generatedAt": "2026-08-17T12:19:46.297Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Nahost-Spannungen + Empire CPI Mo.",
-  "empfehlung": "Mean-Reversion-Bots auf Basis heutiger Empire State / CPI-Daten auf halbe Größe reduzieren oder pausieren; VIX niedrig, aber geopolitische Konflikte aktiv.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "US-Iran Krieg; mehrere aktive Konflikte",
+  "empfehlung": "Bots PAUSIEREN — laufender US-Iran-Krieg mit Houthi/Hezbollah-Eskalation und Ukraine-Konflikt schaffen hohes geopolitisches Risiko.",
   "source": "nq-pause-board"
 }
