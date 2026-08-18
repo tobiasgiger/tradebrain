@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-18T08:22:48.955Z",
+  "generatedAt": "2026-08-18T12:21:30.935Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "Iran-Krieg aktiv, Friedensfrist läuft aus",
-  "empfehlung": "Trading-Bots sofort pausieren — aktiver Kriegszustand mit Iran, Eskalationsrisiko extrem hoch trotz niedriger VIX.",
+  "statusText": "Iran-Konflikt eskaliert – Bots stoppen",
+  "empfehlung": "Trading-Bots sofort pausieren: Aktive geopolitische Eskalation USA-Iran mit Ölpreis-Spike und VIX-Anstieg.",
   "source": "nq-pause-board"
 }

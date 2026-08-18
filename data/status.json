@@ -1,52 +1,32 @@
 {
-  "generatedAt": "2026-08-18T08:22:48.955Z",
+  "generatedAt": "2026-08-18T12:21:30.935Z",
   "appVersion": "1.7.1",
   "status": "rot",
-  "statusText": "Iran-Krieg aktiv, Friedensfrist läuft aus",
-  "empfehlung": "Trading-Bots sofort pausieren — aktiver Kriegszustand mit Iran, Eskalationsrisiko extrem hoch trotz niedriger VIX.",
-  "headline": "WARNUNG: US-Israel-Iran-Krieg läuft, 60-Tage-Deadline endet, VIX täuscht Ruhe vor",
-  "body": "Seit 28. Februar 2026 läuft ein offener Krieg zwischen USA/Israel und Iran. Die 60-Tage-Friedensfrist läuft in diesen Tagen aus, Hormuz-Spannungen eskalieren, Israel bombardiert Libanon. Trotz VIX bei 14-15 (Jahrestief) warnen Analysten vor gefährlicher Selbstzufriedenheit. FOMC-Minutes morgen 20:00 Zurich können zusätzlich volatil wirken.",
+  "statusText": "Iran-Konflikt eskaliert – Bots stoppen",
+  "empfehlung": "Trading-Bots sofort pausieren: Aktive geopolitische Eskalation USA-Iran mit Ölpreis-Spike und VIX-Anstieg.",
+  "headline": "US-Iran Spannungen treiben VIX +6.6% – NQ Futures unter Druck, Ölpreise steigen",
+  "body": "Der Iran-Konflikt (Tag 170) eskaliert weiter: Neue Angriffe im Persischen Golf, Trump droht mit verschärften Wirtschaftssanktionen gegen Iran und Oman. VIX stieg heute auf 15.66 (+6.6%), Nasdaq-Futures fallen -1.1%. Erhöhte geopolitische Unsicherheit und steigende Ölpreise belasten Tech-Sektor massiv.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Al Jazeera - Iran war updates Aug 15",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/15/iran-war-live-trump-vows-to-make-hormuz-us-territory-pretty-soon"
+      "titel": "GlobalSecurity Iran War Day 170",
+      "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
     },
     {
-      "titel": "CNN - Iran war Aug 16",
-      "url": "https://www.cnn.com/2026/08/16/world/live-news/iran-war-trump"
+      "titel": "Yahoo Finance: US-Iran Tensions",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html"
     },
     {
-      "titel": "CNBC - VIX hits 2026 low",
-      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
+      "titel": "Vittarthi US Markets Aug 18",
+      "url": "https://vittarthi.com/markets/us"
     },
     {
-      "titel": "Kraken - FOMC minutes Aug 19",
-      "url": "https://blog.kraken.com/economic-brief/august-12-2026"
+      "titel": "Federal Reserve Aug 2026",
+      "url": "https://www.federalreserve.gov/newsevents/2026-august.htm"
     }
   ],
-  "rueckblickSummary": "Letzte 24h zeigten trügerische Marktruhe mit VIX auf Jahrestief 14,2 trotz aktivem Iran-Konflikt. Nasdaq Futures leicht positiv. Israel setzte Angriffe auf Libanon fort, Hormuz-Krise schwelt weiter. Europäische und US-Märkte handelten nahe Allzeithochs in gefährlicher Sorglosigkeit.",
+  "rueckblickSummary": "Die letzten 24h waren von steigenden US-Iran-Spannungen geprägt: Trump kündigte verschärfte Wirtschaftssanktionen an und drohte Oman mit Bombardierung. Nasdaq-Futures verloren -1.1%, VIX stieg deutlich. Ölpreise erreichten Zweiwochenhoch nach Trumps Drohungen bezüglich des Persischen Golfs.",
   "rueckblick": [
-    {
-      "stunde": "10:00",
-      "ts": "2026-08-17T08:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-17T09:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-17T10:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-17T11:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "14:00",
       "ts": "2026-08-17T12:00:00.000Z",
@@ -100,12 +80,12 @@
     {
       "stunde": "00:00",
       "ts": "2026-08-17T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-17T23:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
@@ -135,45 +115,45 @@
     {
       "stunde": "07:00",
       "ts": "2026-08-18T05:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-18T06:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-18T07:00:00.000Z",
       "status": "rot"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Europa-Handel unter Kriegsrisiko (gelb), US-Open volatil wegen Geopolitik. Morgen (19.8.) um 20:00 Zurich FOMC-Minutes = hohe Volatilitätsgefahr. Kriegslage kann jederzeit eskalieren (Hormuz, Israel-Libanon). Nächtlicher Handel (21-09 Uhr) unter permanentem Schock-Risiko.",
-  "forecast": [
+    },
     {
       "stunde": "10:00",
       "ts": "2026-08-18T08:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-18T09:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-18T10:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-18T11:00:00.000Z",
-      "status": "gelb"
-    },
+      "status": "rot"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h bleiben hochriskant: Geopolitische Eskalation Iran-USA hält an, keine Deeskalationssignale. Morgen FOMC-Protokoll (20:00 Zurich) könnte zusätzliche Volatilität bringen. US-Markt-Open (15:30) und Power-Hour (22:00) bergen erhöhtes Risiko bei aktuellem geopolitischen Umfeld.",
+  "forecast": [
     {
       "stunde": "14:00",
       "ts": "2026-08-18T12:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "15:00",
@@ -183,12 +163,12 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-18T14:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-18T15:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "18:00",
@@ -258,7 +238,7 @@
     {
       "stunde": "07:00",
       "ts": "2026-08-19T05:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
@@ -269,60 +249,75 @@
       "stunde": "09:00",
       "ts": "2026-08-19T07:00:00.000Z",
       "status": "rot"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-19T08:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-19T09:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-19T10:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-08-19T11:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "10:00",
-      "ts": "2026-08-18T08:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "10-11 Uhr: Europa-Vormittag unter aktiver Kriegslage, Mean-Reversion riskant bei Nachrichtenfluss aus Nahost."
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-18T09:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "11-12 Uhr: Mittagshandel bleibt fragil, jede Eskalationsmeldung (Iran/Israel/Hormuz) kann Crash auslösen."
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-18T10:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "12-13 Uhr: Vorbörsliche US-Futures anfällig für geopolitische Schocks, VIX-Ruhe ist falsche Sicherheit."
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-18T11:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "13-14 Uhr: Annäherung an US-Marktöffnung, erhöhtes Risiko für Gap-Moves bei Kriegsnachrichten."
-    },
-    {
       "stunde": "14:00",
       "ts": "2026-08-18T12:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "14-15 Uhr: Jobless Claims (20.8.) oder sonstige Daten können bei Kriegshintergrund überreagieren."
+      "status": "rot",
+      "kommentar": "Aktuell 14:21: Hohe Spannung durch Iran-Konflikt, VIX über 15, Nasdaq-Futures -1.1%."
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-18T13:00:00.000Z",
       "status": "rot",
-      "kommentar": "15-16 Uhr: US-Cash-Open — kritisches Zeitfenster, Mean-Reversion-Bots sollten pausiert bleiben."
+      "kommentar": "15:21: Pre-Market USA startet mit Abwärtsdruck, geopolitische Risikoprämie bleibt hoch."
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-08-18T14:00:00.000Z",
+      "status": "rot",
+      "kommentar": "16:21: US Cash Open steht bevor – erwarte volatile Eröffnung bei Iran-Unsicherheit."
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-18T15:00:00.000Z",
+      "status": "rot",
+      "kommentar": "17:21: Früher US-Handel unter Druck durch Ölpreis-Anstieg und Tech-Sektor-Schwäche."
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-18T16:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "18:21: Mittags-Volatilität möglich, Trader reagieren auf Schlagzeilen aus Nahost."
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-18T17:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "19:21: Nachmittagshandel USA – weiterhin erhöhtes Risiko durch geopolitische Lage."
     }
   ],
   "termine": [
     {
-      "name": "FOMC Minutes (July Meeting)",
+      "name": "FOMC Minutes (Jul 28-29)",
       "ts": "2026-08-19T18:00:00.000Z",
-      "impact": "mittel"
+      "impact": "hoch"
     },
     {
-      "name": "Initial Jobless Claims",
-      "ts": "2026-08-20T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "Consumer Confidence",
-      "ts": "2026-08-25T14:00:00.000Z",
+      "name": "US Jobless Claims",
+      "ts": "2026-08-21T12:30:00.000Z",
       "impact": "mittel"
     }
   ]
