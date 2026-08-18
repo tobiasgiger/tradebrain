@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-17T20:14:02.220Z",
+  "generatedAt": "2026-08-18T00:34:45.206Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Nahost-Spannungen + niedrige VIX",
-  "empfehlung": "Trading mit reduziertem Positionssize erlaubt, enge Stopps wegen geopolitischer Unsicherheit setzen.",
+  "statusText": "Iran-Konflikt aktiv, FOMC Minutes morgen",
+  "empfehlung": "Vorsicht geboten: Geopolitik volatil, morgen FOMC Minutes — enge Stopps, reduzierte Positionsgröße.",
   "source": "nq-pause-board"
 }
