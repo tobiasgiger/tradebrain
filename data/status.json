@@ -1,52 +1,32 @@
 {
-  "generatedAt": "2026-08-18T00:34:45.206Z",
+  "generatedAt": "2026-08-18T04:23:58.254Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Iran-Konflikt aktiv, FOMC Minutes morgen",
-  "empfehlung": "Vorsicht geboten: Geopolitik volatil, morgen FOMC Minutes — enge Stopps, reduzierte Positionsgröße.",
-  "headline": "Iran-Eskalation läuft, VIX niedrig (~15), FOMC Minutes 19.08. — erhöhte Wachsamkeit",
-  "body": "Aktiver Iran-Krieg mit jüngsten Angriffen im Libanon (11 Tote) und Strait-of-Hormuz-Blockade. Iran droht mit Offensive bei Scheitern der Diplomatie. Trotz niedriger VIX können geopolitische Schocks jederzeit auftreten. FOMC Minutes morgen könnten Marktrichtung ändern.",
-  "confidence": "hoch",
+  "statusText": "Iran-Krieg aktiv, Fed Minutes Mi. 19.08.",
+  "empfehlung": "Trading-Bots mit reduziertem Exposure fahren, vor Fed Minutes (Mi. 14:30h MEZ) pausieren.",
+  "headline": "Geopolitik: US-Israel-Iran-Krieg läuft seit Feb'26, VIX bei ~15 moderat ruhig",
+  "body": "Der US-Israel-Krieg gegen Iran (Start 28. Feb. 2026) ist weiterhin aktiv, Trump-Verhandlungen laufen aber stockend. VIX bei ~15 signalisiert aktuell moderate Volatilität. FOMC-Minutes Release am Mittwoch, 19.08., 14:30 Uhr Europe/Zurich erwartet – erhöhtes Risiko um Veröffentlichung.",
+  "confidence": "mittel",
   "quellen": [
     {
-      "titel": "GlobalSecurity Iran War Day 170",
-      "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+      "titel": "Britannica: 2026 Iran War",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "Haaretz Iran tensions update",
-      "url": "https://www.haaretz.com/israel-news/israel-security/2026-08-17/ty-article-live/kushner-lands-in-israel-after-meeting-hamas-officials-in-bid-to-save-gaza-truce/000001a0-0c64-d88f-abbf-dcedc81e0000"
+      "titel": "Al Jazeera Iran War Updates 16.08",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon"
     },
     {
-      "titel": "MacroOdds US Economic Calendar",
-      "url": "https://macroodds.com/calendar"
+      "titel": "Yahoo Finance VIX 17.08",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
-      "titel": "VIX data Investing.com",
-      "url": "https://www.investing.com/indices/us-spx-vix-futures"
+      "titel": "Kiplinger Economic Calendar Aug 17-21",
+      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
     }
   ],
-  "rueckblickSummary": "Letzte 24h (Mo 02:34 - Di 02:34): CPI/PPI/Retail-Cluster abgeschlossen (12.-14.08.), Märkte verdaut, VIX niedrig. Geopolitik: Iran-Spannungen schwelen weiter, keine neue Eskalation in diesem Fenster. US-Handel ruhig, Nasdaq leicht volatil um Tech-Earnings.",
+  "rueckblickSummary": "Letzte 24h (Mo. 17.08. 06:23 - Di. 18.08. 06:23): Iran-Krieg-Verhandlungen zwischen Trump und Teheran ohne Durchbruch, Türkei vermittelt. VIX stieg gestern +6,6% auf 15,19, blieb aber im moderaten Bereich. US-Märkte gestern leicht im Minus (S&P -0,52%, Nasdaq -0,32%), ölpreis-bedingt.",
   "rueckblick": [
-    {
-      "stunde": "02:00",
-      "ts": "2026-08-17T00:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-17T01:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-17T02:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-17T03:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "06:00",
       "ts": "2026-08-17T04:00:00.000Z",
@@ -70,17 +50,17 @@
     {
       "stunde": "10:00",
       "ts": "2026-08-17T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-17T09:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-17T10:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
@@ -90,37 +70,37 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-17T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-17T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-17T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-17T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-17T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-17T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-17T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
@@ -140,16 +120,13 @@
     {
       "stunde": "00:00",
       "ts": "2026-08-17T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-17T23:00:00.000Z",
-      "status": "gelb"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h (Di 02:34 - Mi 02:34): Vormittag Europa ruhig, US-Open 15:30 mit üblicher Volatilität, morgen Abend 20:00 FOMC Minutes (kann Marktrichtung drehen). Iran-Risiko bleibt latent, aber kein geplanter Release heute. VIX niedrig, aber Geopolitik-Schocks möglich.",
-  "forecast": [
+      "status": "gruen"
+    },
     {
       "stunde": "02:00",
       "ts": "2026-08-18T00:00:00.000Z",
@@ -169,7 +146,10 @@
       "stunde": "05:00",
       "ts": "2026-08-18T03:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h (Di. 18.08. 06:23 - Mi. 19.08. 06:23): Geopolitische Lage bleibt angespannt, aber keine unmittelbare Eskalation erkennbar. Heute keine High-Impact-Releases. US-Cash-Open Di. ~15:30 und Power-Hour ~22:00 mit erhöhter Vorsicht. Mittwoch 14:30h FOMC Minutes = hohes Risiko.",
+  "forecast": [
     {
       "stunde": "06:00",
       "ts": "2026-08-18T04:00:00.000Z",
@@ -213,7 +193,7 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-18T12:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
@@ -223,107 +203,117 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-18T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-18T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-18T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-18T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-18T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-18T19:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-18T20:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-18T21:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-18T22:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-18T23:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-08-19T00:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-08-19T01:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-08-19T02:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-19T03:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "02:00",
-      "ts": "2026-08-18T00:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "02:34-03:34 Zurich: Asien-Handel läuft, geringe Liquidität, keine Events — grün."
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-18T01:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "03:34-04:34 Zurich: Asien weiter, Europa Pre-Open — neutral, grün."
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-18T02:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "04:34-05:34 Zurich: Tokio-Close, HK weiter, keine News erwartet — grün."
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-18T03:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "05:34-06:34 Zurich: Asien-Close, Europa startet bald — ruhig, grün."
-    },
-    {
       "stunde": "06:00",
       "ts": "2026-08-18T04:00:00.000Z",
       "status": "gruen",
-      "kommentar": "06:34-07:34 Zurich: Europa Pre-Market, geringer Impact ohne Daten — grün."
+      "kommentar": "06:00-07:00 Uhr: Europäische Vormärkte, ruhige Phase, keine großen Katalysatoren erwartet."
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-18T05:00:00.000Z",
       "status": "gruen",
-      "kommentar": "07:34-08:34 Zurich: Europa-Open, normale Volatilität, kein High-Impact — grün."
+      "kommentar": "07:00-08:00 Uhr: Weiterhin ruhig, Iran-Kriegslage stabil auf erhöhtem Niveau ohne akute Eskalation."
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-08-18T06:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "08:00-09:00 Uhr: Europäische Börsen öffnen, normale Handelsaktivität, geopolitisches Grundrauschen."
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-08-18T07:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "09:00-10:00 Uhr: Fortsetzung europäischer Handel, VIX-Futures zeigen moderate Volatilität um 15."
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-18T08:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "10:00-11:00 Uhr: Vor-US-Phase, keine signifikanten Wirtschaftsdaten heute Dienstag erwartet."
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-18T09:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "11:00-12:00 Uhr: US-Premarket beginnt, Aufmerksamkeit auf Ölpreise wg. Iran-Situation."
     }
   ],
   "termine": [
     {
-      "name": "FOMC Minutes (July Meeting)",
-      "ts": "2026-08-19T18:00:00.000Z",
+      "name": "FOMC Minutes (Juli Meeting)",
+      "ts": "2026-08-19T12:30:00.000Z",
       "impact": "hoch"
-    },
-    {
-      "name": "Jobless Claims",
-      "ts": "2026-08-21T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "Consumer Sentiment (final)",
-      "ts": "2026-08-22T14:00:00.000Z",
-      "impact": "mittel"
     }
   ]
 }
