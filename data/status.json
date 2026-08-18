@@ -1,66 +1,46 @@
 {
-  "generatedAt": "2026-08-18T16:18:19.910Z",
+  "generatedAt": "2026-08-18T20:11:13.279Z",
   "appVersion": "1.7.1",
-  "status": "gelb",
-  "statusText": "Geopolitik angespannt, VIX niedrig",
-  "empfehlung": "Trading mit Vorsicht fortsetzen, Position-Sizing reduzieren, enge Stops nutzen.",
-  "headline": "Geringe Volatilität trifft auf Nahost-Risiken; CPI/PPI bereits publiziert",
-  "body": "VIX fiel gestern auf Jahrestief 14.2, signalisiert Selbstgefälligkeit trotz anhaltender Iran-Israel Spannungen und Strait-of-Hormuz-Impasse. Nahost-Proxy-Koordination (Hisbollah, Houthis) bleibt aktiv, Ukraine-Front weitgehend eingefroren. CPI (12. Aug) und PPI (13. Aug) bereits veröffentlicht, FOMC-Minutes am 19. Aug stehen an.",
+  "status": "rot",
+  "statusText": "Iran-Krise eskaliert — Ölpreise steigen",
+  "empfehlung": "Trading-Bots sofort pausieren — geopolitische Spannungen Iran/USA und volatile Märkte bergen hohes Risiko.",
+  "headline": "Strait-of-Hormuz-Blockade fortgesetzt • VIX steigt • Tech-Sektor fällt 1,3%",
+  "body": "Die Iran-USA-Krise eskaliert weiter, Trump droht mit Bombardierung Omans wegen Strait-of-Hormuz-Kontrolle. Ölpreise steigen auf $85, 30Y-Treasury-Yields erreichen 20-Jahres-Hoch (5,34%), VIX klettert auf 15,79 (+3,95%). Nasdaq fällt 1,3%, Halbleiter-Index -5,5% wegen Inflation und Bond-Yields.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "CNBC VIX 2026 Tief",
+      "titel": "Bloomberg: Stock Market Today Aug 18",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "titel": "Britannica: 2026 Iran War",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
+    },
+    {
+      "titel": "CNBC: VIX hits 2026 low warning",
       "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
     },
     {
-      "titel": "FDD Nahost-Update 17. Aug",
-      "url": "https://www.fdd.org/overnight-brief/august-17-2026/"
-    },
-    {
-      "titel": "Kraken CPI/PPI August Brief",
-      "url": "https://blog.kraken.com/economic-brief/august-12-2026"
-    },
-    {
-      "titel": "CFR Ukraine Konflikt-Tracker",
-      "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+      "titel": "Yahoo Finance: Markets Aug 18",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html"
     }
   ],
-  "rueckblickSummary": "Letzte 24h: VIX erreichte Jahrestief bei 14.2 trotz fortbestehender Nahost-Spannungen. Iran-Proxy-Koordination mit Hisbollah und Houthis bleibt aktiv, aber keine unmittelbare Eskalation. US-Märkte verzeichneten moderate Gewinne, NQ-Futures leicht positiv.",
+  "rueckblickSummary": "Vergangene 24h: Märkte unter Druck durch Iran-Krise und steigende Yields. Nasdaq -1,3%, Halbleiter -5,5%, VIX +6,6% (Vortag) dann +3,95% heute. Ölpreis klettert auf $85 wegen Strait-of-Hormuz-Blockade.",
   "rueckblick": [
-    {
-      "stunde": "18:00",
-      "ts": "2026-08-17T16:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-17T17:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-17T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-17T19:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "22:00",
       "ts": "2026-08-17T20:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-17T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-17T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
@@ -105,12 +85,12 @@
     {
       "stunde": "09:00",
       "ts": "2026-08-18T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-18T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
@@ -125,12 +105,12 @@
     {
       "stunde": "13:00",
       "ts": "2026-08-18T11:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-18T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
@@ -140,70 +120,70 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-18T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-18T15:00:00.000Z",
-      "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: FOMC-Minutes am 19. Aug (morgen 20:00 Zurich) könnten Volatilität auslösen, falls hawkish Dissent-Details überraschen. US-Cash-Open heute 15:30 bringt übliche Unsicherheit. Geopolitische Lage angespannt aber stabil, VIX-Tief deutet auf Complacency-Risiko hin.",
-  "forecast": [
+      "status": "gelb"
+    },
     {
       "stunde": "18:00",
       "ts": "2026-08-18T16:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-18T17:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-18T18:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-18T19:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Erhöhte Geopolitik-Risiken durch Iran-USA-Deadlock bleiben akut. Retailer-Earnings (Walmart) und FOMC Minutes diese Woche verstärken Volatilität. VIX über 15, Yields nahe Dekadenhoch — Vorsicht geboten.",
+  "forecast": [
     {
       "stunde": "22:00",
       "ts": "2026-08-18T20:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-18T21:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-18T22:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-18T23:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-19T00:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-19T01:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-19T02:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "05:00",
@@ -228,12 +208,12 @@
     {
       "stunde": "09:00",
       "ts": "2026-08-19T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-19T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
@@ -253,7 +233,7 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-19T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
@@ -263,61 +243,81 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-19T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-19T15:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-19T16:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-19T17:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-19T18:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-08-19T19:00:00.000Z",
       "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "18:00",
-      "ts": "2026-08-18T16:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "18:00-19:00: Grün, europäischer Späthandel ruhig, geringes Volumen."
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-18T17:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "19:00-20:00: Gelb, US-Nachmittagshandel, moderate Aktivität ohne Katalysatoren."
-    },
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-18T18:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "20:00-21:00: Gelb, Power-Hour-Nähe, typische Positionierungs-Volatilität."
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-18T19:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "21:00-22:00: Grün, After-Hours beruhigt sich, kein Event-Risiko."
-    },
-    {
       "stunde": "22:00",
       "ts": "2026-08-18T20:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "22:00-23:00: Grün, asiatischer Frühhandel beginnt, niedrige Liquidität."
+      "status": "rot",
+      "kommentar": "22:11-23:11 Uhr: US-Nachhandel läuft, Iran-Spannungen halten Risiko hoch, Rot empfohlen."
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-18T21:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "23:00-00:00: Grün, Nacht-Session, Trend-Fortsetzung ohne Nachrichten."
+      "status": "rot",
+      "kommentar": "23:11-00:11 Uhr: Asien-Vormarkt beginnt, Geopolitik-Risiko bleibt, weiter Rot wegen Unsicherheit."
+    },
+    {
+      "stunde": "00:00",
+      "ts": "2026-08-18T22:00:00.000Z",
+      "status": "rot",
+      "kommentar": "00:11-01:11 Uhr: Asien-Handel startet, mögliche Volatilität durch Iran-News, Rot gerechtfertigt."
+    },
+    {
+      "stunde": "01:00",
+      "ts": "2026-08-18T23:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "01:11-02:11 Uhr: Nachtstunden Europa, reduzierte Liquidität, Gelb — geringeres Handelsvolumen."
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-08-19T00:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "02:11-03:11 Uhr: Ruhige Phase, aber geopolitische Lage ungeklärt, Gelb als Vorsichtsmaßnahme."
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-08-19T01:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "03:11-04:11 Uhr: Frühe Europa-Vorbörse, Gelb wegen möglicher Overnight-Entwicklungen Iran/Öl."
     }
   ],
   "termine": [
     {
-      "name": "FOMC Minutes (28.-29. Juli)",
-      "ts": "2026-08-19T18:00:00.000Z",
+      "name": "FOMC Minutes",
+      "ts": "2026-08-20T18:00:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "Q2 GDP (2nd estimate)",
-      "ts": "2026-08-26T12:30:00.000Z",
+      "name": "Initial Jobless Claims",
+      "ts": "2026-08-21T12:30:00.000Z",
       "impact": "mittel"
     }
   ]

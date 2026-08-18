@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-18T16:18:19.910Z",
+  "generatedAt": "2026-08-18T20:11:13.279Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Geopolitik angespannt, VIX niedrig",
-  "empfehlung": "Trading mit Vorsicht fortsetzen, Position-Sizing reduzieren, enge Stops nutzen.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Iran-Krise eskaliert — Ölpreise steigen",
+  "empfehlung": "Trading-Bots sofort pausieren — geopolitische Spannungen Iran/USA und volatile Märkte bergen hohes Risiko.",
   "source": "nq-pause-board"
 }

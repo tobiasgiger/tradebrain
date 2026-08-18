@@ -178,5 +178,9 @@
   {
     "generatedAt": "2026-08-18T16:18:19.910Z",
     "status": "gelb"
+  },
+  {
+    "generatedAt": "2026-08-18T20:11:13.279Z",
+    "status": "rot"
   }
 ]
