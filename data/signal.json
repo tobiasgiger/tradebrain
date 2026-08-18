@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-18T04:23:58.254Z",
+  "generatedAt": "2026-08-18T08:22:48.955Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Iran-Krieg aktiv, Fed Minutes Mi. 19.08.",
-  "empfehlung": "Trading-Bots mit reduziertem Exposure fahren, vor Fed Minutes (Mi. 14:30h MEZ) pausieren.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Iran-Krieg aktiv, Friedensfrist läuft aus",
+  "empfehlung": "Trading-Bots sofort pausieren — aktiver Kriegszustand mit Iran, Eskalationsrisiko extrem hoch trotz niedriger VIX.",
   "source": "nq-pause-board"
 }
