@@ -1,126 +1,106 @@
 {
-  "generatedAt": "2026-08-19T12:21:24.608Z",
+  "generatedAt": "2026-08-19T16:18:19.107Z",
   "appVersion": "1.7.1",
   "status": "rot",
-  "statusText": "Iran-Konflikt eskaliert – Bots pausieren",
-  "empfehlung": "Trading-Bots SOFORT stoppen – aktive US-Israel-Iran-Kriegslage mit Eskalationsrisiko und Strait-of-Hormuz-Blockade.",
-  "headline": "US-Iran-Krieg Tag 100+: Eskalation droht, UAE meldet Raketenangriff, VIX 15.84",
-  "body": "Die USA und Israel befinden sich im aktiven Konflikt mit Iran (Tag 100+). Iran erwägt Angriffe auf US-Ziele in Europa, UAE suspendiert Handel mit Iran nach mutmaßlichem Raketenangriff, Strait of Hormuz stark eingeschränkt. Israel bombardierte gestern syrische Basis, Trump lehnt Verhandlungen ab. VIX bei 15.84 (+4.28%) – historisch niedrig trotz Geopolitik, was auf Complacency hindeutet. Keine High-Impact-US-Daten heute, aber extrem volatiles geopolitisches Umfeld.",
+  "statusText": "FOMC Minutes heute + Iran-Konflikt läuft",
+  "empfehlung": "⚠️ FOMC Minutes (Juli 28-29 Meeting) in ~2h — Bots rechtzeitig pausieren. Vorsicht: FOMC Minutes um 20:00 Zurich-Zeit, Nahostlage angespannt, VIX niedrig (15.84) aber trügerisch.",
+  "headline": "FOMC Minutes 20:00h • Iran-Krieg pausiert aber instabil • VIX bei YTD-Tief 15.84",
+  "body": "Heute 20:00 Uhr erscheinen die FOMC Minutes vom Juli-Meeting (9-3-Vote mit hawkish Dissent). Der Iran-Konflikt ist seit Februar aktiv, aktuell Waffenstillstandsgespräche aber fragil, Hezbollah/Houthis weiter aktiv. VIX auf Jahrestief 14.2-15.84 trotz geopolitischer Risiken – Analysten warnen vor Selbstgefälligkeit vor historisch volatiler August-Mitte bis Oktober-Phase.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "CNN: Trump says no talks with Iran, UAE detects missile threat",
-      "url": "https://www.cnn.com/2026/08/18/world/live-news/iran-war-trump"
+      "titel": "CNN: Iran War Updates Aug 17, 2026",
+      "url": "https://www.cnn.com/2026/08/17/world/live-news/iran-war-trump"
     },
     {
-      "titel": "Haaretz: Iran mulls striking U.S. targets in Europe",
-      "url": "https://www.haaretz.com/israel-news/israel-security/2026-08-19/ty-article-live/reports-idf-strikes-several-locations-in-southern-lebanon/000001a0-17aa-d77e-abb5-d7aec7800000"
-    },
-    {
-      "titel": "CNBC: VIX hits 2026 low despite Middle East turbulence",
+      "titel": "CNBC: VIX hits 2026 low",
       "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
     },
     {
-      "titel": "Bloomberg: Stocks waver, bonds under pressure",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates"
+      "titel": "Kraken: CPI, PPI, FOMC Minutes Preview",
+      "url": "https://blog.kraken.com/economic-brief/august-12-2026"
+    },
+    {
+      "titel": "Fed FOMC Calendar 2026",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "rueckblickSummary": "Letzte 24h: US-Iran-Konflikt verschärfte sich mit israelischem Angriff auf syrische Luftbasis (Dienstag), Trump lehnte Verhandlungen ab. UAE suspendierte Handel mit Iran nach mutmaßlichem Raketenangriff. Nasdaq fiel -1.33%, S&P -0.69% bei steigenden Anleiherenditen (30J bei 5.32%, höchster Stand seit 2007). VIX stieg auf 15.84, bleibt aber historisch niedrig – Analysten warnen vor Complacency.",
+  "rueckblickSummary": "Letzte 24h: Ruhige asiatische Session, europäischer Handel stabil. US-Märkte gestern leicht gemischt (NQ +1.17%), VIX stieg auf 15.84 (+4.28%). Keine neuen Eskalationen im Nahost-Konflikt, aber Houthi-Angriffe im Roten Meer fortgesetzt. Ukraine-Front statisch.",
   "rueckblick": [
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-18T12:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "15:00",
-      "ts": "2026-08-18T13:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-18T14:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-18T15:00:00.000Z",
-      "status": "gelb"
-    },
     {
       "stunde": "18:00",
       "ts": "2026-08-18T16:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-18T17:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-18T18:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-18T19:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-18T20:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-18T21:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-18T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-18T23:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-19T00:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-19T01:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-19T02:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-19T03:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-19T04:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-19T05:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-19T06:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
@@ -130,125 +110,125 @@
     {
       "stunde": "10:00",
       "ts": "2026-08-19T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-19T09:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-19T10:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-19T11:00:00.000Z",
-      "status": "gelb"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Geopolitisches Risiko bleibt extrem hoch – Iran droht mit Eskalation bei gescheiterten Verhandlungen, 60-Tage-Waffenstillstand läuft aus. Morgen (Do.) FOMC Minutes 20:00 Zürich = hohes Volatilitätsrisiko. Heute nur Retail-Earnings, kein Major-Event. US-Cash-Open 15:30 und Close 22:00 = Yellow-Phasen. Strait of Hormuz weiter stark eingeschränkt (nur 6-7 Schiffe/Tag), Ölpreise erhöht.",
-  "forecast": [
+      "status": "gruen"
+    },
     {
       "stunde": "14:00",
       "ts": "2026-08-19T12:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-19T13:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-19T14:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-19T15:00:00.000Z",
-      "status": "gelb"
-    },
+      "status": "gruen"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: FOMC Minutes heute 20:00 Zurich (gelb-rotes Fenster 19-21h). Keine weiteren High-Impact-Releases bis 26. August (PCE/GDP). Geopolitik bleibt Wildcard – Iran-Waffenstillstand fragil, weitere Eskalation möglich. VIX-Tiefstand deutet auf Komplacency vor historisch volatiler Periode hin.",
+  "forecast": [
     {
       "stunde": "18:00",
       "ts": "2026-08-19T16:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-19T17:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-19T18:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-19T19:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-19T20:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-19T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-19T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-19T23:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-20T00:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-20T01:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-20T02:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-20T03:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-20T04:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-20T05:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-20T06:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-20T07:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
@@ -263,71 +243,86 @@
     {
       "stunde": "12:00",
       "ts": "2026-08-20T10:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-20T11:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-08-20T12:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "15:00",
+      "ts": "2026-08-20T13:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-08-20T14:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-20T15:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "14:00",
-      "ts": "2026-08-19T12:00:00.000Z",
-      "status": "rot",
-      "kommentar": "14:00-15:00: Rot wegen Vorlauf zum US-Cash-Open und anhaltender Iran-Kriegslage mit Eskalationsrisiko."
-    },
-    {
-      "stunde": "15:00",
-      "ts": "2026-08-19T13:00:00.000Z",
-      "status": "rot",
-      "kommentar": "15:00-16:00: Rot wegen US-Cash-Open (15:30) – typisch hohe Volatilität bei gespannter Geopolitik."
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-19T14:00:00.000Z",
-      "status": "rot",
-      "kommentar": "16:00-17:00: Rot wegen direkter Nachwirkung des Opens, erhöhte Spreads und Slippage-Gefahr."
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-19T15:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "17:00-18:00: Gelb – erste Beruhigung nach Open, aber Iran-Risiko bleibt latent präsent."
-    },
-    {
       "stunde": "18:00",
       "ts": "2026-08-19T16:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "18:00-19:00: Gelb – Midday-Konsolidierung, geopolitische Schlagzeilen können jederzeit einschlagen."
+      "status": "rot",
+      "kommentar": "⚠ FOMC Minutes (Juli 28-29 Meeting) in 2h: 18:00-19:00 Zurich: US-Nachmittagshandel läuft ruhig, Vorbereitung auf FOMC Minutes um 20:00."
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-19T17:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "19:00-20:00: Gelb – späte US-Session, Positionierungen vor morgen FOMC Minutes beginnen."
+      "status": "rot",
+      "kommentar": "⚠ FOMC Minutes (Juli 28-29 Meeting) in 1h: 19:00-20:00 Zurich: Letzte Stunde vor FOMC Minutes, erhöhte Nervosität, Spreads weiten sich."
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-19T18:00:00.000Z",
+      "status": "rot",
+      "kommentar": "⚠ FOMC Minutes (Juli 28-29 Meeting): 20:00-21:00 Zurich: FOMC Minutes veröffentlicht – hohe Volatilität, reaktive Bewegungen auf hawkish Details."
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-08-19T19:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "21:00-22:00 Zurich: Power Hour & US-Close, Verdauung der Minutes, erhöhtes Volumen, rotes Risiko."
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-08-19T20:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "22:00-23:00 Zurich: After-Hours-Reaktionen klingen ab, Übergang zu asiatischer Session beginnt."
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-08-19T21:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "23:00-00:00 Zurich: Nachthandel beruhigt sich, niedrige Liquidität, geopolitische News bleiben Risiko."
     }
   ],
   "termine": [
     {
-      "name": "FOMC Minutes (Juli-Sitzung)",
-      "ts": "2026-08-20T18:00:00.000Z",
+      "name": "FOMC Minutes (Juli 28-29 Meeting)",
+      "ts": "2026-08-19T18:00:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "Initial Jobless Claims",
-      "ts": "2026-08-21T12:30:00.000Z",
-      "impact": "mittel"
+      "name": "GDP Q2 (Second Estimate)",
+      "ts": "2026-08-26T12:30:00.000Z",
+      "impact": "hoch"
     },
     {
-      "name": "Existing Home Sales",
-      "ts": "2026-08-21T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "S&P Global PMI Flash (Manufacturing & Services)",
-      "ts": "2026-08-22T13:45:00.000Z",
+      "name": "PCE (Personal Income & Outlays)",
+      "ts": "2026-08-26T12:30:00.000Z",
       "impact": "hoch"
     }
   ]
