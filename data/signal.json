@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-19T16:18:19.107Z",
+  "generatedAt": "2026-08-19T20:14:15.989Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "FOMC Minutes heute + Iran-Konflikt läuft",
-  "empfehlung": "⚠️ FOMC Minutes (Juli 28-29 Meeting) in ~2h — Bots rechtzeitig pausieren. Vorsicht: FOMC Minutes um 20:00 Zurich-Zeit, Nahostlage angespannt, VIX niedrig (15.84) aber trügerisch.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Geopolitik schwelt, US-Termine am 26.08.",
+  "empfehlung": "Bot-Handel möglich, aber vor GDP/PCE am 26.08. pausieren",
   "source": "nq-pause-board"
 }
