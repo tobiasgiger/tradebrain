@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-19T00:35:22.580Z",
+  "generatedAt": "2026-08-19T08:22:34.625Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Iran-Krise & Bond-Selloff belasten Märkte",
-  "empfehlung": "Mean-Reversion-Bots mit reduziertem Risiko fahren; geopolitische Eskalation jederzeit möglich.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Iran-Krieg aktiv; hohe Geopolitik-Gefahr",
+  "empfehlung": "Trading-Bots sofort pausieren — aktive US-Israel/Iran-Militäroperation mit regionalen Eskalationen und Trump-Drohungen gegen Oman.",
   "source": "nq-pause-board"
 }
