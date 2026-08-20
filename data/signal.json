@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T00:34:31.062Z",
+  "generatedAt": "2026-08-20T04:25:11.218Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "Iran-Konflikt eskaliert, FOMC Minutes heute",
-  "empfehlung": "Trading-Bots HEUTE pausieren – geopolitische Eskalation und FOMC Minutes schaffen hohes Risiko.",
+  "statusText": "US-Iran Konflikt + erhöhte Marktrisiken",
+  "empfehlung": "Trading-Bots pausieren — geopolitische Eskalation und volatile Makrolage erfordern defensive Haltung.",
   "source": "nq-pause-board"
 }
