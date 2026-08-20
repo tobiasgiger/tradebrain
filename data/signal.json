@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T08:23:30.346Z",
+  "generatedAt": "2026-08-20T12:23:06.275Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "Iran-Konflikt eskaliert – Pausieren!",
-  "empfehlung": "Trading-Bot sofort pausieren – aktive Kriegs-Eskalation im Nahen Osten mit UAE-Handelsstopp und neuen US-Sanktionen.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Geopolitik aktiv, VIX niedrig, Vorsicht",
+  "empfehlung": "Bots tagsüber laufen lassen, aber Position-Sizing reduzieren und vor wichtigen US-Terminen pausieren.",
   "source": "nq-pause-board"
 }
