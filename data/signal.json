@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T04:25:11.218Z",
+  "generatedAt": "2026-08-20T08:23:30.346Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "US-Iran Konflikt + erhöhte Marktrisiken",
-  "empfehlung": "Trading-Bots pausieren — geopolitische Eskalation und volatile Makrolage erfordern defensive Haltung.",
+  "statusText": "Iran-Konflikt eskaliert – Pausieren!",
+  "empfehlung": "Trading-Bot sofort pausieren – aktive Kriegs-Eskalation im Nahen Osten mit UAE-Handelsstopp und neuen US-Sanktionen.",
   "source": "nq-pause-board"
 }
