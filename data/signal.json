@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-19T20:14:15.989Z",
+  "generatedAt": "2026-08-20T00:34:31.062Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Geopolitik schwelt, US-Termine am 26.08.",
-  "empfehlung": "Bot-Handel möglich, aber vor GDP/PCE am 26.08. pausieren",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Iran-Konflikt eskaliert, FOMC Minutes heute",
+  "empfehlung": "Trading-Bots HEUTE pausieren – geopolitische Eskalation und FOMC Minutes schaffen hohes Risiko.",
   "source": "nq-pause-board"
 }
