@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T12:23:06.275Z",
+  "generatedAt": "2026-08-20T16:20:51.488Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Geopolitik aktiv, VIX niedrig, Vorsicht",
-  "empfehlung": "Bots tagsüber laufen lassen, aber Position-Sizing reduzieren und vor wichtigen US-Terminen pausieren.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Iran-Eskalation + US-Marktvolatilität",
+  "empfehlung": "Trading-Bots sofort pausieren — aktiver Iran-Krieg, erhöhte Marktvolatilität, nächste Woche Jackson Hole Speech.",
   "source": "nq-pause-board"
 }
