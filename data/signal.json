@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T16:20:51.488Z",
+  "generatedAt": "2026-08-20T20:16:29.039Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "Iran-Eskalation + US-Marktvolatilität",
-  "empfehlung": "Trading-Bots sofort pausieren — aktiver Iran-Krieg, erhöhte Marktvolatilität, nächste Woche Jackson Hole Speech.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Mittleres Risiko, VIX niedrig, Geopolitik aktiv",
+  "empfehlung": "Mean-Reversion-Bots können laufen, aber Position Sizing reduzieren und enge Stops setzen.",
   "source": "nq-pause-board"
 }
