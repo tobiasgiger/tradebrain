@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-21T08:49:04.678Z",
+  "generatedAt": "2026-08-21T13:00:12.419Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Erhöhte Vorsicht: Geopolitik weiter angespannt",
-  "empfehlung": "Bots mit reduziertem Positionssize laufen lassen, um 15:30 Zurich (US-Open) besonders vorsichtig.",
+  "statusText": "Geopolitik fragil, Märkte ruhig",
+  "empfehlung": "Mean-Reversion-Trading möglich, aber mit reduzierter Positionsgröße wegen anhaltender geopolitischer Risiken.",
   "source": "nq-pause-board"
 }

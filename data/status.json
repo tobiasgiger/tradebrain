@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-21T08:49:04.678Z",
+  "generatedAt": "2026-08-21T13:00:12.419Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Erhöhte Vorsicht: Geopolitik weiter angespannt",
-  "empfehlung": "Bots mit reduziertem Positionssize laufen lassen, um 15:30 Zurich (US-Open) besonders vorsichtig.",
-  "headline": "VIX niedrig (~16), aber Iran-Konflikt schwelt, Yields steigen, heute ruhig",
-  "body": "VIX bei 15.87 signalisiert oberflächlich Ruhe, doch geopolitische Risiken bleiben erhöht: US-Israel-Iran-Krieg in bedingtem Waffenstillstand mit jüngsten Eskalationsdrohungen, Ukraine-Russland-Krieg intensiviert mit Rekord-Raketenbeschuss im Juli. US-Märkte schlossen gestern im Minus, 10Y-Yield auf 4.70% gestiegen, Walmart-Schwäche dämpft Retail-Sentiment. Heute 21.08. keine High-Impact-Releases bekannt, aber allgemeine Unsicherheit durch Ölpreisanstieg (Brent ~94 USD) und Strait-of-Hormuz-Risiken.",
+  "statusText": "Geopolitik fragil, Märkte ruhig",
+  "empfehlung": "Mean-Reversion-Trading möglich, aber mit reduzierter Positionsgröße wegen anhaltender geopolitischer Risiken.",
+  "headline": "Iran-Waffenstillstand hält, VIX bei 16, kein High-Impact-Release heute/morgen",
+  "body": "Geopolitische Lage bleibt angespannt: Iran-Israel-US-Konflikt unter fragilem Waffenstillstand seit Juni, sporadische Verstöße gemeldet. Ukraine-Krieg eskaliert mit Rekord-Raketenbeschuss (376 Missiles im Juli). VIX bei 15-16 zeigt moderate Volatilität. Heute/morgen keine markttreibenden US-Releases, nächstes FOMC 28-29.7., NFP am 1.8.",
   "confidence": "mittel",
   "quellen": [
     {
@@ -13,45 +13,20 @@
       "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "CNN: Kushner meets regional leaders",
-      "url": "https://www.cnn.com/2026/08/16/world/live-news/iran-war-trump"
+      "titel": "CFR Global Conflict Tracker",
+      "url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
     },
     {
-      "titel": "CNBC: VIX hits 2026 low",
-      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
+      "titel": "Just Security - Aug 21 Update",
+      "url": "https://www.justsecurity.org/154807/early-edition-august-21-2026/"
     },
     {
-      "titel": "StrongBuyAnalytics Market Outlook",
-      "url": "https://strongbuyanalytics.com/stock-market-outlook"
+      "titel": "VIX Index - Investing.com",
+      "url": "https://www.investing.com/indices/volatility-s-p-500"
     }
   ],
-  "rueckblickSummary": "Letzte 24h: VIX stieg von 15.20 auf 16.03, US-Märkte gaben nach Treasury-Rally-Umkehr nach, 10Y-Yield kletterte auf 4.70%. Walmart meldete schwächstes Umsatzwachstum seit 6+ Jahren, Ölpreise stiegen, Geopolitik (Iran/Russland) blieb angespannt ohne akute Eskalation.",
+  "rueckblickSummary": "Letzte 24h (Do 20.8. 15:00 - Fr 21.8. 15:00): FOMC Minutes wurden Mi veröffentlicht, leichte Marktkonsolidierung. VIX stieg von 15.2 auf 16, US-Märkte leicht negativ (SPY -0.84%, QQQ -0.72%). Keine akute Eskalation, aber anhaltende Geopolitik-Nervosität. US-Session gestern mit moderatem Volumen.",
   "rueckblick": [
-    {
-      "stunde": "10:00",
-      "ts": "2026-08-20T08:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-20T09:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-20T10:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-20T11:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-20T12:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "15:00",
       "ts": "2026-08-20T13:00:00.000Z",
@@ -90,22 +65,22 @@
     {
       "stunde": "22:00",
       "ts": "2026-08-20T20:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-20T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-20T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-20T23:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
@@ -130,12 +105,12 @@
     {
       "stunde": "06:00",
       "ts": "2026-08-21T04:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-21T05:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
@@ -146,14 +121,11 @@
       "stunde": "09:00",
       "ts": "2026-08-21T07:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Freitag 21.08. ohne bekannte High-Impact-Releases, aber US-Cash-Open 15:30 Zurich bleibt neuralgisch bei erhöhten Yields und Geopolitik-Überhang. Wochenende könnte Iran/Ukraine-Newsflow bringen. VIX historisch niedrig vor saisonal schwachem August-September-Fenster (Mid-Term-Election-Jahr), Complacency-Warnung von Analysten.",
-  "forecast": [
+    },
     {
       "stunde": "10:00",
       "ts": "2026-08-21T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
@@ -174,11 +146,14 @@
       "stunde": "14:00",
       "ts": "2026-08-21T12:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h (Fr 21.8. 15:00 - Sa 22.8. 15:00): Keine High-Impact-Releases. US-Cash-Open 15:30 bringt übliche Volatilität, Power Hour 21:30-22:00 ebenfalls. Wochenende ab Samstag reduziert Risiko. Geopolitische Lage bleibt Wildcard, aber aktuell kein aktiver Schlagabtausch.",
+  "forecast": [
     {
       "stunde": "15:00",
       "ts": "2026-08-21T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
@@ -233,12 +208,12 @@
     {
       "stunde": "02:00",
       "ts": "2026-08-22T00:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-22T01:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "04:00",
@@ -269,44 +244,69 @@
       "stunde": "09:00",
       "ts": "2026-08-22T07:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-22T08:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-22T09:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-22T10:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-08-22T11:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-08-22T12:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "10:00",
-      "ts": "2026-08-21T08:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "11:00 Zurich: Europäischer Vormittag ruhig, niedrige Liquidität vor Wochenende, VIX niedrig aber fragil."
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-21T09:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "12:00 Zurich: Weiter niedriges Volumen, keine Termine, Positionsaufbau vor US-Open möglich."
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-21T10:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "13:00 Zurich: Pre-Market USA beginnt, erste Indikationen zu Futures, Yields und Sentiment abwarten."
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-21T11:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "14:00 Zurich: Letzter Pre-Open-Stunde, erhöhte Vorsicht empfohlen, da Walmart-Schwäche nachhallt."
-    },
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-21T12:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "15:00 Zurich: Unmittelbar vor US-Cash-Open, höchste Volatilität erwartet, Spread-Weitung möglich."
-    },
-    {
       "stunde": "15:00",
       "ts": "2026-08-21T13:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "15:00-16:00: Gelb wegen unmittelbar bevorstehendem US-Cash-Open um 15:30, erhöhte Volatilität erwartet."
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-08-21T14:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "16:00-17:00: Gelb, US-Markt in erster Handelsstunde, typischerweise volatile Phase nach Opening Bell."
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-21T15:00:00.000Z",
       "status": "gruen",
-      "kommentar": "16:00 Zurich: US-Markt offen, erste Stunde oft volatil, heute keine Daten aber Yield/Öl-Fokus bleibt."
+      "kommentar": "17:00-18:00: Grün, US-Markt stabilisiert sich meist nach Opening-Rush, kein besonderer Katalysator."
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-21T16:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "18:00-19:00: Grün, Mid-Session-Konsolidierung, geringes Event-Risiko, normale Handelsbedingungen."
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-21T17:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "19:00-20:00: Grün, späte US-Session ohne besondere Trigger, ruhigere Phase vor Close."
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-21T18:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "20:00-21:00: Grün, ruhige Stunde vor Power Hour, wenig Newsflow erwartet."
     }
   ],
   "termine": []
