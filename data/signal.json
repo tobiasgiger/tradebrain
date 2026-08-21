@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T20:16:29.039Z",
+  "generatedAt": "2026-08-21T01:44:31.093Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Mittleres Risiko, VIX niedrig, Geopolitik aktiv",
-  "empfehlung": "Mean-Reversion-Bots können laufen, aber Position Sizing reduzieren und enge Stops setzen.",
+  "statusText": "Erhöhte Volatilität, Geopolitik angespannt",
+  "empfehlung": "Mean-Reversion-Trading mit reduzierten Positionsgrößen fortsetzen, aber US-Öffnung (15:30 Zurich) genau beobachten.",
   "source": "nq-pause-board"
 }

@@ -1,53 +1,32 @@
 {
-  "generatedAt": "2026-08-20T20:16:29.039Z",
+  "generatedAt": "2026-08-21T01:44:31.093Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Mittleres Risiko, VIX niedrig, Geopolitik aktiv",
-  "empfehlung": "Mean-Reversion-Bots können laufen, aber Position Sizing reduzieren und enge Stops setzen.",
-  "headline": "VIX auf Jahrestief (15.84), Iran-Konflikt schwelt weiter, keine High-Impact-Daten heute",
-  "body": "Die Volatilität ist aktuell sehr niedrig (VIX bei 15.84, Jahrestief), was historisch oft vor plötzlichen Ausschlägen auftritt. Der Iran-Konflikt ist zwar im August 2026 weiterhin aktiv, befindet sich aber in einer Phase relativer Stabilisierung nach früheren Eskalationen. Diese Woche bringt keine High-Impact US-Daten (FOMC-Protokoll am Mi, Housing-Daten), nächste große Releases sind CPI/NFP im September.",
-  "confidence": "mittel",
+  "statusText": "Erhöhte Volatilität, Geopolitik angespannt",
+  "empfehlung": "Mean-Reversion-Trading mit reduzierten Positionsgrößen fortsetzen, aber US-Öffnung (15:30 Zurich) genau beobachten.",
+  "headline": "VIX +7%, Yields 4.7%, Iran-Spannungen andauernd – vorsichtige Handelshaltung",
+  "body": "Die Volatilität ist deutlich gestiegen (VIX 16.03, +7%), während Bond-Yields auf 4.7% kletterten und Futures schwächer eröffnen. Geopolitisch bleiben Iran-US-Spannungen über die Straße von Hormuz akut, der 60-Tage-Deal ist abgelaufen. Keine High-Impact-Releases heute, aber erhöhte Markt-Nervosität rechtfertigt defensive Haltung.",
+  "confidence": "hoch",
   "quellen": [
     {
-      "titel": "CNBC: VIX hits 2026 low",
-      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
+      "titel": "StrongBuyAnalytics Market Outlook 21.08.2026",
+      "url": "https://strongbuyanalytics.com/stock-market-outlook"
     },
     {
-      "titel": "Wikipedia: 2026 Iran war",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "titel": "CNN Iran War Updates 17.08.2026",
+      "url": "https://www.cnn.com/2026/08/17/world/live-news/iran-war-trump"
     },
     {
-      "titel": "The Right Trader: Economic Calendar",
-      "url": "https://therighttrader.com/economic-calendar/this-week"
+      "titel": "Vittarthi US Markets 20.08.2026",
+      "url": "https://vittarthi.com/markets/us"
+    },
+    {
+      "titel": "Britannica 2026 Iran War",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden verliefen ruhig mit niedriger Volatilität. Der VIX fiel auf 15.84 (Jahrestief), Nasdaq verlor 1.33% am Mittwoch bei normalen Handelsbedingungen. Keine wesentlichen geopolitischen Eskalationen oder makroökonomischen Überraschungen.",
+  "rueckblickSummary": "Die vergangenen 24 Stunden zeigten zunehmende Markt-Nervosität mit steigenden Yields und VIX-Anstieg um über 7%. Futures schlossen schwächer, während geopolitische Spannungen im Nahen Osten (Straße von Hormuz, abgelaufener US-Iran-Deal) die Unsicherheit schürten. Keine Major-Releases, aber defensive Rotation in Sektoren.",
   "rueckblick": [
-    {
-      "stunde": "22:00",
-      "ts": "2026-08-19T20:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-08-19T21:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "00:00",
-      "ts": "2026-08-19T22:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "01:00",
-      "ts": "2026-08-19T23:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "02:00",
-      "ts": "2026-08-20T00:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "03:00",
       "ts": "2026-08-20T01:00:00.000Z",
@@ -71,17 +50,17 @@
     {
       "stunde": "07:00",
       "ts": "2026-08-20T05:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-20T06:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-20T07:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "10:00",
@@ -101,12 +80,12 @@
     {
       "stunde": "13:00",
       "ts": "2026-08-20T11:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-20T12:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
@@ -121,12 +100,12 @@
     {
       "stunde": "17:00",
       "ts": "2026-08-20T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-20T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
@@ -142,10 +121,7 @@
       "stunde": "21:00",
       "ts": "2026-08-20T19:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Die nächsten 24 Stunden bleiben voraussichtlich ruhig. Heute (Do) nur kleinere Daten (Jobless Claims 14:30 Zürich-Zeit). Morgen (Fr) Housing-Daten. US-Börsen offen, normale Handelszeiten. Geopolitisches Risiko (Iran) bleibt latent vorhanden, aktuell aber keine akute Eskalation erkennbar.",
-  "forecast": [
+    },
     {
       "stunde": "22:00",
       "ts": "2026-08-20T20:00:00.000Z",
@@ -170,7 +146,10 @@
       "stunde": "02:00",
       "ts": "2026-08-21T00:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Freitag-Handel mit erhöhter Vorsicht – keine High-Impact-Releases heute, aber VIX-Niveau und Yield-Druck bleiben Risikofaktoren. US-Cash-Open 15:30 Zurich bringt typische Volatilität, Power-Hour 21:30-22:00 könnte abrupt werden. Wochenend-Risiko durch Iran-Geopolitik bleibt präsent.",
+  "forecast": [
     {
       "stunde": "03:00",
       "ts": "2026-08-21T01:00:00.000Z",
@@ -209,42 +188,42 @@
     {
       "stunde": "10:00",
       "ts": "2026-08-21T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-21T09:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-21T10:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-21T11:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-21T12:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-21T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-21T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-21T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
@@ -259,51 +238,82 @@
     {
       "stunde": "20:00",
       "ts": "2026-08-21T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-21T19:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-08-21T20:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-08-21T21:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "00:00",
+      "ts": "2026-08-21T22:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "01:00",
+      "ts": "2026-08-21T23:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-08-22T00:00:00.000Z",
       "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "22:00",
-      "ts": "2026-08-20T20:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "22:00-23:00 Zürich: US-Nachhandel läuft aus, sehr ruhig, grün."
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-08-20T21:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "23:00-00:00 Zürich: Asien-Vorbörse beginnt, niedrige Aktivität, grün."
-    },
-    {
-      "stunde": "00:00",
-      "ts": "2026-08-20T22:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "00:00-01:00 Zürich: Asiatische Märkte öffnen, normale Volatilität, grün."
-    },
-    {
-      "stunde": "01:00",
-      "ts": "2026-08-20T23:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "01:00-02:00 Zürich: Ruhiger asiatischer Handel, keine News erwartet, grün."
-    },
-    {
-      "stunde": "02:00",
-      "ts": "2026-08-21T00:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "02:00-03:00 Zürich: Fortsetzung Asia-Session, stabil, grün."
-    },
-    {
       "stunde": "03:00",
       "ts": "2026-08-21T01:00:00.000Z",
       "status": "gruen",
-      "kommentar": "03:00-04:00 Zürich: Späte Asia-Session, Europa-Vorbörse nähert sich, grün."
+      "kommentar": "03:44-04:44 Zurich: Asien-Handel ruhig, geringe Liquidität, keine Katalysatoren – grün."
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-08-21T02:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "04:44-05:44 Zurich: Fortsetzung Asia-Session, europäische Pre-Market beginnt – weiter grün."
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-21T03:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "05:44-06:44 Zurich: Frühe Europa-Vorbereitung, minimale Bewegung erwartet – grün."
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-08-21T04:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "06:44-07:44 Zurich: Europa-Börsen noch nicht offen, weiterhin ruhige Phase – grün."
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-08-21T05:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "07:44-08:44 Zurich: Europa öffnet (Frankfurt 09:00), erste Liquidität, aber NQ-Impact gering – grün."
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-08-21T06:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "08:44-09:44 Zurich: Europa läuft, aber US-Futures still vor Cash-Open – grün mit leichter Vorsicht."
     }
   ],
-  "termine": []
+  "termine": [
+    {
+      "name": "Jobless Claims",
+      "ts": "2026-08-27T12:30:00.000Z",
+      "impact": "mittel"
+    }
+  ]
 }
