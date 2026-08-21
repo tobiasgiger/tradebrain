@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-21T04:46:06.823Z",
+  "generatedAt": "2026-08-21T08:49:04.678Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "Kriegslage Iran/Israel — Bots pausieren",
-  "empfehlung": "Trading-Bots sofort stoppen — aktiver Kriegszustand mit US-Beteiligung.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Erhöhte Vorsicht: Geopolitik weiter angespannt",
+  "empfehlung": "Bots mit reduziertem Positionssize laufen lassen, um 15:30 Zurich (US-Open) besonders vorsichtig.",
   "source": "nq-pause-board"
 }
