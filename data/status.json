@@ -1,214 +1,199 @@
 {
-  "generatedAt": "2026-08-21T01:44:31.093Z",
+  "generatedAt": "2026-08-21T04:46:06.823Z",
   "appVersion": "1.7.1",
-  "status": "gelb",
-  "statusText": "Erhöhte Volatilität, Geopolitik angespannt",
-  "empfehlung": "Mean-Reversion-Trading mit reduzierten Positionsgrößen fortsetzen, aber US-Öffnung (15:30 Zurich) genau beobachten.",
-  "headline": "VIX +7%, Yields 4.7%, Iran-Spannungen andauernd – vorsichtige Handelshaltung",
-  "body": "Die Volatilität ist deutlich gestiegen (VIX 16.03, +7%), während Bond-Yields auf 4.7% kletterten und Futures schwächer eröffnen. Geopolitisch bleiben Iran-US-Spannungen über die Straße von Hormuz akut, der 60-Tage-Deal ist abgelaufen. Keine High-Impact-Releases heute, aber erhöhte Markt-Nervosität rechtfertigt defensive Haltung.",
+  "status": "rot",
+  "statusText": "Kriegslage Iran/Israel — Bots pausieren",
+  "empfehlung": "Trading-Bots sofort stoppen — aktiver Kriegszustand mit US-Beteiligung.",
+  "headline": "Iran-Krieg eskaliert weiter, VIX 16+, nächste FOMC Sept 16, keine High-Releases heute",
+  "body": "Die USA und Israel befinden sich seit Februar 2026 im aktiven Krieg mit Iran (Operation Epic Fury), trotz Juni-Waffenstillstand kommt es weiter zu Angriffen auf Golfstaaten und Strait of Hormuz. VIX stieg auf 16.03, Nasdaq Futures leicht schwächer. Heute 21.8. keine High-Impact-US-Daten, aber geopolitisches Risiko bleibt extrem hoch.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "StrongBuyAnalytics Market Outlook 21.08.2026",
+      "titel": "CFR: Iran War with US/Israel",
+      "url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
+    },
+    {
+      "titel": "CNN: Russia-Ukraine Escalation Aug 2026",
+      "url": "https://www.cnn.com/2026/08/09/europe/russia-ukraine-escalation-aerial-strikes-intl-vis"
+    },
+    {
+      "titel": "StrongBuy: Market Outlook Aug 21",
       "url": "https://strongbuyanalytics.com/stock-market-outlook"
     },
     {
-      "titel": "CNN Iran War Updates 17.08.2026",
-      "url": "https://www.cnn.com/2026/08/17/world/live-news/iran-war-trump"
-    },
-    {
-      "titel": "Vittarthi US Markets 20.08.2026",
-      "url": "https://vittarthi.com/markets/us"
-    },
-    {
-      "titel": "Britannica 2026 Iran War",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
+      "titel": "The Right Trader: Economic Calendar",
+      "url": "https://therighttrader.com/economic-calendar"
     }
   ],
-  "rueckblickSummary": "Die vergangenen 24 Stunden zeigten zunehmende Markt-Nervosität mit steigenden Yields und VIX-Anstieg um über 7%. Futures schlossen schwächer, während geopolitische Spannungen im Nahen Osten (Straße von Hormuz, abgelaufener US-Iran-Deal) die Unsicherheit schürten. Keine Major-Releases, aber defensive Rotation in Sektoren.",
+  "rueckblickSummary": "Letzte 24h (Do 20.8. 06:46 - Fr 21.8. 06:46): VIX stieg von 15.20 auf 16.03, Nasdaq Futures fielen leicht, 10Y-Yield auf 4.696%. Keine Major-Releases, aber Iran-Kriegs-Nachrichten und Ukraine-Eskalationsberichte hielten Märkte angespannt. Gestern 19.8. wurden FOMC Minutes veröffentlicht.",
   "rueckblick": [
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-20T01:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-20T02:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-20T03:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "06:00",
       "ts": "2026-08-20T04:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-20T05:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-20T06:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-20T07:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-20T08:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-20T09:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-20T10:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-20T11:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-20T12:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-20T13:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-20T14:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-20T15:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-20T16:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-20T17:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-20T18:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-20T19:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-20T20:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-20T21:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-20T22:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-20T23:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-21T00:00:00.000Z",
-      "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Freitag-Handel mit erhöhter Vorsicht – keine High-Impact-Releases heute, aber VIX-Niveau und Yield-Druck bleiben Risikofaktoren. US-Cash-Open 15:30 Zurich bringt typische Volatilität, Power-Hour 21:30-22:00 könnte abrupt werden. Wochenend-Risiko durch Iran-Geopolitik bleibt präsent.",
-  "forecast": [
+      "status": "rot"
+    },
     {
       "stunde": "03:00",
       "ts": "2026-08-21T01:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-21T02:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-21T03:00:00.000Z",
-      "status": "gruen"
-    },
+      "status": "rot"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h (Fr 21.8. 06:46 - Sa 22.8. 06:46): Heute Freitag keine US-High-Impact-Releases geplant, aber geopolitisches Kriegsrisiko bleibt akut. US-Märkte öffnen 15:30 Zurich-Zeit, Power Hour 22:00. VIX über 16 signalisiert erhöhte Nervosität. Wochenende naht, typische Freitags-Vola möglich.",
+  "forecast": [
     {
       "stunde": "06:00",
       "ts": "2026-08-21T04:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-21T05:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-21T06:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-21T07:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-21T08:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-21T09:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-21T10:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-21T11:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-21T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
@@ -218,102 +203,111 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-21T14:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-21T15:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-21T16:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-21T17:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-21T18:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-21T19:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-21T20:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-21T21:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-21T22:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-21T23:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-22T00:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-08-22T01:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-08-22T02:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-22T03:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "03:00",
-      "ts": "2026-08-21T01:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "03:44-04:44 Zurich: Asien-Handel ruhig, geringe Liquidität, keine Katalysatoren – grün."
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-21T02:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "04:44-05:44 Zurich: Fortsetzung Asia-Session, europäische Pre-Market beginnt – weiter grün."
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-21T03:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "05:44-06:44 Zurich: Frühe Europa-Vorbereitung, minimale Bewegung erwartet – grün."
-    },
-    {
       "stunde": "06:00",
       "ts": "2026-08-21T04:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "06:44-07:44 Zurich: Europa-Börsen noch nicht offen, weiterhin ruhige Phase – grün."
+      "status": "rot",
+      "kommentar": "06:46-07:46: Pre-Market Europa — Iran-Kriegslage bleibt dominantes Risiko, rote Ampel."
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-21T05:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "07:44-08:44 Zurich: Europa öffnet (Frankfurt 09:00), erste Liquidität, aber NQ-Impact gering – grün."
+      "status": "rot",
+      "kommentar": "07:46-08:46: EU-Börsen offen, aber US-Krieg mit Iran erzwingt weiter Rot-Status."
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-21T06:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "08:44-09:44 Zurich: Europa läuft, aber US-Futures still vor Cash-Open – grün mit leichter Vorsicht."
+      "status": "rot",
+      "kommentar": "08:46-09:46: Vor US-Open, keine Releases heute, aber Geopolitik bleibt hochriskant."
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-08-21T07:00:00.000Z",
+      "status": "rot",
+      "kommentar": "09:46-10:46: Weiter Rot wegen aktiver Kriegslage, VIX >16, unsicheres Setup."
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-21T08:00:00.000Z",
+      "status": "rot",
+      "kommentar": "10:46-11:46: Annäherung an US-Cash-Open (15:30), erhöhte Unsicherheit bleibt."
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-21T09:00:00.000Z",
+      "status": "rot",
+      "kommentar": "11:46-12:46: Kurz vor US-Open — Gelb wegen typischer Open-Vola, aber Kriegsrisiko bleibt."
     }
   ],
-  "termine": [
-    {
-      "name": "Jobless Claims",
-      "ts": "2026-08-27T12:30:00.000Z",
-      "impact": "mittel"
-    }
-  ]
+  "termine": []
 }

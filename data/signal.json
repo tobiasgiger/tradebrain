@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-21T01:44:31.093Z",
+  "generatedAt": "2026-08-21T04:46:06.823Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Erhöhte Volatilität, Geopolitik angespannt",
-  "empfehlung": "Mean-Reversion-Trading mit reduzierten Positionsgrößen fortsetzen, aber US-Öffnung (15:30 Zurich) genau beobachten.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Kriegslage Iran/Israel — Bots pausieren",
+  "empfehlung": "Trading-Bots sofort stoppen — aktiver Kriegszustand mit US-Beteiligung.",
   "source": "nq-pause-board"
 }
