@@ -1,47 +1,32 @@
 {
-  "generatedAt": "2026-08-21T13:00:12.419Z",
+  "generatedAt": "2026-08-21T16:41:09.751Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Geopolitik fragil, Märkte ruhig",
-  "empfehlung": "Mean-Reversion-Trading möglich, aber mit reduzierter Positionsgröße wegen anhaltender geopolitischer Risiken.",
-  "headline": "Iran-Waffenstillstand hält, VIX bei 16, kein High-Impact-Release heute/morgen",
-  "body": "Geopolitische Lage bleibt angespannt: Iran-Israel-US-Konflikt unter fragilem Waffenstillstand seit Juni, sporadische Verstöße gemeldet. Ukraine-Krieg eskaliert mit Rekord-Raketenbeschuss (376 Missiles im Juli). VIX bei 15-16 zeigt moderate Volatilität. Heute/morgen keine markttreibenden US-Releases, nächstes FOMC 28-29.7., NFP am 1.8.",
+  "statusText": "Vorsicht: Iran-Krise & Vola-Anstieg",
+  "empfehlung": "Handel reduzieren: Iran/Israel-Krise läuft weiter, VIX +7% gestern, 10Y-Rendite 4,7%, Nasdaq 5 Tage rot.",
+  "headline": "Geopolitik angespannt (Iran/Israel), Märkte nervös, VIX bei 16, kein High-Impact heute",
+  "body": "Aktive Iran/Israel-Krise seit Februar mit Juni-Waffenstillstand, aber Lage bleibt volatil. VIX stieg gestern um über 7% auf ~16, US-Renditen bei 4,7%. Nasdaq verlor 5 Tage in Folge, heute leichte Erholung. Keine High-Impact-Releases heute oder Wochenende erkennbar.",
   "confidence": "mittel",
   "quellen": [
     {
-      "titel": "Britannica: 2026 Iran War",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
+      "titel": "DAWN Iran-Israel Live Updates",
+      "url": "https://www.dawn.com/live/iran-israel-war"
     },
     {
       "titel": "CFR Global Conflict Tracker",
       "url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
     },
     {
-      "titel": "Just Security - Aug 21 Update",
-      "url": "https://www.justsecurity.org/154807/early-edition-august-21-2026/"
+      "titel": "Vittarthi Markets US Aug 20",
+      "url": "https://vittarthi.com/markets/us"
     },
     {
-      "titel": "VIX Index - Investing.com",
-      "url": "https://www.investing.com/indices/volatility-s-p-500"
+      "titel": "Bloomberg Nasdaq Futures Aug 21",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/us-stock-futures-gain-as-nasdaq-100-looks-to-snap-five-day-slump"
     }
   ],
-  "rueckblickSummary": "Letzte 24h (Do 20.8. 15:00 - Fr 21.8. 15:00): FOMC Minutes wurden Mi veröffentlicht, leichte Marktkonsolidierung. VIX stieg von 15.2 auf 16, US-Märkte leicht negativ (SPY -0.84%, QQQ -0.72%). Keine akute Eskalation, aber anhaltende Geopolitik-Nervosität. US-Session gestern mit moderatem Volumen.",
+  "rueckblickSummary": "Letzte 24h: US-Märkte unter Druck, Nasdaq verlängerte Verlustserie auf 5 Tage, VIX sprang über 7% auf 16, 10Y-Rendite kletterte auf 4,7%. Geopolitische Spannungen (Iran-Sanktionen) und steigende Zinsen belasteten Tech-Werte. Heute früh leichte Stabilisierung.",
   "rueckblick": [
-    {
-      "stunde": "15:00",
-      "ts": "2026-08-20T13:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-20T14:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-20T15:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "18:00",
       "ts": "2026-08-20T16:00:00.000Z",
@@ -65,12 +50,12 @@
     {
       "stunde": "22:00",
       "ts": "2026-08-20T20:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-20T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
@@ -105,12 +90,12 @@
     {
       "stunde": "06:00",
       "ts": "2026-08-21T04:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-21T05:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
@@ -130,26 +115,23 @@
     {
       "stunde": "11:00",
       "ts": "2026-08-21T09:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-21T10:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-21T11:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-21T12:00:00.000Z",
-      "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h (Fr 21.8. 15:00 - Sa 22.8. 15:00): Keine High-Impact-Releases. US-Cash-Open 15:30 bringt übliche Volatilität, Power Hour 21:30-22:00 ebenfalls. Wochenende ab Samstag reduziert Risiko. Geopolitische Lage bleibt Wildcard, aber aktuell kein aktiver Schlagabtausch.",
-  "forecast": [
+      "status": "gelb"
+    },
     {
       "stunde": "15:00",
       "ts": "2026-08-21T13:00:00.000Z",
@@ -164,16 +146,19 @@
       "stunde": "17:00",
       "ts": "2026-08-21T15:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Freitag-Handel volatil möglich, aber keine High-Impact-Releases erkennbar. Wochenende bringt Pause. Iran/Israel-Lage bleibt Risikofaktor, ebenso wie erhöhte Renditen. Nasdaq versucht 5-Tages-Verlustserie zu beenden. Vorsicht bei US-Börsenschluss (Power Hour ~22h Zurich).",
+  "forecast": [
     {
       "stunde": "18:00",
       "ts": "2026-08-21T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-21T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
@@ -208,12 +193,12 @@
     {
       "stunde": "02:00",
       "ts": "2026-08-22T00:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-22T01:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
@@ -243,22 +228,22 @@
     {
       "stunde": "09:00",
       "ts": "2026-08-22T07:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-22T08:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-22T09:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-22T10:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "13:00",
@@ -269,44 +254,59 @@
       "stunde": "14:00",
       "ts": "2026-08-22T12:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "15:00",
+      "ts": "2026-08-22T13:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-08-22T14:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-22T15:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "15:00",
-      "ts": "2026-08-21T13:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "15:00-16:00: Gelb wegen unmittelbar bevorstehendem US-Cash-Open um 15:30, erhöhte Volatilität erwartet."
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-21T14:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "16:00-17:00: Gelb, US-Markt in erster Handelsstunde, typischerweise volatile Phase nach Opening Bell."
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-21T15:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "17:00-18:00: Grün, US-Markt stabilisiert sich meist nach Opening-Rush, kein besonderer Katalysator."
-    },
-    {
       "stunde": "18:00",
       "ts": "2026-08-21T16:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "18:00-19:00: Grün, Mid-Session-Konsolidierung, geringes Event-Risiko, normale Handelsbedingungen."
+      "status": "gelb",
+      "kommentar": "18-19h Zurich: Europaschluss ruhig, US-Handel läuft an, Nasdaq sucht Stabilisierung nach 5 roten Tagen."
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-21T17:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "19:00-20:00: Grün, späte US-Session ohne besondere Trigger, ruhigere Phase vor Close."
+      "status": "gelb",
+      "kommentar": "19-20h Zurich: US-Vormittagshandel, moderate Aktivität, keine Termine, Rendite 4,7% bleibt Fokus."
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-21T18:00:00.000Z",
       "status": "gruen",
-      "kommentar": "20:00-21:00: Grün, ruhige Stunde vor Power Hour, wenig Newsflow erwartet."
+      "kommentar": "20-21h Zurich: US-Mittagshandel, ruhige Phase ohne Katalysatoren, Position-Adjustments vor Wochenende möglich."
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-08-21T19:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "21-22h Zurich: Power-Hour-Vorbereitung, Volumen steigt, mögliche Volatilität durch Wochenschluss-Hedging."
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-08-21T20:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "22-23h Zurich: Power-Hour US-Börsenschluss, erhöhtes Risiko durch Schlusskursfixing und Short-Covering."
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-08-21T21:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "23-00h Zurich: After-Hours dünn, Wochenende beginnt, Overnight-Risiko reduziert bis Sonntag-Opening."
     }
   ],
   "termine": []

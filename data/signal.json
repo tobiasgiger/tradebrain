@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-21T13:00:12.419Z",
+  "generatedAt": "2026-08-21T16:41:09.751Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Geopolitik fragil, Märkte ruhig",
-  "empfehlung": "Mean-Reversion-Trading möglich, aber mit reduzierter Positionsgröße wegen anhaltender geopolitischer Risiken.",
+  "statusText": "Vorsicht: Iran-Krise & Vola-Anstieg",
+  "empfehlung": "Handel reduzieren: Iran/Israel-Krise läuft weiter, VIX +7% gestern, 10Y-Rendite 4,7%, Nasdaq 5 Tage rot.",
   "source": "nq-pause-board"
 }
