@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-21T16:41:09.751Z",
+  "generatedAt": "2026-08-23T20:28:22.827Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Vorsicht: Iran-Krise & Vola-Anstieg",
-  "empfehlung": "Handel reduzieren: Iran/Israel-Krise läuft weiter, VIX +7% gestern, 10Y-Rendite 4,7%, Nasdaq 5 Tage rot.",
+  "statusText": "Ruhiges Wochenende, Powell-Rede Freitag",
+  "empfehlung": "Bot kann laufen; ab Montag 14:30 UTC Vorsicht wegen Daten-Woche.",
   "source": "nq-pause-board"
 }
