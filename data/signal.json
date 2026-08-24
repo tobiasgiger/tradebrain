@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T00:36:35.393Z",
+  "generatedAt": "2026-08-24T04:34:27.478Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Iran-Spannungen schwelen, PCE Mi. 26.8.",
-  "empfehlung": "Bot normal laufen lassen, aber Mittwoch 26.8. ab 14:00 Uhr pausieren wegen PCE/GDP.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Kriegsrisiko: US-Iran-Konflikt aktiv",
+  "empfehlung": "Bot sofort pausieren – aktive Kriegsführung USA/Israel vs. Iran seit Februar 2026, erhöhte geopolitische Volatilität, Ukraine-Eskalation, Jackson Hole & PCE diese Woche.",
   "source": "nq-pause-board"
 }

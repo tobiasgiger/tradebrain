@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T00:36:35.393Z",
+  "generatedAt": "2026-08-24T04:34:27.478Z",
   "appVersion": "1.7.1",
-  "status": "gelb",
-  "statusText": "Iran-Spannungen schwelen, PCE Mi. 26.8.",
-  "empfehlung": "Bot normal laufen lassen, aber Mittwoch 26.8. ab 14:00 Uhr pausieren wegen PCE/GDP.",
-  "headline": "Geopolitik angespannt aber ruhig | VIX auf Jahrestief | PCE/GDP Mittwoch vormittags",
-  "body": "Iran-Israel-Konflikt seit Februar in fragiler Waffenruhe, Strait of Hormuz weiter eingeschränkt. VIX bei 14-15, niedrigster Stand 2026 trotz Nahost-Risiken. Mittwoch 26.8. PCE und GDP Q2 (14:30 Zürich) sind High-Impact-Releases.",
+  "status": "rot",
+  "statusText": "Kriegsrisiko: US-Iran-Konflikt aktiv",
+  "empfehlung": "Bot sofort pausieren – aktive Kriegsführung USA/Israel vs. Iran seit Februar 2026, erhöhte geopolitische Volatilität, Ukraine-Eskalation, Jackson Hole & PCE diese Woche.",
+  "headline": "KRITISCH: Iran-Krieg läuft, Russland-Ukraine eskaliert, VIX 15, Jackson Hole Mo-Fr",
+  "body": "USA und Israel führen seit 28. Februar 2026 Krieg gegen Iran (Operation Epic Fury), Supreme Leader Khamenei getötet, massive Vergeltungsangriffe laufen weiter. Russland eskaliert Luftkrieg gegen Ukraine mit Rekord-Raketen (376 im Juli). VIX bei 15.13, aber geopolitisches Tail-Risk hoch. Jackson Hole Symposium diese Woche (Fed Chair Warsh), PCE-Daten Freitag, Nvidia-Earnings Mittwoch, 30-Jahres-Rendite auf Mehrjahreshoch.",
   "confidence": "hoch",
   "quellen": [
     {
@@ -13,207 +13,187 @@
       "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "CNBC: VIX hits 2026 low",
-      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
-    },
-    {
-      "titel": "Investrade: Economic Calendar Aug 24-28",
-      "url": "https://investrade.com/weekly-event-calendar-08-24-2026-08-28-2026/"
-    },
-    {
-      "titel": "CFR: Iran-US Conflict Tracker",
+      "titel": "CFR: Iran War Tracker",
       "url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
+    },
+    {
+      "titel": "Al Jazeera: Ukraine Attacks Aug 2026",
+      "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home"
+    },
+    {
+      "titel": "CNBC: Week Ahead Aug 24-28",
+      "url": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html"
     }
   ],
-  "rueckblickSummary": "Letzte 24h: Wochenende, keine Eskalation. Iran-US-Spannungen schwelen weiter (Hormuz-Beschränkungen), aber keine neuen Kampfhandlungen. Ukraine: kontinuierliche Gefechte ohne größere Eskalation. VIX schloss Freitag bei 15.13.",
+  "rueckblickSummary": "Vergangene 24h (So 23.08. 06:34 - Mo 24.08. 06:34): Asien-Märkte unter Druck (Alibaba -8% nach Dilution, Samsung -8% trotz Buyback-Plan). Freitag US-Märkte leicht erholt nach Sell-off (VIX -5.5% auf 15.13), aber Wochenverlust verzeichnet. Geopolitik unverändert kritisch: Iran-Krieg aktiv, Russland bombardiert Ukraine weiter (18 Tote am 20.08.). Ölpreis Brent ~$90, 10-Jahres-Rendite 4.65%, 30-Jahres auf Multi-Dekaden-Hoch.",
   "rueckblick": [
-    {
-      "stunde": "02:00",
-      "ts": "2026-08-23T00:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-23T01:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-23T02:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-23T03:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "06:00",
       "ts": "2026-08-23T04:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-23T05:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-23T06:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-23T07:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-23T08:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-23T09:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-23T10:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-23T11:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-23T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-23T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-23T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-23T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-23T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-23T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-23T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-23T19:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-23T20:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-23T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-23T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-23T23:00:00.000Z",
-      "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Montag 24.8. keine Major-Releases. Asien-/Europa-Handel ruhig erwartet. US-Cash-Open 15:30 Zürich bringt übliche Volatilität. Mittwoch 26.8. PCE/GDP ab 14:30 ist Hauptrisiko dieser Woche.",
-  "forecast": [
+      "status": "gelb"
+    },
     {
       "stunde": "02:00",
       "ts": "2026-08-24T00:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-24T01:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-24T02:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-24T03:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h (Mo 24.08. 06:34 - Di 25.08. 06:34): Jackson Hole Symposium beginnt heute – Fed Chair Warsh-Rede erwartet, Bondmarkt nervös wegen 30-Jahres-Rendite-Spike. Keine Major-Releases heute, aber Nvidia-Earnings Mi 27.08. und PCE Fr 29.08. im Fokus. Geopolitisches Tail-Risk bleibt extrem: Iran-Krieg läuft, Vergeltungsschläge jederzeit möglich. US-Cash-Open (15:30 Zürich) und Power Hour (22:00) heute gelb.",
+  "forecast": [
     {
       "stunde": "06:00",
       "ts": "2026-08-24T04:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-24T05:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-24T06:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-24T07:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-24T08:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-24T09:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-24T10:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-24T11:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-24T12:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "15:00",
@@ -223,116 +203,136 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-24T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-24T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-24T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-24T17:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-24T18:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-24T19:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-24T20:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-24T21:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-24T22:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-24T23:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-08-25T00:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-08-25T01:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-08-25T02:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-25T03:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "02:00",
-      "ts": "2026-08-24T00:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "02:36-03:36 Zürich: Asien-Handel läuft, keine Events, geringes Volumen erwartet."
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-24T01:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "03:36-04:36 Zürich: Asien-Handel fortsetzt, Japan/China-Börsen aktiv, weiter ruhig."
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-24T02:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "04:36-05:36 Zürich: Späte Asien-Session, Hong Kong aktiv, kein Risiko-Event."
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-24T03:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "05:36-06:36 Zürich: Asien schließt, Europa-Pre-Open, sehr ruhige Phase."
-    },
-    {
       "stunde": "06:00",
       "ts": "2026-08-24T04:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "06:36-07:36 Zürich: Europa-Börsen öffnen, aber Montag ohne Major-Daten bleibt ruhig."
+      "status": "rot",
+      "kommentar": "06:34-07:34 Zürich: ROT – Jackson Hole startet, Asien-Schwäche (Alibaba/Samsung), Iran-Kriegsrisiko aktiv."
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-24T05:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "07:36-08:36 Zürich: Europa-Handel, niedrige Volatilität ohne Katalysator zu erwarten."
+      "status": "rot",
+      "kommentar": "07:34-08:34 Zürich: ROT – Europa-Open mit geopolitischer Unsicherheit, Brent $90+, Bondmarkt angespannt."
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-08-24T06:00:00.000Z",
+      "status": "rot",
+      "kommentar": "08:34-09:34 Zürich: ROT – Vorbörsliche US-Futures volatil, Warsh-Rede erwartet, keine Entwarnung Iran/Ukraine."
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-08-24T07:00:00.000Z",
+      "status": "rot",
+      "kommentar": "09:34-10:34 Zürich: ROT – Europäischer Handel, Jackson Hole Spekulationen, 30Y-Rendite auf Rekordhoch."
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-24T08:00:00.000Z",
+      "status": "rot",
+      "kommentar": "10:34-11:34 Zürich: ROT – Mittag Europa, weiter erhöhte Unsicherheit vor US-Open, VIX niedrig aber trügerisch."
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-24T09:00:00.000Z",
+      "status": "rot",
+      "kommentar": "11:34-12:34 Zürich: ROT – Nachmittag Europa, US-Premarket nervös, Iran-Schlagzeilen-Risiko jederzeit möglich."
     }
   ],
   "termine": [
     {
-      "name": "PCE Price Index (Juli)",
-      "ts": "2026-08-26T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Core PCE Price Index (Juli)",
-      "ts": "2026-08-26T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "GDP Q2 (2. Schätzung)",
-      "ts": "2026-08-26T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Personal Income (Juli)",
-      "ts": "2026-08-26T12:30:00.000Z",
+      "name": "US Consumer Confidence",
+      "ts": "2026-08-25T14:00:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "Personal Spending (Juli)",
-      "ts": "2026-08-26T12:30:00.000Z",
+      "name": "Nvidia Earnings",
+      "ts": "2026-08-27T20:00:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US PCE Price Index (Juli)",
+      "ts": "2026-08-29T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US Personal Income & Spending",
+      "ts": "2026-08-29T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US Durable Goods Orders",
+      "ts": "2026-08-29T12:30:00.000Z",
       "impact": "mittel"
     }
   ]
