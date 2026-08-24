@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T12:23:55.626Z",
+  "generatedAt": "2026-08-24T16:23:06.459Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "Krieg Iran + Jackson Hole Woche",
-  "empfehlung": "Bots vollständig pausieren wegen anhaltender Kriegsfolgen und Fed-Rede am Freitag.",
+  "statusText": "Iran-Konflikt aktiv, US-Markt volatil",
+  "empfehlung": "Trading-Bots sofort pausieren bis Deeskalation erkennbar ist.",
   "source": "nq-pause-board"
 }
