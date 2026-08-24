@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-23T20:28:22.827Z",
+  "generatedAt": "2026-08-24T00:36:35.393Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Ruhiges Wochenende, Powell-Rede Freitag",
-  "empfehlung": "Bot kann laufen; ab Montag 14:30 UTC Vorsicht wegen Daten-Woche.",
+  "statusText": "Iran-Spannungen schwelen, PCE Mi. 26.8.",
+  "empfehlung": "Bot normal laufen lassen, aber Mittwoch 26.8. ab 14:00 Uhr pausieren wegen PCE/GDP.",
   "source": "nq-pause-board"
 }

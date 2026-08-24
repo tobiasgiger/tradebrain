@@ -1,48 +1,32 @@
 {
-  "generatedAt": "2026-08-23T20:28:22.827Z",
+  "generatedAt": "2026-08-24T00:36:35.393Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Ruhiges Wochenende, Powell-Rede Freitag",
-  "empfehlung": "Bot kann laufen; ab Montag 14:30 UTC Vorsicht wegen Daten-Woche.",
-  "headline": "Märkte stabil nach Powell, nächste Woche vollgepackt mit US-Wirtschaftsdaten",
-  "body": "Das Wochenende verläuft ereignisarm. Powell sprach Freitag in Jackson Hole über geldpolitische Flexibilität, ohne große Überraschungen. Geopolitische Lage im Nahen Osten und Ukraine angespannt aber nicht akut eskaliert. Nächste Woche bringen mehrere wichtige US-Releases (Durable Goods, GDP-Revision, PCE) erhöhte Volatilität.",
-  "confidence": "mittel",
+  "statusText": "Iran-Spannungen schwelen, PCE Mi. 26.8.",
+  "empfehlung": "Bot normal laufen lassen, aber Mittwoch 26.8. ab 14:00 Uhr pausieren wegen PCE/GDP.",
+  "headline": "Geopolitik angespannt aber ruhig | VIX auf Jahrestief | PCE/GDP Mittwoch vormittags",
+  "body": "Iran-Israel-Konflikt seit Februar in fragiler Waffenruhe, Strait of Hormuz weiter eingeschränkt. VIX bei 14-15, niedrigster Stand 2026 trotz Nahost-Risiken. Mittwoch 26.8. PCE und GDP Q2 (14:30 Zürich) sind High-Impact-Releases.",
+  "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Powell Jackson Hole Remarks",
-      "url": "https://www.federalreserve.gov"
+      "titel": "Britannica: 2026 Iran War",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "US Economic Calendar August 2026",
-      "url": "https://www.investing.com"
+      "titel": "CNBC: VIX hits 2026 low",
+      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
     },
     {
-      "titel": "Middle East Tensions Update",
-      "url": "https://www.reuters.com"
+      "titel": "Investrade: Economic Calendar Aug 24-28",
+      "url": "https://investrade.com/weekly-event-calendar-08-24-2026-08-28-2026/"
+    },
+    {
+      "titel": "CFR: Iran-US Conflict Tracker",
+      "url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
     }
   ],
-  "rueckblickSummary": "Letzte 24 Stunden (Samstag/Sonntag) ohne Handel und Ereignisse. Powell-Rede Freitag in Jackson Hole signalisierte Zinssenkungsbereitschaft, wurde neutral aufgenommen. VIX unter 16, keine geopolitischen Schocks.",
+  "rueckblickSummary": "Letzte 24h: Wochenende, keine Eskalation. Iran-US-Spannungen schwelen weiter (Hormuz-Beschränkungen), aber keine neuen Kampfhandlungen. Ukraine: kontinuierliche Gefechte ohne größere Eskalation. VIX schloss Freitag bei 15.13.",
   "rueckblick": [
-    {
-      "stunde": "22:00",
-      "ts": "2026-08-22T20:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-08-22T21:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "00:00",
-      "ts": "2026-08-22T22:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "01:00",
-      "ts": "2026-08-22T23:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "02:00",
       "ts": "2026-08-23T00:00:00.000Z",
@@ -142,10 +126,7 @@
       "stunde": "21:00",
       "ts": "2026-08-23T19:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Sonntagnacht bleibt ruhig. Montag keine Major-Releases, aber Durable Goods Dienstag und GDP Mittwoch sowie PCE Donnerstag erfordern erhöhte Vorsicht. Geopolitik bleibt Risikofaktor ohne akute Eskalation.",
-  "forecast": [
+    },
     {
       "stunde": "22:00",
       "ts": "2026-08-23T20:00:00.000Z",
@@ -165,7 +146,10 @@
       "stunde": "01:00",
       "ts": "2026-08-23T23:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Montag 24.8. keine Major-Releases. Asien-/Europa-Handel ruhig erwartet. US-Cash-Open 15:30 Zürich bringt übliche Volatilität. Mittwoch 26.8. PCE/GDP ab 14:30 ist Hauptrisiko dieser Woche.",
+  "forecast": [
     {
       "stunde": "02:00",
       "ts": "2026-08-24T00:00:00.000Z",
@@ -234,7 +218,7 @@
     {
       "stunde": "15:00",
       "ts": "2026-08-24T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
@@ -265,75 +249,90 @@
       "stunde": "21:00",
       "ts": "2026-08-24T19:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-08-24T20:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-08-24T21:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "00:00",
+      "ts": "2026-08-24T22:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "01:00",
+      "ts": "2026-08-24T23:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "22:00",
-      "ts": "2026-08-23T20:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "22:28-23:28 So: Wochenende, Märkte geschlossen, keine Ereignisse erwartet."
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-08-23T21:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "23:28-00:28 Mo: Asien-Open ruhig, keine signifikanten Katalysatoren bekannt."
-    },
-    {
-      "stunde": "00:00",
-      "ts": "2026-08-23T22:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "00:28-01:28 Mo: Fortsetzung Asien-Handel, geringes Volumen und Nachrichtenlage."
-    },
-    {
-      "stunde": "01:00",
-      "ts": "2026-08-23T23:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "01:28-02:28 Mo: Asien-Vormittag, typischerweise ereignisarme Phase ohne US-Impulse."
-    },
-    {
       "stunde": "02:00",
       "ts": "2026-08-24T00:00:00.000Z",
       "status": "gruen",
-      "kommentar": "02:28-03:28 Mo: Asien-Nachmittag, erste Europa-Vorbörse, weiterhin niedrige Volatilität."
+      "kommentar": "02:36-03:36 Zürich: Asien-Handel läuft, keine Events, geringes Volumen erwartet."
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-24T01:00:00.000Z",
       "status": "gruen",
-      "kommentar": "03:28-04:28 Mo: Europa-Open naht, Montag ohne große Daten, stabiler Start erwartet."
+      "kommentar": "03:36-04:36 Zürich: Asien-Handel fortsetzt, Japan/China-Börsen aktiv, weiter ruhig."
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-08-24T02:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "04:36-05:36 Zürich: Späte Asien-Session, Hong Kong aktiv, kein Risiko-Event."
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-24T03:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "05:36-06:36 Zürich: Asien schließt, Europa-Pre-Open, sehr ruhige Phase."
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-08-24T04:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "06:36-07:36 Zürich: Europa-Börsen öffnen, aber Montag ohne Major-Daten bleibt ruhig."
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-08-24T05:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "07:36-08:36 Zürich: Europa-Handel, niedrige Volatilität ohne Katalysator zu erwarten."
     }
   ],
   "termine": [
     {
-      "name": "Durable Goods Orders",
+      "name": "PCE Price Index (Juli)",
+      "ts": "2026-08-26T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "Core PCE Price Index (Juli)",
+      "ts": "2026-08-26T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "GDP Q2 (2. Schätzung)",
+      "ts": "2026-08-26T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "Personal Income (Juli)",
       "ts": "2026-08-26T12:30:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "Consumer Confidence",
-      "ts": "2026-08-26T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "GDP (Q2 Second Estimate)",
-      "ts": "2026-08-27T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Core PCE Price Index",
-      "ts": "2026-08-28T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Personal Income",
-      "ts": "2026-08-28T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "Personal Spending",
-      "ts": "2026-08-28T12:30:00.000Z",
+      "name": "Personal Spending (Juli)",
+      "ts": "2026-08-26T12:30:00.000Z",
       "impact": "mittel"
     }
   ]
