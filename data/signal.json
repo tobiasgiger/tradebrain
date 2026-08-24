@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T08:34:55.444Z",
+  "generatedAt": "2026-08-24T12:23:55.626Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Erhöhte Vorsicht – Nvidia & Jackson Hole",
-  "empfehlung": "Reduzierte Positionsgrößen bis Nvidia-Earnings (Di. abend) und Fed Jackson Hole (Fr.); geopolitische Risiken weiter aktiv.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Krieg Iran + Jackson Hole Woche",
+  "empfehlung": "Bots vollständig pausieren wegen anhaltender Kriegsfolgen und Fed-Rede am Freitag.",
   "source": "nq-pause-board"
 }

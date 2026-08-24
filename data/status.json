@@ -1,52 +1,32 @@
 {
-  "generatedAt": "2026-08-24T08:34:55.444Z",
+  "generatedAt": "2026-08-24T12:23:55.626Z",
   "appVersion": "1.7.1",
-  "status": "gelb",
-  "statusText": "Erhöhte Vorsicht – Nvidia & Jackson Hole",
-  "empfehlung": "Reduzierte Positionsgrößen bis Nvidia-Earnings (Di. abend) und Fed Jackson Hole (Fr.); geopolitische Risiken weiter aktiv.",
-  "headline": "VIX +5% auf 15.92, NQ-Futures -0.7%, Iran-Sanktionen & Nvidia-Woche voraus",
-  "body": "Heute Mo. keine High-Impact-Releases, aber VIX steigt leicht und NQ-Futures unter Druck wegen Nvidia-Erwartungen (Earnings Di. nachbörslich) und Fed-Symposium Jackson Hole diese Woche. Geopolitisch bleibt die Lage angespannt: Iran-US-Deal-Deadline abgelaufen, Israel-Hezbollah-Kämpfe fortgesetzt, Ukraine-Russland weiter aktiv. Marktvolatilität moderat, aber Unsicherheit vor Key-Events erhöht.",
-  "confidence": "hoch",
+  "status": "rot",
+  "statusText": "Krieg Iran + Jackson Hole Woche",
+  "empfehlung": "Bots vollständig pausieren wegen anhaltender Kriegsfolgen und Fed-Rede am Freitag.",
+  "headline": "US-Iran-Krieg nachwirkt, Hormuz-Gespräche laufen, Warsh spricht Fr. Jackson Hole",
+  "body": "Nach dem US-Israel-Krieg gegen Iran (Feb-Mai 2026) bleiben regionale Spannungen hoch: Houthi-Angriffe, Israel-Libanon-Strikes, Hormuz-Strait-Verhandlungen. VIX bei 15.13 (-5.5%) signalisiert Entspannung, doch geopolitisches Pulverfass schwelt. Fed-Chef Warsh hält Freitag seine erste große Jackson-Hole-Rede zu Inflation – Märkte erwarten klare Ansagen.",
+  "confidence": "mittel",
   "quellen": [
     {
-      "titel": "Yahoo Finance – Stock Market Today (24.08.2026)",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html"
-    },
-    {
-      "titel": "Bloomberg Markets Wrap (24.08.2026)",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates"
-    },
-    {
-      "titel": "CNN Iran War Live Updates (17.08.2026)",
-      "url": "https://www.cnn.com/2026/08/17/world/live-news/iran-war-trump"
-    },
-    {
-      "titel": "Britannica 2026 Iran War Overview",
+      "titel": "Britannica: 2026 Iran War",
       "url": "https://www.britannica.com/event/2026-Iran-war"
+    },
+    {
+      "titel": "Al Jazeera: Iran War Updates Aug 16",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon"
+    },
+    {
+      "titel": "Kiplinger: Economic Calendar Aug 24-28",
+      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+    },
+    {
+      "titel": "Ukraine War Updates Aug 24",
+      "url": "https://newsukraine.rbc.ua/war-in-ukraine"
     }
   ],
-  "rueckblickSummary": "Letzte 24h ruhiger Sonntaghandel mit leichtem Anstieg der Vorsicht vor der Event-reichen Woche. VIX stieg von 15.13 (Freitag Close) auf aktuell 15.92, NQ-Futures verloren 0.7% im Pre-Market. Geopolitisch keine neue Eskalation, aber Iran-Sanktionsankündigungen der Trump-Administration erwartet.",
+  "rueckblickSummary": "Letzte 24h: Ruhiger Sonntag-Montag-Übergang, VIX auf 15.13 gefallen, Märkte zeigen Entspannung nach volatiler Vorwoche. Ukraine-Russland-Konflikt läuft weiter (Drohnenangriffe beidseitig), Iran-Situation nach Kriegsende stabilisiert aber fragil.",
   "rueckblick": [
-    {
-      "stunde": "10:00",
-      "ts": "2026-08-23T08:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-23T09:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-23T10:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-23T11:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "14:00",
       "ts": "2026-08-23T12:00:00.000Z",
@@ -146,10 +126,7 @@
       "stunde": "09:00",
       "ts": "2026-08-24T07:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Heute Mo. keine Major-Releases, aber erhöhte Nervosität vor Nvidia-Earnings (Di. nachbörslich) und Fed Jackson Hole (Fr.). US-Cash-Open 15:30 und Power-Hour 21:00-22:00 Zürich-Zeit mit erhöhter Volatilität. Geopolitische Nachrichtenrisiken (Iran-Sanktionen, Nahost) bleiben präsent.",
-  "forecast": [
+    },
     {
       "stunde": "10:00",
       "ts": "2026-08-24T08:00:00.000Z",
@@ -169,7 +146,10 @@
       "stunde": "13:00",
       "ts": "2026-08-24T11:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Montag US-Kassamarkt-Open 15:30 erhöht Risiko (gelb), danach normale Handelsbedingungen. Woche gipfelt Freitag mit Warsh-Rede Jackson Hole – hohe Volatilität zu erwarten. Geopolitik bleibt Risikofaktor.",
+  "forecast": [
     {
       "stunde": "14:00",
       "ts": "2026-08-24T12:00:00.000Z",
@@ -178,17 +158,17 @@
     {
       "stunde": "15:00",
       "ts": "2026-08-24T13:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-24T14:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-24T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
@@ -228,96 +208,111 @@
     {
       "stunde": "01:00",
       "ts": "2026-08-24T23:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-25T00:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-25T01:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-25T02:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-25T03:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-25T04:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-25T05:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-25T06:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-25T07:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-25T08:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-25T09:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-25T10:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-08-25T11:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "10:00",
-      "ts": "2026-08-24T08:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "10:34-11:34 Zürich: Europa-Handel ruhig, keine US-Daten, geringes Risiko."
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-24T09:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "11:34-12:34 Zürich: Vormittag stabil, Vorbereitung auf US-Session, grüne Phase."
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-24T10:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "12:34-13:34 Zürich: Mittagszeit Europa, weiter ruhig vor US-Open."
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-24T11:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "13:34-14:34 Zürich: Letzte Stunde vor US-Cash-Open, leicht erhöhte Vorsicht."
-    },
-    {
       "stunde": "14:00",
       "ts": "2026-08-24T12:00:00.000Z",
       "status": "gruen",
-      "kommentar": "14:34-15:34 Zürich: US-Cash-Open 15:30, erhöhte Volatilität erwartet – gelb."
+      "kommentar": "14:00-15:00: Ruhige europäische Nachmittagsstunden, geringe Datenveröffentlichungen erwartet."
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-24T13:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "15:00-16:00: US-Kassamarkt öffnet 15:30 Zürich – erhöhtes Volumen und Volatilität zum Start."
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-08-24T14:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "16:00-17:00: US-Handel etabliert sich, normale Handelsbedingungen ohne Makro-Events heute."
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-24T15:00:00.000Z",
       "status": "gelb",
-      "kommentar": "15:34-16:34 Zürich: Post-Open-Phase, Consumer Confidence 16:00 (mittel impact) – gelb."
+      "kommentar": "17:00-18:00: US-Nachmittagshandel läuft stabil, Geopolitik bleibt Hintergrundrisiko."
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-24T16:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "18:00-19:00: Spätnachmittag US-Zeit, Positionsaufbau vor Wochenmitte beginnt."
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-24T17:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "19:00-20:00: Handelsaktivität bleibt erhöht, Vorbereitung auf Warsh-Rede Freitag im Fokus."
     }
   ],
   "termine": [
     {
-      "name": "US Consumer Confidence",
-      "ts": "2026-08-25T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "Fed Jackson Hole Symposium (Beginn)",
-      "ts": "2026-08-28T13:00:00.000Z",
+      "name": "Fed Chair Warsh Jackson Hole Speech",
+      "ts": "2026-08-28T14:00:00.000Z",
       "impact": "hoch"
     }
   ]
