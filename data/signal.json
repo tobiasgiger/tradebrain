@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T16:23:06.459Z",
+  "generatedAt": "2026-08-24T20:17:21.024Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "Iran-Konflikt aktiv, US-Markt volatil",
-  "empfehlung": "Trading-Bots sofort pausieren bis Deeskalation erkennbar ist.",
+  "statusText": "Iran-Krieg & US-Sanktionen aktiv",
+  "empfehlung": "Trading-Bot pausieren – aktive geopolitische Eskalation und hohe Marktvolatilität durch Iran-Sanktionen.",
   "source": "nq-pause-board"
 }
