@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T16:23:11.564Z",
+  "generatedAt": "2026-08-25T20:16:05.080Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "PCE morgen — Iran-Pause hält, VIX normal",
-  "empfehlung": "Trading erlaubt, aber Positionen 1h vor PCE (26.8., 13:30 Zürich) schließen.",
+  "statusText": "PCE-Release morgen 14:30 → Vorsicht",
+  "empfehlung": "Bot heute pausiert lassen, morgen vor 14:30 Zurich pausieren wegen PCE-Inflation.",
   "source": "nq-pause-board"
 }
