@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T00:35:49.412Z",
+  "generatedAt": "2026-08-25T04:27:54.758Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Erhöhte Vorsicht: Iran-Spannungen, PCE",
-  "empfehlung": "Bot-Aktivität reduzieren; vor US-Cash-Open (15:30) und PCE-Release (Do 14:30) pausieren.",
+  "statusText": "GDP & PCE Mittwoch | Iran-Sanktionen",
+  "empfehlung": "Trading erlaubt, aber vor Mittwoch 14:30 Positionen reduzieren (GDP/PCE-Release).",
   "source": "nq-pause-board"
 }
