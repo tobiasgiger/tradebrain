@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T20:17:21.024Z",
+  "generatedAt": "2026-08-25T00:35:49.412Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "Iran-Krieg & US-Sanktionen aktiv",
-  "empfehlung": "Trading-Bot pausieren – aktive geopolitische Eskalation und hohe Marktvolatilität durch Iran-Sanktionen.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Erhöhte Vorsicht: Iran-Spannungen, PCE",
+  "empfehlung": "Bot-Aktivität reduzieren; vor US-Cash-Open (15:30) und PCE-Release (Do 14:30) pausieren.",
   "source": "nq-pause-board"
 }
