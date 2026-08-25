@@ -1,52 +1,32 @@
 {
-  "generatedAt": "2026-08-25T12:24:08.079Z",
+  "generatedAt": "2026-08-25T16:23:11.564Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Geopolitik erhöht, PCE & Jackson Hole nahe",
-  "empfehlung": "Handel mit reduziertem Risiko; vor Mittwoch-PCE & Fed-Symposium Positionen verkleinern.",
-  "headline": "VIX niedrig (15.8), aber Iran-Konflikt schwelt, Ukraine eskaliert, PCE Mi voraus",
-  "body": "Märkte aktuell ruhig (VIX 15.8, nahe Jahrestief), aber geopolitische Hintergrundrisiken bleiben erhöht: Iran-Konflikt mit Hormuz-Blockade schwelt seit Monaten, Ukraine-Krieg zeigt steigende Luftangriffe. Mittwoch PCE-Daten und Jackson-Hole-Symposium (Warsh-Rede) sind nächste Katalysatoren. Heute kein High-Impact-Release, US-Open und Power-Hour aber standardmäßig vorsichtig.",
+  "statusText": "PCE morgen — Iran-Pause hält, VIX normal",
+  "empfehlung": "Trading erlaubt, aber Positionen 1h vor PCE (26.8., 13:30 Zürich) schließen.",
+  "headline": "VIX 15.85, Iran-Konflikt pausiert, PCE & GDP morgen 14:30 Zürich → Vorsicht!",
+  "body": "Die US-Iran-Spannungen bleiben hoch (Strait of Hormuz, Sanktionsdrohungen), aber direkte Kampfhandlungen pausieren aktuell. VIX mit 15.85 im Normalbereich, Nasdaq verlor gestern 0.8%. Morgen 14:30 Zürich kommen PCE-Inflation und Q2-GDP, beides markttreibend.",
   "confidence": "mittel",
   "quellen": [
     {
-      "titel": "Britannica: 2026 Iran War",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
+      "titel": "Yahoo Finance: Stock Market Aug 25",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-25-132700491.html"
     },
     {
-      "titel": "CNBC: VIX hits 2026 low",
-      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
+      "titel": "FedRateCalc: US Economic Calendar 2026",
+      "url": "https://fedratecalc.com/us-economic-calendar/"
     },
     {
-      "titel": "Al Jazeera: Ukraine strikes 20 Aug",
-      "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home"
+      "titel": "CNN: Iran War Updates Aug 16",
+      "url": "https://www.cnn.com/2026/08/16/world/live-news/iran-war-trump"
     },
     {
-      "titel": "Kiplinger: Economic Calendar PCE",
-      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+      "titel": "Times of Israel: Iran War Aug 24",
+      "url": "https://www.timesofisrael.com/liveblog-august-24-2026/"
     }
   ],
-  "rueckblickSummary": "Letzte 24h (Mo 14:24 - Di 14:24): Märkte moderat negativ (Nasdaq -0.77% Mo), VIX leicht gestiegen auf 15.8. Geopolitik stabil ohne neue Eskalation. Nvidia-Earnings-Erwartung und neue Trump-Sanktionen gegen Iran/Kanada sorgten für leichte Nervosität, aber kein Major-Event.",
+  "rueckblickSummary": "Letzte 24h: Nasdaq -0.8%, Tech-Sell-off, VIX stieg auf 15.85. Trump drohte Iran-Handelssanktionen an (nicht umgesetzt) und kündigte 50% Zölle auf kanadische Autos ab 2027 an. Geopolitik angespannt, aber keine aktive Eskalation.",
   "rueckblick": [
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-24T12:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "15:00",
-      "ts": "2026-08-24T13:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-24T14:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-24T15:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "18:00",
       "ts": "2026-08-24T16:00:00.000Z",
@@ -100,12 +80,12 @@
     {
       "stunde": "04:00",
       "ts": "2026-08-25T02:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-25T03:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
@@ -120,22 +100,22 @@
     {
       "stunde": "08:00",
       "ts": "2026-08-25T06:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-25T07:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-25T08:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-25T09:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "12:00",
@@ -146,14 +126,11 @@
       "stunde": "13:00",
       "ts": "2026-08-25T11:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h (Di 14:24 - Mi 14:24): Heute US-Cash-Open 15:30 erhöht Vola leicht, Nvidia-Earnings nachbörslich (Dienstag ~22:00) könnten NQ bewegen. Mittwoch 14:30 PCE-Daten = Rot-Event. Bis dahin gelbe Vorsicht ratsam, danach Jackson-Hole-Risiko.",
-  "forecast": [
+    },
     {
       "stunde": "14:00",
       "ts": "2026-08-25T12:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
@@ -163,13 +140,16 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-25T14:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-25T15:00:00.000Z",
-      "status": "gelb"
-    },
+      "status": "gruen"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Morgen 14:30 Zürich PCE & GDP — beide High-Impact. US-Cash-Open heute 15:30 erhöht Volatilität. Iran-Lage bleibt fragil (Hormuz-Drohungen), aber aktuell Kampfpause. Fed-Chair-Rede Fr übermorgen könnte Märkte bewegen.",
+  "forecast": [
     {
       "stunde": "18:00",
       "ts": "2026-08-25T16:00:00.000Z",
@@ -183,52 +163,52 @@
     {
       "stunde": "20:00",
       "ts": "2026-08-25T18:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-25T19:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-25T20:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-25T21:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-25T22:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-25T23:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-26T00:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-26T01:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-26T02:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-26T03:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
@@ -253,12 +233,12 @@
     {
       "stunde": "10:00",
       "ts": "2026-08-26T08:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-26T09:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
@@ -269,71 +249,91 @@
       "stunde": "13:00",
       "ts": "2026-08-26T11:00:00.000Z",
       "status": "rot"
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-08-26T12:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "15:00",
+      "ts": "2026-08-26T13:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-08-26T14:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-26T15:00:00.000Z",
+      "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "14:00",
-      "ts": "2026-08-25T12:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "Di 14:24: Aktuell ruhig, VIX niedrig, keine Releases – grüne Stunde vor US-Open."
-    },
-    {
-      "stunde": "15:00",
-      "ts": "2026-08-25T13:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "Di 15:24: US-Cash-Open-Stunde, typische Vola-Erhöhung, gelb."
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-25T14:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "Di 16:24: Post-Open-Settling, weiter gelb wegen Nvidia-Earnings-Erwartung heute Abend."
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-25T15:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "Di 17:24: Nachmittagshandel, Nervosität vor Nvidia-Zahlen (22:00 MESZ) steigt."
-    },
-    {
       "stunde": "18:00",
       "ts": "2026-08-25T16:00:00.000Z",
       "status": "gelb",
-      "kommentar": "Di 18:24: Spätnachmittag, Positionierung vor Nvidia-Call, erhöhte Unsicherheit."
+      "kommentar": "18:00-19:00 Zürich: US-Nachbörse läuft, niedrige Liquidität, Nvidia-Earnings Mi nachbörslich erwartet."
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-25T17:00:00.000Z",
       "status": "gelb",
-      "kommentar": "Di 19:24: Vorbörsliche Nvidia-Reaktion beginnt einzupreisen, gelb bleibt."
+      "kommentar": "19:00-20:00 Zürich: Nachbörslicher Handel, geringe Volumen, Iran-News-Risiko bleibt latent vorhanden."
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-25T18:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "20:00-21:00 Zürich: US-Session ausklingend, Vorbereitung auf PCE morgen, erhöhte Vorsicht empfohlen."
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-08-25T19:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "21:00-22:00 Zürich: Power Hour US-Close, erhöhte Volatilität durch Positionsglattstellungen vor Daten."
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-08-25T20:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "22:00-23:00 Zürich: US-Märkte geschlossen, asiatische Pre-Market beginnt, ruhigeres Fenster erwartet."
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-08-25T21:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "23:00-00:00 Zürich: Asien-Open (Tokio), Trading-Volumen steigt wieder, Geopolitik-Risiko beachten."
     }
   ],
   "termine": [
     {
-      "name": "Durable Goods Orders",
+      "name": "US PCE Inflation (Core PCE)",
+      "ts": "2026-08-26T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US GDP Q2 (Advance)",
+      "ts": "2026-08-26T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US Durable Goods Orders",
       "ts": "2026-08-26T12:30:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "PCE Price Index",
+      "name": "US Initial Jobless Claims",
       "ts": "2026-08-27T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Core PCE Price Index",
-      "ts": "2026-08-27T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Fed Jackson Hole Symposium (Warsh)",
-      "ts": "2026-08-27T14:00:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Jobless Claims Weekly",
-      "ts": "2026-08-28T12:30:00.000Z",
       "impact": "mittel"
+    },
+    {
+      "name": "Fed Chair Warsh Speech (Jackson Hole)",
+      "ts": "2026-08-28T14:00:00.000Z",
+      "impact": "hoch"
     }
   ]
 }

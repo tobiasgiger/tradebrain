@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T12:24:08.079Z",
+  "generatedAt": "2026-08-25T16:23:11.564Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Geopolitik erhöht, PCE & Jackson Hole nahe",
-  "empfehlung": "Handel mit reduziertem Risiko; vor Mittwoch-PCE & Fed-Symposium Positionen verkleinern.",
+  "statusText": "PCE morgen — Iran-Pause hält, VIX normal",
+  "empfehlung": "Trading erlaubt, aber Positionen 1h vor PCE (26.8., 13:30 Zürich) schließen.",
   "source": "nq-pause-board"
 }
