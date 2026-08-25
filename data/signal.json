@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T08:28:40.950Z",
+  "generatedAt": "2026-08-25T12:24:08.079Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Erhöhte Vorsicht - FOMC Minutes heute",
-  "empfehlung": "Bot-Aktivität reduzieren; ab 19:30 Uhr pausieren wegen FOMC Minutes um 20:00 Uhr.",
+  "statusText": "Geopolitik erhöht, PCE & Jackson Hole nahe",
+  "empfehlung": "Handel mit reduziertem Risiko; vor Mittwoch-PCE & Fed-Symposium Positionen verkleinern.",
   "source": "nq-pause-board"
 }

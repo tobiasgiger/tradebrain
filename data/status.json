@@ -1,48 +1,32 @@
 {
-  "generatedAt": "2026-08-25T08:28:40.950Z",
+  "generatedAt": "2026-08-25T12:24:08.079Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Erhöhte Vorsicht - FOMC Minutes heute",
-  "empfehlung": "Bot-Aktivität reduzieren; ab 19:30 Uhr pausieren wegen FOMC Minutes um 20:00 Uhr.",
-  "headline": "FOMC-Protokoll 20:00 Uhr | Nahost weiter angespannt | VIX moderat erhöht",
-  "body": "Heute werden um 20:00 Uhr (Europe/Zurich) die FOMC Minutes veröffentlicht, die für Volatilität sorgen können. Die geopolitischen Spannungen im Nahen Osten bleiben erhöht, aber ohne akute Eskalation in den letzten Stunden. Die Märkte zeigen moderate Volatilität mit leicht erhöhtem VIX.",
+  "statusText": "Geopolitik erhöht, PCE & Jackson Hole nahe",
+  "empfehlung": "Handel mit reduziertem Risiko; vor Mittwoch-PCE & Fed-Symposium Positionen verkleinern.",
+  "headline": "VIX niedrig (15.8), aber Iran-Konflikt schwelt, Ukraine eskaliert, PCE Mi voraus",
+  "body": "Märkte aktuell ruhig (VIX 15.8, nahe Jahrestief), aber geopolitische Hintergrundrisiken bleiben erhöht: Iran-Konflikt mit Hormuz-Blockade schwelt seit Monaten, Ukraine-Krieg zeigt steigende Luftangriffe. Mittwoch PCE-Daten und Jackson-Hole-Symposium (Warsh-Rede) sind nächste Katalysatoren. Heute kein High-Impact-Release, US-Open und Power-Hour aber standardmäßig vorsichtig.",
   "confidence": "mittel",
   "quellen": [
     {
-      "titel": "Fed FOMC Minutes Schedule",
-      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      "titel": "Britannica: 2026 Iran War",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "Market News - August 25, 2026",
-      "url": "https://www.cnbc.com/markets/"
+      "titel": "CNBC: VIX hits 2026 low",
+      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
     },
     {
-      "titel": "VIX Volatility Index",
-      "url": "https://www.cboe.com/tradable_products/vix/"
+      "titel": "Al Jazeera: Ukraine strikes 20 Aug",
+      "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home"
+    },
+    {
+      "titel": "Kiplinger: Economic Calendar PCE",
+      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden verliefen überwiegend ruhig mit moderater Handelsaktivität. Asiatische und europäische Märkte zeigten leichte Schwankungen ohne größere Ausschläge. Geopolitische Lage blieb stabil, keine neuen Eskalationen im Nahost-Konflikt oder Ukraine.",
+  "rueckblickSummary": "Letzte 24h (Mo 14:24 - Di 14:24): Märkte moderat negativ (Nasdaq -0.77% Mo), VIX leicht gestiegen auf 15.8. Geopolitik stabil ohne neue Eskalation. Nvidia-Earnings-Erwartung und neue Trump-Sanktionen gegen Iran/Kanada sorgten für leichte Nervosität, aber kein Major-Event.",
   "rueckblick": [
-    {
-      "stunde": "10:00",
-      "ts": "2026-08-24T08:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-24T09:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-24T10:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-24T11:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "14:00",
       "ts": "2026-08-24T12:00:00.000Z",
@@ -91,12 +75,12 @@
     {
       "stunde": "23:00",
       "ts": "2026-08-24T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-24T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
@@ -116,12 +100,12 @@
     {
       "stunde": "04:00",
       "ts": "2026-08-25T02:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-25T03:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "06:00",
@@ -142,10 +126,7 @@
       "stunde": "09:00",
       "ts": "2026-08-25T07:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Die nächsten 24 Stunden bringen mit den FOMC Minutes um 20:00 Uhr ein Hochrisiko-Event. Danach folgt morgen um 14:30 Uhr die Veröffentlichung der Durable Goods Orders. Erhöhte Vorsicht ist ab 19:00 Uhr heute Abend bis nach der FOMC-Veröffentlichung geboten.",
-  "forecast": [
+    },
     {
       "stunde": "10:00",
       "ts": "2026-08-25T08:00:00.000Z",
@@ -165,11 +146,14 @@
       "stunde": "13:00",
       "ts": "2026-08-25T11:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h (Di 14:24 - Mi 14:24): Heute US-Cash-Open 15:30 erhöht Vola leicht, Nvidia-Earnings nachbörslich (Dienstag ~22:00) könnten NQ bewegen. Mittwoch 14:30 PCE-Daten = Rot-Event. Bis dahin gelbe Vorsicht ratsam, danach Jackson-Hole-Risiko.",
+  "forecast": [
     {
       "stunde": "14:00",
       "ts": "2026-08-25T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
@@ -179,22 +163,22 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-25T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-25T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-25T16:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-25T17:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
@@ -214,135 +198,140 @@
     {
       "stunde": "23:00",
       "ts": "2026-08-25T21:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-25T22:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-25T23:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-26T00:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-26T01:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-26T02:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-26T03:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-26T04:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-26T05:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-26T06:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-26T07:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-26T08:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-26T09:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-26T10:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-08-26T11:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "10:00",
-      "ts": "2026-08-25T08:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "10:00-11:00 Uhr: Ruhige europäische Handelsphase, niedrige Volatilität erwartet."
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-25T09:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "11:00-12:00 Uhr: Fortsetzung stabiler Marktbedingungen vor US-Opening."
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-25T10:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "12:00-13:00 Uhr: Leichte Bewegung möglich bei Positionierung vor US-Märkten."
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-25T11:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "13:00-14:00 Uhr: Pre-Market-Phase USA beginnt, moderate Aktivität."
-    },
-    {
       "stunde": "14:00",
       "ts": "2026-08-25T12:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "14:00-15:00 Uhr: Erhöhte Aufmerksamkeit vor US-Kassamarkt-Eröffnung."
+      "status": "gelb",
+      "kommentar": "Di 14:24: Aktuell ruhig, VIX niedrig, keine Releases – grüne Stunde vor US-Open."
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-25T13:00:00.000Z",
       "status": "gruen",
-      "kommentar": "15:00-16:00 Uhr: US-Märkte öffnen, erhöhte Volatilität zum Cash-Open typisch."
+      "kommentar": "Di 15:24: US-Cash-Open-Stunde, typische Vola-Erhöhung, gelb."
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-08-25T14:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "Di 16:24: Post-Open-Settling, weiter gelb wegen Nvidia-Earnings-Erwartung heute Abend."
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-25T15:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "Di 17:24: Nachmittagshandel, Nervosität vor Nvidia-Zahlen (22:00 MESZ) steigt."
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-25T16:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "Di 18:24: Spätnachmittag, Positionierung vor Nvidia-Call, erhöhte Unsicherheit."
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-25T17:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "Di 19:24: Vorbörsliche Nvidia-Reaktion beginnt einzupreisen, gelb bleibt."
     }
   ],
   "termine": [
     {
-      "name": "FOMC Minutes",
-      "ts": "2026-08-25T18:00:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "US Durable Goods Orders",
+      "name": "Durable Goods Orders",
       "ts": "2026-08-26T12:30:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "US Consumer Confidence",
-      "ts": "2026-08-26T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US Initial Jobless Claims",
-      "ts": "2026-08-27T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US GDP (Q2 Second Estimate)",
+      "name": "PCE Price Index",
       "ts": "2026-08-27T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US Core PCE Price Index",
-      "ts": "2026-08-28T12:30:00.000Z",
+      "name": "Core PCE Price Index",
+      "ts": "2026-08-27T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US Personal Income",
-      "ts": "2026-08-28T12:30:00.000Z",
-      "impact": "mittel"
+      "name": "Fed Jackson Hole Symposium (Warsh)",
+      "ts": "2026-08-27T14:00:00.000Z",
+      "impact": "hoch"
     },
     {
-      "name": "US Personal Spending",
+      "name": "Jobless Claims Weekly",
       "ts": "2026-08-28T12:30:00.000Z",
       "impact": "mittel"
     }
