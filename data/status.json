@@ -1,52 +1,28 @@
 {
-  "generatedAt": "2026-08-25T04:27:54.758Z",
+  "generatedAt": "2026-08-25T08:28:40.950Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "GDP & PCE Mittwoch | Iran-Sanktionen",
-  "empfehlung": "Trading erlaubt, aber vor Mittwoch 14:30 Positionen reduzieren (GDP/PCE-Release).",
-  "headline": "Ruhige Märkte (VIX 15), aber Mittwoch 14:30 GDP+PCE high-impact → Vorsicht",
-  "body": "Geopolitik aktuell stabil: Iran-Waffenstillstand hält trotz neuer US-Sanktionen (24.8.), Ukraine-Konflikt ohne Eskalation. VIX bei 15 signalisiert niedrige Volatilität. Mittwoch 14:30 Zurich-Zeit kommen GDP (2. Schätzung) und PCE – Feds bevorzugtes Inflationsmaß – das bewegt Märkte stark.",
-  "confidence": "hoch",
+  "statusText": "Erhöhte Vorsicht - FOMC Minutes heute",
+  "empfehlung": "Bot-Aktivität reduzieren; ab 19:30 Uhr pausieren wegen FOMC Minutes um 20:00 Uhr.",
+  "headline": "FOMC-Protokoll 20:00 Uhr | Nahost weiter angespannt | VIX moderat erhöht",
+  "body": "Heute werden um 20:00 Uhr (Europe/Zurich) die FOMC Minutes veröffentlicht, die für Volatilität sorgen können. Die geopolitischen Spannungen im Nahen Osten bleiben erhöht, aber ohne akute Eskalation in den letzten Stunden. Die Märkte zeigen moderate Volatilität mit leicht erhöhtem VIX.",
+  "confidence": "mittel",
   "quellen": [
     {
-      "titel": "Times of Israel: US-Sanktionen Iran 24.8.26",
-      "url": "https://www.timesofisrael.com/liveblog-august-24-2026/"
+      "titel": "Fed FOMC Minutes Schedule",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     },
     {
-      "titel": "Right Trader: US Econ Calendar diese Woche",
-      "url": "https://therighttrader.com/economic-calendar/this-week"
+      "titel": "Market News - August 25, 2026",
+      "url": "https://www.cnbc.com/markets/"
     },
     {
-      "titel": "Britannica: 2026 Iran War Status",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "titel": "Yahoo Finance: VIX 15.13",
-      "url": "https://finance.yahoo.com/quote/%5EVIX/"
+      "titel": "VIX Volatility Index",
+      "url": "https://www.cboe.com/tradable_products/vix/"
     }
   ],
-  "rueckblickSummary": "Letzte 24h verliefen ruhig ohne geopolitische Eskalation. VIX fiel von 23 auf 15 (-5,5%), Nasdaq stabil. US-Finanzminister kündigte neue Iran-Sanktionen an, aber ohne Marktreaktionen. Keine High-Impact-Releases.",
+  "rueckblickSummary": "Die letzten 24 Stunden verliefen überwiegend ruhig mit moderater Handelsaktivität. Asiatische und europäische Märkte zeigten leichte Schwankungen ohne größere Ausschläge. Geopolitische Lage blieb stabil, keine neuen Eskalationen im Nahost-Konflikt oder Ukraine.",
   "rueckblick": [
-    {
-      "stunde": "06:00",
-      "ts": "2026-08-24T04:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-08-24T05:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-08-24T06:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-08-24T07:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "10:00",
       "ts": "2026-08-24T08:00:00.000Z",
@@ -75,7 +51,7 @@
     {
       "stunde": "15:00",
       "ts": "2026-08-24T13:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
@@ -115,12 +91,12 @@
     {
       "stunde": "23:00",
       "ts": "2026-08-24T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-24T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
@@ -146,10 +122,7 @@
       "stunde": "05:00",
       "ts": "2026-08-25T03:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Bis Mittwoch 14:30 bleiben Märkte wahrscheinlich ruhig (VIX niedrig). Mittwoch 14:30: GDP & PCE – markttreibende Releases mit hoher Volatilität. US-Open (15:30) und Power-Hour (22:00) täglich gelb. Geopolitik stabil.",
-  "forecast": [
+    },
     {
       "stunde": "06:00",
       "ts": "2026-08-25T04:00:00.000Z",
@@ -169,7 +142,10 @@
       "stunde": "09:00",
       "ts": "2026-08-25T07:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Die nächsten 24 Stunden bringen mit den FOMC Minutes um 20:00 Uhr ein Hochrisiko-Event. Danach folgt morgen um 14:30 Uhr die Veröffentlichung der Durable Goods Orders. Erhöhte Vorsicht ist ab 19:00 Uhr heute Abend bis nach der FOMC-Veröffentlichung geboten.",
+  "forecast": [
     {
       "stunde": "10:00",
       "ts": "2026-08-25T08:00:00.000Z",
@@ -193,7 +169,7 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-25T12:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
@@ -213,17 +189,17 @@
     {
       "stunde": "18:00",
       "ts": "2026-08-25T16:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-25T17:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-25T18:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
@@ -238,12 +214,12 @@
     {
       "stunde": "23:00",
       "ts": "2026-08-25T21:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-25T22:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
@@ -253,7 +229,7 @@
     {
       "stunde": "02:00",
       "ts": "2026-08-26T00:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
@@ -269,65 +245,105 @@
       "stunde": "05:00",
       "ts": "2026-08-26T03:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-08-26T04:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-08-26T05:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-08-26T06:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-08-26T07:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "06:00",
-      "ts": "2026-08-25T04:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "06-07h: Asien-Session ruhig, keine Termine, niedrige Vola erwartet."
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-08-25T05:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "07-08h: Weiter ruhig vor Europa-Open, kein Event-Risiko heute."
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-08-25T06:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "08-09h: Europa-Open bringt moderate Aktivität, aber keine US-Daten heute."
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-08-25T07:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "09-10h: Vormittag Europa stabil, Iran-Sanktionen bereits eingepreist."
-    },
-    {
       "stunde": "10:00",
       "ts": "2026-08-25T08:00:00.000Z",
       "status": "gruen",
-      "kommentar": "10-11h: Weiter Normalbetrieb, VIX-Niveau unterstützt grüne Ampel."
+      "kommentar": "10:00-11:00 Uhr: Ruhige europäische Handelsphase, niedrige Volatilität erwartet."
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-25T09:00:00.000Z",
       "status": "gruen",
-      "kommentar": "11-12h: Mittag Europa ruhig, vor US-Pre-Market noch kein Risiko."
+      "kommentar": "11:00-12:00 Uhr: Fortsetzung stabiler Marktbedingungen vor US-Opening."
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-25T10:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "12:00-13:00 Uhr: Leichte Bewegung möglich bei Positionierung vor US-Märkten."
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-08-25T11:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "13:00-14:00 Uhr: Pre-Market-Phase USA beginnt, moderate Aktivität."
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-08-25T12:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "14:00-15:00 Uhr: Erhöhte Aufmerksamkeit vor US-Kassamarkt-Eröffnung."
+    },
+    {
+      "stunde": "15:00",
+      "ts": "2026-08-25T13:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "15:00-16:00 Uhr: US-Märkte öffnen, erhöhte Volatilität zum Cash-Open typisch."
     }
   ],
   "termine": [
     {
-      "name": "GDP (2nd Estimate) Q2",
-      "ts": "2026-08-26T12:30:00.000Z",
+      "name": "FOMC Minutes",
+      "ts": "2026-08-25T18:00:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "PCE Price Index",
+      "name": "US Durable Goods Orders",
       "ts": "2026-08-26T12:30:00.000Z",
-      "impact": "hoch"
+      "impact": "mittel"
     },
     {
-      "name": "Core PCE Price Index",
-      "ts": "2026-08-26T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Consumer Confidence",
+      "name": "US Consumer Confidence",
       "ts": "2026-08-26T14:00:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US Initial Jobless Claims",
+      "ts": "2026-08-27T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US GDP (Q2 Second Estimate)",
+      "ts": "2026-08-27T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US Core PCE Price Index",
+      "ts": "2026-08-28T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US Personal Income",
+      "ts": "2026-08-28T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US Personal Spending",
+      "ts": "2026-08-28T12:30:00.000Z",
       "impact": "mittel"
     }
   ]
