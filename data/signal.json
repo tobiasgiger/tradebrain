@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T12:27:09.737Z",
+  "generatedAt": "2026-08-26T16:40:43.535Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "GDP+PCE-Woche, Iran-Konflikt weiter aktiv",
-  "empfehlung": "⚠️ GDP Q2 (2nd Estimate) jetzt im aktuellen Stundenfenster — Bots pausieren. Mean-Reversion-Bots reduzieren vor PCE morgen 14:30, heute GDP-Release beachten.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "PCE & GDP heute 14:30 - erhöhte Vorsicht",
+  "empfehlung": "Bot bis 16:00 Uhr pausieren, dann vorsichtiger Neustart mit reduziertem Risiko.",
   "source": "nq-pause-board"
 }
