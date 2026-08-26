@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T04:29:17.394Z",
+  "generatedAt": "2026-08-26T08:29:23.252Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Vorsicht: GDP+PCE heute 14:30 Uhr",
-  "empfehlung": "Bot-Pause 13:30-16:00 Uhr wegen GDP & PCE Release; sonst reduziertes Risiko.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "GDP + PCE Release heute 14:30 CET",
+  "empfehlung": "Trading-Bots sofort pausieren — High-Impact-Daten (GDP/PCE) in 4 Stunden.",
   "source": "nq-pause-board"
 }

@@ -1,48 +1,32 @@
 {
-  "generatedAt": "2026-08-26T04:29:17.394Z",
+  "generatedAt": "2026-08-26T08:29:23.252Z",
   "appVersion": "1.7.1",
-  "status": "gelb",
-  "statusText": "Vorsicht: GDP+PCE heute 14:30 Uhr",
-  "empfehlung": "Bot-Pause 13:30-16:00 Uhr wegen GDP & PCE Release; sonst reduziertes Risiko.",
-  "headline": "Iran-Konflikt stabil, aber GDP+PCE um 14:30h = hohes Volatilitätsrisiko heute",
-  "body": "Der seit Februar laufende US-Israel-Iran-Konflikt ist derzeit nicht aktiv eskalierend, aber die geopolitische Grundspannung bleibt erhöht. Heute um 14:30 Uhr Zürich-Zeit werden GDP Q2 (final) und Personal Income & Outlays (inkl. PCE-Inflation) veröffentlicht – beides markttreibende High-Impact-Releases. VIX bei 17.5 signalisiert moderate Volatilität.",
+  "status": "rot",
+  "statusText": "GDP + PCE Release heute 14:30 CET",
+  "empfehlung": "Trading-Bots sofort pausieren — High-Impact-Daten (GDP/PCE) in 4 Stunden.",
+  "headline": "HEUTE 14:30: GDP & PCE • Geopolitik angespannt • VIX niedrig (~15) • Bot STOPP",
+  "body": "Heute 14:30 Uhr (Zürich) werden GDP und PCE veröffentlicht — beides High-Impact-Releases, die starke Volatilität auslösen können. Geopolitisch bleibt die Lage angespannt: Iran-US-Israel-Konflikt mit fragiler Waffenruhe seit Juni, Russland-Ukraine mit eskalierenden Luftangriffen in den letzten Tagen. VIX aktuell niedrig (~15), aber vor Datenrelease typischerweise trügerisch ruhig.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "2026 Iran war - Britannica",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
+      "titel": "CFR: Iran War Update",
+      "url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
     },
     {
-      "titel": "US Economic Calendar This Week",
-      "url": "https://therighttrader.com/economic-calendar/this-week"
+      "titel": "Al Jazeera: Ukraine Strikes",
+      "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home"
     },
     {
-      "titel": "S&P 500 VIX Futures - Investing.com",
-      "url": "https://www.investing.com/indices/us-spx-vix-futures"
+      "titel": "FedRateCalc: GDP/PCE Today",
+      "url": "https://fedratecalc.com/us-economic-calendar/"
+    },
+    {
+      "titel": "Investing.com: VIX Data",
+      "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden verliefen ruhig ohne größere geopolitische Eskalationen oder Marktschocks. Iran-Konflikt bleibt latent aktiv aber nicht akut verschärft. Overnight-Handel der NQ-Futures zeigte normale Volatilität im mittleren Bereich ohne extreme Ausschläge.",
+  "rueckblickSummary": "Letzte 24h: Ruhige europäische Nacht, US-Session gestern stabil (S&P +0.43%, VIX -5.5% auf 15.13). Geopolitik: Russland-Ukraine mit schweren Luftangriffen auf Kiew (18 Tote am 20.08.), Iran-Situation weiter fragil nach Waffenruhe im Juni. Keine überraschenden Marktbewegungen, typische Pre-Data-Ruhe vor heutigen GDP/PCE-Releases.",
   "rueckblick": [
-    {
-      "stunde": "06:00",
-      "ts": "2026-08-25T04:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-08-25T05:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-08-25T06:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-08-25T07:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "10:00",
       "ts": "2026-08-25T08:00:00.000Z",
@@ -66,22 +50,22 @@
     {
       "stunde": "14:00",
       "ts": "2026-08-25T12:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-25T13:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-25T14:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-25T15:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
@@ -111,12 +95,12 @@
     {
       "stunde": "23:00",
       "ts": "2026-08-25T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-25T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
@@ -142,10 +126,7 @@
       "stunde": "05:00",
       "ts": "2026-08-26T03:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Höchste Vorsicht heute 13:30-16:00 Uhr wegen GDP & PCE Releases um 14:30 Uhr – erwarte scharfe Bewegungen. Danach Beruhigung erwartet, morgen früh Asia/Europa-Session normal. US-Open morgen (Do 15:30h) wieder erhöhte Aufmerksamkeit, aber kein High-Impact-Event.",
-  "forecast": [
+    },
     {
       "stunde": "06:00",
       "ts": "2026-08-26T04:00:00.000Z",
@@ -165,16 +146,19 @@
       "stunde": "09:00",
       "ts": "2026-08-26T07:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: KRITISCH — heute 14:30 Uhr GDP & PCE (beides High-Impact). Erwarte ab 14:00 Uhr erhöhte Volatilität, ab 14:30 Uhr massive Bewegungen möglich. US-Cash-Open 15:30 verstärkt Dynamik. Abend/Nacht ruhiger, aber geopolitische Risiken (Nahost, Ukraine) bleiben präsent. Morgen vormittag europäisch ruhig, bis 14:30 Uhr Jobless Claims (mittlerer Impact).",
+  "forecast": [
     {
       "stunde": "10:00",
       "ts": "2026-08-26T08:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-26T09:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "12:00",
@@ -199,32 +183,32 @@
     {
       "stunde": "16:00",
       "ts": "2026-08-26T14:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-26T15:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-26T16:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-26T17:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-26T18:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-26T19:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "22:00",
@@ -249,12 +233,12 @@
     {
       "stunde": "02:00",
       "ts": "2026-08-27T00:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-27T01:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "04:00",
@@ -265,65 +249,90 @@
       "stunde": "05:00",
       "ts": "2026-08-27T03:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-08-27T04:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-08-27T05:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-08-27T06:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-08-27T07:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "06:00",
-      "ts": "2026-08-26T04:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "06:29-07:29 Uhr: Europa-Frühhandel ruhig, niedrige Volumina, Mean-Reversion-Setup günstig."
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-08-26T05:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "07:29-08:29 Uhr: Weiter ruhige Bedingungen vor US-Daten, geringe Volatilität erwartet."
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-08-26T06:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "08:29-09:29 Uhr: Aufbauphase vor GDP/PCE, erste Positionierungen möglich, Vorsicht steigt."
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-08-26T07:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "09:29-10:29 Uhr: Letzte Stunde vor US-Open, zunehmende Nervosität vor 14:30-Releases."
-    },
-    {
       "stunde": "10:00",
       "ts": "2026-08-26T08:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "10:29-11:29 Uhr: Europa-Mittag, Spannung steigt, institutionelle Positionierung läuft."
+      "status": "gelb",
+      "kommentar": "10:30-11:30: Gelb — letztes Pre-Data-Fenster, Positionierung vor GDP/PCE, reduzierte Liquidität."
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-26T09:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "11:29-12:29 Uhr: Pre-Market USA beginnt, Spreads weiten sich, Stop-Loss-Risiko erhöht."
+      "status": "gelb",
+      "kommentar": "11:30-12:30: Gelb — Spannung steigt, erste Frontrunning-Moves möglich, Spreads weiten sich."
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-26T10:00:00.000Z",
+      "status": "rot",
+      "kommentar": "⚠ GDP (Q2 2026, Advance) in 2h: 12:30-13:30: ROT — eine Stunde vor GDP/PCE-Release, extreme Vorsicht, Bots müssen pausiert sein."
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-08-26T11:00:00.000Z",
+      "status": "rot",
+      "kommentar": "⚠ GDP (Q2 2026, Advance) in 1h: 13:30-14:30: ROT — GDP & PCE um 14:30, höchste Volatilität erwartet, kein automatisierter Trade."
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-08-26T12:00:00.000Z",
+      "status": "rot",
+      "kommentar": "⚠ GDP (Q2 2026, Advance): 14:30-15:30: ROT — unmittelbar nach Release, massive Swings, dann US-Cash-Open 15:30 verstärkt."
+    },
+    {
+      "stunde": "15:00",
+      "ts": "2026-08-26T13:00:00.000Z",
+      "status": "rot",
+      "kommentar": "15:30-16:30: ROT — US-Session-Start kombiniert mit Data-Digest, weiterhin sehr hohe Volatilität."
     }
   ],
   "termine": [
     {
-      "name": "GDP Q2 Final",
+      "name": "GDP (Q2 2026, Advance)",
       "ts": "2026-08-26T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "Personal Income & Outlays (PCE)",
+      "name": "PCE Price Index (Q2 2026)",
       "ts": "2026-08-26T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "Durable Goods Orders",
-      "ts": "2026-08-27T12:30:00.000Z",
+      "name": "Core PCE Price Index (Q2)",
+      "ts": "2026-08-26T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "Jobless Claims (wöchentlich)",
+      "ts": "2026-08-28T12:30:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "Initial Jobless Claims",
-      "ts": "2026-08-28T12:30:00.000Z",
+      "name": "Durable Goods Orders",
+      "ts": "2026-09-02T12:30:00.000Z",
       "impact": "mittel"
     }
   ]
