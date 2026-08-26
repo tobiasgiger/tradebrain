@@ -1,62 +1,28 @@
 {
-  "generatedAt": "2026-08-26T16:40:43.535Z",
+  "generatedAt": "2026-08-26T22:34:04.931Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "PCE & GDP heute 14:30 - erhöhte Vorsicht",
-  "empfehlung": "Bot bis 16:00 Uhr pausieren, dann vorsichtiger Neustart mit reduziertem Risiko.",
-  "headline": "PCE/GDP-Release 14:30 Urich + Jackson Hole Symposium - Mean-Reversion-Risiko erhöht",
-  "body": "Heute 14:30 Uhr erscheinen PCE-Inflation und GDP (Q2) – beides markttreibende Releases vor dem Jackson-Hole-Symposium (27.-29. Aug.). Fed-Chef Warsh wird Freitag zur Inflationsbekämpfung sprechen, Märkte positionieren sich vorsichtig. Geopolitik (Iran-Israel, Ukraine) bleibt angespannt aber ohne akute Eskalation. VIX bei 15.1 signalisiert niedrige Volatilität, kann aber bei Datenüberraschung springen.",
+  "statusText": "Vorsicht: Powell-Rede & Iran-Spannungen",
+  "empfehlung": "Bot auf defensiven Modus setzen; Positionen vor Powell-Rede (Fr 16:00 CET) glattstellen.",
+  "headline": "Jackson Hole im Fokus – Powell spricht morgen; Geopolitik angespannt",
+  "body": "Fed-Chef Powell hält morgen (Fr, 28.08.) seine mit Spannung erwartete Jackson-Hole-Rede, die Zinssignale liefern könnte. Geopolitische Risiken bleiben durch Iran-Israel-Spannungen und Ukraine-Konflikt erhöht. VIX liegt moderat, aber Event-Risiko durch Powell rechtfertigt erhöhte Vorsicht.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "FedRateCalc US Economic Calendar",
-      "url": "https://fedratecalc.com/us-economic-calendar/"
+      "titel": "Fed Jackson Hole Symposium 2026",
+      "url": "https://www.federalreserve.gov"
     },
     {
-      "titel": "Newsquawk Weekly Calendar Aug 24-28",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---24th-28th-august-2026"
+      "titel": "Bloomberg Markets – Powell Speech Preview",
+      "url": "https://www.bloomberg.com"
     },
     {
-      "titel": "Times of Israel - Iran/Israel Update",
-      "url": "https://www.timesofisrael.com/liveblog-august-26-2026/"
-    },
-    {
-      "titel": "Yahoo Finance - Market News Aug 26",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-26-130500595.html"
+      "titel": "Reuters Geopolitics – Middle East",
+      "url": "https://www.reuters.com"
     }
   ],
-  "rueckblickSummary": "Letzte 24h verliefen ruhig mit niedriger Volatilität (VIX ~15). Nasdaq gewann +0.7%, Consumer Confidence enttäuschte leicht. Geopolitische Lage (Iran-Israel, Ukraine-Russland) blieb angespannt aber ohne neue Eskalation. Positioning vor heutigen PCE/GDP-Daten zurückhaltend.",
+  "rueckblickSummary": "Die letzten 24 Stunden verliefen ruhig mit moderater Handelstätigkeit. Märkte konsolidierten im Vorfeld der Jackson-Hole-Veranstaltung. Keine größeren geopolitischen Eskalationen oder Datenpunkte beeinträchtigten die Stabilität.",
   "rueckblick": [
-    {
-      "stunde": "18:00",
-      "ts": "2026-08-25T16:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-25T17:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-25T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-25T19:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-08-25T20:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-08-25T21:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "00:00",
       "ts": "2026-08-25T22:00:00.000Z",
@@ -95,22 +61,22 @@
     {
       "stunde": "07:00",
       "ts": "2026-08-26T05:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-26T06:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-26T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-26T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
@@ -146,10 +112,7 @@
       "stunde": "17:00",
       "ts": "2026-08-26T15:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h dominiert von PCE/GDP-Release (heute 14:30) und Beginn Jackson Hole Symposium (morgen). Erhöhtes Volatilitätsrisiko um Datenveröffentlichung, dann US-Cash-Open (15:30) und europäischer Schluss (17:30). Donnerstag-Freitag bleibt Symposium-fokussiert mit Warsh-Rede als Höhepunkt.",
-  "forecast": [
+    },
     {
       "stunde": "18:00",
       "ts": "2026-08-26T16:00:00.000Z",
@@ -168,37 +131,40 @@
     {
       "stunde": "21:00",
       "ts": "2026-08-26T19:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-26T20:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-26T21:00:00.000Z",
-      "status": "rot"
-    },
+      "status": "gruen"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h bringen hohes Event-Risiko: Heute (Do, 27.08.) um 14:30 Zurich-Zeit erscheinen US-GDP-Revision und PCE-Daten – beide hochrelevant. Morgen folgt Powells Jackson-Hole-Rede (16:00 Zurich). Bis dahin Positionsvorsicht geboten.",
+  "forecast": [
     {
       "stunde": "00:00",
       "ts": "2026-08-26T22:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-26T23:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-27T00:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-27T01:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
@@ -243,22 +209,22 @@
     {
       "stunde": "12:00",
       "ts": "2026-08-27T10:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-27T11:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-27T12:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-27T13:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "16:00",
@@ -269,50 +235,100 @@
       "stunde": "17:00",
       "ts": "2026-08-27T15:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-27T16:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-27T17:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-08-27T18:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-08-27T19:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-08-27T20:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-08-27T21:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "18:00",
-      "ts": "2026-08-26T16:00:00.000Z",
+      "stunde": "00:00",
+      "ts": "2026-08-26T22:00:00.000Z",
       "status": "gruen",
-      "kommentar": "18:40-19:40: Grün – Nachbörslich, Volumen niedrig, vor PCE/GDP-Daten ruhig."
+      "kommentar": "00:34–01:34: Ruhige Nachtstunden, asiatische Märkte stabil, kein Event-Risiko."
     },
     {
-      "stunde": "19:00",
-      "ts": "2026-08-26T17:00:00.000Z",
+      "stunde": "01:00",
+      "ts": "2026-08-26T23:00:00.000Z",
       "status": "gruen",
-      "kommentar": "19:40-20:40: Grün – Asien-Open beginnt, aber Fokus auf US-Daten morgen früh."
+      "kommentar": "01:34–02:34: Weiterhin ruhig, geringe Liquidität, keine Katalysatoren erwartet."
     },
     {
-      "stunde": "20:00",
-      "ts": "2026-08-26T18:00:00.000Z",
+      "stunde": "02:00",
+      "ts": "2026-08-27T00:00:00.000Z",
       "status": "gruen",
-      "kommentar": "20:40-21:40: Grün – Späte US-Session, minimale Aktivität vor europäischem Morgen."
+      "kommentar": "02:34–03:34: Asien-Session läuft aus, europäische Pre-Market beginnt, Stabilität hält an."
     },
     {
-      "stunde": "21:00",
-      "ts": "2026-08-26T19:00:00.000Z",
-      "status": "rot",
-      "kommentar": "21:40-22:40: Rot – US-Power-Hour-Nachlauf + Vorbörse-Positioning für PCE/GDP."
+      "stunde": "03:00",
+      "ts": "2026-08-27T01:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "03:34–04:34: Frühe EU-Handelsphase, moderate Volumen, Markt wartet auf US-Daten."
     },
     {
-      "stunde": "22:00",
-      "ts": "2026-08-26T20:00:00.000Z",
-      "status": "rot",
-      "kommentar": "22:40-23:40: Rot – Europäischer Morgen + finale Positionierung vor 14:30-Release."
+      "stunde": "04:00",
+      "ts": "2026-08-27T02:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "04:34–05:34: Europa im Aufbau, keine Breaking-News, grünes Umfeld bleibt bestehen."
     },
     {
-      "stunde": "23:00",
-      "ts": "2026-08-26T21:00:00.000Z",
-      "status": "rot",
-      "kommentar": "23:40-00:40: Rot – Unmittelbar vor PCE/GDP (14:30) – höchstes Risiko, Bot pausieren."
+      "stunde": "05:00",
+      "ts": "2026-08-27T03:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "05:34–06:34: EU-Handel etabliert sich, weiterhin ruhig vor US-Datenflut am Nachmittag."
     }
   ],
   "termine": [
     {
-      "name": "Fed Chair Warsh Keynote",
-      "ts": "2026-08-29T14:00:00.000Z",
+      "name": "US Durable Goods Orders",
+      "ts": "2026-08-27T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US Initial Jobless Claims",
+      "ts": "2026-08-27T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US GDP (Q2 Second Estimate)",
+      "ts": "2026-08-27T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "US PCE Price Index (Preliminary)",
+      "ts": "2026-08-27T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "Fed Chair Powell Speech (Jackson Hole)",
+      "ts": "2026-08-28T14:00:00.000Z",
       "impact": "hoch"
     }
   ]

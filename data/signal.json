@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T16:40:43.535Z",
+  "generatedAt": "2026-08-26T22:34:04.931Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "PCE & GDP heute 14:30 - erhöhte Vorsicht",
-  "empfehlung": "Bot bis 16:00 Uhr pausieren, dann vorsichtiger Neustart mit reduziertem Risiko.",
+  "statusText": "Vorsicht: Powell-Rede & Iran-Spannungen",
+  "empfehlung": "Bot auf defensiven Modus setzen; Positionen vor Powell-Rede (Fr 16:00 CET) glattstellen.",
   "source": "nq-pause-board"
 }
