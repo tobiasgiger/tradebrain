@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T20:16:05.080Z",
+  "generatedAt": "2026-08-26T00:36:56.936Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "PCE-Release morgen 14:30 → Vorsicht",
-  "empfehlung": "Bot heute pausiert lassen, morgen vor 14:30 Zurich pausieren wegen PCE-Inflation.",
+  "statusText": "GDP+PCE Release heute 14:30 Zurich",
+  "empfehlung": "Bot-Pause von 14:00-16:00 Zurich wegen High-Impact GDP/PCE-Release; danach vorsichtig reaktivieren.",
   "source": "nq-pause-board"
 }
