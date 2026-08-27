@@ -1,229 +1,164 @@
 {
-  "generatedAt": "2026-08-27T05:34:03.904Z",
+  "generatedAt": "2026-08-27T18:28:45.388Z",
   "appVersion": "1.7.1",
-  "status": "gelb",
-  "statusText": "Erhöhte Geopolitik & PCE-Woche",
-  "empfehlung": "Bot-Betrieb mit reduziertem Risiko; vor US-Open (15:30) und morgen PCE (14:30) Vorsicht.",
-  "headline": "Iran-Konflikt läuft, VIX ~15.8 moderat, morgen PCE + Freitag Fed-Warsh-Rede",
-  "body": "Die US-Israel-Iran-Eskalation ist seit Februar aktiv, zuletzt diplomatische Bemühungen durch Qatar und Verhandlungen. VIX bei ~15.8 zeigt moderate Volatilität. Morgen (26.08., 14:30 Zürich) kommt PCE Inflation – Feds Haupt-Indikator. Freitag spricht Fed-Chair Warsh in Jackson Hole, was Marktrichtung beeinflussen kann.",
+  "status": "rot",
+  "statusText": "US-Iran-Konflikt aktiv, Volatilität niedrig",
+  "empfehlung": "Bots pausieren: US-Iran-Krieg läuft weiter, geopolitisches Risiko sehr hoch trotz niedriger VIX.",
+  "headline": "Katar vermittelt Hormuz-Deal | Kyiv unter Beschuss | VIX 15.21 | Nvidia heute",
+  "body": "US-Iran-Krieg seit Februar aktiv, Katar verhandelt Hormuz-Korridor. Ukraine meldet mehrstündige Drohnenangriffe auf Kyiv heute. VIX bei nur 15.21 trotz Geopolitik – Markt unterschätzt Risiken. Keine High-Impact-Releases in den nächsten 24h, aber extreme Tail-Risk-Lage.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Al Jazeera: Iran War Updates Aug 23",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war"
+      "titel": "Times of Israel - Katar-Iran Verhandlungen",
+      "url": "https://www.timesofisrael.com/liveblog-august-27-2026/"
     },
     {
-      "titel": "Times of Israel: Aug 26 Live",
-      "url": "https://www.timesofisrael.com/liveblog-august-26-2026/"
+      "titel": "Britannica - 2026 Iran War Overview",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "Kiplinger: This Week's Calendar",
-      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+      "titel": "Kyiv Independent - Ukraine Drone Attack",
+      "url": "https://kyivindependent.com/"
     },
     {
-      "titel": "Yahoo Finance VIX",
-      "url": "https://finance.yahoo.com/quote/%5EVIX/"
+      "titel": "Investing.com - VIX Historical Data",
+      "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data"
     }
   ],
-  "rueckblickSummary": "Letzte 24h (26.08. 07:34 - 27.08. 07:34): US-Märkte handelten stabil, VIX stieg leicht auf 15.8 (+4.3%). Nasdaq schloss gestern moderat im Plus. Iran-Situation unverändert angespannt, aber keine neue Eskalation. Ukraine-Konflikt läuft auf niedrigem Niveau weiter.",
+  "rueckblickSummary": "Letzte 24h: US-Iran-Krieg läuft weiter mit diplomatischen Bemühungen (Katar in Teheran). Kyiv erlitt heute mehrstündigen russischen Drohnen-/Raketenangriff. VIX fiel auf 15.21 (-1.55%), Nasdaq +0.43% – Märkte ignorieren geopolitische Risiken weitgehend.",
   "rueckblick": [
-    {
-      "stunde": "07:00",
-      "ts": "2026-08-26T05:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-08-26T06:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-08-26T07:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "10:00",
-      "ts": "2026-08-26T08:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-26T09:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-26T10:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-26T11:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-26T12:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "15:00",
-      "ts": "2026-08-26T13:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-26T14:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-26T15:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "18:00",
-      "ts": "2026-08-26T16:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-26T17:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "20:00",
       "ts": "2026-08-26T18:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-26T19:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-26T20:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-26T21:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-26T22:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-26T23:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-27T00:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-27T01:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-27T02:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-27T03:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-27T04:00:00.000Z",
-      "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h (27.08. 07:34 - 28.08. 07:34): Heute US-Cash-Open 15:30 Zürich bringt übliche Volatilität. Morgen 14:30 PCE-Release – kritisches Inflationssignal für Fed-Politik. Geopolitik bleibt Hintergrundsrisiko (Iran-Diplomatie aktiv, aber fragil). Freitag folgt Fed-Chair-Warsh-Rede in Jackson Hole.",
-  "forecast": [
+      "status": "rot"
+    },
     {
       "stunde": "07:00",
       "ts": "2026-08-27T05:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-27T06:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-27T07:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-27T08:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-27T09:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "12:00",
       "ts": "2026-08-27T10:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-27T11:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-27T12:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-27T13:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-27T14:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-27T15:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-27T16:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-27T17:00:00.000Z",
-      "status": "gruen"
-    },
+      "status": "rot"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: US-Iran-Konflikt bleibt aktives Risiko (Strait of Hormuz), Ukraine-Krieg weiter volatil. Keine makroökonomischen High-Impact-Releases anstehend. VIX-Complacency bei historischen Markt-Hochs bedeutet erhöhtes Tail-Risk. US-Cash-Open morgen 15:30 Zurich überwachen.",
+  "forecast": [
     {
       "stunde": "20:00",
       "ts": "2026-08-27T18:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-27T19:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "22:00",
@@ -238,87 +173,141 @@
     {
       "stunde": "00:00",
       "ts": "2026-08-27T22:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-27T23:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-28T00:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-28T01:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-28T02:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-28T03:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-28T04:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-08-28T05:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-08-28T06:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-08-28T07:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-28T08:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-28T09:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-08-28T10:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-08-28T11:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-08-28T12:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "15:00",
+      "ts": "2026-08-28T13:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-08-28T14:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-08-28T15:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-08-28T16:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-08-28T17:00:00.000Z",
       "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "07:00",
-      "ts": "2026-08-27T05:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "07:34-08:34: Ruhige Europäische Handelszeit, keine Termine, geringe Volatilität erwartet."
+      "stunde": "20:00",
+      "ts": "2026-08-27T18:00:00.000Z",
+      "status": "rot",
+      "kommentar": "20:00-21:00 Zurich: US-Nachhandel läuft, geopolitische Nachrichten-Risiken aus Nahost/Ukraine bleiben präsent."
     },
     {
-      "stunde": "08:00",
-      "ts": "2026-08-27T06:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "08:34-09:34: Weiterhin europäischer Vormittag, NQ-Futures folgen Europa-Trends stabil."
+      "stunde": "21:00",
+      "ts": "2026-08-27T19:00:00.000Z",
+      "status": "rot",
+      "kommentar": "21:00-22:00 Zurich: US Power Hour (letzte Handelsstunde), erhöhte Volatilität möglich bei Geopolitik-Updates."
     },
     {
-      "stunde": "09:00",
-      "ts": "2026-08-27T07:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "09:34-10:34: Vor US-Premarket noch grün, aber Positionierung für US-Open beginnt."
+      "stunde": "22:00",
+      "ts": "2026-08-27T20:00:00.000Z",
+      "status": "rot",
+      "kommentar": "22:00-23:00 Zurich: US-Markt geschlossen, asiatische Vorhandel beginnt – Iran/Israel-Newsflow kritisch."
     },
     {
-      "stunde": "10:00",
-      "ts": "2026-08-27T08:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "10:34-11:34: Vorsicht – US-Premarket aktiv, erste US-Makrodaten möglich, Spreads weiten."
+      "stunde": "23:00",
+      "ts": "2026-08-27T21:00:00.000Z",
+      "status": "rot",
+      "kommentar": "23:00-00:00 Zurich: Asien-Opening (Tokyo/HK), Reaktion auf US-Session und Geopolitik, hohe Unsicherheit."
     },
     {
-      "stunde": "11:00",
-      "ts": "2026-08-27T09:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "11:34-12:34: Zurück zu grün nach initialer US-Volatilität, Märkte stabilisieren sich."
+      "stunde": "00:00",
+      "ts": "2026-08-27T22:00:00.000Z",
+      "status": "rot",
+      "kommentar": "00:00-01:00 Zurich: Asiatische Märkte handeln, Ukraine-Russland-Entwicklungen können eskalieren."
     },
     {
-      "stunde": "12:00",
-      "ts": "2026-08-27T10:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "12:34-13:34: Normale US-Handelszeit, keine Major-Releases heute, moderates Risiko."
+      "stunde": "01:00",
+      "ts": "2026-08-27T23:00:00.000Z",
+      "status": "rot",
+      "kommentar": "01:00-02:00 Zurich: Fortsetzung Asia-Session, VIX-Futures könnten bei News-Schocks springen."
     }
   ],
-  "termine": [
-    {
-      "name": "US Jobless Claims",
-      "ts": "2026-08-28T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "Fed Chair Warsh Jackson Hole Speech",
-      "ts": "2026-08-29T14:00:00.000Z",
-      "impact": "hoch"
-    }
-  ]
+  "termine": []
 }

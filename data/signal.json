@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-27T05:34:03.904Z",
+  "generatedAt": "2026-08-27T18:28:45.388Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Erhöhte Geopolitik & PCE-Woche",
-  "empfehlung": "Bot-Betrieb mit reduziertem Risiko; vor US-Open (15:30) und morgen PCE (14:30) Vorsicht.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "US-Iran-Konflikt aktiv, Volatilität niedrig",
+  "empfehlung": "Bots pausieren: US-Iran-Krieg läuft weiter, geopolitisches Risiko sehr hoch trotz niedriger VIX.",
   "source": "nq-pause-board"
 }
