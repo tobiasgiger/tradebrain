@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T22:34:04.931Z",
+  "generatedAt": "2026-08-27T05:34:03.904Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Vorsicht: Powell-Rede & Iran-Spannungen",
-  "empfehlung": "Bot auf defensiven Modus setzen; Positionen vor Powell-Rede (Fr 16:00 CET) glattstellen.",
+  "statusText": "Erhöhte Geopolitik & PCE-Woche",
+  "empfehlung": "Bot-Betrieb mit reduziertem Risiko; vor US-Open (15:30) und morgen PCE (14:30) Vorsicht.",
   "source": "nq-pause-board"
 }

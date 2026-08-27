@@ -1,63 +1,32 @@
 {
-  "generatedAt": "2026-08-26T22:34:04.931Z",
+  "generatedAt": "2026-08-27T05:34:03.904Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Vorsicht: Powell-Rede & Iran-Spannungen",
-  "empfehlung": "Bot auf defensiven Modus setzen; Positionen vor Powell-Rede (Fr 16:00 CET) glattstellen.",
-  "headline": "Jackson Hole im Fokus – Powell spricht morgen; Geopolitik angespannt",
-  "body": "Fed-Chef Powell hält morgen (Fr, 28.08.) seine mit Spannung erwartete Jackson-Hole-Rede, die Zinssignale liefern könnte. Geopolitische Risiken bleiben durch Iran-Israel-Spannungen und Ukraine-Konflikt erhöht. VIX liegt moderat, aber Event-Risiko durch Powell rechtfertigt erhöhte Vorsicht.",
+  "statusText": "Erhöhte Geopolitik & PCE-Woche",
+  "empfehlung": "Bot-Betrieb mit reduziertem Risiko; vor US-Open (15:30) und morgen PCE (14:30) Vorsicht.",
+  "headline": "Iran-Konflikt läuft, VIX ~15.8 moderat, morgen PCE + Freitag Fed-Warsh-Rede",
+  "body": "Die US-Israel-Iran-Eskalation ist seit Februar aktiv, zuletzt diplomatische Bemühungen durch Qatar und Verhandlungen. VIX bei ~15.8 zeigt moderate Volatilität. Morgen (26.08., 14:30 Zürich) kommt PCE Inflation – Feds Haupt-Indikator. Freitag spricht Fed-Chair Warsh in Jackson Hole, was Marktrichtung beeinflussen kann.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Fed Jackson Hole Symposium 2026",
-      "url": "https://www.federalreserve.gov"
+      "titel": "Al Jazeera: Iran War Updates Aug 23",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war"
     },
     {
-      "titel": "Bloomberg Markets – Powell Speech Preview",
-      "url": "https://www.bloomberg.com"
+      "titel": "Times of Israel: Aug 26 Live",
+      "url": "https://www.timesofisrael.com/liveblog-august-26-2026/"
     },
     {
-      "titel": "Reuters Geopolitics – Middle East",
-      "url": "https://www.reuters.com"
+      "titel": "Kiplinger: This Week's Calendar",
+      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+    },
+    {
+      "titel": "Yahoo Finance VIX",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden verliefen ruhig mit moderater Handelstätigkeit. Märkte konsolidierten im Vorfeld der Jackson-Hole-Veranstaltung. Keine größeren geopolitischen Eskalationen oder Datenpunkte beeinträchtigten die Stabilität.",
+  "rueckblickSummary": "Letzte 24h (26.08. 07:34 - 27.08. 07:34): US-Märkte handelten stabil, VIX stieg leicht auf 15.8 (+4.3%). Nasdaq schloss gestern moderat im Plus. Iran-Situation unverändert angespannt, aber keine neue Eskalation. Ukraine-Konflikt läuft auf niedrigem Niveau weiter.",
   "rueckblick": [
-    {
-      "stunde": "00:00",
-      "ts": "2026-08-25T22:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "01:00",
-      "ts": "2026-08-25T23:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "02:00",
-      "ts": "2026-08-26T00:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-26T01:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-26T02:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-26T03:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "06:00",
-      "ts": "2026-08-26T04:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "07:00",
       "ts": "2026-08-26T05:00:00.000Z",
@@ -126,26 +95,23 @@
     {
       "stunde": "20:00",
       "ts": "2026-08-26T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-26T19:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-26T20:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-26T21:00:00.000Z",
-      "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h bringen hohes Event-Risiko: Heute (Do, 27.08.) um 14:30 Zurich-Zeit erscheinen US-GDP-Revision und PCE-Daten – beide hochrelevant. Morgen folgt Powells Jackson-Hole-Rede (16:00 Zurich). Bis dahin Positionsvorsicht geboten.",
-  "forecast": [
+      "status": "gelb"
+    },
     {
       "stunde": "00:00",
       "ts": "2026-08-26T22:00:00.000Z",
@@ -180,7 +146,10 @@
       "stunde": "06:00",
       "ts": "2026-08-27T04:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h (27.08. 07:34 - 28.08. 07:34): Heute US-Cash-Open 15:30 Zürich bringt übliche Volatilität. Morgen 14:30 PCE-Release – kritisches Inflationssignal für Fed-Politik. Geopolitik bleibt Hintergrundsrisiko (Iran-Diplomatie aktiv, aber fragil). Freitag folgt Fed-Chair-Warsh-Rede in Jackson Hole.",
+  "forecast": [
     {
       "stunde": "07:00",
       "ts": "2026-08-27T05:00:00.000Z",
@@ -209,27 +178,27 @@
     {
       "stunde": "12:00",
       "ts": "2026-08-27T10:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-27T11:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-27T12:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-27T13:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-27T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
@@ -244,7 +213,7 @@
     {
       "stunde": "19:00",
       "ts": "2026-08-27T17:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "20:00",
@@ -259,76 +228,96 @@
     {
       "stunde": "22:00",
       "ts": "2026-08-27T20:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-27T21:00:00.000Z",
       "status": "rot"
+    },
+    {
+      "stunde": "00:00",
+      "ts": "2026-08-27T22:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "01:00",
+      "ts": "2026-08-27T23:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-08-28T00:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-08-28T01:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-08-28T02:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-28T03:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-08-28T04:00:00.000Z",
+      "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "00:00",
-      "ts": "2026-08-26T22:00:00.000Z",
+      "stunde": "07:00",
+      "ts": "2026-08-27T05:00:00.000Z",
       "status": "gruen",
-      "kommentar": "00:34–01:34: Ruhige Nachtstunden, asiatische Märkte stabil, kein Event-Risiko."
+      "kommentar": "07:34-08:34: Ruhige Europäische Handelszeit, keine Termine, geringe Volatilität erwartet."
     },
     {
-      "stunde": "01:00",
-      "ts": "2026-08-26T23:00:00.000Z",
+      "stunde": "08:00",
+      "ts": "2026-08-27T06:00:00.000Z",
       "status": "gruen",
-      "kommentar": "01:34–02:34: Weiterhin ruhig, geringe Liquidität, keine Katalysatoren erwartet."
+      "kommentar": "08:34-09:34: Weiterhin europäischer Vormittag, NQ-Futures folgen Europa-Trends stabil."
     },
     {
-      "stunde": "02:00",
-      "ts": "2026-08-27T00:00:00.000Z",
+      "stunde": "09:00",
+      "ts": "2026-08-27T07:00:00.000Z",
       "status": "gruen",
-      "kommentar": "02:34–03:34: Asien-Session läuft aus, europäische Pre-Market beginnt, Stabilität hält an."
+      "kommentar": "09:34-10:34: Vor US-Premarket noch grün, aber Positionierung für US-Open beginnt."
     },
     {
-      "stunde": "03:00",
-      "ts": "2026-08-27T01:00:00.000Z",
+      "stunde": "10:00",
+      "ts": "2026-08-27T08:00:00.000Z",
       "status": "gruen",
-      "kommentar": "03:34–04:34: Frühe EU-Handelsphase, moderate Volumen, Markt wartet auf US-Daten."
+      "kommentar": "10:34-11:34: Vorsicht – US-Premarket aktiv, erste US-Makrodaten möglich, Spreads weiten."
     },
     {
-      "stunde": "04:00",
-      "ts": "2026-08-27T02:00:00.000Z",
+      "stunde": "11:00",
+      "ts": "2026-08-27T09:00:00.000Z",
       "status": "gruen",
-      "kommentar": "04:34–05:34: Europa im Aufbau, keine Breaking-News, grünes Umfeld bleibt bestehen."
+      "kommentar": "11:34-12:34: Zurück zu grün nach initialer US-Volatilität, Märkte stabilisieren sich."
     },
     {
-      "stunde": "05:00",
-      "ts": "2026-08-27T03:00:00.000Z",
+      "stunde": "12:00",
+      "ts": "2026-08-27T10:00:00.000Z",
       "status": "gruen",
-      "kommentar": "05:34–06:34: EU-Handel etabliert sich, weiterhin ruhig vor US-Datenflut am Nachmittag."
+      "kommentar": "12:34-13:34: Normale US-Handelszeit, keine Major-Releases heute, moderates Risiko."
     }
   ],
   "termine": [
     {
-      "name": "US Durable Goods Orders",
-      "ts": "2026-08-27T12:30:00.000Z",
+      "name": "US Jobless Claims",
+      "ts": "2026-08-28T12:30:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "US Initial Jobless Claims",
-      "ts": "2026-08-27T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US GDP (Q2 Second Estimate)",
-      "ts": "2026-08-27T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "US PCE Price Index (Preliminary)",
-      "ts": "2026-08-27T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "Fed Chair Powell Speech (Jackson Hole)",
-      "ts": "2026-08-28T14:00:00.000Z",
+      "name": "Fed Chair Warsh Jackson Hole Speech",
+      "ts": "2026-08-29T14:00:00.000Z",
       "impact": "hoch"
     }
   ]
