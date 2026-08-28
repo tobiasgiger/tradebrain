@@ -1,63 +1,28 @@
 {
-  "generatedAt": "2026-08-28T03:54:05.055Z",
+  "generatedAt": "2026-08-28T10:59:47.522Z",
   "appVersion": "1.7.1",
-  "status": "gruen",
-  "statusText": "Ruhige Marktverhältnisse",
-  "empfehlung": "Trading-Bots können normal operieren, aber Wochenschluss-Volatilität beachten.",
-  "headline": "Stabile Märkte vor dem Wochenende, keine High-Impact-Events heute erwartet",
-  "body": "Die geopolitischen Spannungen bleiben auf erhöhtem Niveau, zeigen aber keine akute Eskalation. Heute stehen keine markttreibenden US-Wirtschaftsdaten an. Die Volatilität liegt im normalen Bereich, typische Freitags-Muster sind zu erwarten.",
-  "confidence": "mittel",
+  "status": "rot",
+  "statusText": "Geopolitik-Risiko trotz ruhiger Märkte",
+  "empfehlung": "⚠️ PCE in ~2h — Bots rechtzeitig pausieren. Vorsichtiger Betrieb mit engen Stops; volle Pause ab 15:00 Zurich (US-Cash-Open) bis 16:00 Zurich.",
+  "headline": "Iran-Konflikt schwelt, VIX 15.2, keine US-Daten heute — Vorsicht US-Open",
+  "body": "Geopolitische Lage bleibt angespannt durch US-Iran-Konflikt und Hormuz-Blockade, jedoch zeigen Märkte Resilienz mit VIX nahe Jahrestief. Heute keine High-Impact-Releases, nächste kritische Termine CPI 11.9. und FOMC 15.-16.9. Während asiatischer und europäischer Session grün, ab US-Cash-Open (15:30 Zurich) auf gelb wegen erhöhter Unsicherheit.",
+  "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Reuters Middle East Updates",
-      "url": "https://www.reuters.com/world/middle-east/"
+      "titel": "ABC News: Iran-US Konflikt Updates",
+      "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-adopt-offensive-aspect-irgc/?id=135700072"
     },
     {
-      "titel": "Bloomberg Markets",
-      "url": "https://www.bloomberg.com/markets"
+      "titel": "CBOE: VIX Volatility Data",
+      "url": "https://www.cboe.com/tradable-products/vix/"
     },
     {
-      "titel": "Investing.com Economic Calendar",
-      "url": "https://www.investing.com/economic-calendar/"
+      "titel": "FedRateCalc: US Economic Calendar 2026",
+      "url": "https://fedratecalc.com/us-economic-calendar/"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden verliefen ruhig mit moderater Handelsaktivität. Keine überraschenden Wirtschaftsdaten oder geopolitischen Schocks. Asien- und Europa-Handel zeigte Konsolidierung, US-Session gestern mit typischem Freitags-Muster.",
+  "rueckblickSummary": "Letzte 24h ruhiger Handel trotz fortgesetztem Iran-Konflikt und Ukraine-Spannungen. VIX fiel auf 15.13 (-5.5%), US-Indizes nahe Allzeithochs, keine kritischen Wirtschaftsdaten. Geopolitische Risiken latent vorhanden, aber Märkte zeigen Resilienz.",
   "rueckblick": [
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-27T03:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "06:00",
-      "ts": "2026-08-27T04:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-08-27T05:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-08-27T06:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-08-27T07:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "10:00",
-      "ts": "2026-08-27T08:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-27T09:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "12:00",
       "ts": "2026-08-27T10:00:00.000Z",
@@ -91,12 +56,12 @@
     {
       "stunde": "18:00",
       "ts": "2026-08-27T16:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-27T17:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "20:00",
@@ -116,7 +81,7 @@
     {
       "stunde": "23:00",
       "ts": "2026-08-27T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
@@ -131,21 +96,18 @@
     {
       "stunde": "02:00",
       "ts": "2026-08-28T00:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-28T01:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "04:00",
       "ts": "2026-08-28T02:00:00.000Z",
-      "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Heute Nachmittag 14:30 Uhr erscheint das Core PCE Price Index (Fed-Lieblingsinflationsmaß) – hohes Risiko für Volatilität. US-Cash-Open und Wochenschluss-Dynamik am Nachmittag erfordern Vorsicht. Ab 23:00 Uhr beruhigt sich der Markt ins Wochenende.",
-  "forecast": [
+      "status": "gelb"
+    },
     {
       "stunde": "05:00",
       "ts": "2026-08-28T03:00:00.000Z",
@@ -180,7 +142,10 @@
       "stunde": "11:00",
       "ts": "2026-08-28T09:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Freitag ohne US-High-Impact-Releases, aber Fed-Chair-Rede Jackson Hole 16:00 Zurich könnte Volatilität bringen. US-Cash-Open und Power-Hour bleiben Risikofenster. Nächste kritische Woche ab 10.9. mit PPI/CPI-Cluster vor FOMC 15.-16.9.",
+  "forecast": [
     {
       "stunde": "12:00",
       "ts": "2026-08-28T10:00:00.000Z",
@@ -199,7 +164,7 @@
     {
       "stunde": "15:00",
       "ts": "2026-08-28T13:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
@@ -219,42 +184,42 @@
     {
       "stunde": "19:00",
       "ts": "2026-08-28T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-28T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-28T19:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-28T20:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-28T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-28T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-28T23:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-29T00:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
@@ -265,76 +230,80 @@
       "stunde": "04:00",
       "ts": "2026-08-29T02:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-08-29T03:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-08-29T04:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-08-29T05:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-08-29T06:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-08-29T07:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-08-29T08:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-08-29T09:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "05:00",
-      "ts": "2026-08-28T03:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "05:00-06:00: Ruhige Pre-Market-Phase, minimale Aktivität in US-Futures."
+      "stunde": "12:00",
+      "ts": "2026-08-28T10:00:00.000Z",
+      "status": "rot",
+      "kommentar": "⚠ PCE in 2h: 13:00-14:00 Zurich: Europäischer Nachmittag, niedrige Volumina, stabiler Trend erwartet."
     },
     {
-      "stunde": "06:00",
-      "ts": "2026-08-28T04:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "06:00-07:00: Weiterhin stille europäische Morgenstunden, keine Katalysatoren."
+      "stunde": "13:00",
+      "ts": "2026-08-28T11:00:00.000Z",
+      "status": "rot",
+      "kommentar": "⚠ PCE in 1h: 14:00-15:00 Zurich: Letzte Stunde vor US-Open, Positionierung beginnt, leicht erhöhtes Risiko."
     },
     {
-      "stunde": "07:00",
-      "ts": "2026-08-28T05:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "07:00-08:00: Europa-Märkte öffnen, leichte Volumenzunahme ohne besondere Risiken."
+      "stunde": "14:00",
+      "ts": "2026-08-28T12:00:00.000Z",
+      "status": "rot",
+      "kommentar": "⚠ PCE: 15:00-16:00 Zurich: US-Cash-Open-Fenster, höchste Intraday-Volatilität, gelb wegen Unsicherheit."
     },
     {
-      "stunde": "08:00",
-      "ts": "2026-08-28T06:00:00.000Z",
+      "stunde": "15:00",
+      "ts": "2026-08-28T13:00:00.000Z",
       "status": "gruen",
-      "kommentar": "08:00-09:00: Normaler europäischer Handel, Konsolidierung vor US-Daten erwartet."
+      "kommentar": "16:00-17:00 Zurich: Fed-Chair-Rede Jackson Hole 16:00, hohes Event-Risiko für Zinsausblick."
     },
     {
-      "stunde": "09:00",
-      "ts": "2026-08-28T07:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "09:00-10:00: Fortsetzung stabiler Verhältnisse, Markt wartet auf 14:30-Daten."
+      "stunde": "16:00",
+      "ts": "2026-08-28T14:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "17:00-18:00 Zurich: Nachbebenphase Jackson-Hole-Rede, erhöhte Volatilität bis Verdauung abgeschlossen."
     },
     {
-      "stunde": "10:00",
-      "ts": "2026-08-28T08:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "10:00-11:00: Ruhige Vormittagsphase, Position-Anpassungen vor PCE-Release möglich."
+      "stunde": "17:00",
+      "ts": "2026-08-28T15:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "18:00-19:00 Zurich: US-Nachmittagshandel, Normalisierung nach Event, zurück zu ruhigerem Muster."
     }
   ],
-  "termine": [
-    {
-      "name": "US Core PCE Price Index",
-      "ts": "2026-08-28T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "US Personal Spending",
-      "ts": "2026-08-28T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US Durable Goods Orders",
-      "ts": "2026-09-01T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US ISM Manufacturing PMI",
-      "ts": "2026-09-01T14:00:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "US Initial Jobless Claims",
-      "ts": "2026-09-03T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US Nonfarm Payrolls (NFP)",
-      "ts": "2026-09-04T12:30:00.000Z",
-      "impact": "hoch"
-    }
-  ]
+  "termine": []
 }

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-28T03:54:05.055Z",
+  "generatedAt": "2026-08-28T10:59:47.522Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gruen",
-  "pause": false,
+  "effectiveStatus": "rot",
+  "pause": true,
   "caution": false,
-  "dayStatus": "gruen",
-  "statusText": "Ruhige Marktverhältnisse",
-  "empfehlung": "Trading-Bots können normal operieren, aber Wochenschluss-Volatilität beachten.",
+  "dayStatus": "rot",
+  "statusText": "Geopolitik-Risiko trotz ruhiger Märkte",
+  "empfehlung": "⚠️ PCE in ~2h — Bots rechtzeitig pausieren. Vorsichtiger Betrieb mit engen Stops; volle Pause ab 15:00 Zurich (US-Cash-Open) bis 16:00 Zurich.",
   "source": "nq-pause-board"
 }
