@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-27T18:28:45.388Z",
+  "generatedAt": "2026-08-28T03:54:05.055Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
+  "effectiveStatus": "gruen",
+  "pause": false,
   "caution": false,
-  "dayStatus": "rot",
-  "statusText": "US-Iran-Konflikt aktiv, Volatilität niedrig",
-  "empfehlung": "Bots pausieren: US-Iran-Krieg läuft weiter, geopolitisches Risiko sehr hoch trotz niedriger VIX.",
+  "dayStatus": "gruen",
+  "statusText": "Ruhige Marktverhältnisse",
+  "empfehlung": "Trading-Bots können normal operieren, aber Wochenschluss-Volatilität beachten.",
   "source": "nq-pause-board"
 }
