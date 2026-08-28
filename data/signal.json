@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-28T10:59:47.522Z",
+  "generatedAt": "2026-08-28T22:06:58.739Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "Geopolitik-Risiko trotz ruhiger Märkte",
-  "empfehlung": "⚠️ PCE in ~2h — Bots rechtzeitig pausieren. Vorsichtiger Betrieb mit engen Stops; volle Pause ab 15:00 Zurich (US-Cash-Open) bis 16:00 Zurich.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Wochenende, Iran-Konflikt läuft weiter",
+  "empfehlung": "Bot-Pause sinnvoll: Geopolitische Lage bleibt angespannt, obwohl VIX niedrig; nächste Woche relativ ruhig bis CPI (11.9.).",
   "source": "nq-pause-board"
 }
