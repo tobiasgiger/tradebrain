@@ -1,329 +1,313 @@
 {
-  "generatedAt": "2026-08-28T22:06:58.739Z",
+  "generatedAt": "2026-08-30T22:33:31.391Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Wochenende, Iran-Konflikt läuft weiter",
-  "empfehlung": "Bot-Pause sinnvoll: Geopolitische Lage bleibt angespannt, obwohl VIX niedrig; nächste Woche relativ ruhig bis CPI (11.9.).",
-  "headline": "Märkte geschlossen | Iran-Krieg schwelt | VIX 14.4 | Nächster High-Impact: CPI 11.9.",
-  "body": "US-Märkte sind geschlossen (Wochenende). Der 2026 Iran-Krieg läuft seit Februar weiter - Iran hat am 27.8. eine Schiffssperrliste für die Straße von Hormus veröffentlicht, Hezbollah lehnt Waffenruhe ab. Trotz geopolitischer Spannungen zeigt der VIX mit ~14.5 eine niedrige Volatilität. Nächste Handelswoche (bis 4.9.) ohne Major-Releases.",
-  "confidence": "hoch",
+  "statusText": "Ruhige Märkte, geopolitische Altlasten",
+  "empfehlung": "Trading möglich, aber Positionsgrößen reduzieren und enge Stops setzen.",
+  "headline": "VIX auf Jahrestief 14.4 trotz Iran/Ukraine-Risiken; Sept-FOMC steht bevor",
+  "body": "Märkte zeigen ungewöhnliche Ruhe mit VIX nahe 14.4, niedrigster Stand 2026. Geopolitische Risiken (Iran-Waffenstillstand fragil, Ukraine-Krieg intensiviert) bleiben präsent. Keine High-Impact-Releases in den nächsten 24h erkennbar, aber erhöhte Vorsicht vor US-Börsenöffnung empfohlen.",
+  "confidence": "mittel",
   "quellen": [
     {
-      "titel": "Times of Israel - Aug 28, 2026 Updates",
-      "url": "https://www.timesofisrael.com/liveblog-august-28-2026/"
-    },
-    {
-      "titel": "Britannica - 2026 Iran War",
+      "titel": "Britannica: 2026 Iran War",
       "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "Investing.com - VIX Index",
-      "url": "https://www.investing.com/indices/volatility-s-p-500"
+      "titel": "CNBC: VIX hits 2026 low",
+      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
     },
     {
-      "titel": "TheRightTrader Economic Calendar",
-      "url": "https://therighttrader.com/economic-calendar"
+      "titel": "Al Jazeera: Russia ramps up attacks",
+      "url": "https://www.aljazeera.com/news/2026/8/18/putins-illusion-of-victory-russia-ramps-up-missile-attacks-on-ukraine"
+    },
+    {
+      "titel": "Fed Reserve: Sept FOMC 15-16",
+      "url": "https://www.federalreserve.gov/newsevents/2026-september.htm"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden (Fr 28.8., 00:06-24:06 Zurich) lagen komplett außerhalb der US-Handelszeiten - Freitag schloss um ca. 22:00 Zurich. Am Mi 26.8. wurden GDP/PCE-Daten veröffentlicht, Nvidia-Earnings trieben Tech-Aktien. Geopolitisch: Iran verschärfte Strait-of-Hormuz-Blockade mit Schiffssperrliste am So 27.8., Hezbollah lehnte am Do 28.8. Waffenruhe ab.",
+  "rueckblickSummary": "Letzte 24h (So 30.8. 00:33 - Mo 31.8. 00:33): Wochenend-Handelsruhe, keine relevanten Nachrichten. US-Märkte geschlossen. VIX-Futures stabil im niedrigen Bereich. Geopolitische Lage unverändert seit Freitag.",
   "rueckblick": [
     {
       "stunde": "00:00",
-      "ts": "2026-08-27T22:00:00.000Z",
+      "ts": "2026-08-29T22:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "01:00",
-      "ts": "2026-08-27T23:00:00.000Z",
+      "ts": "2026-08-29T23:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "02:00",
-      "ts": "2026-08-28T00:00:00.000Z",
+      "ts": "2026-08-30T00:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "03:00",
-      "ts": "2026-08-28T01:00:00.000Z",
+      "ts": "2026-08-30T01:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "04:00",
-      "ts": "2026-08-28T02:00:00.000Z",
+      "ts": "2026-08-30T02:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "05:00",
-      "ts": "2026-08-28T03:00:00.000Z",
+      "ts": "2026-08-30T03:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "06:00",
-      "ts": "2026-08-28T04:00:00.000Z",
+      "ts": "2026-08-30T04:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "07:00",
-      "ts": "2026-08-28T05:00:00.000Z",
+      "ts": "2026-08-30T05:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "08:00",
-      "ts": "2026-08-28T06:00:00.000Z",
+      "ts": "2026-08-30T06:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "09:00",
-      "ts": "2026-08-28T07:00:00.000Z",
+      "ts": "2026-08-30T07:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "10:00",
-      "ts": "2026-08-28T08:00:00.000Z",
+      "ts": "2026-08-30T08:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "11:00",
-      "ts": "2026-08-28T09:00:00.000Z",
+      "ts": "2026-08-30T09:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "12:00",
-      "ts": "2026-08-28T10:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-08-30T10:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
-      "ts": "2026-08-28T11:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-08-30T11:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "14:00",
-      "ts": "2026-08-28T12:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-08-30T12:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
-      "ts": "2026-08-28T13:00:00.000Z",
+      "ts": "2026-08-30T13:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "16:00",
-      "ts": "2026-08-28T14:00:00.000Z",
+      "ts": "2026-08-30T14:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "17:00",
-      "ts": "2026-08-28T15:00:00.000Z",
+      "ts": "2026-08-30T15:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "18:00",
-      "ts": "2026-08-28T16:00:00.000Z",
+      "ts": "2026-08-30T16:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "19:00",
-      "ts": "2026-08-28T17:00:00.000Z",
+      "ts": "2026-08-30T17:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "20:00",
-      "ts": "2026-08-28T18:00:00.000Z",
+      "ts": "2026-08-30T18:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "21:00",
-      "ts": "2026-08-28T19:00:00.000Z",
+      "ts": "2026-08-30T19:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "22:00",
-      "ts": "2026-08-28T20:00:00.000Z",
+      "ts": "2026-08-30T20:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "23:00",
-      "ts": "2026-08-28T21:00:00.000Z",
+      "ts": "2026-08-30T21:00:00.000Z",
       "status": "gruen"
     }
   ],
-  "ausblickSummary": "Nächste 24h (Sa 29.8., 00:06 bis So 30.8., 00:06): Wochenende, Märkte komplett geschlossen. Montag 31.8. startet neue Handelswoche ohne Major-Releases. ISM Manufacturing am Di 1.9., NFP am Fr 4.9. - davor relativ ruhig. Geopolitisches Risiko (Iran, Ukraine) bleibt latent erhöht, aber aktuell keine akute Eskalation erkennbar.",
+  "ausblickSummary": "Nächste 24h (Mo 31.8. 00:33 - Di 1.9. 00:33): Montag ohne erkennbare High-Impact-Releases. US-Börsenöffnung 15:30 MEZ bringt übliche Volatilität. Europa-Handelsstart 09:00 MEZ. Kein NFP/CPI/FOMC in diesem Zeitfenster.",
   "forecast": [
     {
       "stunde": "00:00",
-      "ts": "2026-08-28T22:00:00.000Z",
+      "ts": "2026-08-30T22:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "01:00",
-      "ts": "2026-08-28T23:00:00.000Z",
+      "ts": "2026-08-30T23:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "02:00",
-      "ts": "2026-08-29T00:00:00.000Z",
+      "ts": "2026-08-31T00:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "03:00",
-      "ts": "2026-08-29T01:00:00.000Z",
+      "ts": "2026-08-31T01:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "04:00",
-      "ts": "2026-08-29T02:00:00.000Z",
+      "ts": "2026-08-31T02:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "05:00",
-      "ts": "2026-08-29T03:00:00.000Z",
+      "ts": "2026-08-31T03:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "06:00",
-      "ts": "2026-08-29T04:00:00.000Z",
+      "ts": "2026-08-31T04:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "07:00",
-      "ts": "2026-08-29T05:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T05:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
-      "ts": "2026-08-29T06:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T06:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "09:00",
-      "ts": "2026-08-29T07:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T07:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "10:00",
-      "ts": "2026-08-29T08:00:00.000Z",
+      "ts": "2026-08-31T08:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "11:00",
-      "ts": "2026-08-29T09:00:00.000Z",
+      "ts": "2026-08-31T09:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "12:00",
-      "ts": "2026-08-29T10:00:00.000Z",
+      "ts": "2026-08-31T10:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "13:00",
-      "ts": "2026-08-29T11:00:00.000Z",
+      "ts": "2026-08-31T11:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "14:00",
-      "ts": "2026-08-29T12:00:00.000Z",
+      "ts": "2026-08-31T12:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "15:00",
-      "ts": "2026-08-29T13:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T13:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
-      "ts": "2026-08-29T14:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T14:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
-      "ts": "2026-08-29T15:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T15:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
-      "ts": "2026-08-29T16:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T16:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
-      "ts": "2026-08-29T17:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T17:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
-      "ts": "2026-08-29T18:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T18:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
-      "ts": "2026-08-29T19:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-08-31T19:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
-      "ts": "2026-08-29T20:00:00.000Z",
+      "ts": "2026-08-31T20:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "23:00",
-      "ts": "2026-08-29T21:00:00.000Z",
+      "ts": "2026-08-31T21:00:00.000Z",
       "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
       "stunde": "00:00",
-      "ts": "2026-08-28T22:00:00.000Z",
+      "ts": "2026-08-30T22:00:00.000Z",
       "status": "gruen",
-      "kommentar": "Sa 00:06-01:06: Wochenende, keine US-Märkte, ruhig."
+      "kommentar": "00:33-01:33: Nachthandel ruhig, asiatische Märkte ohne relevante Impulse."
     },
     {
       "stunde": "01:00",
-      "ts": "2026-08-28T23:00:00.000Z",
+      "ts": "2026-08-30T23:00:00.000Z",
       "status": "gruen",
-      "kommentar": "Sa 01:06-02:06: Weiterhin geschlossen, keine Events."
+      "kommentar": "01:33-02:33: Fortsetzung niedriger Aktivität, Sydney/Tokio im frühen Handel."
     },
     {
       "stunde": "02:00",
-      "ts": "2026-08-29T00:00:00.000Z",
+      "ts": "2026-08-31T00:00:00.000Z",
       "status": "gruen",
-      "kommentar": "Sa 02:06-03:06: Wochenende hält an, stabil."
+      "kommentar": "02:33-03:33: Asien-Handelsvolumen steigt leicht, keine erwarteten Nachrichten."
     },
     {
       "stunde": "03:00",
-      "ts": "2026-08-29T01:00:00.000Z",
+      "ts": "2026-08-31T01:00:00.000Z",
       "status": "gruen",
-      "kommentar": "Sa 03:06-04:06: Keine Handelsaktivität, grün."
+      "kommentar": "03:33-04:33: Fortsetzung asiatischer Session, Geopolitik-Monitoring erforderlich."
     },
     {
       "stunde": "04:00",
-      "ts": "2026-08-29T02:00:00.000Z",
+      "ts": "2026-08-31T02:00:00.000Z",
       "status": "gruen",
-      "kommentar": "Sa 04:06-05:06: Märkte ruhen, geopolitische Lage unverändert."
+      "kommentar": "04:33-05:33: Späte Asia-Session, Europa-Vorbereitung beginnt."
     },
     {
       "stunde": "05:00",
-      "ts": "2026-08-29T03:00:00.000Z",
+      "ts": "2026-08-31T03:00:00.000Z",
       "status": "gruen",
-      "kommentar": "Sa 05:06-06:06: Fortsetzung Wochenende, niedrige Volatilität erwartet."
+      "kommentar": "05:33-06:33: Asien-Close nähert sich, ruhige Übergangsphase vor Europa-Open."
     }
   ],
-  "termine": [
-    {
-      "name": "US ISM Manufacturing PMI",
-      "ts": "2026-09-01T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US ISM Services PMI",
-      "ts": "2026-09-03T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "US NFP (Nonfarm Payrolls, Aug)",
-      "ts": "2026-09-04T12:30:00.000Z",
-      "impact": "hoch"
-    }
-  ]
+  "termine": []
 }
