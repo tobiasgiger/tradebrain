@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-31T18:21:56.445Z",
+  "generatedAt": "2026-08-31T23:28:56.677Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "US-Iran Konflikt eskaliert akut",
-  "empfehlung": "Bot sofort pausieren — aktive Kampfhandlungen, Strait of Hormuz, Ölpreis +3%, Fed-Zins-Risiko.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Geopolitik angespannt, VIX niedrig",
+  "empfehlung": "Mean-Reversion-Trading mit reduzierten Positionsgrößen; erhöhte Wachsamkeit.",
   "source": "nq-pause-board"
 }

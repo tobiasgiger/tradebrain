@@ -1,57 +1,32 @@
 {
-  "generatedAt": "2026-08-31T18:21:56.445Z",
+  "generatedAt": "2026-08-31T23:28:56.677Z",
   "appVersion": "1.7.1",
-  "status": "rot",
-  "statusText": "US-Iran Konflikt eskaliert akut",
-  "empfehlung": "Bot sofort pausieren — aktive Kampfhandlungen, Strait of Hormuz, Ölpreis +3%, Fed-Zins-Risiko.",
-  "headline": "US-Luftschläge auf Iran (Sonntag), Strait-Blockade, VIX +6%, Märkte fallen",
-  "body": "Die USA haben gestern (30.08.) iranische Raketenwerfer am Persischen Golf angegriffen, die erste Eskalation seit Wochen. Ölpreis +3%, VIX springt auf 15,3 (+6%), S&P 500 -0,5%, Nasdaq -0,5%. Fed-Chef Warsh warnt vor hartnäckiger Inflation, Zinserhöhungs-Odds für September auf 60% gestiegen.",
-  "confidence": "hoch",
+  "status": "gelb",
+  "statusText": "Geopolitik angespannt, VIX niedrig",
+  "empfehlung": "Mean-Reversion-Trading mit reduzierten Positionsgrößen; erhöhte Wachsamkeit.",
+  "headline": "Iran-Konflikt weiter aktiv | Ukraine-Krieg andauernd | VIX ~15 | NFP 05.09.",
+  "body": "Der Iran-US-Israel-Konflikt ist trotz Waffenstillstand im Juli wieder aufgeflammt, Strait of Hormuz bleibt Risikofaktor. Ukraine-Russland-Krieg setzt sich fort mit anhaltenden Angriffen. VIX bei historisch niedrigen 14-15 deutet auf Markt-Complacency hin, während geopolitische Risiken erhöht bleiben.",
+  "confidence": "mittel",
   "quellen": [
     {
-      "titel": "WSJ/FDD Iran Strike Aug 31",
-      "url": "https://www.fdd.org/overnight-brief/august-31-2026/"
+      "titel": "2026 Iran war - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
-      "titel": "Bloomberg Oil & Markets",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates"
+      "titel": "Iran war ceasefire - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire"
     },
     {
-      "titel": "Yahoo Finance VIX & Markets",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-31-dow-sp-500-nasdaq-113851714.html"
+      "titel": "VIX hits 2026 low - CNBC",
+      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
     },
     {
-      "titel": "Trading Economics US Calendar",
-      "url": "https://tradingeconomics.com/united-states/calendar"
+      "titel": "Ukraine Timeline 2026 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_June_2026_%E2%80%93_present)"
     }
   ],
-  "rueckblickSummary": "Letzte 24h: US-Militär griff iranische Stellungen an (Sonntag nachts), Ölpreis sprang +3%, Märkte schlossen Freitag leicht negativ nach Warsh-Rede (hawkish Jackson Hole). VIX hatte Freitag auf 14,1 geschlossen (Jahrestief), ist Montag auf 15,3 gesprungen.",
+  "rueckblickSummary": "Letzte 24h: Asiatische Märkte ruhig, europäische Pre-Market-Phase. VIX bleibt auf Jahrestief um 14-15, was auf niedrige implizite Volatilität hinweist. Geopolitische Lage weiterhin angespannt mit fortlaufendem Iran-Konflikt und Ukraine-Krieg, aber keine akuten Eskalationen in den letzten Stunden.",
   "rueckblick": [
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-30T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-30T19:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-08-30T20:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-08-30T21:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "00:00",
-      "ts": "2026-08-30T22:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "01:00",
       "ts": "2026-08-30T23:00:00.000Z",
@@ -75,17 +50,17 @@
     {
       "stunde": "05:00",
       "ts": "2026-08-31T03:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-31T04:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-31T05:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
@@ -146,39 +121,39 @@
       "stunde": "19:00",
       "ts": "2026-08-31T17:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: US-Cash-Markt öffnet heute (~15:30 Zürich) unter Druck (Futures -0,5%), Geopolitik-Prämie bleibt hoch. Morgen (Di) ISM Manufacturing 16:00, Mittwoch ADP + ISM Services, Freitag NFP. Fed-Zins-Risiko steigt (60% Hike-Chance Sept.), VIX über 15.",
-  "forecast": [
+    },
     {
       "stunde": "20:00",
       "ts": "2026-08-31T18:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-31T19:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-31T20:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-31T21:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-31T22:00:00.000Z",
-      "status": "gelb"
-    },
+      "status": "gruen"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Montag, 01.09. ist US Labor Day (Feiertag), US-Märkte geschlossen. Dienstag, 02.09. normaler Handelstag ohne Major-Releases. Geopolitische Risiken (Iran, Strait of Hormuz, Ukraine) bleiben latent. VIX-Tiefstand deutet auf mögliche Complacency hin. Nächster High-Impact-Termin: NFP am 05.09.",
+  "forecast": [
     {
       "stunde": "01:00",
       "ts": "2026-08-31T23:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
@@ -233,110 +208,110 @@
     {
       "stunde": "12:00",
       "ts": "2026-09-01T10:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
       "ts": "2026-09-01T11:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "14:00",
       "ts": "2026-09-01T12:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
       "ts": "2026-09-01T13:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
       "ts": "2026-09-01T14:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-09-01T15:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
       "ts": "2026-09-01T16:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
       "ts": "2026-09-01T17:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-09-01T18:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-09-01T19:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-09-01T20:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-09-01T21:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "00:00",
+      "ts": "2026-09-01T22:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "20:00",
-      "ts": "2026-08-31T18:00:00.000Z",
-      "status": "rot",
-      "kommentar": "20–21h: Ende US-Session, Geopolitik-Headlines dominieren, höhere Vola erwartet."
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-31T19:00:00.000Z",
-      "status": "rot",
-      "kommentar": "21–22h: US Power Hour, Strait-of-Hormuz-Unsicherheit bleibt, Öl-Exposure drückt Indizes."
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-08-31T20:00:00.000Z",
-      "status": "rot",
-      "kommentar": "22–23h: US-Close & Nachbörse, Risiko-Off-Stimmung, Volumen niedrig (Montag)."
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-08-31T21:00:00.000Z",
-      "status": "rot",
-      "kommentar": "23–00h: Asien-Open, Nikkei & Hang Seng reagieren auf US-Iran, geringes NQ-Volumen."
-    },
-    {
-      "stunde": "00:00",
-      "ts": "2026-08-31T22:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "00–01h: Asien-Handel, Ruhe vor ISM-Daten (morgen 16h), aber Geopolitik-Tail-Risk bleibt."
-    },
-    {
       "stunde": "01:00",
       "ts": "2026-08-31T23:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "01–02h: Asien Mid-Session, niedrige Liquidität, aber keine neuen Katalysatoren."
+      "status": "gruen",
+      "kommentar": "01:28-02:28 Zürich: Asien-Handel läuft, niedrige Aktivität, keine Events."
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-09-01T00:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "02:28-03:28 Zürich: Asien-Märkte weiter aktiv, geopolitische Lage stabil."
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-09-01T01:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "03:28-04:28 Zürich: Späte Asien-Session, Tokio-Nachmittag, ruhig."
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-09-01T02:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "04:28-05:28 Zürich: Asien-Schluss naht, Europa Pre-Market beginnt bald."
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-09-01T03:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "05:28-06:28 Zürich: Asien geschlossen, Europa vor Opening, ruhig."
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-09-01T04:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "06:28-07:28 Zürich: Europa Pre-Market, niedrige Volumina erwartet."
     }
   ],
   "termine": [
     {
-      "name": "ISM Manufacturing PMI",
-      "ts": "2026-09-01T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "JOLTS Job Openings",
-      "ts": "2026-09-02T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "ADP Employment",
-      "ts": "2026-09-03T12:15:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "ISM Services PMI",
-      "ts": "2026-09-03T14:00:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "Initial Jobless Claims",
-      "ts": "2026-09-04T12:30:00.000Z",
-      "impact": "mittel"
-    },
-    {
-      "name": "NFP (Employment Situation)",
+      "name": "US NFP (Nonfarm Payrolls) August",
       "ts": "2026-09-05T12:30:00.000Z",
       "impact": "hoch"
     }
