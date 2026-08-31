@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-31T02:07:54.012Z",
+  "generatedAt": "2026-08-31T10:12:57.531Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "US-Iran Eskalation: Strait of Hormuz",
-  "empfehlung": "Bot sofort pausieren – militärische Aktion US gegen Iran in den letzten Stunden, Ölsprung +2%, erhöhtes Gap-Risiko zum US-Open.",
+  "statusText": "US-Iran Eskalation + Fed-Hawkish-Shift",
+  "empfehlung": "Trading-Bots pausieren: Aktive Geopolitik-Eskalation, erhöhte Volatilität, kritische FOMC-Termine in Sicht.",
   "source": "nq-pause-board"
 }

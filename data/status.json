@@ -1,68 +1,32 @@
 {
-  "generatedAt": "2026-08-31T02:07:54.012Z",
+  "generatedAt": "2026-08-31T10:12:57.531Z",
   "appVersion": "1.7.1",
   "status": "rot",
-  "statusText": "US-Iran Eskalation: Strait of Hormuz",
-  "empfehlung": "Bot sofort pausieren – militärische Aktion US gegen Iran in den letzten Stunden, Ölsprung +2%, erhöhtes Gap-Risiko zum US-Open.",
-  "headline": "Militärschlag USA auf iranische Raketenwerfer im Persischen Golf (30.8.)",
-  "body": "Die USA griffen am Sonntag (30.8.) iranische Raketenwerfer an, die Minen in die Straße von Hormus entsenden wollten – Ende einer mehrwöchigen Waffenruhe. Öl sprang in Asien um 2%, S&P-500-Futures unter Druck. Mit US-Börseneröffnung heute Abend (15:30 Zürich) drohen volatile Gaps und unkalkulierbare Mean-Reversion-Setups.",
+  "statusText": "US-Iran Eskalation + Fed-Hawkish-Shift",
+  "empfehlung": "Trading-Bots pausieren: Aktive Geopolitik-Eskalation, erhöhte Volatilität, kritische FOMC-Termine in Sicht.",
+  "headline": "US-Iran Konflikt neu entflammt, Öl >$90, Fed-Zins-Erwartungen steigen",
+  "body": "Am Sonntag/Montag hat die US-Armee erstmals seit einem Monat iranische Raketenabschussrampen am Persischen Golf angegriffen, Iran schlug mit Angriffen auf Basen in Jordanien/UAE zurück. Brent-Öl über $90, VIX bei 14.4 (moderat), aber Märkte reagieren nervös. Fed-Chef Warsh signalisierte Ende letzter Woche hawkish, Markt preist jetzt 60% Wahrscheinlichkeit für Zinserhöhung beim FOMC 15.–16. Sept. ein.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Bloomberg: Oil jumps, Middle East tensions",
+      "titel": "France24: US strikes Iran first time in month",
+      "url": "https://www.france24.com/en/middle-east/20260830-middle-east-live-us-strikes-iran-for-first-time-in-a-month"
+    },
+    {
+      "titel": "Bloomberg: Oil jumps as Middle East tensions accelerate",
       "url": "https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates"
     },
     {
-      "titel": "CSIS: Iran war 100th day analysis",
-      "url": "https://www.csis.org/analysis/can-iran-negotiations-survive-israel-iran-escalation"
+      "titel": "CNBC: Stock futures fall after US-Iran combat resumes",
+      "url": "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html"
     },
     {
-      "titel": "Britannica: 2026 Iran war overview",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
+      "titel": "IndiaTV: Markets open lower on US-Iran escalation",
+      "url": "https://www.indiatvnews.com/business/markets/31-august-2026-stock-market-updates-sensex-drops-133-78-points-nifty-near-24-100-eternal-top-gainer-2026-08-31-1052828"
     }
   ],
-  "rueckblickSummary": "Letzte 24h (So 30.8.): Ruhiger Sonntag bis abends, dann US-Militäraktion gegen Iran am Persischen Golf – beendet Wochen relativer Ruhe. Öl +2% in Asien-Open, S&P-Futures fallen. Geopolitisches Risiko springt auf höchste Stufe seit Wochen.",
+  "rueckblickSummary": "Die letzten 24 Stunden (So./Mo.) waren von der erneuten militärischen Eskalation USA-Iran geprägt: US-Angriff Sonntagabend, iranische Vergeltung Montag früh. Asiatische Märkte öffneten negativ, Öl stieg stark. Zusätzlich belastete Fed-Chef Warsh' hawkishe Jackson-Hole-Rede vom Freitag die Stimmung – Zinserhöhungs-Wetten für Sept. FOMC sprangen auf 60%.",
   "rueckblick": [
-    {
-      "stunde": "04:00",
-      "ts": "2026-08-30T02:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-08-30T03:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "06:00",
-      "ts": "2026-08-30T04:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-08-30T05:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-08-30T06:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-08-30T07:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "10:00",
-      "ts": "2026-08-30T08:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-08-30T09:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "12:00",
       "ts": "2026-08-30T10:00:00.000Z",
@@ -126,45 +90,42 @@
     {
       "stunde": "00:00",
       "ts": "2026-08-30T22:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-30T23:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
       "ts": "2026-08-31T00:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-08-31T01:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h (Mo 31.8.): US-Börseneröffnung 15:30 Zürich mit Gap-Risiko durch Iran-News. Keine Makrodaten heute, aber erhöhte Volatilität erwartet. VIX könnte deutlich anziehen. Am Mittwoch 2.9. ISM Manufacturing (mittlerer Impact), dann Ruhe bis CPI 11.9.",
-  "forecast": [
+    },
     {
       "stunde": "04:00",
       "ts": "2026-08-31T02:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-08-31T03:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-31T04:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-31T05:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
@@ -184,8 +145,11 @@
     {
       "stunde": "11:00",
       "ts": "2026-08-31T09:00:00.000Z",
-      "status": "rot"
-    },
+      "status": "gelb"
+    }
+  ],
+  "ausblickSummary": "Die nächsten 24h bleiben kritisch: Europa-Open (heute 09:00 Zürich) steht unter Druck, US-Cash-Open (15:30 Zürich) dürfte volatil werden. Morgen (Di.) kommen ISM-Daten und JOLTS, am Freitag der wichtige NFP-Report. Geopolitische Newsflow bleibt unberechenbar. Erhöhte Vorsicht bis zur Lageberuhigung oder klaren Trendsignalen geboten.",
+  "forecast": [
     {
       "stunde": "12:00",
       "ts": "2026-08-31T10:00:00.000Z",
@@ -194,17 +158,17 @@
     {
       "stunde": "13:00",
       "ts": "2026-08-31T11:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-31T12:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-31T13:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
@@ -214,7 +178,7 @@
     {
       "stunde": "17:00",
       "ts": "2026-08-31T15:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "18:00",
@@ -224,86 +188,142 @@
     {
       "stunde": "19:00",
       "ts": "2026-08-31T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-08-31T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-31T19:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-31T20:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-31T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-08-31T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
       "ts": "2026-08-31T23:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "02:00",
       "ts": "2026-09-01T00:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "03:00",
       "ts": "2026-09-01T01:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-09-01T02:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-09-01T03:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-09-01T04:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-09-01T05:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-09-01T06:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-09-01T07:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-09-01T08:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-09-01T09:00:00.000Z",
       "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "04:00",
-      "ts": "2026-08-31T02:00:00.000Z",
+      "stunde": "12:00",
+      "ts": "2026-08-31T10:00:00.000Z",
       "status": "rot",
-      "kommentar": "04:00-05:00: Asien-Handel läuft, Öl weiter erhöht, NQ-Futures volatil – rot wegen aktiver Eskalation."
+      "kommentar": "Jetzt 12:12 Zürich: Rot wegen aktiver US-Iran-Eskalation und nervösem Marktumfeld."
     },
     {
-      "stunde": "05:00",
-      "ts": "2026-08-31T03:00:00.000Z",
-      "status": "rot",
-      "kommentar": "05:00-06:00: Asien-Schluss, Europa-Vorbörse beginnt mit Gap-Down-Risiko – Iran-Schlagzeilen dominieren."
+      "stunde": "13:00",
+      "ts": "2026-08-31T11:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "13:00–14:00 Zürich: Gelb, Europa-Handel stabilisiert sich leicht, aber Unsicherheit bleibt hoch."
     },
     {
-      "stunde": "06:00",
-      "ts": "2026-08-31T04:00:00.000Z",
-      "status": "rot",
-      "kommentar": "06:00-07:00: Europa-Märkte öffnen nervös, Rüstungs-/Ölaktien gesucht, Tech unter Druck."
+      "stunde": "14:00",
+      "ts": "2026-08-31T12:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "14:00–15:00 Zürich: Gelb, Pre-Market US zeigt Richtung, Warsh-Effekt und Öl-Preis dominieren."
     },
     {
-      "stunde": "07:00",
-      "ts": "2026-08-31T05:00:00.000Z",
-      "status": "rot",
-      "kommentar": "07:00-08:00: Europäischer Handel volatil, US-Futures schwach – Markt wartet auf offizielle US-Statements."
+      "stunde": "15:00",
+      "ts": "2026-08-31T13:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "15:00–16:00 Zürich (US Open 15:30): Gelb, US-Cash-Open bringt erhöhte Volatilität und Gaps."
     },
     {
-      "stunde": "08:00",
-      "ts": "2026-08-31T06:00:00.000Z",
-      "status": "rot",
-      "kommentar": "08:00-09:00: Pre-Market USA beginnt, Nachrichten-Flow zu Iran intensiv, Gap-Gefahr steigt."
+      "stunde": "16:00",
+      "ts": "2026-08-31T14:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "16:00–17:00 Zürich: Rot, ISM-Manufacturing-Daten morgen im Fokus, aber heute noch Pre-Positionierung möglich."
     },
     {
-      "stunde": "09:00",
-      "ts": "2026-08-31T07:00:00.000Z",
+      "stunde": "17:00",
+      "ts": "2026-08-31T15:00:00.000Z",
       "status": "rot",
-      "kommentar": "09:00-10:00: Letzte Stunde vor US-Cash-Open – höchste Unsicherheit, dann ab 10:00 Entspannung möglich falls keine Eskalation folgt."
+      "kommentar": "17:00–18:00 Zürich: Gelb, US-Handel läuft, Nachrichten zu Iran/Öl können jederzeit durchschlagen."
     }
   ],
-  "termine": []
+  "termine": [
+    {
+      "name": "ISM Manufacturing PMI",
+      "ts": "2026-09-01T14:00:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "JOLTS (Job Openings)",
+      "ts": "2026-09-01T14:00:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US NFP (Nonfarm Payrolls)",
+      "ts": "2026-09-04T12:30:00.000Z",
+      "impact": "hoch"
+    }
+  ]
 }
