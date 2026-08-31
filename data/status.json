@@ -1,72 +1,32 @@
 {
-  "generatedAt": "2026-08-31T10:12:57.531Z",
+  "generatedAt": "2026-08-31T18:21:56.445Z",
   "appVersion": "1.7.1",
   "status": "rot",
-  "statusText": "US-Iran Eskalation + Fed-Hawkish-Shift",
-  "empfehlung": "Trading-Bots pausieren: Aktive Geopolitik-Eskalation, erhöhte Volatilität, kritische FOMC-Termine in Sicht.",
-  "headline": "US-Iran Konflikt neu entflammt, Öl >$90, Fed-Zins-Erwartungen steigen",
-  "body": "Am Sonntag/Montag hat die US-Armee erstmals seit einem Monat iranische Raketenabschussrampen am Persischen Golf angegriffen, Iran schlug mit Angriffen auf Basen in Jordanien/UAE zurück. Brent-Öl über $90, VIX bei 14.4 (moderat), aber Märkte reagieren nervös. Fed-Chef Warsh signalisierte Ende letzter Woche hawkish, Markt preist jetzt 60% Wahrscheinlichkeit für Zinserhöhung beim FOMC 15.–16. Sept. ein.",
+  "statusText": "US-Iran Konflikt eskaliert akut",
+  "empfehlung": "Bot sofort pausieren — aktive Kampfhandlungen, Strait of Hormuz, Ölpreis +3%, Fed-Zins-Risiko.",
+  "headline": "US-Luftschläge auf Iran (Sonntag), Strait-Blockade, VIX +6%, Märkte fallen",
+  "body": "Die USA haben gestern (30.08.) iranische Raketenwerfer am Persischen Golf angegriffen, die erste Eskalation seit Wochen. Ölpreis +3%, VIX springt auf 15,3 (+6%), S&P 500 -0,5%, Nasdaq -0,5%. Fed-Chef Warsh warnt vor hartnäckiger Inflation, Zinserhöhungs-Odds für September auf 60% gestiegen.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "France24: US strikes Iran first time in month",
-      "url": "https://www.france24.com/en/middle-east/20260830-middle-east-live-us-strikes-iran-for-first-time-in-a-month"
+      "titel": "WSJ/FDD Iran Strike Aug 31",
+      "url": "https://www.fdd.org/overnight-brief/august-31-2026/"
     },
     {
-      "titel": "Bloomberg: Oil jumps as Middle East tensions accelerate",
+      "titel": "Bloomberg Oil & Markets",
       "url": "https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates"
     },
     {
-      "titel": "CNBC: Stock futures fall after US-Iran combat resumes",
-      "url": "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html"
+      "titel": "Yahoo Finance VIX & Markets",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-31-dow-sp-500-nasdaq-113851714.html"
     },
     {
-      "titel": "IndiaTV: Markets open lower on US-Iran escalation",
-      "url": "https://www.indiatvnews.com/business/markets/31-august-2026-stock-market-updates-sensex-drops-133-78-points-nifty-near-24-100-eternal-top-gainer-2026-08-31-1052828"
+      "titel": "Trading Economics US Calendar",
+      "url": "https://tradingeconomics.com/united-states/calendar"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden (So./Mo.) waren von der erneuten militärischen Eskalation USA-Iran geprägt: US-Angriff Sonntagabend, iranische Vergeltung Montag früh. Asiatische Märkte öffneten negativ, Öl stieg stark. Zusätzlich belastete Fed-Chef Warsh' hawkishe Jackson-Hole-Rede vom Freitag die Stimmung – Zinserhöhungs-Wetten für Sept. FOMC sprangen auf 60%.",
+  "rueckblickSummary": "Letzte 24h: US-Militär griff iranische Stellungen an (Sonntag nachts), Ölpreis sprang +3%, Märkte schlossen Freitag leicht negativ nach Warsh-Rede (hawkish Jackson Hole). VIX hatte Freitag auf 14,1 geschlossen (Jahrestief), ist Montag auf 15,3 gesprungen.",
   "rueckblick": [
-    {
-      "stunde": "12:00",
-      "ts": "2026-08-30T10:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-08-30T11:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-30T12:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "15:00",
-      "ts": "2026-08-30T13:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-30T14:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-30T15:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "18:00",
-      "ts": "2026-08-30T16:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "19:00",
-      "ts": "2026-08-30T17:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "20:00",
       "ts": "2026-08-30T18:00:00.000Z",
@@ -115,100 +75,100 @@
     {
       "stunde": "05:00",
       "ts": "2026-08-31T03:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "06:00",
       "ts": "2026-08-31T04:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "07:00",
       "ts": "2026-08-31T05:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
       "ts": "2026-08-31T06:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-08-31T07:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-08-31T08:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-08-31T09:00:00.000Z",
-      "status": "gelb"
-    }
-  ],
-  "ausblickSummary": "Die nächsten 24h bleiben kritisch: Europa-Open (heute 09:00 Zürich) steht unter Druck, US-Cash-Open (15:30 Zürich) dürfte volatil werden. Morgen (Di.) kommen ISM-Daten und JOLTS, am Freitag der wichtige NFP-Report. Geopolitische Newsflow bleibt unberechenbar. Erhöhte Vorsicht bis zur Lageberuhigung oder klaren Trendsignalen geboten.",
-  "forecast": [
+      "status": "gruen"
+    },
     {
       "stunde": "12:00",
       "ts": "2026-08-31T10:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-31T11:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-31T12:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-31T13:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-31T14:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-31T15:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-31T16:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-31T17:00:00.000Z",
-      "status": "gelb"
-    },
+      "status": "gruen"
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: US-Cash-Markt öffnet heute (~15:30 Zürich) unter Druck (Futures -0,5%), Geopolitik-Prämie bleibt hoch. Morgen (Di) ISM Manufacturing 16:00, Mittwoch ADP + ISM Services, Freitag NFP. Fed-Zins-Risiko steigt (60% Hike-Chance Sept.), VIX über 15.",
+  "forecast": [
     {
       "stunde": "20:00",
       "ts": "2026-08-31T18:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-08-31T19:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "22:00",
       "ts": "2026-08-31T20:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "23:00",
       "ts": "2026-08-31T21:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "00:00",
@@ -223,90 +183,130 @@
     {
       "stunde": "02:00",
       "ts": "2026-09-01T00:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-09-01T01:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
       "ts": "2026-09-01T02:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-09-01T03:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-09-01T04:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-09-01T05:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-09-01T06:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-09-01T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-09-01T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-09-01T09:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-09-01T10:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-09-01T11:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-09-01T12:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "15:00",
+      "ts": "2026-09-01T13:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-09-01T14:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "17:00",
+      "ts": "2026-09-01T15:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "18:00",
+      "ts": "2026-09-01T16:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "19:00",
+      "ts": "2026-09-01T17:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "12:00",
-      "ts": "2026-08-31T10:00:00.000Z",
+      "stunde": "20:00",
+      "ts": "2026-08-31T18:00:00.000Z",
       "status": "rot",
-      "kommentar": "Jetzt 12:12 Zürich: Rot wegen aktiver US-Iran-Eskalation und nervösem Marktumfeld."
+      "kommentar": "20–21h: Ende US-Session, Geopolitik-Headlines dominieren, höhere Vola erwartet."
     },
     {
-      "stunde": "13:00",
-      "ts": "2026-08-31T11:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "13:00–14:00 Zürich: Gelb, Europa-Handel stabilisiert sich leicht, aber Unsicherheit bleibt hoch."
-    },
-    {
-      "stunde": "14:00",
-      "ts": "2026-08-31T12:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "14:00–15:00 Zürich: Gelb, Pre-Market US zeigt Richtung, Warsh-Effekt und Öl-Preis dominieren."
-    },
-    {
-      "stunde": "15:00",
-      "ts": "2026-08-31T13:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "15:00–16:00 Zürich (US Open 15:30): Gelb, US-Cash-Open bringt erhöhte Volatilität und Gaps."
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-08-31T14:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "16:00–17:00 Zürich: Rot, ISM-Manufacturing-Daten morgen im Fokus, aber heute noch Pre-Positionierung möglich."
-    },
-    {
-      "stunde": "17:00",
-      "ts": "2026-08-31T15:00:00.000Z",
+      "stunde": "21:00",
+      "ts": "2026-08-31T19:00:00.000Z",
       "status": "rot",
-      "kommentar": "17:00–18:00 Zürich: Gelb, US-Handel läuft, Nachrichten zu Iran/Öl können jederzeit durchschlagen."
+      "kommentar": "21–22h: US Power Hour, Strait-of-Hormuz-Unsicherheit bleibt, Öl-Exposure drückt Indizes."
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-08-31T20:00:00.000Z",
+      "status": "rot",
+      "kommentar": "22–23h: US-Close & Nachbörse, Risiko-Off-Stimmung, Volumen niedrig (Montag)."
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-08-31T21:00:00.000Z",
+      "status": "rot",
+      "kommentar": "23–00h: Asien-Open, Nikkei & Hang Seng reagieren auf US-Iran, geringes NQ-Volumen."
+    },
+    {
+      "stunde": "00:00",
+      "ts": "2026-08-31T22:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "00–01h: Asien-Handel, Ruhe vor ISM-Daten (morgen 16h), aber Geopolitik-Tail-Risk bleibt."
+    },
+    {
+      "stunde": "01:00",
+      "ts": "2026-08-31T23:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "01–02h: Asien Mid-Session, niedrige Liquidität, aber keine neuen Katalysatoren."
     }
   ],
   "termine": [
@@ -316,13 +316,28 @@
       "impact": "mittel"
     },
     {
-      "name": "JOLTS (Job Openings)",
-      "ts": "2026-09-01T14:00:00.000Z",
+      "name": "JOLTS Job Openings",
+      "ts": "2026-09-02T14:00:00.000Z",
       "impact": "mittel"
     },
     {
-      "name": "US NFP (Nonfarm Payrolls)",
+      "name": "ADP Employment",
+      "ts": "2026-09-03T12:15:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "ISM Services PMI",
+      "ts": "2026-09-03T14:00:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "Initial Jobless Claims",
       "ts": "2026-09-04T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "NFP (Employment Situation)",
+      "ts": "2026-09-05T12:30:00.000Z",
       "impact": "hoch"
     }
   ]
