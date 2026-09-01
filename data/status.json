@@ -1,52 +1,32 @@
 {
-  "generatedAt": "2026-09-01T18:57:37.379Z",
+  "generatedAt": "2026-09-01T22:09:50.928Z",
   "appVersion": "1.7.1",
   "status": "rot",
-  "statusText": "KRIEGSESKALATION - BOTS STOPPEN",
-  "empfehlung": "Trading-Bots SOFORT pausieren – aktive US/Israel-Luftangriffe auf Iran-Ziele am Persischen Golf.",
-  "headline": "US schlägt Iran-Ziele nahe Hormuz-Straße – Krieg seit Februar weiter aktiv",
-  "body": "Die USA führen heute (1. Sept. 2026) Luftangriffe auf iranische Ziele rund um die Straße von Hormuz durch. Der Iran-Krieg läuft seit Ende Februar, der Oberste Führer Khamenei wurde getötet. In der Ukraine eskaliert Russland mit dem 6. Tag in Folge Angriffe auf Kiew. Extrem volatiles Umfeld für NQ-Futures.",
+  "statusText": "US-Iran Eskalation, Öl +5%, Zinsen steigen",
+  "empfehlung": "Bot PAUSIEREN: Geopolitische Schocks, VIX steigt, FOMC-Zyklus ab 16.9. beginnt – Mean-Reversion-Strategien laufen ins Messer.",
+  "headline": "Strait of Hormuz erneut angegriffen — Nasdaq -2%, 10Y-Yield 4.78%, VIX >16",
+  "body": "US-Iran-Konflikt eskaliert erneut seit gestern Abend (Angriffe auf Tanker im Persischen Golf), Ölpreis springt +5%, Renditen steigen auf Jahreshoch (10Y 4.78%, 30Y >5.2%). Markt preist 66% Wahrscheinlichkeit für Fed-Zinserhöhung am 16.9. FOMC ein, Tech-Sektor unter Druck. VIX klettert von 14-Handle auf >16 – Volatilität kehrt zurück.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Times of Israel - US strikes Iran (Hormuz)",
-      "url": "https://www.timesofisrael.com/liveblog-september-1-2026/"
+      "titel": "Yahoo Finance: Nasdaq slides on renewed U.S.-Iran conflict",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-1-135016820.html"
     },
     {
-      "titel": "Britannica - 2026 Iran War",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
+      "titel": "AL-MONITOR: Israel favors status quo as Iran tensions fuel escalation risk",
+      "url": "https://www.al-monitor.com/originals/2026/09/israel-favors-status-quo-tensions-irans-leadership-fuel-escalation-risk"
     },
     {
-      "titel": "Political.org - Russia-Ukraine tracker",
-      "url": "https://political.org/russia-ukraine-war-tracker/"
+      "titel": "Charles Schwab: Crude, Yields Flex Muscle, Bruising Stocks Early",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
-      "titel": "FedRateCalc - Sept 2026 US Calendar",
+      "titel": "FedRateCalc: September 2026 U.S. Economic Calendar",
       "url": "https://fedratecalc.com/us-economic-calendar/september-2026/"
     }
   ],
-  "rueckblickSummary": "Seit gestern Abend extreme geopolitische Eskalation: USA und Israel führen heute Luftangriffe auf iranische Ziele nahe der Straße von Hormuz durch – Fortsetzung des seit Februar laufenden Krieges. Russland intensiviert Angriffe auf Kiew (6. Tag in Folge). VIX stieg in den letzten 2 Wochen von Jahrestiefs auf erhöhte Werte, Marktstimmung verschlechtert.",
+  "rueckblickSummary": "Di 1.9. US-Cash-Open: Märkte brechen ein auf Iran-News, Nasdaq -2%, VIX +10% auf 16.4, Öl +5%. Montag 31.8. alle Indizes leicht im Minus, aber August insgesamt positiv abgeschlossen. Letzte 24h (seit Montag-Abend): geopolitische Schlagzeilen verschärfen sich, Strait of Hormuz-Angriffe, Renditen klettern, Fed-Hike-Wetten auf 66%.",
   "rueckblick": [
-    {
-      "stunde": "20:00",
-      "ts": "2026-08-31T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-08-31T19:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-08-31T20:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-08-31T21:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "00:00",
       "ts": "2026-08-31T22:00:00.000Z",
@@ -80,47 +60,47 @@
     {
       "stunde": "06:00",
       "ts": "2026-09-01T04:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-09-01T05:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-09-01T06:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-09-01T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-09-01T08:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-09-01T09:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
       "ts": "2026-09-01T10:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "13:00",
       "ts": "2026-09-01T11:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "14:00",
       "ts": "2026-09-01T12:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
@@ -130,7 +110,7 @@
     {
       "stunde": "16:00",
       "ts": "2026-09-01T14:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
@@ -145,11 +125,8 @@
     {
       "stunde": "19:00",
       "ts": "2026-09-01T17:00:00.000Z",
-      "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Kriegslage bleibt hochvolatil, weitere US-Angriffe möglich. Heute 16:00 Uhr JOLTS-Daten (mittlerer Impact). Morgen folgt NFP um 14:30 Uhr (extrem hohes Risiko). US-Märkte öffnen heute 15:30 Uhr unter Kriegsbedingungen – erhebliche Gap- und Spike-Gefahr für NQ.",
-  "forecast": [
+      "status": "rot"
+    },
     {
       "stunde": "20:00",
       "ts": "2026-09-01T18:00:00.000Z",
@@ -169,7 +146,10 @@
       "stunde": "23:00",
       "ts": "2026-09-01T21:00:00.000Z",
       "status": "rot"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: US-ISM & JOLTS heute 16:00 Zurich (gelb), restlicher Tag volatil (gelb/rot wegen Nachwehen). Mittwoch 2.9. keine Major-Releases, aber Geopolitik bleibt heiß – Markt kann jederzeit kippen. Freitag 4.9. NFP um 14:30 Zurich → rotes Vorlauf-Fenster ab Do-Nachmittag. Dann folgen PPI (10.9.), CPI (11.9.), Retail Sales (15.9.), FOMC (16.9.) – allesamt Hochrisiko-Tage.",
+  "forecast": [
     {
       "stunde": "00:00",
       "ts": "2026-09-01T22:00:00.000Z",
@@ -198,120 +178,140 @@
     {
       "stunde": "05:00",
       "ts": "2026-09-02T03:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-09-02T04:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
       "ts": "2026-09-02T05:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "08:00",
       "ts": "2026-09-02T06:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "09:00",
       "ts": "2026-09-02T07:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-09-02T08:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-09-02T09:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
       "ts": "2026-09-02T10:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
       "ts": "2026-09-02T11:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "14:00",
       "ts": "2026-09-02T12:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
       "ts": "2026-09-02T13:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
       "ts": "2026-09-02T14:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-09-02T15:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
       "ts": "2026-09-02T16:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
       "ts": "2026-09-02T17:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-09-02T18:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-09-02T19:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-09-02T20:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-09-02T21:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "20:00",
-      "ts": "2026-09-01T18:00:00.000Z",
-      "status": "rot",
-      "kommentar": "Stunde 21:00–22:00: Aktive Kriegshandlungen USA vs. Iran – höchstes Risiko, Bot pausieren."
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-09-01T19:00:00.000Z",
-      "status": "rot",
-      "kommentar": "Stunde 22:00–23:00: US-Power-Hour unter Kriegsbedingungen – extreme Volatilität wahrscheinlich."
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-09-01T20:00:00.000Z",
-      "status": "rot",
-      "kommentar": "Stunde 23:00–00:00: Nachbörslich weiterhin geopolitisches Risiko, unvorhersehbare News-Flow möglich."
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-09-01T21:00:00.000Z",
-      "status": "rot",
-      "kommentar": "Di. 00:00–01:00: Asien-Open reagiert auf US-Iran-Eskalation – Carry-over-Volatilität hoch."
-    },
-    {
       "stunde": "00:00",
       "ts": "2026-09-01T22:00:00.000Z",
       "status": "rot",
-      "kommentar": "Di. 01:00–02:00: Geopolitische Lage bleibt angespannt, weitere Meldungen jederzeit möglich."
+      "kommentar": "00:09–01:09: Rote Ampel – Nachbeben der Iran-Eskalation, Märkte nervös, Asia-Session volatil, Öl/Yields hoch."
     },
     {
       "stunde": "01:00",
       "ts": "2026-09-01T23:00:00.000Z",
       "status": "gelb",
-      "kommentar": "Di. 02:00–15:00: Vorbörslich erhöhtes Risiko bis US-Cash-Open, dann Vorbereitung auf NFP morgen."
+      "kommentar": "01:09–02:09: Gelbe Ampel – Overnight-Risiko klingt ab, aber US-Vorbörse startet verhalten, VIX über 16."
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-09-02T00:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "02:09–03:09: Gelbe Ampel – Europäische Märkte öffnen unter Druck, EZB-Zinssorgen (Treffen nächste Woche), weiter unsicher."
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-09-02T01:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "03:09–04:09: Gelbe Ampel – Vormittag Europa, keine US-Daten, aber Geopolitik-Newsticker läuft – jede Meldung kann Spike auslösen."
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-09-02T02:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "04:09–05:09: Gelbe Ampel – Vorlauf zu ISM & JOLTS (16:00 Zurich), US-Futures volatil, Mean-Reversion gefährlich."
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-09-02T03:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "05:09–06:09: Gelbe Ampel – Kurz vor US-Daten (16:00) – Spreads weiten sich, keine neuen Positionen mehr aufbauen."
     }
   ],
   "termine": [
     {
-      "name": "NFP (Nonfarm Payrolls)",
+      "name": "Nonfarm Payrolls (NFP)",
       "ts": "2026-09-04T12:30:00.000Z",
       "impact": "hoch"
     }
