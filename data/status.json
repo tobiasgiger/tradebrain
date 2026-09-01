@@ -1,47 +1,32 @@
 {
-  "generatedAt": "2026-08-31T23:28:56.677Z",
+  "generatedAt": "2026-09-01T02:28:03.246Z",
   "appVersion": "1.7.1",
-  "status": "gelb",
-  "statusText": "Geopolitik angespannt, VIX niedrig",
-  "empfehlung": "Mean-Reversion-Trading mit reduzierten Positionsgrößen; erhöhte Wachsamkeit.",
-  "headline": "Iran-Konflikt weiter aktiv | Ukraine-Krieg andauernd | VIX ~15 | NFP 05.09.",
-  "body": "Der Iran-US-Israel-Konflikt ist trotz Waffenstillstand im Juli wieder aufgeflammt, Strait of Hormuz bleibt Risikofaktor. Ukraine-Russland-Krieg setzt sich fort mit anhaltenden Angriffen. VIX bei historisch niedrigen 14-15 deutet auf Markt-Complacency hin, während geopolitische Risiken erhöht bleiben.",
-  "confidence": "mittel",
+  "status": "rot",
+  "statusText": "Iran-Konflikt + NFP Freitag - HANDEL STOPPEN",
+  "empfehlung": "Trading-Bots sofort pausieren: Geopolitische Hochspannung (Iran-Krieg) plus NFP-Release am Freitag erzwingen maximales Risiko.",
+  "headline": "🔴 KRITISCH: Iran-US-Krieg aktiv, VIX 15.3, NFP Fr. 05.09. → KEIN TRADING",
+  "body": "Der US-israelische Krieg gegen Iran (seit Feb. 2026, Khamenei getötet) ist nach bedingtem Waffenstillstand April wieder eskalationsgefährdet. Ukraine-Russland bleibt aktiv mit Drohnenangriffen. VIX bei 15.3 zeigt trügerische Ruhe vor September-Volatilität. NFP am Freitag (05.09.) ist High-Impact-Event.",
+  "confidence": "hoch",
   "quellen": [
     {
-      "titel": "2026 Iran war - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "titel": "Britannica: 2026 Iran War",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "Iran war ceasefire - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire"
+      "titel": "CSIS: Iran-Israel Escalation",
+      "url": "https://www.csis.org/analysis/can-iran-negotiations-survive-israel-iran-escalation"
     },
     {
-      "titel": "VIX hits 2026 low - CNBC",
-      "url": "https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html"
+      "titel": "CNBC: Stock Market Aug 31 2026",
+      "url": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
     },
     {
-      "titel": "Ukraine Timeline 2026 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_June_2026_%E2%80%93_present)"
+      "titel": "Yahoo: VIX at 15.29",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/history/"
     }
   ],
-  "rueckblickSummary": "Letzte 24h: Asiatische Märkte ruhig, europäische Pre-Market-Phase. VIX bleibt auf Jahrestief um 14-15, was auf niedrige implizite Volatilität hinweist. Geopolitische Lage weiterhin angespannt mit fortlaufendem Iran-Konflikt und Ukraine-Krieg, aber keine akuten Eskalationen in den letzten Stunden.",
+  "rueckblickSummary": "Die letzten 24h (Mo. 31.08., 04:28-Di. 01.09., 04:28 Zurich) waren durch Monatsende-Konsolidierung geprägt. S&P 500 schloss August +2.6%, doch Montag 31.08. brachte Verluste (-370 Punkte Dow). Fed-Chef Warsh bleibt hawkish nach Jackson-Hole-Rede, Zinserhöhung Sept. nun 48% Wahrscheinlichkeit. Geopolitik (Iran, Ukraine) schwelt weiter ohne neue Eskalation in diesem 24h-Fenster.",
   "rueckblick": [
-    {
-      "stunde": "01:00",
-      "ts": "2026-08-30T23:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "02:00",
-      "ts": "2026-08-31T00:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-08-31T01:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "04:00",
       "ts": "2026-08-31T02:00:00.000Z",
@@ -85,42 +70,42 @@
     {
       "stunde": "12:00",
       "ts": "2026-08-31T10:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "13:00",
       "ts": "2026-08-31T11:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "14:00",
       "ts": "2026-08-31T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-08-31T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-08-31T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-08-31T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-08-31T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-08-31T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
@@ -146,10 +131,7 @@
       "stunde": "00:00",
       "ts": "2026-08-31T22:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Montag, 01.09. ist US Labor Day (Feiertag), US-Märkte geschlossen. Dienstag, 02.09. normaler Handelstag ohne Major-Releases. Geopolitische Risiken (Iran, Strait of Hormuz, Ukraine) bleiben latent. VIX-Tiefstand deutet auf mögliche Complacency hin. Nächster High-Impact-Termin: NFP am 05.09.",
-  "forecast": [
+    },
     {
       "stunde": "01:00",
       "ts": "2026-08-31T23:00:00.000Z",
@@ -164,7 +146,10 @@
       "stunde": "03:00",
       "ts": "2026-09-01T01:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h (Di. 01.09., 04:28-Mi. 02.09., 04:28) bringen ISM Manufacturing PMI (Di. 16:00 Zurich) als ersten wichtigen Datenpoint der Woche. US-Markets öffnen Di. 15:30 mit typischer Volatilität. September historisch schwacher Monat, NFP-Woche verstärkt Nervosität. Geopolitische Risiken (Iran-Krieg, Ukraine) bleiben akut latent.",
+  "forecast": [
     {
       "stunde": "04:00",
       "ts": "2026-09-01T02:00:00.000Z",
@@ -218,37 +203,37 @@
     {
       "stunde": "14:00",
       "ts": "2026-09-01T12:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-09-01T13:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-09-01T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-09-01T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
       "ts": "2026-09-01T16:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-09-01T17:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-09-01T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
@@ -269,47 +254,77 @@
       "stunde": "00:00",
       "ts": "2026-09-01T22:00:00.000Z",
       "status": "gruen"
+    },
+    {
+      "stunde": "01:00",
+      "ts": "2026-09-01T23:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-09-02T00:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-09-02T01:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "01:00",
-      "ts": "2026-08-31T23:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "01:28-02:28 Zürich: Asien-Handel läuft, niedrige Aktivität, keine Events."
-    },
-    {
-      "stunde": "02:00",
-      "ts": "2026-09-01T00:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "02:28-03:28 Zürich: Asien-Märkte weiter aktiv, geopolitische Lage stabil."
-    },
-    {
-      "stunde": "03:00",
-      "ts": "2026-09-01T01:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "03:28-04:28 Zürich: Späte Asien-Session, Tokio-Nachmittag, ruhig."
-    },
-    {
       "stunde": "04:00",
       "ts": "2026-09-01T02:00:00.000Z",
       "status": "gruen",
-      "kommentar": "04:28-05:28 Zürich: Asien-Schluss naht, Europa Pre-Market beginnt bald."
+      "kommentar": "04:28-05:28: Asien-Handel, geringe Liquidität, Japan Nikkei bereits -0.91%, Korea schwach - defensiv bleiben."
     },
     {
       "stunde": "05:00",
       "ts": "2026-09-01T03:00:00.000Z",
       "status": "gruen",
-      "kommentar": "05:28-06:28 Zürich: Asien geschlossen, Europa vor Opening, ruhig."
+      "kommentar": "05:28-06:28: Vorbörsliche Ruhe in Europa, keine Katalysatoren, aber Iran/Ukraine-News könnten jederzeit einschlagen."
     },
     {
       "stunde": "06:00",
       "ts": "2026-09-01T04:00:00.000Z",
       "status": "gruen",
-      "kommentar": "06:28-07:28 Zürich: Europa Pre-Market, niedrige Volumina erwartet."
+      "kommentar": "06:28-07:28: Europa-Open (08:30 Frankfurt), geringe NQ-Bewegung erwartet, Positionierung vor US-Daten beginnt."
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-09-01T05:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "07:28-08:28: Europäischer Vormittag, weiter ruhig, Trader warten auf ISM Manufacturing (16:00 Zurich)."
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-09-01T06:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "08:28-09:28: Vor-US-Open Phase, NQ-Futures beginnen zu reagieren auf Sentiment-Indikatoren."
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-09-01T07:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "09:28-10:28: US-Pre-Market aktiv, erste Positionierungen vor ISM 16:00, erhöhte Spreads möglich."
     }
   ],
   "termine": [
+    {
+      "name": "US ISM Manufacturing PMI",
+      "ts": "2026-09-02T14:00:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US Initial Jobless Claims",
+      "ts": "2026-09-03T12:30:00.000Z",
+      "impact": "mittel"
+    },
+    {
+      "name": "US ISM Services PMI",
+      "ts": "2026-09-04T14:00:00.000Z",
+      "impact": "mittel"
+    },
     {
       "name": "US NFP (Nonfarm Payrolls) August",
       "ts": "2026-09-05T12:30:00.000Z",

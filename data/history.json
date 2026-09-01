@@ -362,5 +362,9 @@
   {
     "generatedAt": "2026-08-31T23:28:56.677Z",
     "status": "gelb"
+  },
+  {
+    "generatedAt": "2026-09-01T02:28:03.246Z",
+    "status": "rot"
   }
 ]
