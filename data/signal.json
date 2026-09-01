@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-01T08:58:42.243Z",
+  "generatedAt": "2026-09-01T15:42:17.109Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Erhöhte Vorsicht – NFP Freitag",
-  "empfehlung": "Trading mit reduzierter Positionsgröße; vor NFP am Freitag 14:30 pausieren.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "Iran-Konflikt eskaliert – Bots pausieren",
+  "empfehlung": "Trading-Bots sofort stoppen: aktive Kriegseskalation im Nahen Osten mit Angriffen auf Öltanker in der Straße von Hormus.",
   "source": "nq-pause-board"
 }
