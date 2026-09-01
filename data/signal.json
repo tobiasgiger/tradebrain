@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-01T02:28:03.246Z",
+  "generatedAt": "2026-09-01T08:58:42.243Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "Iran-Konflikt + NFP Freitag - HANDEL STOPPEN",
-  "empfehlung": "Trading-Bots sofort pausieren: Geopolitische Hochspannung (Iran-Krieg) plus NFP-Release am Freitag erzwingen maximales Risiko.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Erhöhte Vorsicht – NFP Freitag",
+  "empfehlung": "Trading mit reduzierter Positionsgröße; vor NFP am Freitag 14:30 pausieren.",
   "source": "nq-pause-board"
 }
