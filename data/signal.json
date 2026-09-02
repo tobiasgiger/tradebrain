@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T15:31:41.498Z",
+  "generatedAt": "2026-09-02T19:03:05.338Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Erhöhte Geopolitik + FOMC-Woche naht",
-  "empfehlung": "Reduzierte Position bis nach FOMC (16.09.), hohe Vorsicht bei US-Iran-Eskalation.",
+  "statusText": "Geopolitik aktiv, FOMC-Woche voraus",
+  "empfehlung": "Trading erlaubt, aber reduzierte Positionsgröße und enge Stops wegen Iran-Eskalation und kommender FOMC-Volatilität.",
   "source": "nq-pause-board"
 }
