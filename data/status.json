@@ -1,155 +1,117 @@
 {
-  "generatedAt": "2026-09-02T08:12:28.426Z",
+  "generatedAt": "2026-09-02T15:31:41.498Z",
   "appVersion": "1.7.1",
-  "status": "rot",
-  "statusText": "US-Iran-Konflikt + erhöhte Volatilität",
-  "empfehlung": "Trading-Bots pausieren — aktive geopolitische Eskalation und stark erhöhte Marktvolatilität.",
-  "headline": "Akute Kriegslage Naher Osten, VIX +10%, Iranische Drohnenangriffe gestern",
-  "body": "Seit Februar 2026 führen die USA und Israel Krieg gegen Iran; gestern (1.9.) erfolgten erneute iranische Drohnenangriffe auf US-Basen in Jordanien, Kuwait und Bahrain. VIX stieg heute um über 10% auf 16,44 und signalisiert stark erhöhte Angst. Ukraine-Krieg geht weiter mit schweren russischen Angriffen auf Kyiv (12 Tote gestern). Mean-Reversion-Strategien sind bei solchen geopolitischen Schocks hochriskant.",
+  "status": "gelb",
+  "statusText": "Erhöhte Geopolitik + FOMC-Woche naht",
+  "empfehlung": "Reduzierte Position bis nach FOMC (16.09.), hohe Vorsicht bei US-Iran-Eskalation.",
+  "headline": "US-Iran-Konflikt treibt Öl & Yields; VIX +10% gestern, NFP Fr., FOMC 15./16.09.",
+  "body": "Aktive US-Iran-Kriegshandlungen (Strikes gestern/heute) sorgen für hohe Unsicherheit, Öl bei $90, 10Y-Yields 4,81% (Höchst seit Nov 2023). VIX sprang gestern auf 16,4 (+10%), heute leichter Rückgang. FOMC 15./16.09. mit ~70% Zinserhöhungs-Wahrscheinlichkeit prägt Woche, NFP am Freitag vorgelagert.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Times of Israel: Iran-Eskalation 2.9.2026",
-      "url": "https://www.timesofisrael.com/liveblog-september-2-2026/"
+      "titel": "CSIS: Israel-Iran Escalation June 2026",
+      "url": "https://www.csis.org/analysis/can-iran-negotiations-survive-israel-iran-escalation"
     },
     {
-      "titel": "Yahoo Finance: VIX +10% heute",
-      "url": "https://finance.yahoo.com/quote/%5EVIX/"
+      "titel": "Yahoo Finance: Stock Market Sept 2 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
-      "titel": "Kyiv Independent: Russland-Angriffe 1.9.",
-      "url": "https://kyivindependent.com/"
+      "titel": "FedRateCalc: September 2026 Calendar",
+      "url": "https://fedratecalc.com/us-economic-calendar/september-2026/"
     },
     {
-      "titel": "Vittarthi: US-Märkte unter Druck",
-      "url": "https://vittarthi.com/markets/us"
+      "titel": "Forex Cashback: Sept 2026 Economic Calendar",
+      "url": "https://www.forexcashbackrebate.com/blogs/september-2026-economic-calendar-highlights-nfp-fomc-ecb-cpi-more/"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden waren von hohem Risiko geprägt: Gestern (1.9.) starteten iranische Drohnen- und Raketenangriffe auf US-Einrichtungen in Jordanien, Kuwait und Bahrain als Vergeltung für US/Israel-Strikes. In der Ukraine töteten russische Angriffe auf Kyiv 12 Menschen. US-Märkte schlossen gestern rot, VIX stieg bereits um 6,5%. Heute (2.9., 10:12 Zurich) hat sich die Lage weiter verschärft mit VIX +10% und Nasdaq unter Druck.",
+  "rueckblickSummary": "Letzte 24h: US-Luftschläge auf Iran, Märkte unter Druck, Nasdaq -1%, VIX +10% auf 16,4, Öl +5% auf $90. 10Y-Yields auf 4,81% (höchst seit Nov 2023), Inflations-/Zinsängste dominieren. ADP-Jobs schwach (38k vs 47k erw.).",
   "rueckblick": [
-    {
-      "stunde": "10:00",
-      "ts": "2026-09-01T08:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-09-01T09:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-09-01T10:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-09-01T11:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "14:00",
-      "ts": "2026-09-01T12:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "15:00",
-      "ts": "2026-09-01T13:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "16:00",
-      "ts": "2026-09-01T14:00:00.000Z",
-      "status": "rot"
-    },
     {
       "stunde": "17:00",
       "ts": "2026-09-01T15:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
       "ts": "2026-09-01T16:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "19:00",
       "ts": "2026-09-01T17:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "20:00",
       "ts": "2026-09-01T18:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "21:00",
       "ts": "2026-09-01T19:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "22:00",
       "ts": "2026-09-01T20:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-09-01T21:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-09-01T22:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "01:00",
       "ts": "2026-09-01T23:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "02:00",
       "ts": "2026-09-02T00:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
       "ts": "2026-09-02T01:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
       "ts": "2026-09-02T02:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-09-02T03:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
       "ts": "2026-09-02T04:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "07:00",
       "ts": "2026-09-02T05:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
       "ts": "2026-09-02T06:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "09:00",
       "ts": "2026-09-02T07:00:00.000Z",
-      "status": "rot"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h bleiben hochriskant: Geopolitische Eskalation Iran/Israel/USA ist aktiv, weitere Vergeltungsschläge möglich. US-Märkte öffnen heute (15:30 Zurich) in volatiler Stimmung mit erhöhtem VIX. Donnerstag 4.9. kommt NFP um 14:30 Zurich — hochvolatiler Release. Bis dahin bleibt Unsicherheit durch Kriegslage dominant. Mean-Reversion-Trading sollte pausiert bleiben.",
-  "forecast": [
+      "status": "gelb"
+    },
     {
       "stunde": "10:00",
       "ts": "2026-09-02T08:00:00.000Z",
@@ -173,18 +135,21 @@
     {
       "stunde": "14:00",
       "ts": "2026-09-02T12:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
       "ts": "2026-09-02T13:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
       "ts": "2026-09-02T14:00:00.000Z",
       "status": "gelb"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Geopolitik bleibt Hauptrisiko (Iran-Konflikt aktiv). Morgen ADP-Revision, übermorgen (Fr.) NFP — kritischer Test vor FOMC 15./16.09. VIX moderat, aber Yields hoch. US-Open/Close erhöhte Vorsicht, Overnight-Risiko durch Nahost-Entwicklungen.",
+  "forecast": [
     {
       "stunde": "17:00",
       "ts": "2026-09-02T15:00:00.000Z",
@@ -193,126 +158,171 @@
     {
       "stunde": "18:00",
       "ts": "2026-09-02T16:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "19:00",
       "ts": "2026-09-02T17:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "20:00",
       "ts": "2026-09-02T18:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-09-02T19:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-09-02T20:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-09-02T21:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "00:00",
       "ts": "2026-09-02T22:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
       "ts": "2026-09-02T23:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "02:00",
       "ts": "2026-09-03T00:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "03:00",
       "ts": "2026-09-03T01:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "04:00",
       "ts": "2026-09-03T02:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "05:00",
       "ts": "2026-09-03T03:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "06:00",
       "ts": "2026-09-03T04:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "07:00",
       "ts": "2026-09-03T05:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "08:00",
       "ts": "2026-09-03T06:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "09:00",
       "ts": "2026-09-03T07:00:00.000Z",
       "status": "rot"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-09-03T08:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-09-03T09:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-09-03T10:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-09-03T11:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "14:00",
+      "ts": "2026-09-03T12:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "15:00",
+      "ts": "2026-09-03T13:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "16:00",
+      "ts": "2026-09-03T14:00:00.000Z",
+      "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "10:00",
-      "ts": "2026-09-02T08:00:00.000Z",
-      "status": "rot",
-      "kommentar": "Jetzt (10-11 Uhr Zurich): Kriegsnachrichten dominieren, VIX bereits +10%, hohe Unsicherheit."
+      "stunde": "17:00",
+      "ts": "2026-09-02T15:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "17:31–18:31 Uhr: US-Handel läuft (ca. 11:30 NY), Tagesvolatilität klingt ab, Iran-News-Risiko bleibt."
     },
     {
-      "stunde": "11:00",
-      "ts": "2026-09-02T09:00:00.000Z",
-      "status": "rot",
-      "kommentar": "11-12 Uhr: Pre-US-Open weiter angespannt, geopolitische Schlagzeilen bestimmen Sentiment."
+      "stunde": "18:00",
+      "ts": "2026-09-02T16:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "18:31–19:31 Uhr: Späte US-Handelsphase, moderate Aktivität, Yields/Öl im Fokus."
     },
     {
-      "stunde": "12:00",
-      "ts": "2026-09-02T10:00:00.000Z",
-      "status": "rot",
-      "kommentar": "12-13 Uhr: Annäherung an US-Börseneröffnung, Volatilität bleibt durch Iran-Konflikt erhöht."
+      "stunde": "19:00",
+      "ts": "2026-09-02T17:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "19:31–20:31 Uhr: US-Nachmittag, reduzierte Volatilität außer News-Trigger (Iran/Öl)."
     },
     {
-      "stunde": "13:00",
-      "ts": "2026-09-02T11:00:00.000Z",
-      "status": "rot",
-      "kommentar": "13-14 Uhr: Vorlauf zu US-Cash-Open, nervöser Markt bei aktiver Kriegslage."
+      "stunde": "20:00",
+      "ts": "2026-09-02T18:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "20:31–21:31 Uhr: Annäherung US-Close (ca. 16:00 NY), Power-Hour-Vola möglich."
     },
     {
-      "stunde": "14:00",
-      "ts": "2026-09-02T12:00:00.000Z",
-      "status": "rot",
-      "kommentar": "14-15 Uhr: US-Vorbörse volatil, Investoren vorsichtig wegen Iran-Eskalation."
+      "stunde": "21:00",
+      "ts": "2026-09-02T19:00:00.000Z",
+      "status": "gelb",
+      "kommentar": "21:31–22:31 Uhr: US-Schluss (~16:00 NY), After-Hours-Risiko durch Earnings/Geopolitik erhöht."
     },
     {
-      "stunde": "15:00",
-      "ts": "2026-09-02T13:00:00.000Z",
-      "status": "rot",
-      "kommentar": "15-16 Uhr (US-Open): Nasdaq öffnet in roter Zone, erhöhtes Gap-Risiko durch Geopolitik."
+      "stunde": "22:00",
+      "ts": "2026-09-02T20:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "22:31–23:31 Uhr: After-Hours US, Asien-Vorbereitung, Overnight-Gaps bei Iran-Eskalation möglich."
     }
   ],
   "termine": [
     {
-      "name": "US NFP (Aug 2026)",
+      "name": "Nonfarm Payrolls (NFP) August",
       "ts": "2026-09-04T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "PPI (Producer Price Index)",
+      "ts": "2026-09-10T12:30:00.000Z",
+      "impact": "hoch"
+    },
+    {
+      "name": "Core PPI",
+      "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T08:12:28.426Z",
+  "generatedAt": "2026-09-02T15:31:41.498Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "US-Iran-Konflikt + erhöhte Volatilität",
-  "empfehlung": "Trading-Bots pausieren — aktive geopolitische Eskalation und stark erhöhte Marktvolatilität.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "Erhöhte Geopolitik + FOMC-Woche naht",
+  "empfehlung": "Reduzierte Position bis nach FOMC (16.09.), hohe Vorsicht bei US-Iran-Eskalation.",
   "source": "nq-pause-board"
 }
