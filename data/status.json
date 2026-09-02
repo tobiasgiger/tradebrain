@@ -1,47 +1,32 @@
 {
-  "generatedAt": "2026-09-02T19:03:05.338Z",
+  "generatedAt": "2026-09-02T22:05:50.569Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "Geopolitik aktiv, FOMC-Woche voraus",
-  "empfehlung": "Trading erlaubt, aber reduzierte Positionsgröße und enge Stops wegen Iran-Eskalation und kommender FOMC-Volatilität.",
-  "headline": "Aktive US-Iran-Eskalation treibt Öl & Yields; VIX 16.8; FOMC 15.-16. Sep",
-  "body": "US-Iran-Konflikt eskaliert weiter mit Angriffen auf Golf-Staaten und steigenden Ölpreisen, was Treasury Yields auf Mehrjahreshochs treibt. VIX moderat bei 16.8, aber Markt nervös. Keine High-Impact-Releases heute, aber FOMC-Meeting in 2 Wochen wird kritisch.",
+  "statusText": "NFP Freitag + Iran-Eskalation aktiv",
+  "empfehlung": "Bot-Aktivität reduzieren: NFP-Release in 36h, geopolitische Spannungen erhöht durch US-Iran-Konflikt.",
+  "headline": "Vorsicht: NFP 04.09. | FOMC 15.-16.09. | Iran greift Golfstaaten an (01.-02.09.)",
+  "body": "Geopolitische Lage angespannt: Iran führt seit 01.09. Drohnen-/Raketenangriffe auf US-Basen und Golfstaaten (Kuwait, Bahrain, Jordanien) durch, Israel erwartet Hezbollah-Aktivierung. VIX bei 16.8, saisonaler Anstieg Richtung September-Mitte typisch. NFP Freitag 14:30 Zurich, danach FOMC 15.-16.09. mit hawkischen Zinserwartungen.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Times of Israel - Iran Escalation Live",
+      "titel": "Times of Israel Live (02.09.2026)",
       "url": "https://www.timesofisrael.com/liveblog-september-2-2026/"
     },
     {
-      "titel": "Yahoo Finance - VIX Historical Data",
-      "url": "https://finance.yahoo.com/quote/%5EVIX/history/"
+      "titel": "Israel Hayom - Iran Escalation (02.09.2026)",
+      "url": "https://www.israelhayom.com/2026/09/02/israel-iran-hezbollah-escalation-economic-crisis/"
     },
     {
-      "titel": "FedRateCalc - Sep 2026 Economic Calendar",
-      "url": "https://fedratecalc.com/us-economic-calendar/september-2026/"
+      "titel": "Yahoo Finance - VIX & Volatility (30.08.2026)",
+      "url": "https://finance.yahoo.com/markets/article/wall-streets-summer-calm-is-colliding-with-the-years-most-volatile-stretch-chart-of-the-day-114901053.html"
     },
     {
-      "titel": "TheStreet - Stock Market Today Sep 2",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-02-2026"
+      "titel": "FOMC/NFP Calendar September 2026",
+      "url": "https://www.forexcashbackrebate.com/blogs/september-2026-economic-calendar-highlights-nfp-fomc-ecb-cpi-more/"
     }
   ],
-  "rueckblickSummary": "Letzte 24h: US-Iran-Konflikt eskalierte mit iranischen Angriffen auf Kuwait und Bahrain. Ölpreise stiegen stark, Treasury Yields auf Mehrjahreshoch. Nasdaq fiel gestern -0.98%, heute moderate Erholung +0.4%.",
+  "rueckblickSummary": "Letzte 24h: Ruhige Asien-Session (Di 23:00-Mi 08:00), dann europäischer Handel und US-Session mit leichtem VIX-Anstieg auf 16.8. Geopolitik: Iran-Angriffe auf Golfstaaten (Kuwait, Bahrain) am 01.09., Ukraine-Beschuss hält an. Märkte verdauen hawkische Fed-Signale von Jackson Hole, Treasury-Yields gestiegen.",
   "rueckblick": [
-    {
-      "stunde": "21:00",
-      "ts": "2026-09-01T19:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-09-01T20:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-09-01T21:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "00:00",
       "ts": "2026-09-01T22:00:00.000Z",
@@ -75,7 +60,7 @@
     {
       "stunde": "06:00",
       "ts": "2026-09-02T04:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
@@ -90,17 +75,17 @@
     {
       "stunde": "09:00",
       "ts": "2026-09-02T07:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "10:00",
       "ts": "2026-09-02T08:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "11:00",
       "ts": "2026-09-02T09:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "12:00",
@@ -115,22 +100,22 @@
     {
       "stunde": "14:00",
       "ts": "2026-09-02T12:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
       "ts": "2026-09-02T13:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
       "ts": "2026-09-02T14:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
       "ts": "2026-09-02T15:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "18:00",
@@ -146,29 +131,29 @@
       "stunde": "20:00",
       "ts": "2026-09-02T18:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: Geopolitische Lage bleibt angespannt, aber keine High-Impact-Releases heute. US-Cash-Open 15:30 und Power-Hour 22:00 Zurich als normale Volatilitätsfenster. VIX moderat, aber Ölpreise und Iran-Risiko halten Märkte nervös.",
-  "forecast": [
+    },
     {
       "stunde": "21:00",
       "ts": "2026-09-02T19:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "22:00",
       "ts": "2026-09-02T20:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "23:00",
       "ts": "2026-09-02T21:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h: Mittwoch 03.09. mit erhöhter Unsicherheit durch Iran-Eskalation und NFP-Vorlauf. Donnerstag 04.09. US-Feiertag (Labor Day), dünne Liquidität ab Nachmittag. Freitag 05.09. NFP-Release 14:30 Zurich erzwingt rotes Fenster. FOMC 15.-16.09. als Hauptrisiko danach.",
+  "forecast": [
     {
       "stunde": "00:00",
       "ts": "2026-09-02T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
@@ -193,7 +178,7 @@
     {
       "stunde": "05:00",
       "ts": "2026-09-03T03:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
@@ -208,52 +193,52 @@
     {
       "stunde": "08:00",
       "ts": "2026-09-03T06:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "09:00",
       "ts": "2026-09-03T07:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "10:00",
       "ts": "2026-09-03T08:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "11:00",
       "ts": "2026-09-03T09:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "12:00",
       "ts": "2026-09-03T10:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-09-03T11:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "14:00",
       "ts": "2026-09-03T12:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "15:00",
       "ts": "2026-09-03T13:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "16:00",
       "ts": "2026-09-03T14:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
       "ts": "2026-09-03T15:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
@@ -269,69 +254,74 @@
       "stunde": "20:00",
       "ts": "2026-09-03T18:00:00.000Z",
       "status": "gelb"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-09-03T19:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-09-03T20:00:00.000Z",
+      "status": "gelb"
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-09-03T21:00:00.000Z",
+      "status": "gelb"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "21:00",
-      "ts": "2026-09-02T19:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "Aktuelle Stunde (21:00-22:00): Gelb wegen erhöhter geopolitischer Unsicherheit durch Iran-Konflikt und steigender Yields."
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-09-02T20:00:00.000Z",
-      "status": "gelb",
-      "kommentar": "22:00-23:00 Zurich: Gelb - US Power Hour Close, typisches Volatilitätsfenster mit erhöhtem Handelsvolumen."
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-09-02T21:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "23:00-00:00 Zurich: Grün - Nach US-Close beruhigt sich Markt, Asien noch nicht offen."
-    },
-    {
       "stunde": "00:00",
       "ts": "2026-09-02T22:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "00:00-01:00 Zurich: Grün - Ruhige Nachtstunden, geringe Liquidität aber keine besonderen Risiken."
+      "status": "gelb",
+      "kommentar": "00:05-01:00 Zurich: Gelb wegen Iran-Eskalation und NFP in 38h, Asien-Session dünn."
     },
     {
       "stunde": "01:00",
       "ts": "2026-09-02T23:00:00.000Z",
       "status": "gruen",
-      "kommentar": "01:00-02:00 Zurich: Grün - Asien-Session beginnt, aber keine kritischen Termine oder akute Eskalation erwartet."
+      "kommentar": "01:00-02:00: Grün, späte Asien-Stunden, geringes Volumen, keine Termine angesetzt."
     },
     {
       "stunde": "02:00",
       "ts": "2026-09-03T00:00:00.000Z",
       "status": "gruen",
-      "kommentar": "02:00-03:00 Zurich: Grün - Asien-Handel läuft normal, geopolitische Lage stabil ohne neue Eskalation."
+      "kommentar": "02:00-03:00: Grün, Tokio-Close-Phase, typisch ruhig ohne Impulse, Iran-Nachrichten überwacht."
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-09-03T01:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "03:00-04:00: Grün, Übergang zu Europa, noch kein US-Cash, abwartende Marktstimmung."
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-09-03T02:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "04:00-05:00: Grün, früher Europa-Handel, moderate Aktivität vor London Open 09:00."
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-09-03T03:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "05:00-06:00: Grün, Europa voll geöffnet, jedoch Iran-Risiko schwelt weiter im Hintergrund."
     }
   ],
   "termine": [
     {
-      "name": "US Nonfarm Payrolls (NFP)",
-      "ts": "2026-09-05T12:30:00.000Z",
+      "name": "US Nonfarm Payrolls (NFP, August)",
+      "ts": "2026-09-04T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US Producer Price Index (PPI)",
-      "ts": "2026-09-09T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "US Core PPI",
-      "ts": "2026-09-09T12:30:00.000Z",
-      "impact": "hoch"
-    },
-    {
-      "name": "US Consumer Price Index (CPI)",
+      "name": "US Producer Price Index (PPI, August)",
       "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US Core CPI",
+      "name": "US Core PPI (August)",
       "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     }

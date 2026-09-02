@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T19:03:05.338Z",
+  "generatedAt": "2026-09-02T22:05:50.569Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "Geopolitik aktiv, FOMC-Woche voraus",
-  "empfehlung": "Trading erlaubt, aber reduzierte Positionsgröße und enge Stops wegen Iran-Eskalation und kommender FOMC-Volatilität.",
+  "statusText": "NFP Freitag + Iran-Eskalation aktiv",
+  "empfehlung": "Bot-Aktivität reduzieren: NFP-Release in 36h, geopolitische Spannungen erhöht durch US-Iran-Konflikt.",
   "source": "nq-pause-board"
 }
