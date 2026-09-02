@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T01:48:40.306Z",
+  "generatedAt": "2026-09-02T08:12:28.426Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "Iran-Eskalation aktiv - Bots stoppen",
-  "empfehlung": "Trading-Bots sofort pausieren: aktive US-Iran-Militärschläge, Strait of Hormuz angegriffen, VIX +6%, Nasdaq -1%.",
+  "statusText": "US-Iran-Konflikt + erhöhte Volatilität",
+  "empfehlung": "Trading-Bots pausieren — aktive geopolitische Eskalation und stark erhöhte Marktvolatilität.",
   "source": "nq-pause-board"
 }

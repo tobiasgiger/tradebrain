@@ -1,67 +1,32 @@
 {
-  "generatedAt": "2026-09-02T01:48:40.306Z",
+  "generatedAt": "2026-09-02T08:12:28.426Z",
   "appVersion": "1.7.1",
   "status": "rot",
-  "statusText": "Iran-Eskalation aktiv - Bots stoppen",
-  "empfehlung": "Trading-Bots sofort pausieren: aktive US-Iran-Militärschläge, Strait of Hormuz angegriffen, VIX +6%, Nasdaq -1%.",
-  "headline": "ROTES SIGNAL: US schlägt Iran heute, Vergeltung läuft - Öl +5%, Yields 4.78%",
-  "body": "Seit gestern Abend (01.09.) eskaliert der US-Iran-Krieg erneut massiv: US-Luftschläge auf Iran am Hormuz, Iran feuert Drohnen auf US-Basen in Jordanien/Golfregion, zwei Tanker getroffen. VIX heute +6% auf 15.3, NQ-Futures -1%, Öl +5%, 10Y-Yield 4.78% (höchster Stand seit Jan 2025). Fed-Chef Warsh warnte Ende August vor hartnäckiger Inflation, Markt preist 57.5% Wahrscheinlichkeit für 25bp-Zinsanhebung im September ein.",
+  "statusText": "US-Iran-Konflikt + erhöhte Volatilität",
+  "empfehlung": "Trading-Bots pausieren — aktive geopolitische Eskalation und stark erhöhte Marktvolatilität.",
+  "headline": "Akute Kriegslage Naher Osten, VIX +10%, Iranische Drohnenangriffe gestern",
+  "body": "Seit Februar 2026 führen die USA und Israel Krieg gegen Iran; gestern (1.9.) erfolgten erneute iranische Drohnenangriffe auf US-Basen in Jordanien, Kuwait und Bahrain. VIX stieg heute um über 10% auf 16,44 und signalisiert stark erhöhte Angst. Ukraine-Krieg geht weiter mit schweren russischen Angriffen auf Kyiv (12 Tote gestern). Mean-Reversion-Strategien sind bei solchen geopolitischen Schocks hochriskant.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Times of Israel: Iran drone attacks on Jordan bases",
-      "url": "https://www.timesofisrael.com/liveblog-september-1-2026/"
+      "titel": "Times of Israel: Iran-Eskalation 2.9.2026",
+      "url": "https://www.timesofisrael.com/liveblog-september-2-2026/"
     },
     {
-      "titel": "Yahoo Finance: Nasdaq slides on US-Iran conflict",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-1-135016820.html"
+      "titel": "Yahoo Finance: VIX +10% heute",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
-      "titel": "Investrade: Fresh US strikes on Iran at Hormuz",
-      "url": "https://investrade.com/market-review-september-01-2026/"
+      "titel": "Kyiv Independent: Russland-Angriffe 1.9.",
+      "url": "https://kyivindependent.com/"
     },
     {
-      "titel": "FedRateCalc: September 2026 Economic Calendar",
-      "url": "https://fedratecalc.com/us-economic-calendar/september-2026/"
+      "titel": "Vittarthi: US-Märkte unter Druck",
+      "url": "https://vittarthi.com/markets/us"
     }
   ],
-  "rueckblickSummary": "Die letzten 24 Stunden (ab 02.09., 03:48 rückwärts) waren von schwerer geopolitischer Eskalation geprägt: Am 01.09. abends starteten US-Luftschläge auf iranische Ziele am Hormuz, Iran reagierte mit Drohnenangriffen auf US-Basen in Jordanien/Kuwait/Bahrain, zwei Tanker (Saudi/Südkorea) wurden getroffen. Märkte brachen ein: Nasdaq -1%, VIX +6%, Öl +5%. Vor dem US-Open am 01.09. (15:30 Zurich) rutschten Futures ab, Tech-Sektor litt besonders, 10Y-Yields stiegen auf 4.78% (höchster Stand seit 15 Monaten). Die Ampel war durchgehend ROT wegen aktiver Kriegshandlungen.",
+  "rueckblickSummary": "Die letzten 24 Stunden waren von hohem Risiko geprägt: Gestern (1.9.) starteten iranische Drohnen- und Raketenangriffe auf US-Einrichtungen in Jordanien, Kuwait und Bahrain als Vergeltung für US/Israel-Strikes. In der Ukraine töteten russische Angriffe auf Kyiv 12 Menschen. US-Märkte schlossen gestern rot, VIX stieg bereits um 6,5%. Heute (2.9., 10:12 Zurich) hat sich die Lage weiter verschärft mit VIX +10% und Nasdaq unter Druck.",
   "rueckblick": [
-    {
-      "stunde": "03:00",
-      "ts": "2026-09-01T01:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-09-01T02:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-09-01T03:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "06:00",
-      "ts": "2026-09-01T04:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-09-01T05:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-09-01T06:00:00.000Z",
-      "status": "rot"
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-09-01T07:00:00.000Z",
-      "status": "rot"
-    },
     {
       "stunde": "10:00",
       "ts": "2026-09-01T08:00:00.000Z",
@@ -146,10 +111,7 @@
       "stunde": "02:00",
       "ts": "2026-09-02T00:00:00.000Z",
       "status": "rot"
-    }
-  ],
-  "ausblickSummary": "Die nächsten 24 Stunden bleiben HOCHRISKANT: Weitere Iran-US-Eskalation jederzeit möglich, Trump drohte heute mit härteren Vergeltungsschlägen, Iran kündigte Angriffe auf alle US-Basen in der Region an. Am 04.09. (Freitag) um 14:30 Zurich erscheint NFP (August Employment) – ein High-Impact-Release. Bis dahin: geopolitisches Chaos, volatile Öl-/Bond-Märkte, schwache Tech-Stimmung. FOMC-Meeting 15.-16.09. mit 57.5% Wahrscheinlichkeit für Zinsanhebung verschärft Unsicherheit. Mean-Reversion-Bots sollten mindestens bis Freitag 14:30 pausiert bleiben.",
-  "forecast": [
+    },
     {
       "stunde": "03:00",
       "ts": "2026-09-02T01:00:00.000Z",
@@ -184,7 +146,10 @@
       "stunde": "09:00",
       "ts": "2026-09-02T07:00:00.000Z",
       "status": "rot"
-    },
+    }
+  ],
+  "ausblickSummary": "Nächste 24h bleiben hochriskant: Geopolitische Eskalation Iran/Israel/USA ist aktiv, weitere Vergeltungsschläge möglich. US-Märkte öffnen heute (15:30 Zurich) in volatiler Stimmung mit erhöhtem VIX. Donnerstag 4.9. kommt NFP um 14:30 Zurich — hochvolatiler Release. Bis dahin bleibt Unsicherheit durch Kriegslage dominant. Mean-Reversion-Trading sollte pausiert bleiben.",
+  "forecast": [
     {
       "stunde": "10:00",
       "ts": "2026-09-02T08:00:00.000Z",
@@ -213,7 +178,7 @@
     {
       "stunde": "15:00",
       "ts": "2026-09-02T13:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "16:00",
@@ -223,7 +188,7 @@
     {
       "stunde": "17:00",
       "ts": "2026-09-02T15:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "18:00",
@@ -248,12 +213,12 @@
     {
       "stunde": "22:00",
       "ts": "2026-09-02T20:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-09-02T21:00:00.000Z",
-      "status": "rot"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
@@ -269,56 +234,86 @@
       "stunde": "02:00",
       "ts": "2026-09-03T00:00:00.000Z",
       "status": "rot"
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-09-03T01:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-09-03T02:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-09-03T03:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-09-03T04:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-09-03T05:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-09-03T06:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-09-03T07:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "03:00",
-      "ts": "2026-09-02T01:00:00.000Z",
+      "stunde": "10:00",
+      "ts": "2026-09-02T08:00:00.000Z",
       "status": "rot",
-      "kommentar": "Aktuelle Stunde 03:48-04:48: ROT wegen laufender Iran-Vergeltungsschläge, Hormuz-Krise ungeklärt, Futures fallen weiter."
+      "kommentar": "Jetzt (10-11 Uhr Zurich): Kriegsnachrichten dominieren, VIX bereits +10%, hohe Unsicherheit."
     },
     {
-      "stunde": "04:00",
-      "ts": "2026-09-02T02:00:00.000Z",
+      "stunde": "11:00",
+      "ts": "2026-09-02T09:00:00.000Z",
       "status": "rot",
-      "kommentar": "04:48-05:48: ROT, asiatische Session reagiert auf Eskalation, Öl/Yields steigen, Nasdaq-Futures unter Druck."
+      "kommentar": "11-12 Uhr: Pre-US-Open weiter angespannt, geopolitische Schlagzeilen bestimmen Sentiment."
     },
     {
-      "stunde": "05:00",
-      "ts": "2026-09-02T03:00:00.000Z",
+      "stunde": "12:00",
+      "ts": "2026-09-02T10:00:00.000Z",
       "status": "rot",
-      "kommentar": "05:48-06:48: ROT, europäische Vor-Markt-Phase, EZB-Zinserhöhung (25bp) für Sept fast eingepreist, globale Risk-Off-Stimmung."
+      "kommentar": "12-13 Uhr: Annäherung an US-Börseneröffnung, Volatilität bleibt durch Iran-Konflikt erhöht."
     },
     {
-      "stunde": "06:00",
-      "ts": "2026-09-02T04:00:00.000Z",
+      "stunde": "13:00",
+      "ts": "2026-09-02T11:00:00.000Z",
       "status": "rot",
-      "kommentar": "06:48-07:48: ROT, Europa-Open (08:00 Zurich), geopolitische Schlagzeilen dominieren, Bond-Yields weltweit hoch."
+      "kommentar": "13-14 Uhr: Vorlauf zu US-Cash-Open, nervöser Markt bei aktiver Kriegslage."
     },
     {
-      "stunde": "07:00",
-      "ts": "2026-09-02T05:00:00.000Z",
+      "stunde": "14:00",
+      "ts": "2026-09-02T12:00:00.000Z",
       "status": "rot",
-      "kommentar": "07:48-08:48: ROT, Vormittags-Europa-Handel, US-Pre-Market startet (10:00 Zurich), Trump-Statements zu Iran möglich."
+      "kommentar": "14-15 Uhr: US-Vorbörse volatil, Investoren vorsichtig wegen Iran-Eskalation."
     },
     {
-      "stunde": "08:00",
-      "ts": "2026-09-02T06:00:00.000Z",
+      "stunde": "15:00",
+      "ts": "2026-09-02T13:00:00.000Z",
       "status": "rot",
-      "kommentar": "08:48-09:48: ROT, US-Pre-Market aktiv, weitere Iran/Israel-News erwartet, Volatilität bleibt extrem hoch."
+      "kommentar": "15-16 Uhr (US-Open): Nasdaq öffnet in roter Zone, erhöhtes Gap-Risiko durch Geopolitik."
     }
   ],
   "termine": [
     {
-      "name": "NFP (Employment Situation Aug)",
+      "name": "US NFP (Aug 2026)",
       "ts": "2026-09-04T12:30:00.000Z",
       "impact": "hoch"
-    },
-    {
-      "name": "Initial Jobless Claims",
-      "ts": "2026-09-04T12:30:00.000Z",
-      "impact": "mittel"
     }
   ]
 }
