@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-01T22:09:50.928Z",
+  "generatedAt": "2026-09-02T01:48:40.306Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "US-Iran Eskalation, Öl +5%, Zinsen steigen",
-  "empfehlung": "Bot PAUSIEREN: Geopolitische Schocks, VIX steigt, FOMC-Zyklus ab 16.9. beginnt – Mean-Reversion-Strategien laufen ins Messer.",
+  "statusText": "Iran-Eskalation aktiv - Bots stoppen",
+  "empfehlung": "Trading-Bots sofort pausieren: aktive US-Iran-Militärschläge, Strait of Hormuz angegriffen, VIX +6%, Nasdaq -1%.",
   "source": "nq-pause-board"
 }
