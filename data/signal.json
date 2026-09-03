@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T01:54:55.084Z",
+  "generatedAt": "2026-09-03T08:21:41.057Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "US-Iran-Konflikt eskaliert – NFP Fr.",
-  "empfehlung": "Trading-Bots sofort pausieren: aktive Kriegseskalation, VIX erhöht, NFP steht bevor.",
+  "statusText": "NFP morgen + Iran-Krieg eskaliert",
+  "empfehlung": "Bot bis Samstag pausieren — NFP morgen 14:30 Uhr, aktive Kriegseskalation Iran/Israel.",
   "source": "nq-pause-board"
 }
