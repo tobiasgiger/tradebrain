@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T08:21:41.057Z",
+  "generatedAt": "2026-09-03T15:24:50.365Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "NFP morgen + Iran-Krieg eskaliert",
-  "empfehlung": "Bot bis Samstag pausieren — NFP morgen 14:30 Uhr, aktive Kriegseskalation Iran/Israel.",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "NFP morgen 14:30 — erhöhte Vorsicht",
+  "empfehlung": "Bot heute Abend ab 22:00 pausieren, morgen bis 16:00 ausgeschaltet lassen.",
   "source": "nq-pause-board"
 }
