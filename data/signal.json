@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T18:57:44.539Z",
+  "generatedAt": "2026-09-03T21:58:40.208Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Geopolitik angespannt, NFP morgen früh",
-  "empfehlung": "Vorsicht vor US-Marktöffnung morgen (NFP 14:30 Zürich), heute Abend normaler Betrieb möglich bei engem Stop-Loss.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "US-Iran Konflikt: Aktive Eskalation",
+  "empfehlung": "Trading-Bots sofort pausieren — hohes geopolitisches Risiko durch aktive US-Iran-Gefechte.",
   "source": "nq-pause-board"
 }
