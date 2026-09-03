@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T15:24:50.365Z",
+  "generatedAt": "2026-09-03T18:57:44.539Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "NFP morgen 14:30 — erhöhte Vorsicht",
-  "empfehlung": "Bot heute Abend ab 22:00 pausieren, morgen bis 16:00 ausgeschaltet lassen.",
+  "statusText": "Geopolitik angespannt, NFP morgen früh",
+  "empfehlung": "Vorsicht vor US-Marktöffnung morgen (NFP 14:30 Zürich), heute Abend normaler Betrieb möglich bei engem Stop-Loss.",
   "source": "nq-pause-board"
 }
