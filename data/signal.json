@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-04T12:38:28.183Z",
+  "generatedAt": "2026-09-04T18:55:48.465Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "rot",
-  "pause": true,
-  "caution": false,
-  "dayStatus": "rot",
-  "statusText": "NFP heute 14:30 + Iran-Krieg eskaliert",
-  "empfehlung": "⚠️ NFP jetzt im aktuellen Stundenfenster — Bots pausieren. Bots heute pausieren: NFP-Release 14:30 Uhr und anhaltende geopolitische Spannungen (Iran/Israel, Ukraine).",
+  "effectiveStatus": "gelb",
+  "pause": false,
+  "caution": true,
+  "dayStatus": "gelb",
+  "statusText": "NFP heute 14:30 + FOMC nächste Woche",
+  "empfehlung": "Bot pausieren bis nach NFP-Release (14:30 Zürich) – hohe Volatilität erwartet.",
   "source": "nq-pause-board"
 }
