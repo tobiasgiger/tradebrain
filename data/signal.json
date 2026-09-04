@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T21:58:40.208Z",
+  "generatedAt": "2026-09-04T04:04:40.782Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "rot",
   "pause": true,
   "caution": false,
   "dayStatus": "rot",
-  "statusText": "US-Iran Konflikt: Aktive Eskalation",
-  "empfehlung": "Trading-Bots sofort pausieren — hohes geopolitisches Risiko durch aktive US-Iran-Gefechte.",
+  "statusText": "Iran-Konflikt aktiv – NFP heute 14:30",
+  "empfehlung": "Trading-Bots pausieren: Hochvolatile Geopolitik + NFP-Release heute Nachmittag.",
   "source": "nq-pause-board"
 }
