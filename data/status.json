@@ -1,72 +1,32 @@
 {
-  "generatedAt": "2026-09-04T04:04:40.782Z",
+  "generatedAt": "2026-09-04T12:38:28.183Z",
   "appVersion": "1.7.1",
   "status": "rot",
-  "statusText": "Iran-Konflikt aktiv – NFP heute 14:30",
-  "empfehlung": "Trading-Bots pausieren: Hochvolatile Geopolitik + NFP-Release heute Nachmittag.",
-  "headline": "WARNUNG: Iran eskaliert Angriffe auf US-Basen (Sept 1-2), NFP 14:30 Zurich-Zeit",
-  "body": "Der Iran hat am 1.-2. Sept. US-Basen in Jordanien, Kuwait und Bahrain mit Raketen/Drohnen angegriffen – Teil des laufenden 2026-Kriegs seit Feb. 28. Israel erwartet Hezbollah-Eskalation. Zudem steht heute (4. Sept.) um 14:30 Zürich-Zeit der US-NFP (August Jobs Report) an, ein High-Impact-Release. VIX bei 14.32 (Tief 2026), aber Geopolitik bleibt hochexplosiv.",
+  "statusText": "NFP heute 14:30 + Iran-Krieg eskaliert",
+  "empfehlung": "⚠️ NFP jetzt im aktuellen Stundenfenster — Bots pausieren. Bots heute pausieren: NFP-Release 14:30 Uhr und anhaltende geopolitische Spannungen (Iran/Israel, Ukraine).",
+  "headline": "ROTE AMPEL: NFP-Freigabe 14:30 Uhr + Iran-Konflikt aktiv → Trading pausieren",
+  "body": "Heute um 14:30 Uhr (Zurich) wird der US-NFP (Nonfarm Payrolls) für August veröffentlicht – einer der volatilsten High-Impact-Releases, der die FOMC-Zinsentscheidung Mitte September direkt beeinflussen wird. Gleichzeitig bleibt die geopolitische Lage hochgradig instabil: Der Iran-Krieg (USA/Israel vs. Iran) eskalierte Ende Februar 2026, Angriffe aus Libanon gingen bis Mitte April, und aktuell sorgen erneute US-Militärschläge (1. September) und erhöhte Ölpreise (WTI ~91$, Brent ~95$) für Nervosität. Der Ukraine-Konflikt dauert an, mit täglichen Drohnenangriffen und neuen Spannungen (Belarus-Warnung 3. September). VIX liegt moderat bei ~14,3 (gestern -5,8 %), Märkte erholten sich gestern, aber die Unsicherheit vor dem NFP und die Geopolitik rechtfertigen maximale Vorsicht.",
   "confidence": "hoch",
   "quellen": [
     {
-      "titel": "Times of Israel: Iran targets US bases Sept 1",
-      "url": "https://www.timesofisrael.com/liveblog-september-1-2026/"
+      "titel": "Wikipedia: Irankrieg 2026",
+      "url": "https://de.wikipedia.org/wiki/Irankrieg_2026"
     },
     {
-      "titel": "Israel Hayom: Iran-Hezbollah escalation",
-      "url": "https://www.israelhayom.com/2026/09/02/israel-iran-hezbollah-escalation-economic-crisis/"
+      "titel": "TheStreet: NFP Preview 4.9.2026",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026"
     },
     {
-      "titel": "Britannica: 2026 Iran war background",
-      "url": "https://www.britannica.com/event/2026-Iran-war"
+      "titel": "Yahoo Finance: VIX 3.9.2026",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/history/"
     },
     {
-      "titel": "Forex Cashback: Sept 2026 calendar NFP",
-      "url": "https://www.forexcashbackrebate.com/blogs/september-2026-economic-calendar-highlights-nfp-fomc-ecb-cpi-more/"
+      "titel": "Ukrinform: Ukraine-Krieg 4.9.2026",
+      "url": "https://www.ukrinform.de/rubric-ato"
     }
   ],
-  "rueckblickSummary": "Letzte 24h: Iran griff US-Basen in Jordanien, Kuwait, Bahrain mit Raketen/Drohnen an (Sept 1-2). Israel-Lebanon-Verhandlungen stocken, Hezbollah-Eskalation erwartet. Ukraine-Konflikt: 199 Gefechte gestern, Russland verliert Boden. VIX fiel auf 14.32 (-5.8%), Nasdaq +1.4%. Ruhiger US-Markt trotz Geopolitik.",
+  "rueckblickSummary": "Die vergangenen 24 Stunden zeigten zunächst moderate Volatilität durch Iran-Kriegsnachrichten (US-Angriffe 1. September, erhöhte Ölpreise) und schwache ADP-Daten (38k Jobs). Ab gestern Nachmittag (3.9., ~15:00 Uhr Zurich) beruhigten sich Märkte nach Fed-Kommentaren von Waller (Status-quo-Signal), VIX fiel -5,8 % auf 14,3, Nasdaq/S&P 500 legten >1 % zu. US-Open und Power-Hour verliefen ruhig, aber Vorsicht blieb wegen des NFP heute.",
   "rueckblick": [
-    {
-      "stunde": "06:00",
-      "ts": "2026-09-03T04:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-09-03T05:00:00.000Z",
-      "status": "gelb"
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-09-03T06:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-09-03T07:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "10:00",
-      "ts": "2026-09-03T08:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "11:00",
-      "ts": "2026-09-03T09:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "12:00",
-      "ts": "2026-09-03T10:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "13:00",
-      "ts": "2026-09-03T11:00:00.000Z",
-      "status": "gelb"
-    },
     {
       "stunde": "14:00",
       "ts": "2026-09-03T12:00:00.000Z",
@@ -80,7 +40,7 @@
     {
       "stunde": "16:00",
       "ts": "2026-09-03T14:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "17:00",
@@ -100,32 +60,32 @@
     {
       "stunde": "20:00",
       "ts": "2026-09-03T18:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "21:00",
       "ts": "2026-09-03T19:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-09-03T20:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-09-03T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-09-03T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
       "ts": "2026-09-03T23:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "02:00",
@@ -146,10 +106,7 @@
       "stunde": "05:00",
       "ts": "2026-09-04T03:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h: NFP heute 14:30 (High-Impact!) löst Volatilität aus. US-Märkte geschlossen (Labor Day-Wochenende Sa/So/Mo). Iran-Konflikt schwelt weiter, Israel-Hezbollah-Risiko hoch. FOMC 15.-16. Sept. rückt näher (CPI/PPI davor). VIX niedrig, aber Geopolitik bleibt explosiv – erhöhte Vorsicht geboten.",
-  "forecast": [
+    },
     {
       "stunde": "06:00",
       "ts": "2026-09-04T04:00:00.000Z",
@@ -163,22 +120,22 @@
     {
       "stunde": "08:00",
       "ts": "2026-09-04T06:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "09:00",
       "ts": "2026-09-04T07:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "10:00",
       "ts": "2026-09-04T08:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "11:00",
       "ts": "2026-09-04T09:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "12:00",
@@ -189,7 +146,10 @@
       "stunde": "13:00",
       "ts": "2026-09-04T11:00:00.000Z",
       "status": "rot"
-    },
+    }
+  ],
+  "ausblickSummary": "Die nächsten 24 Stunden sind hochriskant: Um 14:30 Uhr (Zurich) kommt der NFP-Release für August, erwartet 55k Jobs (Konsens), nach Juli-Schock -23k. Das Ergebnis wird die FOMC-Zinsentscheidung (15./16. September) maßgeblich beeinflussen und kann extreme Marktbewegungen auslösen. Ab 15:30 Uhr US-Cash-Open mit erhöhter Volatilität, Nachmittag/Abend bleibt anfällig. Montag 7.9. ist US-Feiertag (Labor Day, Märkte geschlossen), daher reduzierte Liquidität möglich.",
+  "forecast": [
     {
       "stunde": "14:00",
       "ts": "2026-09-04T12:00:00.000Z",
@@ -198,7 +158,7 @@
     {
       "stunde": "15:00",
       "ts": "2026-09-04T13:00:00.000Z",
-      "status": "rot"
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
@@ -208,47 +168,47 @@
     {
       "stunde": "17:00",
       "ts": "2026-09-04T15:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "18:00",
       "ts": "2026-09-04T16:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "19:00",
       "ts": "2026-09-04T17:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "20:00",
       "ts": "2026-09-04T18:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-09-04T19:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "22:00",
       "ts": "2026-09-04T20:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "23:00",
       "ts": "2026-09-04T21:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "00:00",
       "ts": "2026-09-04T22:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "01:00",
       "ts": "2026-09-04T23:00:00.000Z",
-      "status": "gruen"
+      "status": "gelb"
     },
     {
       "stunde": "02:00",
@@ -258,80 +218,120 @@
     {
       "stunde": "03:00",
       "ts": "2026-09-05T01:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
       "ts": "2026-09-05T02:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
       "ts": "2026-09-05T03:00:00.000Z",
-      "status": "gelb"
+      "status": "gruen"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-09-05T04:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-09-05T05:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-09-05T06:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-09-05T07:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "10:00",
+      "ts": "2026-09-05T08:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "11:00",
+      "ts": "2026-09-05T09:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "12:00",
+      "ts": "2026-09-05T10:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "13:00",
+      "ts": "2026-09-05T11:00:00.000Z",
+      "status": "gruen"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "06:00",
-      "ts": "2026-09-04T04:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "06:00-07:00: Ruhige Vormarkt-Phase Europe/US, keine Events – grün."
+      "stunde": "14:00",
+      "ts": "2026-09-04T12:00:00.000Z",
+      "status": "rot",
+      "kommentar": "⚠ NFP: 14:38–15:38 Uhr: Grün, ruhige Vormittagsstunden vor dem NFP, US-Märkte noch geschlossen."
     },
     {
-      "stunde": "07:00",
-      "ts": "2026-09-04T05:00:00.000Z",
+      "stunde": "15:00",
+      "ts": "2026-09-04T13:00:00.000Z",
       "status": "gruen",
-      "kommentar": "07:00-08:00: Europa-Märkte öffnen, geringe US-Aktivität (Pre-Labor-Day) – grün."
+      "kommentar": "15:38–16:38 Uhr: Grün, letzte Vorbereitungsphase, Markt wartet gespannt auf 14:30-Uhr-Release."
     },
     {
-      "stunde": "08:00",
-      "ts": "2026-09-04T06:00:00.000Z",
+      "stunde": "16:00",
+      "ts": "2026-09-04T14:00:00.000Z",
       "status": "gruen",
-      "kommentar": "08:00-09:00: Weiterhin ruhig, US-Futures leicht handelnd – grün."
+      "kommentar": "16:38–17:38 Uhr: Rot, NFP-Veröffentlichung um 14:30 Uhr Zurich löst massive Volatilität aus."
     },
     {
-      "stunde": "09:00",
-      "ts": "2026-09-04T07:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "09:00-10:00: Vorlauf zu NFP 14:30, Positionierung beginnt – grün noch."
+      "stunde": "17:00",
+      "ts": "2026-09-04T15:00:00.000Z",
+      "status": "rot",
+      "kommentar": "17:38–18:38 Uhr: Rot, US-Cash-Open 15:30 Uhr, extreme Bewegungen nach NFP-Überraschung möglich."
     },
     {
-      "stunde": "10:00",
-      "ts": "2026-09-04T08:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "10:00-11:00: Zunehmende Nervosität vor NFP, Spreads weiten sich – grün."
+      "stunde": "18:00",
+      "ts": "2026-09-04T16:00:00.000Z",
+      "status": "rot",
+      "kommentar": "18:38–19:38 Uhr: Rot, Nachmittagshandel bleibt volatil, Märkte verdauen NFP-Implikationen für FOMC."
     },
     {
-      "stunde": "11:00",
-      "ts": "2026-09-04T09:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "11:00-12:00: Letzte Stunde vor NFP, Liquidität sinkt – grün."
+      "stunde": "19:00",
+      "ts": "2026-09-04T17:00:00.000Z",
+      "status": "rot",
+      "kommentar": "19:38–20:38 Uhr: Rot, Fortsetzung der Unsicherheit, institutionelle Umschichtungen wahrscheinlich."
     }
   ],
   "termine": [
     {
-      "name": "US NFP (Aug Jobs Report)",
+      "name": "US NFP (Nonfarm Payrolls) August",
       "ts": "2026-09-04T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US PPI (Producer Price Index)",
+      "name": "US PPI (Producer Price Index) August",
       "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US Core PPI",
+      "name": "US Core PPI August",
       "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US CPI (Consumer Price Index)",
+      "name": "US CPI (Consumer Price Index) August",
       "ts": "2026-09-11T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US Core CPI",
+      "name": "US Core CPI August",
       "ts": "2026-09-11T12:30:00.000Z",
       "impact": "hoch"
     }
