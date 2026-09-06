@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-04T18:55:48.465Z",
+  "generatedAt": "2026-09-06T22:01:30.121Z",
   "appVersion": "1.7.1",
   "effectiveStatus": "gelb",
   "pause": false,
   "caution": true,
   "dayStatus": "gelb",
-  "statusText": "NFP heute 14:30 + FOMC nächste Woche",
-  "empfehlung": "Bot pausieren bis nach NFP-Release (14:30 Zürich) – hohe Volatilität erwartet.",
+  "statusText": "Erhöhte Unsicherheit: Iran-Krieg & CPI",
+  "empfehlung": "Bot mit reduzierter Position fahren; vor PPI/CPI/FOMC komplett pausieren.",
   "source": "nq-pause-board"
 }

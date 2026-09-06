@@ -1,332 +1,332 @@
 {
-  "generatedAt": "2026-09-04T18:55:48.465Z",
+  "generatedAt": "2026-09-06T22:01:30.121Z",
   "appVersion": "1.7.1",
   "status": "gelb",
-  "statusText": "NFP heute 14:30 + FOMC nächste Woche",
-  "empfehlung": "Bot pausieren bis nach NFP-Release (14:30 Zürich) – hohe Volatilität erwartet.",
-  "headline": "Heute NFP 14:30 Zürich • CPI 11. Sep • FOMC 16. Sep • Iran-Krieg aktiv",
-  "body": "Heute erscheint der NFP-Jobsreport (August 2026) um 14:30 Zürich – markttreibendes High-Impact-Event vor dem FOMC am 16. September. VIX bei 14.32 (niedrig), aber geopolitische Risiken bleiben hoch: US-Israel-Krieg gegen Iran seit Feb. 2026 eskaliert weiter (Drohnen auf Kuwait/Bahrain, Iran droht mit Vergeltung). Ukraine-Konflikt stabil auf hohem Niveau. Nächste Woche CPI (11. Sep) und FOMC (16. Sep) mit möglicher Zinserhöhung.",
+  "statusText": "Erhöhte Unsicherheit: Iran-Krieg & CPI",
+  "empfehlung": "Bot mit reduzierter Position fahren; vor PPI/CPI/FOMC komplett pausieren.",
+  "headline": "Geopolitik belastet, CPI & FOMC diese Woche — VIX 14.5, Yields auf 4.8%",
+  "body": "Der aktive US-Israel-Iran-Krieg (seit Feb 2026) sorgt für anhaltende Marktvolatilität, zuletzt verschärfte Eskalationen Anfang September. Yields kletterten auf 4.8% (Höchststand seit Nov 2023), Ölpreise steigen. Diese Woche stehen PPI (Do 10.9.) und CPI (Fr 11.9.) an, gefolgt vom FOMC-Meeting (15.-16.9.) — alle hochrelevant für Volatilität.",
   "confidence": "hoch",
   "quellen": [
-    {
-      "titel": "Yahoo Finance: NFP Sep 4, 2026",
-      "url": "https://www.whendomarketsopen.com/economic-calendar/"
-    },
     {
       "titel": "Britannica: 2026 Iran War",
       "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "Times of Israel: Iran Escalation Sep 1",
-      "url": "https://www.timesofisrael.com/liveblog-september-1-2026/"
+      "titel": "CSIS: Israel-Iran Escalation",
+      "url": "https://www.csis.org/analysis/can-iran-negotiations-survive-israel-iran-escalation"
     },
     {
-      "titel": "FedRateCalc: September 2026 Calendar",
-      "url": "https://fedratecalc.com/us-economic-calendar/september-2026/"
+      "titel": "Kiplinger: Economic Calendar Sept 7-11",
+      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+    },
+    {
+      "titel": "TheRightTrader: US Economic Calendar",
+      "url": "https://therighttrader.com/economic-calendar"
     }
   ],
-  "rueckblickSummary": "VIX fiel gestern auf 14.32 (-5.8%), niedrigstes Niveau 2026 trotz Iran-Krieg. US-Märkte relativ ruhig nach Jackson-Hole-Warsh-Rede letzte Woche, die Zinserhöhungs-Odds steigen ließ. Geopolitik: Iran griff am 1. Sep US-Basis in Jordanien + Kuwait/Bahrain mit Drohnen an, Israel-Lebanon-Verhandlungen laufen.",
+  "rueckblickSummary": "Letzte 24h (Sa 06.09. 00:01 - So 07.09. 00:01): Wochenende, keine US-Kassamärkte geöffnet. Futures handelten ruhig nach turbulenter Woche mit Iran-Spannungen, NFP-Daten (Fr 04.09.) zeigten stärkeren Arbeitsmarkt als erwartet, erhöhten Zinserhöhungs-Erwartungen. Yields & VIX stiegen Anfang Woche deutlich.",
   "rueckblick": [
     {
-      "stunde": "20:00",
-      "ts": "2026-09-03T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-09-03T19:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-09-03T20:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-09-03T21:00:00.000Z",
-      "status": "gruen"
-    },
-    {
       "stunde": "00:00",
-      "ts": "2026-09-03T22:00:00.000Z",
+      "ts": "2026-09-05T22:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "01:00",
-      "ts": "2026-09-03T23:00:00.000Z",
+      "ts": "2026-09-05T23:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "02:00",
-      "ts": "2026-09-04T00:00:00.000Z",
+      "ts": "2026-09-06T00:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "03:00",
-      "ts": "2026-09-04T01:00:00.000Z",
+      "ts": "2026-09-06T01:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "04:00",
-      "ts": "2026-09-04T02:00:00.000Z",
+      "ts": "2026-09-06T02:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "05:00",
-      "ts": "2026-09-04T03:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-09-06T03:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
-      "ts": "2026-09-04T04:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-09-06T04:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
-      "ts": "2026-09-04T05:00:00.000Z",
+      "ts": "2026-09-06T05:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "08:00",
-      "ts": "2026-09-04T06:00:00.000Z",
+      "ts": "2026-09-06T06:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "09:00",
-      "ts": "2026-09-04T07:00:00.000Z",
+      "ts": "2026-09-06T07:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "10:00",
-      "ts": "2026-09-04T08:00:00.000Z",
+      "ts": "2026-09-06T08:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "11:00",
-      "ts": "2026-09-04T09:00:00.000Z",
+      "ts": "2026-09-06T09:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "12:00",
-      "ts": "2026-09-04T10:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-09-06T10:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "13:00",
-      "ts": "2026-09-04T11:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-09-06T11:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "14:00",
-      "ts": "2026-09-04T12:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-09-06T12:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "15:00",
-      "ts": "2026-09-04T13:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-09-06T13:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "16:00",
-      "ts": "2026-09-04T14:00:00.000Z",
+      "ts": "2026-09-06T14:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "17:00",
-      "ts": "2026-09-04T15:00:00.000Z",
+      "ts": "2026-09-06T15:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "18:00",
-      "ts": "2026-09-04T16:00:00.000Z",
+      "ts": "2026-09-06T16:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "19:00",
-      "ts": "2026-09-04T17:00:00.000Z",
+      "ts": "2026-09-06T17:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-09-06T18:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-09-06T19:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-09-06T20:00:00.000Z",
+      "status": "gruen"
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-09-06T21:00:00.000Z",
       "status": "gruen"
     }
   ],
-  "ausblickSummary": "Nächste 24h: NFP heute 14:30 Zürich = höchstes Risiko, danach Weekend-Ruhe bis Montag (US Labor Day). Nächste Woche extrem volatil: CPI am 11. Sep, FOMC am 16. Sep mit möglicher Zinserhöhung trotz schwacher Jobs. Iran-Situation bleibt angespannt, weitere Eskalation möglich.",
+  "ausblickSummary": "Nächste 24h (So 07.09. 00:01 - Mo 08.09. 00:01): Montag ist US Labor Day (Feiertag), Kassamärkte geschlossen. Reduziertes Handelsvolumen in Futures erwartet. Geopolitische Lage bleibt angespannt (Iran-Krieg), aber keine High-Impact-Releases heute. Ab Dienstag steigt Risiko mit PPI/CPI-Woche.",
   "forecast": [
     {
-      "stunde": "20:00",
-      "ts": "2026-09-04T18:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-09-04T19:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-09-04T20:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-09-04T21:00:00.000Z",
-      "status": "gruen"
-    },
-    {
       "stunde": "00:00",
-      "ts": "2026-09-04T22:00:00.000Z",
+      "ts": "2026-09-06T22:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "01:00",
-      "ts": "2026-09-04T23:00:00.000Z",
+      "ts": "2026-09-06T23:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "02:00",
-      "ts": "2026-09-05T00:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-09-07T00:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "03:00",
-      "ts": "2026-09-05T01:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-09-07T01:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "04:00",
-      "ts": "2026-09-05T02:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-09-07T02:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "05:00",
-      "ts": "2026-09-05T03:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-09-07T03:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "06:00",
-      "ts": "2026-09-05T04:00:00.000Z",
-      "status": "rot"
+      "ts": "2026-09-07T04:00:00.000Z",
+      "status": "gruen"
     },
     {
       "stunde": "07:00",
-      "ts": "2026-09-05T05:00:00.000Z",
+      "ts": "2026-09-07T05:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "08:00",
-      "ts": "2026-09-05T06:00:00.000Z",
+      "ts": "2026-09-07T06:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "09:00",
-      "ts": "2026-09-05T07:00:00.000Z",
+      "ts": "2026-09-07T07:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "10:00",
-      "ts": "2026-09-05T08:00:00.000Z",
+      "ts": "2026-09-07T08:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "11:00",
-      "ts": "2026-09-05T09:00:00.000Z",
+      "ts": "2026-09-07T09:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "12:00",
-      "ts": "2026-09-05T10:00:00.000Z",
+      "ts": "2026-09-07T10:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "13:00",
-      "ts": "2026-09-05T11:00:00.000Z",
+      "ts": "2026-09-07T11:00:00.000Z",
       "status": "gruen"
     },
     {
       "stunde": "14:00",
-      "ts": "2026-09-05T12:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-09-07T12:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "15:00",
-      "ts": "2026-09-05T13:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-09-07T13:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "16:00",
-      "ts": "2026-09-05T14:00:00.000Z",
-      "status": "gruen"
+      "ts": "2026-09-07T14:00:00.000Z",
+      "status": "gelb"
     },
     {
       "stunde": "17:00",
-      "ts": "2026-09-05T15:00:00.000Z",
+      "ts": "2026-09-07T15:00:00.000Z",
       "status": "gelb"
     },
     {
       "stunde": "18:00",
-      "ts": "2026-09-05T16:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-09-07T16:00:00.000Z",
+      "status": "rot"
     },
     {
       "stunde": "19:00",
-      "ts": "2026-09-05T17:00:00.000Z",
-      "status": "gelb"
+      "ts": "2026-09-07T17:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "20:00",
+      "ts": "2026-09-07T18:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "21:00",
+      "ts": "2026-09-07T19:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "22:00",
+      "ts": "2026-09-07T20:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "23:00",
+      "ts": "2026-09-07T21:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "20:00",
-      "ts": "2026-09-04T18:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "21:00-22:00 Zürich: Ruhige Stunde vor US-Close, normale Volatilität erwartet."
-    },
-    {
-      "stunde": "21:00",
-      "ts": "2026-09-04T19:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "22:00-23:00 Zürich: US Power Hour Close – erhöhtes Volumen, normale Schwankungen."
-    },
-    {
-      "stunde": "22:00",
-      "ts": "2026-09-04T20:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "23:00-00:00 Zürich: After-Hours beginnen, Liquidität nimmt ab, aber ruhig."
-    },
-    {
-      "stunde": "23:00",
-      "ts": "2026-09-04T21:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "00:00-01:00 Zürich (Sa): Weekend, keine US-Märkte, sehr geringe Aktivität."
-    },
-    {
       "stunde": "00:00",
-      "ts": "2026-09-04T22:00:00.000Z",
+      "ts": "2026-09-06T22:00:00.000Z",
       "status": "gruen",
-      "kommentar": "01:00-02:00 Zürich (Sa): Weekend fortsetzt, Futures minimal, praktisch kein Risiko."
+      "kommentar": "00:01-01:00 Zurich: Sonntagsnacht, US-Futures sehr ruhig, minimales Volumen vor Labor Day."
     },
     {
       "stunde": "01:00",
-      "ts": "2026-09-04T23:00:00.000Z",
+      "ts": "2026-09-06T23:00:00.000Z",
       "status": "gruen",
-      "kommentar": "02:00-03:00 Zürich (Sa): Weekend, Asian Pre-Open noch fern, keine Ereignisse."
+      "kommentar": "01:01-02:00: Asien-Session beginnt, aber beschränktes Interesse wegen US-Feiertag am Montag."
+    },
+    {
+      "stunde": "02:00",
+      "ts": "2026-09-07T00:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "02:01-03:00: Weiterhin ruhig, geopolitische Nachrichten aus Nahost könnten überraschen."
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-09-07T01:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "03:01-04:00: Späte Asien-Session, Tokyo handelt, aber kein US-Katalysator erwartet."
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-09-07T02:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "04:01-05:00: Europa-Vorbörse startet, Fokus auf Eurozone-Daten, US-seitig ruhig."
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-09-07T03:00:00.000Z",
+      "status": "gruen",
+      "kommentar": "05:01-06:00: Europäische Märkte öffnen, US-Futures bleiben dünn vor Labor Day-Feiertag."
     }
   ],
   "termine": [
     {
-      "name": "PPI (Producer Price Index)",
+      "name": "US Producer Price Index (PPI)",
       "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "Core PPI",
+      "name": "US Core PPI",
       "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "CPI (Consumer Price Index)",
+      "name": "US Consumer Price Index (CPI)",
       "ts": "2026-09-11T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "Core CPI",
+      "name": "US Core CPI",
       "ts": "2026-09-11T12:30:00.000Z",
       "impact": "hoch"
     }
