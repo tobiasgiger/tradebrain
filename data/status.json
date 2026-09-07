@@ -1,67 +1,32 @@
 {
-  "generatedAt": "2026-09-07T01:42:06.878Z",
+  "generatedAt": "2026-09-07T08:43:00.091Z",
   "appVersion": "1.7.1",
-  "status": "gelb",
-  "statusText": "Geopolitik angespannt, CPI Fr. 11.09.",
-  "empfehlung": "Bot-Betrieb mit reduzierter Positionsgröße; vor US CPI am Freitag Risiko weiter senken.",
-  "headline": "Israel-Iran-Krieg geht weiter, Ukraine-Frieden ungewiss, US CPI Fr. 11.9. 14:30",
-  "body": "Nahost: Konflikt zwischen Israel und Iran läuft seit Anfang 2026, jüngste Berichte bis Juni zeigen anhaltende Spannungen. Ukraine: US-Gesandte ohne Durchbruch, Krieg geht weiter. Heute Labor Day (US-Börse geschlossen). VIX bei ~14,3 (04.09.) = ruhig. Wichtigster Termin: US CPI & Core CPI am Freitag, 11.09., 14:30 Zurich – hohes Risiko-Event.",
-  "confidence": "mittel",
+  "status": "rot",
+  "statusText": "US-Iran Krieg eskaliert, Ölpreise steigen",
+  "empfehlung": "Trading-Bots SOFORT pausieren – aktive Kriegseskalation USA/Iran mit Angriffen auf Tanker und US-Stützpunkte, VIX relativ niedrig aber Geopolitik hochriskant.",
+  "headline": "LABOR DAY: Märkte geschlossen | US-Iran Konflikt eskaliert über Wochenende",
+  "body": "US-Märkte heute (7.9.) wegen Labor Day geschlossen. Am Wochenende eskalierten Spannungen USA-Iran mit US-Angriffen auf iranische Öltanker und iranischen Raketenangriffen auf US-Kriegsschiffe. VIX bleibt niedrig (~14-16), aber Geopolitik birgt hohes Tail-Risk. Diese Woche: PPI Mi 10.9. (14:30 Zürich), CPI Do 11.9. (14:30), FOMC 15./16.9. (Entscheid 16.9. 20:00).",
+  "confidence": "hoch",
   "quellen": [
     {
-      "titel": "CSIS: Israel-Iran Escalation June 2026",
-      "url": "https://www.csis.org/analysis/can-iran-negotiations-survive-israel-iran-escalation"
+      "titel": "CNBC – Stock Market News Sept. 7, 2026",
+      "url": "https://www.cnbc.com/2026/09/07/stock-market-today-live-updates.html"
     },
     {
-      "titel": "Kyiv Independent: Ukraine war continues",
-      "url": "https://kyivindependent.com/"
+      "titel": "Britannica – 2026 Iran War",
+      "url": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "titel": "Kiplinger: Economic Calendar Sept 2026",
-      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+      "titel": "FedRateCalc – September 2026 Economic Calendar",
+      "url": "https://fedratecalc.com/us-economic-calendar/september-2026/"
     },
     {
-      "titel": "Cboe VIX Index (Sept 4, 2026)",
-      "url": "https://www.cboe.com/tradable-products/vix"
+      "titel": "ACLED – Middle East Special Issue March 2026",
+      "url": "https://acleddata.com/update/middle-east-special-issue-march-2026"
     }
   ],
-  "rueckblickSummary": "Letzte 24h (So 6.9., 03:42 bis Mo 7.9., 03:42): US-Börse Sonntag geschlossen, geringe Aktivität. Samstag: US-Gesandte nach Moskau-/Kyiv-Besuch ohne Friedensdurchbruch; Ukraine erwartet Kriegsfortführung. VIX stabil bei 14,32 (04.09.). Geopolitik: Israel-Iran-Konflikt aktiv seit Anfang 2026, keine neuen Eskalationen im engen Zeitfenster. Insgesamt niedriges Trading-Risiko am Wochenende.",
+  "rueckblickSummary": "Freitag 4.9. kam starker NFP (162k statt 45-55k erwartet), Arbeitslosenquote 4,1% – Märkte unter Druck, Zinssenkungserwartung sank. Wochenende brachte weitere Eskalation USA-Iran: US-Angriffe auf iranische Öltanker, Iran feuert Raketen auf US-Schiffe. VIX blieb niedrig bei ca. 14, doch Geopolitik belastet.",
   "rueckblick": [
-    {
-      "stunde": "03:00",
-      "ts": "2026-09-06T01:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "04:00",
-      "ts": "2026-09-06T02:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "05:00",
-      "ts": "2026-09-06T03:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "06:00",
-      "ts": "2026-09-06T04:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "07:00",
-      "ts": "2026-09-06T05:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "08:00",
-      "ts": "2026-09-06T06:00:00.000Z",
-      "status": "gruen"
-    },
-    {
-      "stunde": "09:00",
-      "ts": "2026-09-06T07:00:00.000Z",
-      "status": "gruen"
-    },
     {
       "stunde": "10:00",
       "ts": "2026-09-06T08:00:00.000Z",
@@ -146,10 +111,7 @@
       "stunde": "02:00",
       "ts": "2026-09-07T00:00:00.000Z",
       "status": "gruen"
-    }
-  ],
-  "ausblickSummary": "Nächste 24h (Mo 7.9., 03:42 bis Di 8.9., 03:42): Heute Labor Day – US-Börse geschlossen, keine Wirtschaftsdaten. Dienstag 8.9. nur Low-Impact-Daten (NFIB). Geopolitik: Israel-Iran angespannt, aber keine akute Eskalation erwartet. Hauptrisiko: US PPI Do. 10.9. 14:30 und US CPI Fr. 11.9. 14:30 (beide high-impact). VIX niedrig. Vorsicht ab Donnerstag.",
-  "forecast": [
+    },
     {
       "stunde": "03:00",
       "ts": "2026-09-07T01:00:00.000Z",
@@ -184,66 +146,69 @@
       "stunde": "09:00",
       "ts": "2026-09-07T07:00:00.000Z",
       "status": "gruen"
-    },
+    }
+  ],
+  "ausblickSummary": "Heute 7.9. (Mo.) US-Märkte geschlossen (Labor Day), nur Futures-Handel. Di 8.9. Wiederöffnung mit Fokus auf Geopolitik (Iran-Krieg). Mi 10.9. 14:30 PPI/Core PPI, Do 11.9. 14:30 CPI/Core CPI – beides High-Impact, dann FOMC 15./16.9. Hohe Unsicherheit wegen Iran-Konflikt, Ölpreise steigen.",
+  "forecast": [
     {
       "stunde": "10:00",
       "ts": "2026-09-07T08:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "11:00",
       "ts": "2026-09-07T09:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "12:00",
       "ts": "2026-09-07T10:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "13:00",
       "ts": "2026-09-07T11:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "14:00",
       "ts": "2026-09-07T12:00:00.000Z",
-      "status": "gruen"
+      "status": "rot"
     },
     {
       "stunde": "15:00",
       "ts": "2026-09-07T13:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "16:00",
       "ts": "2026-09-07T14:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "17:00",
       "ts": "2026-09-07T15:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "18:00",
       "ts": "2026-09-07T16:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "19:00",
       "ts": "2026-09-07T17:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "20:00",
       "ts": "2026-09-07T18:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "21:00",
       "ts": "2026-09-07T19:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
     },
     {
       "stunde": "22:00",
@@ -268,65 +233,100 @@
     {
       "stunde": "02:00",
       "ts": "2026-09-08T00:00:00.000Z",
-      "status": "gelb"
+      "status": "rot"
+    },
+    {
+      "stunde": "03:00",
+      "ts": "2026-09-08T01:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "04:00",
+      "ts": "2026-09-08T02:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "05:00",
+      "ts": "2026-09-08T03:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "06:00",
+      "ts": "2026-09-08T04:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "07:00",
+      "ts": "2026-09-08T05:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "08:00",
+      "ts": "2026-09-08T06:00:00.000Z",
+      "status": "rot"
+    },
+    {
+      "stunde": "09:00",
+      "ts": "2026-09-08T07:00:00.000Z",
+      "status": "rot"
     }
   ],
   "forecastDetail": [
     {
-      "stunde": "03:00",
-      "ts": "2026-09-07T01:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "03:42–04:42 Zurich: US-Börse geschlossen (Labor Day), kein Handel, sehr geringes Risiko."
+      "stunde": "10:00",
+      "ts": "2026-09-07T08:00:00.000Z",
+      "status": "rot",
+      "kommentar": "Stunde 10-11 Uhr: Märkte geschlossen, aber Geopolitik eskaliert – rotes Risiko aktiv."
     },
     {
-      "stunde": "04:00",
-      "ts": "2026-09-07T02:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "04:42–05:42 Zurich: Weiterhin Labor Day, Märkte geschlossen, ruhig."
+      "stunde": "11:00",
+      "ts": "2026-09-07T09:00:00.000Z",
+      "status": "rot",
+      "kommentar": "Stunde 11-12 Uhr: Futures reagieren auf Iran-Nachrichten, hohe Volatilität möglich."
     },
     {
-      "stunde": "05:00",
-      "ts": "2026-09-07T03:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "05:42–06:42 Zurich: Noch immer Feiertag in USA, keine Marktaktivität."
+      "stunde": "12:00",
+      "ts": "2026-09-07T10:00:00.000Z",
+      "status": "rot",
+      "kommentar": "Stunde 12-13 Uhr: Europäische Märkte handeln unter Druck wegen Nahost-Eskalation."
     },
     {
-      "stunde": "06:00",
-      "ts": "2026-09-07T04:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "06:42–07:42 Zurich: Asien-Session läuft, US weiter zu, Nikkei/China offen, geringes Risiko."
+      "stunde": "13:00",
+      "ts": "2026-09-07T11:00:00.000Z",
+      "status": "rot",
+      "kommentar": "Stunde 13-14 Uhr: US-Futures vor geschlossenem Markt, Unsicherheit dominiert."
     },
     {
-      "stunde": "07:00",
-      "ts": "2026-09-07T05:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "07:42–08:42 Zurich: Asien im Handel, Europa bald offen, Labor Day in USA hält an."
+      "stunde": "14:00",
+      "ts": "2026-09-07T12:00:00.000Z",
+      "status": "rot",
+      "kommentar": "Stunde 14-15 Uhr: Fortsetzung hohes Geopolitik-Risiko, kein US-Cash-Handel heute."
     },
     {
-      "stunde": "08:00",
-      "ts": "2026-09-07T06:00:00.000Z",
-      "status": "gruen",
-      "kommentar": "08:42–09:42 Zurich: Europa eröffnet (DAX/FTSE), USA bleibt geschlossen, moderates Volumen erwartet."
+      "stunde": "15:00",
+      "ts": "2026-09-07T13:00:00.000Z",
+      "status": "rot",
+      "kommentar": "Stunde 15-16 Uhr: Geopolitische Lage bleibt angespannt, Ölpreise klettern weiter."
     }
   ],
   "termine": [
     {
-      "name": "US PPI (Producer Price Index)",
+      "name": "US PPI (August)",
       "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US Core PPI",
+      "name": "US Core PPI (August)",
       "ts": "2026-09-10T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US CPI (Consumer Price Index)",
+      "name": "US CPI (August)",
       "ts": "2026-09-11T12:30:00.000Z",
       "impact": "hoch"
     },
     {
-      "name": "US Core CPI",
+      "name": "US Core CPI (August)",
       "ts": "2026-09-11T12:30:00.000Z",
       "impact": "hoch"
     }

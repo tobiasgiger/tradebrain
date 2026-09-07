@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-07T01:42:06.878Z",
+  "generatedAt": "2026-09-07T08:43:00.091Z",
   "appVersion": "1.7.1",
-  "effectiveStatus": "gelb",
-  "pause": false,
-  "caution": true,
-  "dayStatus": "gelb",
-  "statusText": "Geopolitik angespannt, CPI Fr. 11.09.",
-  "empfehlung": "Bot-Betrieb mit reduzierter Positionsgröße; vor US CPI am Freitag Risiko weiter senken.",
+  "effectiveStatus": "rot",
+  "pause": true,
+  "caution": false,
+  "dayStatus": "rot",
+  "statusText": "US-Iran Krieg eskaliert, Ölpreise steigen",
+  "empfehlung": "Trading-Bots SOFORT pausieren – aktive Kriegseskalation USA/Iran mit Angriffen auf Tanker und US-Stützpunkte, VIX relativ niedrig aber Geopolitik hochriskant.",
   "source": "nq-pause-board"
 }
